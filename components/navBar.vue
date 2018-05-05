@@ -1,24 +1,28 @@
 <template>
   <div>
+    <div class="header-image"></div>
     <div class="nav-header">
-    <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
-    <a href="dev.html" class="dropbtn">Development/Programming</a>
-    <div class="dropdown">
-      <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
-      <input type="checkbox" id="show-menu" role="button">
-      <div class="dropdown-content" id="dropdown-content">
-        <a href="/art">Fine Art</a>
-        <a href="/skateboards">Painted Skateboards</a>
-        <a href="art/murals.html">Murals/Aerosol</a>
-        <a href="art/artServices.html">Services</a>
-        <a href="tarot.html">Hidden Dreams Tarot</a>
-        <hr />
-        <a href="art/artShop.html">Shop</a>
-        <a href="art/artAbout.html">About Me</a>
-        <a href="https://macpetersart.wordpress.com/" target="blank">Blog</a>
+    
+      <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
+    
+      <a href="dev.html" class="dropbtn">Development/Programming</a>
+    
+      <div class="dropdown">
+        <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <div class="dropdown-content" id="dropdown-content">
+          <a href="/art">Fine Art</a>
+          <a href="/skateboards">Painted Skateboards</a>
+          <a href="/murals">Murals/Aerosol</a>
+          <a href="/artServices">Services</a>
+          <a href="tarot">Hidden Dreams Tarot</a>
+          <hr />
+          <a href="/artShop">Shop</a>
+          <a href="/artAbout.html">About Me</a>
+          <a href="https://macpetersart.wordpress.com/" target="blank">Blog</a>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
   
@@ -30,9 +34,8 @@ import logoImage from "../assets/logo.png";
 
 export default {
   name: "imageList",
-  props: ['options'],
   components: { },
-  data(options) {
+  data() {
     return {
       logo: logoImage
     };
@@ -46,6 +49,15 @@ export default {
 
 
 <style scoped>
+
+  .header-image {
+    height: 250px;
+    background: url('../assets/header.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
   a {
     text-decoration: none !important;
     padding: 10px
@@ -60,10 +72,12 @@ export default {
     background-color: #897DF4;
     color: #ffffff;
     padding: 10px;
+    height: 60px;
   }
   .nav-header img {
-    height: 70px;
+    height: 40px;
     padding-right: 25px;
+    padding-top: 10px;
     width: auto;
   }
   .nav-header img:hover {
@@ -71,7 +85,6 @@ export default {
   }
   .nav-header a {
     padding-left: 15px;
-    margin: 20px;
   }
   @media screen and (max-width: 450px){
     .nav-header img {
@@ -83,14 +96,11 @@ export default {
   }
 
   /* Dropdown Button */
-  .dropbtn {
-    margin-top: -25px;
+  .nav-header .dropbtn {
     border-radius: 25px;
     background-color: #C17DDB;
     color: #fff;
-    font-size: 16px;
-    border: none;
-    padding: 10px
+    padding: 10px;
   }
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -104,7 +114,7 @@ export default {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .dropdown img {
@@ -114,7 +124,7 @@ export default {
   }
   /* Links inside the dropdown */
   .dropdown-content a {
-    border-radius: 25px;
+    border-radius: 10px;
     color: black;
     padding: 8px 12px;
     text-decoration: none;

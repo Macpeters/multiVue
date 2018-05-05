@@ -12,6 +12,8 @@
 
     <imageList/>
 
+    <contactBar/>
+
   </div>
 </template>
 
@@ -33,12 +35,13 @@ import stubborn from "../assets/fineArt/macpeters_stubbornResentment.png";
 // Components
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
+import contactBar from '../components/contactBar.vue'
 
 const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive, psychedelic, psychedelic painting, fantasy, "
 
 export default {
   name: "Art",
-  components: { imageList, navBar },
+  components: { imageList, navBar, contactBar },
   data() {
     return {
       images: [

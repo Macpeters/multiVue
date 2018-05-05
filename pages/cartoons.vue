@@ -15,6 +15,8 @@
 
     <imageList/>
 
+    <contactBar/>
+
   </div>
 </template>
 
@@ -30,12 +32,13 @@ import xenomorph from "../assets/cartoons/macpeters_xenomorph.png";
 // components
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
+import contactBar from '../components/contactBar.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Cartoons",
-  components: { imageList, navBar },
+  components: { imageList, navBar, contactBar },
   data() {
     return {
       images: [

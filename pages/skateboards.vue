@@ -13,6 +13,8 @@
 
     <imageList/>
 
+    <contactBar/>
+
   </div>
 </template>
 
@@ -28,12 +30,13 @@ import trickRTreat from "../assets/skateboards/macpeters_trickrtreat.jpg";
 // components
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
+import contactBar from '../components/contactBar.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Skateboards",
-  components: { imageList, navBar },
+  components: { imageList, navBar, contactBar },
   data() {
     return {
       images: [

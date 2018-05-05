@@ -2,15 +2,20 @@
   <div>
     <navBar />
     <h1>Hello world!</h1>
+
+    <contactBar/>
   </div>
   
 </template>
 
 <script>
+  // Components
   import navBar from '../components/navBar.vue'
+  import contactBar from '../components/contactBar.vue'
+
   export default {
   name: "Home",
-  components: { navBar },
+  components: { navBar, contactBar },
   data() {
     return {
       images: [
