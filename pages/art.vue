@@ -23,7 +23,7 @@ import cracking from "../assets/fineArt/macpeters_crackingUnderThePressure.png";
 import eagerness from "../assets/fineArt/macpeters_eagerness.png";
 import fascination from "../assets/fineArt/macpeters_fascination.png";
 import gratitude from "../assets/fineArt/macpeters_gratitude.jpg";
-import lovebird from "../assets/fineArt/macpeters_lovebird.jpg";
+import lovebird from "../assets/fineArt/macpeters_loveBird.jpg";
 import maskedFear from "../assets/fineArt/macpeters_maskedFear.png";
 import mischeif from "../assets/fineArt/macpeters_mischeif.png";
 import monsterball from "../assets/fineArt/macpeters_monsterball.jpg";
