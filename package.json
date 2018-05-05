@@ -7,6 +7,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.4.0"
+    "nuxt": "^1.4.0",
+    "vue-meta": "^1.5.0"
   }
 }
