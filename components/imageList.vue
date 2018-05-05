@@ -4,7 +4,7 @@
       <img v-bind:src="image.image" class="thumbnail" @click='choose(image)' />
     </span>
 
-    <div v-show="chosenImage" class="featured-image">
+    <div class="featured-image">
       <img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" />
       <h3>{{chosenImage.title}}</h3>
       <h4>{{chosenImage.description}}</h4>
@@ -26,7 +26,12 @@ export default {
     return {
       images: null,
       imageArray: options,
-      chosenImage: null
+      chosenImage: {
+        image: null,
+        title: "",
+        description: "",
+        keywords: null
+      }
     };
   },
   methods: {
