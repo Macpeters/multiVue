@@ -89,8 +89,8 @@ export default {
   }
 
   .thumbnail {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 5px;
     border-width: 1px;
     border-color: #fff;

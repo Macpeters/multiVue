@@ -49,16 +49,11 @@ export default {
   a {
     text-decoration: none !important;
     padding: 10px
-    /* padding-top: -10px; */
-    /* margin-bottom: 10px; */
   }
   ol li{
     display: inline;
   }
-  div {
-    /* padding: 20px; */
-  }
-  /* Nav Bar*/
+  /* Nav Bar */
   .nav-header {
     font-size: 18px;
     font-weight: bold;
