@@ -21,7 +21,7 @@
 <script>
 // images
 import canary from "../assets/cartoons/macpeters_canary.png";
-import festivalFrog from "../assets/cartoons/macpeters_festivalFrog.png";
+import festivalFrog from "../assets/cartoons/macpeters_festivalfrog.png";
 import mu from "../assets/cartoons/macpeters_mu.png";
 import ursula from "../assets/cartoons/macpeters_ursula.png";
 import voldemort from "../assets/cartoons/macpeters_voldemort.png";
