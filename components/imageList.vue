@@ -5,10 +5,14 @@
     </span>
 
     <div class="featured-image">
-      <img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" />
-      <h3>{{chosenImage.title}}</h3>
-      <h4>{{chosenImage.description}}</h4>
-      <div class="keywords">Keywords: <span>{{chosenImage.keywords}}</span></div>
+      <div class="left-column">
+        <img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" />
+      </div>
+      <div class="right-column">
+        <h3>{{chosenImage.title}}</h3>
+        <h4>{{chosenImage.description}}</h4>
+        <div class="keywords">Keywords: <span>{{chosenImage.keywords}}</span></div>
+      </div>
     </div>
 
   </div>
@@ -61,9 +65,21 @@ export default {
   }
 
   /* Featured Image */
+  .left-column {
+    width: 50%;
+    float: left
+  }
+  .right-column {
+    width: 50%;
+    float: right;
+  }
+  .featured-image {
+    height: 500px;
+  }
   .featured-image img {
-    max-height: 500px;
-    width: auto;
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto;
   }
   .image-title {
     clear: both;

@@ -58,4 +58,8 @@ export default {
 
 <style scoped>
 
+  div {
+    text-align: center
+  }
+
 </style>
