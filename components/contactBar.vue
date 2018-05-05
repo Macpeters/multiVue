@@ -2,7 +2,13 @@
   <div>
 
   <div class="contact">
-    <span v-for="button in socialButtons" :key='button.id'>
+    <hr />
+    <span class="left-column">
+      All artwork copyright Mac Peters <br/>
+      2018<br/>
+      All rights reserved
+    </span>
+    <span class="right-column" v-for="button in socialButtons" :key='button.id'>
       <a v-bind:href="button.url" v-bind:title="button.title" v-bind:alt="button.title" target="_blank"><img v-bind:src="button.image" class="social-button" /></a>
     </span>
   </div>
@@ -62,8 +68,18 @@
 
 <style scoped>
   .contact {
-    background-color: #eee;
+    text-align: center;
+    background-color: #ddd;
     clear: both;
+    padding-left: 20%;
+  }
+
+  .left-column {
+    float: left;
+  }
+
+  .right-column {
+    float: left;
   }
 
   .social-button {
