@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navBar />
     <h1>Macpeters: Fine Art</h1>
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
@@ -15,15 +16,18 @@
 </template>
 
 <script>
+// Images
 import baphomet from "../assets/fineArt/macpeters_baphomet.png";
 import fascination from "../assets/fineArt/macpeters_fascination.png";
+// Components
 import imageList from '../components/imageList.vue'
+import navBar from '../components/navBar.vue'
 
 const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive, psychedelic, psychedelic painting, fantasy, "
 
 export default {
   name: "Art",
-  components: { imageList },
+  components: { imageList, navBar },
   data() {
     return {
       images: [

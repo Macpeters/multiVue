@@ -1,5 +1,7 @@
 <template>
   <div>
+    <navBar />
+
     <h1>Hand Painted Skateboard Decks</h1>
     <h2>Custom Painted on Request</h2>
 
@@ -15,15 +17,18 @@
 </template>
 
 <script>
+// images
 import brokenRobot from "../assets/skateboards/macpeters_brokenRobot.jpg";
 import drWho from "../assets/skateboards/macpeters_drWho.jpg";
+// components
 import imageList from '../components/imageList.vue'
+import navBar from '../components/navBar.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Skateboards",
-  components: { imageList },
+  components: { imageList, navBar },
   data() {
     return {
       images: [
