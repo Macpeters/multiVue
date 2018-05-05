@@ -28,7 +28,7 @@ import maskedFear from "../assets/fineArt/macpeters_maskedFear.png";
 import mischeif from "../assets/fineArt/macpeters_mischeif.png";
 import monsterball from "../assets/fineArt/macpeters_monsterball.jpg";
 import shpongle from "../assets/fineArt/macpeters_shpongle.png";
-import starbird from "../assets/fineArt/macpeters_starbird.jpg";
+import starbird from "../assets/fineArt/macpeters_starBird.jpg";
 import stubborn from "../assets/fineArt/macpeters_stubbornResentment.png";
 // Components
 import imageList from '../components/imageList.vue'
