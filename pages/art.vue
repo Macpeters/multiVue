@@ -47,7 +47,7 @@ export default {
   },
   build: {
     assetsPublicPath: "/",
-    assetsSubDirectory: "assets"
+    assetsSubDirectory: "assets/fineArt"
   }
 };
 </script>
