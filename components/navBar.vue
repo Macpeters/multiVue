@@ -2,6 +2,19 @@
   <div>
     <div class="header-image"></div>
     <div class="nav-header">
+
+      <div class="share-buttons">
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+          <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+          <a class="a2a_button_facebook"></a>
+          <a class="a2a_button_twitter"></a>
+          <a class="a2a_button_tumblr"></a>
+          <a class="a2a_button_pinterest"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
+      </div>
     
       <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
     
@@ -152,5 +165,14 @@ export default {
   input[type=checkbox]{
     display: none;
   }
+
+  .share-buttons{
+    position: absolute;
+    z-index: 10;
+    top: 230px;
+    right: 20px;
+  }
+
+
 
 </style>

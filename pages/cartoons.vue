@@ -87,6 +87,23 @@ export default {
       ],
       chosenImage: null
     };
+  },
+  head () {
+    return {
+      title: "Macpeters Cartoons and Comics",
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
+        { hid: 'comicDescription', name: 'description', content: 'Whimsical, dry humour cartoons using minimal colours'},
+        { hid: 'comicAuthor', name: 'author', content: 'Mac Peters'},
+        { hid: `og:title`, property: 'og:title', content: 'Macpeters Cartoons and Comics' },
+        { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/cartoons/' },
+        { hid: `og:description`, property: 'og:description', content: 'Whimsical, dry humour cartoons using minimal colours' },
+        { hid: `og:type`, property: 'og:type', content: 'website' },
+        { hid: `og:image`, property: 'og:image', content: festivalFrog }
+      ]
+    }
   }
 };
 </script>
