@@ -55,7 +55,7 @@
     "img/macpeters_pastaMancer.c0089d6.jpg",
     "img/macpeters_treeOfLife.2114e59.png",
     "img/macpeters_mushroomDude.8ea8425.png",
-    "pages/artServices.cd8a5807f90c3e0646ad.js",
+    "pages/artServices.90b8557aebf0c0752843.js",
     "pages/art.bc23552bc5dabd406a58.js",
     "pages/skateboards.58db3717d192981d9f56.js",
     "pages/cartoons.b451813a355b6cc27518.js",
@@ -65,18 +65,18 @@
     "layouts/default.aebf7a987eada9e444da.js",
     "vendor.0be5e95f36e5048a5960.js",
     "app.003db219892800eb3603.js",
-    "manifest.53d2e44cd9d37a43be89.js",
+    "manifest.aec1d9eaa800b2be3e20.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.53d2e44cd9d37a43be89.js",
+    "manifest.aec1d9eaa800b2be3e20.js",
     "vendor.0be5e95f36e5048a5960.js",
     "app.003db219892800eb3603.js"
   ],
   "async": [
-    "pages/artServices.cd8a5807f90c3e0646ad.js",
+    "pages/artServices.90b8557aebf0c0752843.js",
     "pages/art.bc23552bc5dabd406a58.js",
     "pages/skateboards.58db3717d192981d9f56.js",
     "pages/cartoons.b451813a355b6cc27518.js",
