@@ -174,15 +174,17 @@
       chosenImage: null
     };
   },
-  metaInfo: {
+  head () {
+    return {
       title: 'Macpeters Art Services',
-      description: 'Artistic Services offered by Mac Peters include Live Painting, Tapestry Rentals, and UV/Blacklight Crafting',
-      keywords: 'art, uv, blacklight, visionary art, tapestries, crafts, live painting, uv reactive, alien, univeral, consciousness, mushrooms, frog, sacred geometry',
-      htmlAttrs: {
-        lang: 'en',
-        amp: undefined // "amp" has no value
-      }
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'keywords', content: 'art, uv, blacklight, visionary art, tapestries, crafts, live painting, uv reactive, alien, univeral, consciousness, mushrooms, frog, sacred geometry'},
+        { hid: 'description', name: 'description', content: 'Artistic Services offered by Mac Peters include Live Painting, Tapestry Rentals, and UV/Blacklight Crafting'}
+      ]
     }
+  }
 };
 </script>
 
