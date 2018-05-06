@@ -85,10 +85,6 @@ export default {
       ],
       chosenImage: null
     };
-  },
-  build: {
-    assetsPublicPath: "/",
-    assetsSubDirectory: "assets"
   }
 };
 </script>

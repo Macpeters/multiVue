@@ -28,10 +28,6 @@
       ],
       chosenImage: null
     };
-  },
-  build: {
-    assetsPublicPath: "/",
-    assetsSubDirectory: "assets/fineArt"
   }
 };
 </script>

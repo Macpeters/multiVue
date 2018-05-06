@@ -4,8 +4,10 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const _5f70526a = () => import('../pages/skateboards.vue' /* webpackChunkName: "pages/skateboards" */).then(m => m.default || m)
-const _2589e727 = () => import('../pages/art.vue' /* webpackChunkName: "pages/art" */).then(m => m.default || m)
 const _29ab9eb1 = () => import('../pages/cartoons.vue' /* webpackChunkName: "pages/cartoons" */).then(m => m.default || m)
+const _2589e727 = () => import('../pages/art.vue' /* webpackChunkName: "pages/art" */).then(m => m.default || m)
+const _491624b6 = () => import('../pages/artServices.vue' /* webpackChunkName: "pages/artServices" */).then(m => m.default || m)
+const _a3ac704e = () => import('../pages/dev.vue' /* webpackChunkName: "pages/dev" */).then(m => m.default || m)
 const _4400a60a = () => import('../pages/murals.vue' /* webpackChunkName: "pages/murals" */).then(m => m.default || m)
 const _0682e9d4 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
@@ -73,14 +75,24 @@ export function createRouter () {
 			name: "skateboards"
 		},
 		{
+			path: "/cartoons",
+			component: _29ab9eb1,
+			name: "cartoons"
+		},
+		{
 			path: "/art",
 			component: _2589e727,
 			name: "art"
 		},
 		{
-			path: "/cartoons",
-			component: _29ab9eb1,
-			name: "cartoons"
+			path: "/artServices",
+			component: _491624b6,
+			name: "artServices"
+		},
+		{
+			path: "/dev",
+			component: _a3ac704e,
+			name: "dev"
 		},
 		{
 			path: "/murals",

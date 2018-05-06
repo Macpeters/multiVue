@@ -139,10 +139,6 @@ export default {
       ],
       chosenImage: null
     };
-  },
-  build: {
-    assetsPublicPath: "/",
-    assetsSubDirectory: "assets/fineArt"
   }
 };
 </script>
