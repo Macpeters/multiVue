@@ -91,7 +91,7 @@
 
   const base_keywords = "uv, blacklight reactive, psychedelic, tapestry, uv deco, blacklight party deco, blacklight art, ";
   export default {
-  name: "Home",
+  name: "Macpeters Art Services",
   components: { navBar, contactBar, imageList },
   data() {
     return {
@@ -176,14 +176,16 @@
   },
   head () {
     return {
-      title: 'Macpeters Art Services',
+      title: "Macpeters Art Services",
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'artservicesDescription', name: 'artservicesDescription', content: 'Artistic Services offered by Mac Peters include Live Painting, Tapestry Rentals, and UV/Blacklight Crafting'},
         { hid: `og:title`, property: 'og:title', content: 'Macpeters Art Services' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/artservices/' },
-        { hid: `og:description`, property: 'og:description', content: 'https://macpeters-vue.netlify.com/artservices/Artistic Services offered by Mac Peters include Live Painting, Tapestry Rentals, and UV/Blacklight Crafting' }
+        { hid: `og:description`, property: 'og:description', content: 'Artistic Services offered by Mac Peters include Live Painting, Tapestry Rentals, and UV/Blacklight Crafting' },
+        { hid: `og:type`, property: 'og:type', content: 'website' },
+        { hid: `og:image`, property: 'og:image', content: '../assets/services/macpeters_uv_deco.png' }
       ]
     }
   }
