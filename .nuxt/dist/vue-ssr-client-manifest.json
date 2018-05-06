@@ -66,17 +66,17 @@
     "pages/cartoons.bf40fd2df9172bae91b2.js",
     "pages/murals.65b377174d3175985dcc.js",
     "pages/index.65ed5aea929f60eb0178.js",
-    "pages/dev.110785fcf24ca7ac339d.js",
+    "pages/dev.73c696575112c035bb75.js",
     "layouts/default.aebf7a987eada9e444da.js",
     "vendor.0be5e95f36e5048a5960.js",
     "app.003db219892800eb3603.js",
-    "manifest.2c7d9d9b3e6e1c119d3c.js",
+    "manifest.0178f7f99a30ae94566f.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.2c7d9d9b3e6e1c119d3c.js",
+    "manifest.0178f7f99a30ae94566f.js",
     "vendor.0be5e95f36e5048a5960.js",
     "app.003db219892800eb3603.js"
   ],
@@ -87,7 +87,7 @@
     "pages/cartoons.bf40fd2df9172bae91b2.js",
     "pages/murals.65b377174d3175985dcc.js",
     "pages/index.65ed5aea929f60eb0178.js",
-    "pages/dev.110785fcf24ca7ac339d.js",
+    "pages/dev.73c696575112c035bb75.js",
     "layouts/default.aebf7a987eada9e444da.js"
   ],
   "modules": {
