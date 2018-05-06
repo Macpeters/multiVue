@@ -101,7 +101,7 @@
 
   const base_keywords = "uv, blacklight reactive, psychedelic, tapestry, uv deco, blacklight party deco, blacklight art, ";
   export default {
-  name: "Macpeters Art Services",
+  name: "ArtServices",
   components: { navBar, contactBar, imageList },
   data() {
     return {

@@ -48,7 +48,7 @@
     <div id="demo">
       <h2>Game Demo Reel</h2>
       <h3>Prototype games made while I was in school - mostly using Flash/AS3, XNA, Unity3d</h3>
-      <iframe width="560" height="315" src="http://www.youtube.com/embed/1Za-n3DstI0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1Za-n3DstI0&origin=https://macpeters-vue.netlify.com/dev/" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <contactBar/>
