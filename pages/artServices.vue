@@ -63,7 +63,7 @@
         <div class="page-description">
           <p> A great way to make your event memorable is to give your guests the opportunity to create something themselves to take home as a souvenir.  
               Using low cost materials, a number of fun crafts and artworks can be made under the magical glow of UV light.  I can provide materials, instruction, 
-              and encouragement to help your guests enjoy themselves on any occasion.  Kid-friendly materials such as pipecleaners and string make this activities 
+              and encouragement to help your guests enjoy themselves on any occasion.  Kid-friendly materials such as pipecleaners and string make these activities 
               great for all ages. </p>
         </div>
         <div class="featured-image">
