@@ -27,14 +27,28 @@ import bliss from "../assets/fineArt/macpeters_bliss.png";
 import cracking from "../assets/fineArt/macpeters_crackingUnderThePressure.png";
 import eagerness from "../assets/fineArt/macpeters_eagerness.png";
 import fascination from "../assets/fineArt/macpeters_fascination.png";
-import gratitude from "../assets/fineArt/macpeters_gratitude.jpg";
-import lovebird from "../assets/fineArt/macpeters_loveBird.jpg";
+import gratitude from "../assets/fineArt/macpeters_gratitude.png";
+import lovebird from "../assets/fineArt/macpeters_loveBird.png";
 import maskedFear from "../assets/fineArt/macpeters_maskedFear.png";
 import mischeif from "../assets/fineArt/macpeters_mischeif.png";
-import monsterball from "../assets/fineArt/macpeters_monsterball.jpg";
+import monsterball from "../assets/fineArt/macpeters_monsterball.png";
 import shpongle from "../assets/fineArt/macpeters_shpongle.png";
-import starbird from "../assets/fineArt/macpeters_starBird.jpg";
+import starbird from "../assets/fineArt/macpeters_starBird.png";
 import stubborn from "../assets/fineArt/macpeters_stubbornResentment.png";
+// Thumbs
+import baphomet_thumb from "../assets/fineArt/thumbnails/macpeters_baphomet.png";
+import bliss_thumb from "../assets/fineArt/thumbnails/macpeters_bliss.png";
+import cracking_thumb from "../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
+import eagerness_thumb from "../assets/fineArt/thumbnails/macpeters_eagerness.png";
+import fascination_thumb from "../assets/fineArt/thumbnails/macpeters_fascination.png";
+import gratitude_thumb from "../assets/fineArt/thumbnails/macpeters_gratitude.png";
+import lovebird_thumb from "../assets/fineArt/thumbnails/macpeters_loveBird.png";
+import maskedFear_thumb from "../assets/fineArt/thumbnails/macpeters_maskedFear.png";
+import mischeif_thumb from "../assets/fineArt/thumbnails/macpeters_mischeif.png";
+import monsterball_thumb from "../assets/fineArt/thumbnails/macpeters_monsterball.png";
+import shpongle_thumb from "../assets/fineArt/thumbnails/macpeters_shpongle.png";
+import starbird_thumb from "../assets/fineArt/thumbnails/macpeters_starBird.png";
+import stubborn_thumb from "../assets/fineArt/thumbnails/macpeters_stubbornResentment.png";
 // Components
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
@@ -50,6 +64,7 @@ export default {
       images: [
         {
           image: baphomet,
+          thumb: baphomet_thumb,
           title: "Baphomet - Magic Mushroom Magician",
           subtitle: "24x24 UV Acrylic on canvas",
           description: "Floating above the golden city that sits on the edge of the Amethyst Mountains, young Baphomet pays no mind to the dance of mortals, for he is filled with the light of the Universe. This piece is what I'm referring to as 'living art', because I haven't varnished it, and I don't plan to until it sells.  I find if I have art around for a little while, I start noticing things I'd like to change, because I've learned new tricks since then.  If I don't varnish the piece, I feel I have the option of going back and updating old art, so it stays interesting to me.  Maybe I'll ruin it, next time I touch it.  Who knows?  If you like how it looks right now, contact me for purchasing.",
@@ -57,6 +72,7 @@ export default {
         },
         {
           image: bliss,
+          thumb: bliss_thumb,
           title: "Bliss",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "As a jellyfish, Bliss has no weight, and no resistance to the changing currents of the world. He enjoys every ripple to the fullest extent.",
@@ -64,6 +80,7 @@ export default {
         },
         {
           image: cracking,
+          thumb: cracking_thumb,
           title: "Cracking Under the Pressure",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "Intense pressure and stress mean that you've outgrown your shell - when it cracks, you are free to grow a new one.  Check out Twerski on stress for a neat talk.",
@@ -71,6 +88,7 @@ export default {
         },
         {
           image: eagerness,
+          thumb: eagerness_thumb,
           title: "Eagerness",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "Eagerness has his eye on a treat, and is in a hurry to get a taste of it.",
@@ -78,6 +96,7 @@ export default {
         },
         {
           image: fascination,
+          thumb: fascination_thumb,
           title: "Fascination",
           subtitle: "24x24 UV Acrylic on canvas",
           description: "Behold the biodiversity of this alien crystaline planet.  What wonders it might hold!",
@@ -85,6 +104,7 @@ export default {
         },
         {
           image: gratitude,
+          thumb: gratitude_thumb,
           title: "Gratitude",
           subtitle: "24x24 UV Acrylic on canvas",
           description: "Accepting the gift of light, and giving gratitude in return.",
@@ -92,6 +112,7 @@ export default {
         },
         {
           image: lovebird,
+          thumb: lovebird_thumb,
           title: "Love Bird",
           subtitle: "12x12 UV Acrylic on canvas",
           description: "Real Love persists when passion cools, and wants nothing in return.",
@@ -99,6 +120,7 @@ export default {
         },
         {
           image: maskedFear,
+          thumb: maskedFear_thumb,
           title: "Masked Fear",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "Afraid to come out of the dark, Fear holds out a scary mask to frighten away whatever might be waiting out there.",
@@ -106,6 +128,7 @@ export default {
         },
         {
           image: mischeif,
+          thumb: mischeif_thumb,
           title: "Mischief",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "Did you see snakes in her hair?  Look again.  Mischief likes to play harmless tricks.  She is the spirit of Nature in spring, playful and fun.",
@@ -113,6 +136,7 @@ export default {
         },
         {
           image: monsterball,
+          thumb: monsterball_thumb,
           title: "Monsterball",
           subtitle: "12x12 UV Acrylic on canvas",
           description: "Monsterball is everyone you meet who is putting up a false front.  You can't tell what their motivations are, so interacting with them is like trying to navigate a dark labyrinth, always wondering if it's even worth the trouble.  I mean, if they can't ever be honest, is knowing them more trouble than it's worth?",
@@ -120,6 +144,7 @@ export default {
         },
         {
           image: shpongle,
+          thumb: shpongle_thumb,
           title: "Dancing With the Universe AKA Shpongle: Codex 6",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "You are the Universe enjoying a dance through one timeline from one perspective, and the Universe is watching your dance, and everyone else's, experiencing itself in every way",
@@ -127,6 +152,7 @@ export default {
         },
         {
           image: starbird,
+          thumb: starbird_thumb,
           title: "Star Bird",
           subtitle: "12x12 UV Acrylic on canvas",
           description: "Shooting through space, Star Bird is just enjoying the journey for what it is and sharing that enjoyment freely",
@@ -134,6 +160,7 @@ export default {
         },
         {
           image: stubborn,
+          thumb: stubborn_thumb,
           title: "Stubborn Resentment",
           subtitle: "18x18 UV Acrylic on canvas",
           description: "He has had just about enough.  Careful you don't push him too far, as he's liable to lash out.",

@@ -21,12 +21,19 @@
 
 <script>
 // images
-import chamBee from "../assets/graf/macpeters_chamBee.jpg";
-import demolition from "../assets/graf/macpeters_demolitionParty.jpg";
-import mouseBot from "../assets/graf/macpeters_mouseNBot.jpg";
+import chamBee from "../assets/graf/macpeters_chamBee.png";
+import demolition from "../assets/graf/macpeters_demolitionParty.png";
+import mouseBot from "../assets/graf/macpeters_mouseNBot.png";
 import octoBuddy from "../assets/graf/macpeters_octoBuddy.png";
-import pastaMancer from "../assets/graf/macpeters_pastaMancer.jpg";
-import ribbit from "../assets/graf/macpeters_ribbit.jpg";
+import pastaMancer from "../assets/graf/macpeters_pastaMancer.png";
+import ribbit from "../assets/graf/macpeters_ribbit.png";
+// Thumbnails
+import chamBee_thumb from "../assets/graf/thumbnails/macpeters_chamBee.png";
+import demolition_thumb from "../assets/graf/thumbnails/macpeters_demolitionParty.png";
+import mouseBot_thumb from "../assets/graf/thumbnails/macpeters_mouseNBot.png";
+import octoBuddy_thumb from "../assets/graf/thumbnails/macpeters_octoBuddy.png";
+import pastaMancer_thumb from "../assets/graf/thumbnails/macpeters_pastaMancer.png";
+import ribbit_thumb from "../assets/graf/thumbnails/macpeters_ribbit.png";
 // components
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
@@ -42,6 +49,7 @@ export default {
       images: [
         {
           image: chamBee,
+          thumb: chamBee_thumb,
           title: "Chameleon, Wasp",
           subtitle: "Spray paint on garage door",
           description: "Chameleon, Sassy Wasp, painted on garage doors in the Alleyway of Dreams, Toronto.",
@@ -49,6 +57,7 @@ export default {
         },
         {
           image: demolition,
+          thumb: demolition_thumb,
           title: "Alien summoning magic sweets",
           subtitle: "UV reactive acrylic on wall",
           description: "With the building to be demolished soon - this collaborative mural was done in the spirit of coming together to make friends, and create a magical experience.",
@@ -56,6 +65,7 @@ export default {
         },
         {
           image: mouseBot,
+          thumb: mouseBot_thumb,
           title: "Oily Robot and Spray Mouse",
           subtitle: "Spray paint on abandoned construction wood",
           description: "Robot drooling oil, painted on abandoned construction board.  On the other side, a spray painting mouse",
@@ -63,6 +73,7 @@ export default {
         },
         {
           image: octoBuddy,
+          thumb: octoBuddy_thumb,
           title: "Octo-buddy",
           subtitle: "Acrylic on wall at Fulton Fitness, St. Catherines",
           description: "Weight lifting octopus gives encouragement to those working out at Fulton Fitness.",
@@ -70,6 +81,7 @@ export default {
         },
         {
           image: pastaMancer,
+          thumb: pastaMancer_thumb,
           title: "Delicious Mushroom Wizard",
           subtitle: "Spray paint, brush paint on wall",
           description: "Mushroom Wizard enjoying some pasta at Pastamancers in London, Ontario",
@@ -77,6 +89,7 @@ export default {
         },
         {
           image: ribbit,
+          thumb: ribbit_thumb,
           title: "Ribbit",
           subtitle: "Spray paint on wooden door",
           description: "Painted during a workshop at Mural Routes, Scarborough.",
