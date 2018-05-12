@@ -113,7 +113,8 @@
         { hid: `og:description`, property: 'og:description', content: 'Fine Art, Murals, Painted Skateboard Decks, Cartoons, Web and Game Development' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
         { hid: `og:image`, property: 'og:image', content: logoImage }
-      ]
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }
 };

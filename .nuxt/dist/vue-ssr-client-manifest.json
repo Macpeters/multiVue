@@ -71,19 +71,19 @@
     "pages/skateboards.19bb7d206eb0bef8cd76.js",
     "pages/murals.39e13b92f0c2a452cb5f.js",
     "pages/aboutArtist.ea357a7d517114cd5cdd.js",
-    "pages/index.0e5d07f276bcf6521294.js",
+    "pages/index.10e9c45a8c2e41f71b64.js",
     "pages/devResume.ec90c7dd96a2c85a3169.js",
     "pages/dev.68e453f1ffa16a460665.js",
     "layouts/default.d7c71eb073df3ec605a3.js",
     "vendor.9945839957c3d42ab80f.js",
     "app.1da8d7c1b764814308ea.js",
-    "manifest.bab2c81fabc378f14bf1.js",
+    "manifest.bd58a2fad24e28f46bf3.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.bab2c81fabc378f14bf1.js",
+    "manifest.bd58a2fad24e28f46bf3.js",
     "vendor.9945839957c3d42ab80f.js",
     "app.1da8d7c1b764814308ea.js"
   ],
@@ -94,7 +94,7 @@
     "pages/skateboards.19bb7d206eb0bef8cd76.js",
     "pages/murals.39e13b92f0c2a452cb5f.js",
     "pages/aboutArtist.ea357a7d517114cd5cdd.js",
-    "pages/index.0e5d07f276bcf6521294.js",
+    "pages/index.10e9c45a8c2e41f71b64.js",
     "pages/devResume.ec90c7dd96a2c85a3169.js",
     "pages/dev.68e453f1ffa16a460665.js",
     "layouts/default.d7c71eb073df3ec605a3.js"
