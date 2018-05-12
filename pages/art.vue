@@ -5,10 +5,12 @@
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
-      I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours, 
-      moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
-      I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects. 
-      <p>I've been working on <a href="/cartoons">cartoons</a>, recently, if you are interested in checking them out.</p>
+      <p>
+        I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours, 
+        moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
+        I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects. 
+      </p>
+      <h4>I've been working on <a href="/cartoons">cartoons</a>, recently, if you are interested in checking them out.</h4>
     </div>
 
     <imageList/>

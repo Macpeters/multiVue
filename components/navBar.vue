@@ -31,7 +31,7 @@
           <a href="tarot">Hidden Dreams Tarot</a>
           <hr />
           <a href="/artShop">Shop</a>
-          <a href="/artAbout.html">About Me</a>
+          <a href="/aboutArtist">About Me</a>
           <a href="https://macpetersart.wordpress.com/" target="blank">Blog</a>
         </div>
       </div>

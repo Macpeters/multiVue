@@ -6,6 +6,7 @@
 
     <div class="page-description">
       <h3>Professional Web Developer</h3>
+      <h4><a href="/devResume">Resume</a></h4>
       <p>
         These days most of my coding is web development - working with mostly ruby on rails and javascript at 
         Infotech Research Group.  I love collaborating, and working on a dev team is great for that. We have
@@ -14,7 +15,8 @@
         using npm and nuxt.
       </p>
       <h3>Hobby Game Developer</h3>
-      <p>If I get the dev bug on my own time, I mess around in GameMaker Studio on games that may not be all 
+      <p>
+        If I get the dev bug on my own time, I mess around in GameMaker Studio on games that may not be all 
         that fun to play, but they're pretty fun to build.  I create simple vector sprites using Inkscape to 
         represent game objects and states.  I have 2 games on the go at the moment - a simulation game where 
         single celled organisms compete for resources - the difficulty is adjustable by the user.  The other 
@@ -27,10 +29,6 @@
         I tend to build prototypes, then lose interest once the interesting mechanics are in place.
         If you're more into level design, graphics, or UX, and would like to collaborate, get in touch with me.
         GMS2 is github friendly, and all my repos are public.  
-      </p>
-      <p>You can check me out on <a href="https://github.com/Macpeters">
-        Github <img v-bind:src="githubImage" alt="github" title="github" />
-        </a>
       </p>
       <hr />
     </div>

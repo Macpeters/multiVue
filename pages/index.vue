@@ -5,7 +5,7 @@
     
     <div class="page-description">
       <p>
-        Working as a web developer by day, I spend much of my free time making art and games. The art I make ranges from low-brow
+        Fullstack web developer by day, creating art and games in my off hours. The art I make ranges from low-brow
         to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
         Nuxt, and Served on Netlify.
       </p>
