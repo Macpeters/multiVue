@@ -20,7 +20,7 @@
   // Images
   import email from "../assets/social/email.png";
   import facebook from "../assets/social/facebook.png";
-  import instagram from "../assets/social/instagram.jpg";
+  import instagram from "../assets/social/instagram.png";
   import linkedIn from "../assets/social/linkedin.png"; 
   import twitter from "../assets/social/twitter.png";
 

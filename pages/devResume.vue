@@ -104,7 +104,7 @@
   // Images
   import github from "../assets/social/github.png";
   import twitter from "../assets/social/twitter.png";
-  import stackOverflow from "../assets/social/stackoverflow.jpg";
+  import stackOverflow from "../assets/social/stackoverflow.png";
   // Components
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'

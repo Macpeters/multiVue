@@ -54,7 +54,7 @@
   // Images
   import email from "../assets/social/email.png";
   import facebook from "../assets/social/facebook.png";
-  import instagram from "../assets/social/instagram.jpg";
+  import instagram from "../assets/social/instagram.png";
   import twitter from "../assets/social/twitter.png";
   // Components
   import navBar from '../components/navBar.vue'
