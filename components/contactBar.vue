@@ -67,11 +67,12 @@
 
 
 <style scoped>
+
   .contact {
     text-align: center;
     background-color: #ddd;
     clear: both;
-    padding-left: 20%;
+    padding-left: 20%;  
   }
 
   .left-column {
