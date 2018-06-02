@@ -22,6 +22,9 @@
   name: "signupForm",
   components: { },
   data() {
+    return {
+
+    }
   }
 };
 </script>

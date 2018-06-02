@@ -8,6 +8,10 @@ Mirror/rebuild of Macpeters as a multi-app Vue.js application.
 ``` $ npm run dev  ```
 http://localhost:3000
 
+## Deploy
+``` $ npm run build ``` 
+```  git push ... ```
+
 ### Improvements on original site
 * https
 * blog

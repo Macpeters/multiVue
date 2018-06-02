@@ -30,7 +30,7 @@
             <a href="/skateboards">Painted Skateboards</a>
             <a href="/murals">Murals/Aerosol</a>
             <a href="/artServices">Services</a>
-            <a href="tarot">Hidden Dreams Tarot</a>
+            <a href="/tarot">Hidden Dreams Tarot</a>
             <hr />
             <a href="/artShop">Shop</a>
             <a href="/aboutArtist">About Me</a>
