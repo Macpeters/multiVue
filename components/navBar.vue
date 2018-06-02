@@ -15,27 +15,30 @@
         <script async src="https://static.addtoany.com/menu/page.js"></script>
         <!-- AddToAny END -->
       </div>
+
+      <div class="main-nav-row">
+        <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
     
-      <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
+        <a href="/dev" class="dropbtn">Development/Programming</a>
+        <a href="/blog" class="dropbtn">Blog</a>
     
-      <a href="/dev" class="dropbtn">Development/Programming</a>
-      <a href="/blog" class="dropbtn">Blog</a>
-    
-      <div class="dropdown">
-        <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
-        <input type="checkbox" id="show-menu" role="button">
-        <div class="dropdown-content" id="dropdown-content">
-          <a href="/art">Fine Art</a>
-          <a href="/skateboards">Painted Skateboards</a>
-          <a href="/murals">Murals/Aerosol</a>
-          <a href="/artServices">Services</a>
-          <a href="tarot">Hidden Dreams Tarot</a>
-          <hr />
-          <a href="/artShop">Shop</a>
-          <a href="/aboutArtist">About Me</a>
-          <a href="https://macpetersart.wordpress.com/" target="blank">Blog</a>
+        <div class="dropdown">
+          <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
+          <input type="checkbox" id="show-menu" role="button">
+          <div class="dropdown-content" id="dropdown-content">
+            <a href="/art">Fine Art</a>
+            <a href="/skateboards">Painted Skateboards</a>
+            <a href="/murals">Murals/Aerosol</a>
+            <a href="/artServices">Services</a>
+            <a href="tarot">Hidden Dreams Tarot</a>
+            <hr />
+            <a href="/artShop">Shop</a>
+            <a href="/aboutArtist">About Me</a>
+            <a href="https://macpetersart.wordpress.com/" target="blank">Blog</a>
+          </div>
         </div>
       </div>
+      <br />
     </div>
   </div>
 
@@ -74,10 +77,11 @@ export default {
 
   a {
     text-decoration: none !important;
-    padding: 10px
+    padding: 10px;
+    margin: 10px;
   }
   ol li{
-    display: inline;
+    display: inline-block;
   }
   /* Nav Bar */
   .nav-header {
@@ -100,14 +104,6 @@ export default {
   .nav-header a {
     padding-left: 15px;
   }
-  @media screen and (max-width: 450px){
-    .nav-header img {
-      padding-bottom: 15px;
-    }
-    .nav-header a{
-      font-size: 18px;
-    }
-  }
 
   /* Dropdown Button */
   .nav-header .dropbtn {
@@ -115,6 +111,7 @@ export default {
     background-color: #C17DDB;
     color: #fff;
     padding: 10px;
+    margin: 10px;
   }
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -174,6 +171,25 @@ export default {
     right: 20px;
   }
 
-
+  @media screen and (max-width: 612px){
+    .main-nav-row a .dropdown .dropbtn {
+      font-size: 18px;
+      display: block;
+      margin: 10px;
+      clear: both;
+    }
+    .dropdown {
+      margin-top: 25px;
+    }
+    .nav-header img {
+      padding-bottom: 15px;
+    }
+    .share-buttons a{
+      margin: 0;
+    }
+    .nav-header {
+      height: 150px;
+    }
+  }
 
 </style>

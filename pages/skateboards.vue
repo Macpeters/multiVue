@@ -20,6 +20,8 @@
 
 <script>
 // images
+import logoImage from "../assets/logo.png";
+// skate decks
 import brokenRobot from "../assets/skateboards/macpeters_brokenRobot.png";
 import drWho from "../assets/skateboards/macpeters_drWho.png";
 import jerryBear from "../assets/skateboards/macpeters_jerryBear.png";
@@ -47,6 +49,7 @@ export default {
   components: { imageList, navBar, contactBar },
   data() {
     return {
+      logoImage: logoImage,
       images: [
         {
           image: brokenRobot,
@@ -100,6 +103,23 @@ export default {
       ],
       chosenImage: null
     };
+  },
+  head () {
+    return {
+      title: "Macpeters Hand-painted Skateboard Decks",
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
+        { hid: 'skateboardsDescription', name: 'description', content: 'Hand-painted skate visionary and skate art on recycled skateboard decks'},
+        { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
+        { hid: `og:title`, property: 'og:title', content: 'Macpeters Hand-painted Skateboard Decks' },
+        { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/' },
+        { hid: `og:description`, property: 'og:description', content: 'Hand-painted skate visionary and skate art on recycled skateboard decks' },
+        { hid: `og:type`, property: 'og:type', content: 'website' },
+        { hid: `og:image`, property: 'og:image', content: logoImage }
+      ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
   }
 };
 </script>

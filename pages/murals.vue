@@ -21,6 +21,8 @@
 
 <script>
 // images
+import logoImage from "../assets/logo.png";
+// murals
 import chamBee from "../assets/graf/macpeters_chamBee.png";
 import demolition from "../assets/graf/macpeters_demolitionParty.png";
 import mouseBot from "../assets/graf/macpeters_mouseNBot.png";
@@ -46,6 +48,7 @@ export default {
   components: { imageList, navBar, contactBar },
   data() {
     return {
+      logoImage: logoImage,
       images: [
         {
           image: chamBee,
@@ -98,6 +101,23 @@ export default {
       ],
       chosenImage: null
     };
+  },
+  head () {
+    return {
+      title: "Macpeters Murals and Street Art",
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
+        { hid: 'artDescription', name: 'description', content: 'Murals, Aerosol and Street Art'},
+        { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
+        { hid: `og:title`, property: 'og:title', content: 'Murals, Aerosol and Street Art' },
+        { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/' },
+        { hid: `og:description`, property: 'og:description', content: 'Murals, Aerosol and Street Art' },
+        { hid: `og:type`, property: 'og:type', content: 'website' },
+        { hid: `og:image`, property: 'og:image', content: logoImage }
+      ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
   }
 };
 </script>

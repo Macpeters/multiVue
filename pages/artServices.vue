@@ -5,10 +5,14 @@
     <h1>Macpeters: Art Services</h1>
 
     <div class="shop-buttons">
-      <span class="btn"><a href="#livePainting">Live Painting</a></span>
-      <span class="btn"><a href="#deco">Blacklight Deco</a></span>
-      <span class="btn"><a href="#tapestries">UV Tapestry Rental</a></span>
-      <span class="btn"><a href="#toys">Blacklight Party Crafting</a></span>
+      <span class="first-row">
+        <span class="btn"><a href="#livePainting">Live Painting</a></span>
+        <span class="btn"><a href="#deco">Blacklight Deco</a></span>
+      </span>
+      <span class="second-row">
+        <span class="btn"><a href="#tapestries">UV Tapestry Rental</a></span>
+        <span class="btn"><a href="#toys">Blacklight Party Crafting</a></span>
+      </span>
     </div>
 
     <div class="art-gallery">
@@ -23,7 +27,7 @@
               20 or 60 minutes.</p>
         </div>
         <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/IlvqReXgE-I" frameborder="0" gesture="media" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IlvqReXgE-I" frameborder="0" allow="autoplay; encrypted-media" gesture="media" allowfullscreen></iframe>
           <hr />
         </div>
       </div>
@@ -218,6 +222,7 @@
     padding: 10px;
   }
   .btn {
+    border-radius: 25px;
     padding: 10px;
     margin-left: 5px;
     background-color: #ccc;
@@ -234,5 +239,12 @@
   .featured-image img {
     max-width: 100%; 
     height: auto;
+  }
+
+  @media screen and (max-width: 450px){
+    .first-row {
+      display: block;
+      margin-bottom: 25px;
+    }
   }
 </style>

@@ -98,5 +98,15 @@ export default {
     object-fit: cover;
     overflow: hidden;
   }
+  
+  @media screen and (max-width: 450px){
+    .left-column {
+      width: 100%;
+    }
+
+    .right-column {
+      width: 100%;
+    }
+  }
 
 </style>

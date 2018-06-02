@@ -8,9 +8,12 @@
       2018<br/>
       All rights reserved
     </span>
-    <span class="right-column" v-for="button in socialButtons" :key='button.id'>
-      <a v-bind:href="button.url" v-bind:title="button.title" v-bind:alt="button.title" target="_blank"><img v-bind:src="button.image" class="social-button" /></a>
+    <span class="right-column">
+      <span v-for="button in socialButtons" :key='button.id'>
+        <a v-bind:href="button.url" v-bind:title="button.title" v-bind:alt="button.title" target="_blank"><img v-bind:src="button.image" class="social-button" /></a>
+      </span>
     </span>
+    
   </div>
 
   </div>
@@ -88,6 +91,20 @@
     height: 50px;
     padding: 10px;
     border-radius: 25px;
+  }
+
+  @media screen and (max-width: 450px){
+    .contact {
+      padding: 0;
+    }
+    .left-column {
+      display: block;
+      width: 100%;
+    }
+    .right-column {
+      display: block;
+      width: 100%;
+    }
   }
 
 </style>
