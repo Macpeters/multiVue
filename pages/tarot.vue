@@ -36,7 +36,7 @@
     <div>
       <iframe id="data-blurb-bookshare-8697712" data-bindattr-228="228"
 		      height="100%" data-bindattr-229="229" width="100%" data-bindattr-230="230"
-		      src="http://www.blurb.com/bookshare/app/index.html?bookId=8697712" data-bindattr-231="231"
+		      src="https://www.blurb.com/bookshare/app/index.html?bookId=8697712" data-bindattr-231="231"
 		      frameborder=0 allowfullscreen=''onload='this.focus()' scrolling='no'>
 		  </iframe>
     </div>
