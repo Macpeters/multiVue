@@ -33,19 +33,26 @@
       </div>
     </div>
     
-    <div>
-      <iframe id="data-blurb-bookshare-8697712" data-bindattr-228="228"
-		      height="100%" data-bindattr-229="229" width="100%" data-bindattr-230="230"
-		      src="https://www.blurb.com/bookshare/app/index.html?bookId=8697712" data-bindattr-231="231"
-		      frameborder=0 allowfullscreen=''onload='this.focus()' scrolling='no'>
-		  </iframe>
+    <div class="columns">
+      <div class="left-column">
+        <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot"><img v-bind:src="hiddenDreamsGuidebook" alt="Hidden Dreams Tarot Guidebook" title="Hidden Dreams Tarot Guidebook"/></a>
+      </div>
+      <div class="right-column">
+        <p>
+          The Hidden Dreams Tarto Guidebook is available in softcover, hardcover, and pdf format.  Along with descriptions of the 
+        cards and their meanings, quick references to crystals, astrology, entheogens, runes, and more, beautifully illustrated. 
+        </p>
+        <p>
+          Checkout a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot">Preview</a> now.
+        </p> 
+      </div>
     </div>
 
     <signupForm/>
     <hr />
     <div>
       <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot">
-        <img v-bind:src="kickstarterLaunch" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
+        <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
       </a>
     </div>
 
@@ -59,10 +66,10 @@
 <script>
   // Images
   import logoImage from "../assets/logo.png";
-  import kickstarterLaunch from "../assets/tarot/hiddenDreamsTarotKickstarter.png";
+  import kickstarter from "../assets/tarot/hiddenDreamsTarotKickstarter.png";
   import cutiePieTarot from "../assets/tarot/macpeters_cutiePieTarot.png"
   import hiddenDreamsDeck from "../assets/tarot/hiddenDreamsTarotDeck.png"
-  import starCard from "../assets/tarot/hiddenDreamsTarot_starCards.png"
+  import hiddenDreamsGuidebook from "../assets/tarot/hiddenDreamsTarotGuidebook.png"
   // Components
   import navBar from '../components/navBar.vue'
   import signupForm from '../components/signupForm.vue'
@@ -75,10 +82,10 @@
   data() {
     return {
       logoImage: logoImage,
-      kickstarterLaunch: kickstarterLaunch,
+      kickstarter: kickstarter,
       cutiePieTarot: cutiePieTarot,
       hiddenDreamsDeck: hiddenDreamsDeck,
-      starCard: starCard,
+      hiddenDreamsGuidebook: hiddenDreamsGuidebook,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' },
@@ -155,6 +162,10 @@
   }
   .columns div {
     padding: 10px;
+  }
+  .columns a {
+    text-decoration: none;
+    font-weight: bold;
   }
   .columns img {
     max-width: 90%;
