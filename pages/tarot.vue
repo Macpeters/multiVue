@@ -26,10 +26,30 @@
             Over the course of a year, I took notes on all of these associations, and clarified their mappings.
           </p>
           <p>The Kickstarter project got off to a luke-warm start, so I figure I'll be selling print-to-order copies of
-            both the deck and the book.  Original drawings and prints are also available.  Contact me for more 
-            information.  I'll have a store set up shortly.
+            both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a> 
+            for more information.
           </p>
         </div>
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="left-column">
+        <p>
+          Order your own copy of the Hidden Dreams Tarot Deck.  Discover the modern sybolic representations of many different
+          cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.  
+        </p>
+        <p>
+          Wherever you are in your own journey, the Hidden Dreams Tarot can offer insight into your circumstances, and 
+          advice on how to proceed. If you are new to tarot, this deck is a great way to learn, because the imagery is 
+          modern and memorable.
+        </p> 
+        <p>
+          - Coming Soon -
+        </p>       
+      </div>
+      <div class="right-column">
+        <img v-bind:src="hiddenDreamsCardSpread" alt="Hidden Dreams Tarot Deck Card Spread" title="Hidden Dreams Tarot Deck Card Spread"/>
       </div>
     </div>
     
@@ -39,25 +59,27 @@
       </div>
       <div class="right-column">
         <p>
-          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.  Along with descriptions of the 
-        cards and their meanings, quick references to crystals, astrology, entheogens, runes, and more, beautifully illustrated. 
+          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.  
         </p>
         <p>
-          Checkout a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now.
+          Along with descriptions of the cards and their meanings, the guidebook contains quick references to crystals, astrology, 
+          entheogens, runes, and more, beautifully illustrated.  This book can give you a quick look into different belief
+          systems and how they associate with the tarot.  
+        </p>
+        <p>
+          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
+          your copy today.
         </p> 
       </div>
     </div>
 
     <signupForm/>
-    <hr />
     <div>
       <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" title="Hidden Dreams Tarot Kickstarter">
         <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
       </a>
     </div>
 
-    <hr />
-    <br />
     <contactBar/>
   </div>
   
@@ -69,6 +91,7 @@
   import kickstarter from "../assets/tarot/hiddenDreamsTarotKickstarter.png";
   import cutiePieTarot from "../assets/tarot/macpeters_cutiePieTarot.png"
   import hiddenDreamsDeck from "../assets/tarot/hiddenDreamsTarotDeck.png"
+  import hiddenDreamsCardSpread from "../assets/tarot/hiddenDreamsTarotSpread.png"
   import hiddenDreamsGuidebook from "../assets/tarot/hiddenDreamsTarotGuidebook.png"
   // Components
   import navBar from '../components/navBar.vue'
@@ -86,6 +109,7 @@
       cutiePieTarot: cutiePieTarot,
       hiddenDreamsDeck: hiddenDreamsDeck,
       hiddenDreamsGuidebook: hiddenDreamsGuidebook,
+      hiddenDreamsCardSpread: hiddenDreamsCardSpread,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' },
@@ -141,8 +165,9 @@
     margin: 10px;
   }
   img {
-    width: 80%;
+    width: 40%;
     height: auto;
+    margin: 10px;
   }
 
   /* All Info Sections */
@@ -161,19 +186,15 @@
     padding-top: 10px;
     display: block;
   }
+  .columns img {
+    height: auto;
+  }
   .columns div {
     padding: 10px;
   }
   .columns a {
     text-decoration: none;
     font-weight: bold;
-  }
-  .columns img {
-    max-width: 90%;
-    max-height: 480px;;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   @media screen and (max-width: 612px){
@@ -190,9 +211,10 @@
     .bottom-signup{
       height: 300px;
     }
-    .columns image {
-      height: 500px;
-    }  
+    .columns {
+      height: 450px;
+    }
+  
     #tarot-history {
       height: 1100px;
     }
