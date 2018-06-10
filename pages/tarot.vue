@@ -39,7 +39,7 @@
       </div>
       <div class="right-column">
         <p>
-          The Hidden Dreams Tarto Guidebook is available in softcover, hardcover, and pdf format.  Along with descriptions of the 
+          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.  Along with descriptions of the 
         cards and their meanings, quick references to crystals, astrology, entheogens, runes, and more, beautifully illustrated. 
         </p>
         <p>
@@ -155,6 +155,7 @@
     float: right;
   }
   .columns {
+    clear: both;
     height: 500px;
     padding: 0;
     padding-top: 10px;
