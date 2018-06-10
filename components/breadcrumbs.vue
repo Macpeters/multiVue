@@ -1,7 +1,7 @@
 <template>
   <ol class="breadcrumb">
     <span v-for="(crumb, index) in breadcrumbs" :key='index'> 
-      <li><a v-bind:href="crumb.link">{{crumb.name}}</a></li> ›
+      <li><a v-bind:href="crumb.link" v-bind:title="crumb.name">{{crumb.name}}</a></li> ›
     </span>
   </ol>
 </template>

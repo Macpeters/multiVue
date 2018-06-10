@@ -11,7 +11,7 @@
         moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
         I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects. 
       </p>
-      <h4>I've been working on <a href="/cartoons">cartoons</a>, recently, if you are interested in checking them out.</h4>
+      <h3>I've been working on <a href="/cartoons">cartoons</a>, recently, if you are interested in checking them out.</h3>
     </div>
 
     <imageList/>
@@ -179,16 +179,16 @@ export default {
   },
   head () {
     return {
-      title: "Macpeters Fine Art",
+      title: "Macpeters Original Fine Art Paintings",
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
-        { hid: 'artDescription', name: 'description', content: 'Psychedelic visionary blacklight paintings. Created by Toronto artist, Mac Peters.'},
+        { hid: 'artDescription', name: 'description', content: 'Psychedelic, visionary blacklight paintings incorporating low-brow pop surrealism and metamodernism. Created by Toronto artist, Mac Peters.'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
-        { hid: `og:title`, property: 'og:title', content: 'Macpeters Fine Art' },
+        { hid: `og:title`, property: 'og:title', content: 'Macpeters Original Fine Art Paintings' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/art/' },
-        { hid: `og:description`, property: 'og:description', content: 'Psychedelic visionary blacklight paintings. Created by Toronto artist, Mac Peters.' },
+        { hid: `og:description`, property: 'og:description', content: 'Psychedelic, visionary blacklight paintings incorporating low-brow pop surrealism and metamodernism. Created by Toronto artist, Mac Peters.' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
         { hid: `og:image`, property: 'og:image', content: bliss }
       ]

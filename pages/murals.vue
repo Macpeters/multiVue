@@ -116,13 +116,13 @@ export default {
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
-        { hid: 'artDescription', name: 'description', content: 'Murals, Aerosol and Street Art'},
+        { hid: 'artDescription', name: 'description', content: 'Murals, Aerosol and Street Art. Freshen up your old garage door, beautify concrete walls, and add lively, fanciful colour to unloved spaces.'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
         { hid: `og:title`, property: 'og:title', content: 'Murals, Aerosol and Street Art' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/' },
-        { hid: `og:description`, property: 'og:description', content: 'Murals, Aerosol and Street Art' },
+        { hid: `og:description`, property: 'og:description', content: 'Murals, Aerosol and Street Art. Freshen up your old garage door, beautify concrete walls, and add lively, fanciful colour to unloved spaces.' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
-        { hid: `og:image`, property: 'og:image', content: logoImage }
+        { hid: `og:image`, property: 'og:image', content: octoBuddy_thumb }
       ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }

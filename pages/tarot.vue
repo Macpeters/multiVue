@@ -5,8 +5,8 @@
     <div>
       <h1>The Hidden Dreams Tarot</h1>
       <breadcrumbs/>
-      <h3>A synthesis of symbolism and lore.</h3>
-      <h4>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h4>
+      <h2>A synthesis of symbolism and lore.</h2>
+      <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
     </div>
     
 
@@ -35,7 +35,7 @@
     
     <div class="columns">
       <div class="left-column">
-        <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot"><img v-bind:src="hiddenDreamsGuidebook" alt="Hidden Dreams Tarot Guidebook" title="Hidden Dreams Tarot Guidebook"/></a>
+        <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview"><img v-bind:src="hiddenDreamsGuidebook" alt="Hidden Dreams Tarot Guidebook" title="Hidden Dreams Tarot Guidebook"/></a>
       </div>
       <div class="right-column">
         <p>
@@ -43,7 +43,7 @@
         cards and their meanings, quick references to crystals, astrology, entheogens, runes, and more, beautifully illustrated. 
         </p>
         <p>
-          Checkout a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot">Preview</a> now.
+          Checkout a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now.
         </p> 
       </div>
     </div>
@@ -51,7 +51,7 @@
     <signupForm/>
     <hr />
     <div>
-      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot">
+      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" title="Hidden Dreams Tarot Kickstarter">
         <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
       </a>
     </div>
@@ -95,18 +95,18 @@
   },
   head () {
     return {
-      title: "Hidden Dreams Tarot",
+      title: "Hidden Dreams Tarot by Mac Peters",
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
-        { hid: 'artDescription', name: 'description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.'},
+        { hid: 'artDescription', name: 'description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all in one cohesive cross-cultural experience'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
-        { hid: `og:title`, property: 'og:title', content: 'Hidden Dreams Tarot' },
+        { hid: `og:title`, property: 'og:title', content: 'Hidden Dreams Tarot by Mac Peters' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/' },
-        { hid: `og:description`, property: 'og:description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.' },
+        { hid: `og:description`, property: 'og:description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all in one cohesive cross-cultural experience.' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
-        { hid: `og:image`, property: 'og:image', content: logoImage }
+        { hid: `og:image`, property: 'og:image', content: hiddenDreamsGuidebook }
       ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }

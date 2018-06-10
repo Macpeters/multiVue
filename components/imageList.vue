@@ -1,7 +1,7 @@
 <template>
   <div class="art-gallery">
     <span v-for="image in images" :key='image.id'>
-      <img v-bind:src="image.thumb" class="thumbnail" @click='choose(image)' />
+      <img v-bind:src="image.thumb" v-bind:alt="image.title" v-bind:title="image.title" class="thumbnail" @click='choose(image)' />
     </span>
 
     <div class="featured-image">
