@@ -17,9 +17,7 @@
 </template>
 
 <script>
-  // Images
   import email from "../assets/social/email.png";
-
 
   export default {
     name: "blog",

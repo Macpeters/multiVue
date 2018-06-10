@@ -2,6 +2,8 @@
   <div>
     <navBar />
     <h1>Macpeters: Background and Insights</h1>
+
+    <breadcrumbs/>
     <!-- Artist Statement -->
     <div>
       <h2>Artist Statement</h2>
@@ -60,9 +62,10 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
   import artHistory from '../components/artHistory.vue'
+  import breadcrumbs from '../components/breadcrumbs.vue'
   export default {
     name: "aboutArtist",
-    components: { navBar, contactBar, artHistory },
+    components: { navBar, contactBar, artHistory, breadcrumbs },
     data() {
       return {
         socialButtons: [
@@ -118,6 +121,11 @@
             name: 'Tom LaPierre',
             link: 'http://www.kinsmanrobinson.com/dynamic/artist.asp?ArtistID=7'
           }
+        ],
+        breadcrumbs: [
+          { link: '/',  name: 'Home' },
+          { link: '/art', name: 'Art' },
+          { link: '/art', name: 'About' }
         ]
       };
     }

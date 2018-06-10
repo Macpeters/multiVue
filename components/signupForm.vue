@@ -33,6 +33,7 @@
 <style scoped>
   .signup-form{
     font-size: 24px;
+    background-color: beige;
   } 
   .email{
     max-width: 80%;

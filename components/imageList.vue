@@ -1,5 +1,5 @@
 <template>
-  <div :options="images" class="art-gallery">
+  <div class="art-gallery">
     <span v-for="image in images" :key='image.id'>
       <img v-bind:src="image.thumb" class="thumbnail" @click='choose(image)' />
     </span>
@@ -24,12 +24,11 @@ const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive
 
 export default {
   name: "imageList",
-  props: ['options'],
+
   components: { },
-  data(options) {
+  data() {
     return {
       images: null,
-      imageArray: options,
       chosenImage: {
         image: null,
         title: "",

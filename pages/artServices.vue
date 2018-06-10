@@ -3,6 +3,8 @@
     <navBar />
     
     <h1>Macpeters: Art Services</h1>
+    
+    <breadcrumbs/>
 
     <div class="shop-buttons">
       <span class="first-row">
@@ -102,11 +104,12 @@
   import imageList from '../components/imageList.vue'
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
+  import breadcrumbs from '../components/breadcrumbs.vue'
 
   const base_keywords = "uv, blacklight reactive, psychedelic, tapestry, uv deco, blacklight party deco, blacklight art, ";
   export default {
   name: "ArtServices",
-  components: { navBar, contactBar, imageList },
+  components: { navBar, contactBar, imageList, breadcrumbs },
   data() {
     return {
       deco: deco,
@@ -184,6 +187,11 @@
           description: "The wheel of Unicorn Fortunes turns.  Feel the rainbow, see the magic",
           keywords: "unicorn, rainbow, grass, butterfly, starry night, sunbeam, splash, water"
         }
+      ],
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'Art Services' }
       ],
       chosenImage: null
     };

@@ -3,6 +3,7 @@
     <navBar />
 
     <h1>Murals and Aerosol Art</h1>
+    <breadcrumbs/>
     <h2>Indoor and Outdoor murals to brighten up your business, home, or neighbourhood.</h2>
 
     <div class="page-description">
@@ -40,12 +41,13 @@ import ribbit_thumb from "../assets/graf/thumbnails/macpeters_ribbit.png";
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
+import breadcrumbs from '../components/breadcrumbs.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Murals",
-  components: { imageList, navBar, contactBar },
+  components: { imageList, navBar, contactBar, breadcrumbs },
   data() {
     return {
       logoImage: logoImage,
@@ -98,6 +100,11 @@ export default {
           description: "Painted during a workshop at Mural Routes, Scarborough.",
           keywords: "frog, storm, ribbit, workshop, mediah, spraypaint, mural routes, scarborough, outdoor art"  
         }
+      ],
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/murals', name: 'Murals' }
       ],
       chosenImage: null
     };

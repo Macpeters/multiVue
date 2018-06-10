@@ -1,14 +1,10 @@
 <template>
   <div class="page-content">
     <navBar />
-    <div>
-      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot">
-        <img v-bind:src="kickstarterLaunch" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
-      </a>
-    </div>
 
     <div>
       <h1>The Hidden Dreams Tarot</h1>
+      <breadcrumbs/>
       <h3>A synthesis of symbolism and lore.</h3>
       <h4>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h4>
     </div>
@@ -17,36 +13,6 @@
     <div>
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/fwCA5DEUbd8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
     </div>
-    <div class="nav-header tarot-sub-nav">
-      <hr />
-      <a href="#news">What's New</a>
-      <a href="#inspiration">Inspiration</a>
-      <a href="#tarot-history">The History</a>
-      <hr />
-    </div>
-
-    <div id="news" class="columns">
-      <h4>What's New for the Hidden Dreams Tarot</h4>
-      <div class="left-column page-description">
-        <p>
-          The Kickstarter is set to launch on June 1. I have been working on some Kickstarter exclusive
-          rewards.  My Cutie Pie Tarot is a child-friendly collection of characters who personify the
-          basic essence of each card in an adorable, relatable manner.  I'm thinking to offer a
-          Cutie Pie Tarot poster, available only on kickstarter.
-        </p>
-        <p>The Guidebook has quick references for astrology, planets, and runes, as well as entheogens, crystals, and more.
-          and will be printed in full colour, because colours are often integral to the symbolism, and because us humans tend to be very visual.
-          Always mixing up the glyphs for Saturn and Capricorn?  It's easier to remember that Saturn is the yellow one.
-        </p>
-      </div>
-      <div class="right-column">
-        <img v-bind:src="cutiePieTarot" alt="Cutie Pie Tarot Teaser" title="Cutie Pie Tarot Teaser" />
-      </div>
-    </div>
-
-     <hr />
-     <br />
-
     <div id="inspiration" class="columns">
       <h4>The Inspiration Behind Hidden Dreams Tarot</h4>
       <div>
@@ -59,38 +25,32 @@
             Egyptian, Hebrew, Celtic, Nordic, and Greek mythology all began to factor in, along with numerology, astrology, and colours.
             Over the course of a year, I took notes on all of these associations, and clarified their mappings.
           </p>
-        </div>
-      </div>
-    </div>
-
-    <hr />
-    <br />
-
-    <div id="tarot-history" class="columns">
-      <h4>The History Of Hidden Dreams Tarot</h4>
-      <div>
-        <div class="left-column">
-          <img v-bind:src="starCard" id="star-card" alt="Hidden Dreams Tarot Star Card Before and After" title="Hidden Dreams Tarot Star Card Before and After" />
-        </div>
-        <div class="right-column page-description">
-          <p>I originally drew these cards purely for my own use. When I finished, I wasn't able to find a printer who could
-            run off a single deck for anything affordable,so I ended up printing them as photos: gluing card-back photo to each card-front photo, back to back.
-            I then laminated them by hand. I've had this deck for a few years now - it's bulky, and the laminate is beginning
-            to peel on some cards.
-          </p>
-          <p>Years later, people having asked for their own copy, I decided to share and allow other people to
-            benefit from the journey I took in putting these together. I redrew each card, making improvements along the way, and
-            they are now ready for print. I've organized my notes into an illustrated guidebook, including information I came across
-            during the course of my research.
+          <p>The Kickstarter project got off to a luke-warm start, so I figure I'll be selling print-to-order copies of
+            both the deck and the book.  Original drawings and prints are also available.  Contact me for more 
+            information.  I'll have a store set up shortly.
           </p>
         </div>
       </div>
     </div>
-    <hr />
-    <br />
+    
+    <div>
+      <iframe id="data-blurb-bookshare-8697712" data-bindattr-228="228"
+		      height="100%" data-bindattr-229="229" width="100%" data-bindattr-230="230"
+		      src="http://www.blurb.com/bookshare/app/index.html?bookId=8697712" data-bindattr-231="231"
+		      frameborder=0 allowfullscreen=''onload='this.focus()' scrolling='no'>
+		  </iframe>
+    </div>
 
     <signupForm/>
+    <hr />
+    <div>
+      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot">
+        <img v-bind:src="kickstarterLaunch" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
+      </a>
+    </div>
 
+    <hr />
+    <br />
     <contactBar/>
   </div>
   
@@ -99,7 +59,7 @@
 <script>
   // Images
   import logoImage from "../assets/logo.png";
-  import kickstarterLaunch from "../assets/tarot/hiddenDreamsTarot_kickstarterLaunch.png";
+  import kickstarterLaunch from "../assets/tarot/hiddenDreamsTarotKickstarter.png";
   import cutiePieTarot from "../assets/tarot/macpeters_cutiePieTarot.png"
   import hiddenDreamsDeck from "../assets/tarot/hiddenDreamsTarotDeck.png"
   import starCard from "../assets/tarot/hiddenDreamsTarot_starCards.png"
@@ -107,17 +67,23 @@
   import navBar from '../components/navBar.vue'
   import signupForm from '../components/signupForm.vue'
   import contactBar from '../components/contactBar.vue'
+  import breadcrumbs from '../components/breadcrumbs.vue'
 
   export default {
   name: "Home",
-  components: { navBar, contactBar, signupForm },
+  components: { navBar, contactBar, signupForm, breadcrumbs },
   data() {
     return {
       logoImage: logoImage,
       kickstarterLaunch: kickstarterLaunch,
       cutiePieTarot: cutiePieTarot,
       hiddenDreamsDeck: hiddenDreamsDeck,
-      starCard: starCard
+      starCard: starCard,
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/tarot', name: 'Hidden Dreams Tarot' }
+      ]
     };
   },
   head () {

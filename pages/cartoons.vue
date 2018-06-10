@@ -3,6 +3,7 @@
     <navBar />
 
     <h1>Macpeters: Cartoons and Comics</h1>
+    <breadcrumbs/>
 
     <div class="page-description">
       <h2>Creativity and Drawing Fundamentals</h2>
@@ -55,12 +56,13 @@ import yzma_thumb from "../assets/cartoons/thumbnails/macpeters_yzma.png";
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
+import breadcrumbs from '../components/breadcrumbs.vue'
 
 const base_keywords = "comic, funny, webcomic, cartoon, cartooning, digital art, ipad, autodesk, sketchbook, digital drawing, drawing, sketch, ";
 
 export default {
   name: "Cartoons",
-  components: { imageList, navBar, contactBar },
+  components: { imageList, navBar, contactBar, breadcrumbs },
   data() {
     return {
       images: [
@@ -148,6 +150,11 @@ export default {
           description: "She didn't get the experience of a feel good adventure and a new friend, so she stayed a villain.",
           keywords: base_keywords + "yzma, emperors new groove, disney, reimagined, villain, animal alphabets"
         }
+      ],
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'Cartoons' }
       ],
       chosenImage: null
     };

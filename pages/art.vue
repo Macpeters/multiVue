@@ -2,6 +2,7 @@
   <div>
     <navBar />
     <h1>Macpeters: Fine Art</h1>
+    <breadcrumbs/>
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
@@ -53,12 +54,13 @@ import stubborn_thumb from "../assets/fineArt/thumbnails/macpeters_stubbornResen
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
+import breadcrumbs from '../components/breadcrumbs.vue'
 
 const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive, psychedelic, psychedelic painting, fantasy, "
 
 export default {
   name: "Art",
-  components: { imageList, navBar, contactBar },
+  components: { imageList, navBar, contactBar, breadcrumbs },
   data() {
     return {
       images: [
@@ -167,7 +169,12 @@ export default {
           keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
         }
       ],
-      chosenImage: null
+      chosenImage: null,
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'FineArt' }
+      ]
     };
   },
   head () {
@@ -195,5 +202,4 @@ export default {
   div {
     text-align: center
   }
-
 </style>

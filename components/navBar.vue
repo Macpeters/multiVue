@@ -20,7 +20,7 @@
         <a href="/" class="logo"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
     
         <a href="/dev" class="dropbtn">Development/Programming</a>
-        <a href="/blog" class="dropbtn">Blog</a>
+        <!-- <a href="/blog" class="dropbtn">Blog</a> -->
     
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">Art/Design</label>

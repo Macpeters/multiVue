@@ -3,6 +3,7 @@
     <navBar />
 
     <h1>Hand Painted Skateboard Decks</h1>
+    <breadcrumbs/>
     <h2>Custom Painted on Request</h2>
 
     <div class="page-description">
@@ -41,12 +42,13 @@ import trickRTreat_thumb from "../assets/skateboards/thumbnails/macpeters_trickr
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
+import breadcrumbs from '../components/breadcrumbs.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Skateboards",
-  components: { imageList, navBar, contactBar },
+  components: { imageList, navBar, contactBar, breadcrumbs },
   data() {
     return {
       logoImage: logoImage,
@@ -100,6 +102,11 @@ export default {
           description: "Sam from the cult classic Trick R Treat movie",
           keywords: base_keywords + "trick 'r treat, sam, samhain, trick or treat, movie, candy, lollypop, halloween, blood, costume, burlap, candy corn, button eyes, spirit, kids, horror, film"
         }
+      ],
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/art', name: 'Art' },
+        { link: '/skateboards', name: 'Skateboards' }
       ],
       chosenImage: null
     };

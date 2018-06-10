@@ -2,8 +2,9 @@
   <div>
     <navBar />
     <h1>Macpeters: Web and Indie Game Development</h1>
+    <breadcrumbs/>
     <h2>builder of websites, surveys, data visualizations, web and mobile games</h2>
-
+    <hr />
     <div class="page-description">
       <h3>Professional Web Developer</h3>
       <h4><a href="/devResume">Resume</a></h4>
@@ -61,13 +62,18 @@
   // Components
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
+  import breadcrumbs from '../components/breadcrumbs.vue'
 
   export default {
   name: "Dev",
-  components: { navBar, contactBar },
+  components: { navBar, contactBar, breadcrumbs },
   data() {
     return {
-      githubImage: github
+      githubImage: github,
+      breadcrumbs: [
+        { link: '/',  name: 'Home' },
+        { link: '/dev', name: 'Dev' }
+      ]
     };
   },
   head () {

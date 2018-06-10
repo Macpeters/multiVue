@@ -5,6 +5,7 @@
     <div class="resume-header">
       <h1>Maryanne Peters a.k.a. Macpeters</h1>
       <div>www.macpeters.com</div>
+      <breadcrumbs/>
       <span v-for="platform in socialMedia" :key='platform.id'>
         <a v-bind:href='platform.link' target="_blank"><img v-bind:src="platform.image" v-bind:alt="platform.title" v-bind:title="platform.title" /></a>
       </span>
@@ -108,10 +109,11 @@
   // Components
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
+  import breadcrumbs from '../components/breadcrumbs.vue'
 
   export default {
     name: "devResume",
-    components: { contactBar, navBar },
+    components: { contactBar, navBar, breadcrumbs },
     data() {
       return {
         socialMedia: [
@@ -127,6 +129,11 @@
             text: 'Stack Overflow: Macpeters',
             title: 'stackoverflow'
           }
+        ],
+        breadcrumbs: [
+          { link: '/',  name: 'Home' },
+          { link: '/dev', name: 'Dev' },
+          { link: '/devResume', name: 'Resume' }
         ]
       };
     }
