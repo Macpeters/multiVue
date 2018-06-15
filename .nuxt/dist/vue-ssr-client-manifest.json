@@ -125,7 +125,7 @@
     "pages/cartoons.4dce6aa574f84b879550.js",
     "pages/skateboards.80f625377088fff7bb3e.js",
     "pages/murals.6c01e4c42f46e8b9f568.js",
-    "pages/tarot.59643421ebbdc1229a58.js",
+    "pages/tarot.72e75d893321c505550f.js",
     "pages/aboutArtist.4b6d5e116298471d81d1.js",
     "pages/devResume.85f699324174737ef8ff.js",
     "pages/dev.d96a6c2ab263eaf25994.js",
@@ -138,13 +138,13 @@
     "layouts/default.4630fdbe43d4d8ccd96d.js",
     "vendor.13bacba5c0c586a74194.js",
     "app.6833771550dc8744a925.js",
-    "manifest.45791793c7f11f9eca42.js",
+    "manifest.9323465e4cdce822a18a.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.45791793c7f11f9eca42.js",
+    "manifest.9323465e4cdce822a18a.js",
     "vendor.13bacba5c0c586a74194.js",
     "app.6833771550dc8744a925.js"
   ],
@@ -154,7 +154,7 @@
     "pages/cartoons.4dce6aa574f84b879550.js",
     "pages/skateboards.80f625377088fff7bb3e.js",
     "pages/murals.6c01e4c42f46e8b9f568.js",
-    "pages/tarot.59643421ebbdc1229a58.js",
+    "pages/tarot.72e75d893321c505550f.js",
     "pages/aboutArtist.4b6d5e116298471d81d1.js",
     "pages/devResume.85f699324174737ef8ff.js",
     "pages/dev.d96a6c2ab263eaf25994.js",

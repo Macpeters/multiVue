@@ -34,6 +34,7 @@
   .signup-form{
     font-size: 24px;
     background-color: beige;
+    clear: both;
   } 
   .email{
     max-width: 80%;

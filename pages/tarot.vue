@@ -45,17 +45,21 @@
           modern and memorable.
         </p> 
         <p>
-          - Coming Soon -
+          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Now</a>
         </p>       
       </div>
       <div class="right-column">
-        <img v-bind:src="hiddenDreamsCardSpread" alt="Hidden Dreams Tarot Deck Card Spread" title="Hidden Dreams Tarot Deck Card Spread"/>
+        <a href="http://www.makeplayingcards.com/sell/macpeters" target="_blank" title="Buy Hidden Dreams Tarot Deck Image">
+          <img v-bind:src="hiddenDreamsCardSpread" alt="Hidden Dreams Tarot Deck Card Spread" title="Hidden Dreams Tarot Deck Card Spread"/>
+        </a>
       </div>
     </div>
     
     <div class="columns">
       <div class="left-column">
-        <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview"><img v-bind:src="hiddenDreamsGuidebook" alt="Hidden Dreams Tarot Guidebook" title="Hidden Dreams Tarot Guidebook"/></a>
+        <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">
+          <img v-bind:src="hiddenDreamsGuidebook" alt="Hidden Dreams Tarot Guidebook" title="Hidden Dreams Tarot Guidebook"/>
+        </a>
       </div>
       <div class="right-column">
         <p>
@@ -67,15 +71,16 @@
           systems and how they associate with the tarot.  
         </p>
         <p>
-          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
+          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
           your copy today.
         </p> 
+        <p><a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Now</a></p>
       </div>
     </div>
 
     <signupForm/>
     <div>
-      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" title="Hidden Dreams Tarot Kickstarter">
+      <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Kickstarter">
         <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
       </a>
     </div>
@@ -146,6 +151,12 @@
     font-weight: bolder;
     padding: 10px;
   }
+  .button {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #FF6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
   .tarot-sub-nav {
     height: 40px;
     padding: 10px;
@@ -165,7 +176,8 @@
     margin: 10px;
   }
   img {
-    width: 40%;
+    max-height: 450px;
+    width: 80%;
     height: auto;
     margin: 10px;
   }
@@ -181,7 +193,7 @@
   }
   .columns {
     clear: both;
-    height: 500px;
+    height: 450px;
     padding: 0;
     padding-top: 10px;
     display: block;
