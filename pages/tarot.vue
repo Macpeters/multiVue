@@ -7,6 +7,9 @@
       <breadcrumbs/>
       <h2>A synthesis of symbolism and lore.</h2>
       <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
+      <p>
+          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Your Copy Now</a>
+        </p> 
     </div>
     
 
@@ -25,7 +28,7 @@
             Egyptian, Hebrew, Celtic, Nordic, and Greek mythology all began to factor in, along with numerology, astrology, and colours.
             Over the course of a year, I took notes on all of these associations, and clarified their mappings.
           </p>
-          <p>The Kickstarter project got off to a luke-warm start, so I figure I'll be selling print-to-order copies of
+          <p>The Kickstarter project got off to a luke-warm start, so I'll be selling <a href="#tarot-deck-purchase">print-to-order copies</a> of
             both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a> 
             for more information.
           </p>
@@ -34,7 +37,7 @@
     </div>
 
     <div class="columns">
-      <div class="left-column">
+      <div class="left-column" id="tarot-deck-purchase">
         <p>
           Order your own copy of the Hidden Dreams Tarot Deck.  Discover the modern sybolic representations of many different
           cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.  
@@ -152,6 +155,9 @@
     padding: 10px;
   }
   .button {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
     border-radius: 25px;
     padding: 10px;
     background-color: #FF6;
