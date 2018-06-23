@@ -25,6 +25,9 @@
           what's wrong with it, and try drawing it again better.  This method lets you deconstruct your own bad habits
           and really think about how things look.  Training yourself to figure out what something looks like when you 
           aren't looking at it really helps when you want to draw something you can't get a reference for.</li>
+        
+        <span><img v-bind:src="practiceDrawing" alt="Studying drawing cats through many quick sketches" title="Studying drawing cats through many quick sketches" /></span>
+        
         <li><span class="emphasize">More fast drawings.</span>  While it's fun to get into the details of a drawing, your skills will greatly benefit from
           drawing a lot of pictures quickly.  You often get 80% of your learning from the first 20% of the drawing.  You'll
           have far better flow, energy, expression, and composition if you draw a ton of pictures quickly, than if you just spend
@@ -61,6 +64,8 @@
 </template>
 
 <script>
+  import practiceDrawing from "../../assets/blogs/macpeters_practiceDrawing.png";
+
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
 
@@ -74,7 +79,8 @@
             title: 'Email',
             url: 'mailto:peters.maryanne@gmail.com'
           }
-        ]
+        ],
+        practiceDrawing: practiceDrawing
       };
     }
 };
@@ -89,5 +95,8 @@
   .emphasize {
     font-size: 1.5em;
     font-weight: bold;
+  }
+  img {
+    padding-left: 20%;
   }
 </style>

@@ -14,7 +14,6 @@
         <div class="keywords">Keywords: <span>{{chosenImage.keywords}}</span></div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -61,6 +60,7 @@ export default {
 
   .art-gallery {
     padding: 20px;
+    clear: both;
   }
 
   /* Featured Image */
