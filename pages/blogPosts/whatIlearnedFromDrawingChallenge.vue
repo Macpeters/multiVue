@@ -14,6 +14,7 @@
         <li>Don't expect to like every prompt.  Some are going to be more challenging, and these will stretch your creativity.  You may not like everything you come up with, but the point is just to do it.</li>
         <li>To make it extra fun, try limiting your style for this challenge.  Picking a theme such as minimal colors or cute and chubby can help you explore that theme and help you build a cohesive collection.</li>
       </ol>
+      <span><img v-bind:src="drawingChallenge" alt="Monochromatic animals for 'Colour Collective' weekly challenge" title="Monochromatic animals for 'Colour Collective' weekly challenge" /></span>
       <h4>4 Benefits of Participating in a Drawing Challenge</h4>
       <ol>
         <li>After you've drawn your submission for each post, you can see how everyone else interpreted it.  This is great for inspiration, and picking up new tricks</li>
@@ -29,6 +30,8 @@
 </template>
 
 <script>
+  import drawingChallenge from "../../assets/blogs/macpeters_drawingChallenge.png";
+
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
 
@@ -42,7 +45,8 @@
             title: 'Email',
             url: 'mailto:peters.maryanne@gmail.com'
           }
-        ]
+        ],
+        drawingChallenge: drawingChallenge
       };
     }
 };
@@ -56,5 +60,8 @@
   }
   .emphasize {
     font-weight: bold;
+  }
+  img {
+    padding-left: 20%;
   }
 </style>

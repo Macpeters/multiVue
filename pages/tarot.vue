@@ -88,6 +88,8 @@
       </a>
     </div>
 
+     <blogList/>
+
     <contactBar/>
   </div>
   
@@ -106,10 +108,12 @@
   import signupForm from '../components/signupForm.vue'
   import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
+  // Blog
+  import blogList from '../components/blog.vue'
 
   export default {
   name: "Home",
-  components: { navBar, contactBar, signupForm, breadcrumbs },
+  components: { navBar, contactBar, signupForm, breadcrumbs, blogList },
   data() {
     return {
       logoImage: logoImage,
@@ -122,7 +126,8 @@
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' },
         { link: '/tarot', name: 'Hidden Dreams Tarot' }
-      ]
+      ],
+      blogFilter: 'visionary art'
     };
   },
   head () {

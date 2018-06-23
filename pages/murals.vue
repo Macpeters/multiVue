@@ -15,6 +15,8 @@
 
     <imageList/>
 
+    <blogList/>
+
     <contactBar/>
     
   </div>
@@ -42,12 +44,14 @@ import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
+// Blog
+import blogList from '../components/blog.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Murals",
-  components: { imageList, navBar, contactBar, breadcrumbs },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
   data() {
     return {
       logoImage: logoImage,
@@ -106,7 +110,8 @@ export default {
         { link: '/art', name: 'Art' },
         { link: '/murals', name: 'Murals' }
       ],
-      chosenImage: null
+      chosenImage: null,
+      blogFilter: 'art'
     };
   },
   head () {
