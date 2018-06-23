@@ -1,5 +1,5 @@
 # multiVue
-Mirror/rebuild of Macpeters as a multi-app Vue.js application.
+Mirror/rebuild of Macpeters as a multi-page Vue.js application.
 
 ## Universal Vue Application:
 * https://nuxtjs.org/guide/installation
@@ -20,4 +20,4 @@ http://localhost:3000
 
 ### missing
 * social profile (sameas)
-* breadcrumbs
+* moar content (dev posts, etc)
