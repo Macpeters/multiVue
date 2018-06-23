@@ -24,6 +24,8 @@
         the right thing.</span>
       </p>
 
+      <span><img v-bind:src="tarotJourney" alt="Studying drawing cats through many quick sketches" title="Studying drawing cats through many quick sketches" /></span>
+
       <p>
         The idea is that the journey leading up to that final moment has tried and tested our hero, 
         and that he would not have made it that far if he wasn’t capable of succeeding.  All along 
@@ -60,6 +62,8 @@
 </template>
 
 <script>
+  import tarotJourney from "../../assets/blogs/macpeters_tarotJourney.png";
+
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
 
@@ -73,7 +77,8 @@
             title: 'Email',
             url: 'mailto:peters.maryanne@gmail.com'
           }
-        ]
+        ],
+        tarotJourney: tarotJourney
       };
     }
 };
@@ -87,5 +92,8 @@
   }
   .emphasize {
     font-weight: bold;
+  }
+  img {
+    padding-left: 20%;
   }
 </style>

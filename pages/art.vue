@@ -16,6 +16,8 @@
 
     <imageList/>
 
+    <blogList/>
+
     <contactBar/>
 
   </div>
@@ -55,12 +57,14 @@ import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
+// Blog
+import blogList from '../components/blog.vue'
 
 const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive, psychedelic, psychedelic painting, fantasy, "
 
 export default {
   name: "Art",
-  components: { imageList, navBar, contactBar, breadcrumbs },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
   data() {
     return {
       images: [
@@ -174,7 +178,8 @@ export default {
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' },
         { link: '/art', name: 'FineArt' }
-      ]
+      ],
+      blogFilter: 'visionary art'
     };
   },
   head () {

@@ -80,6 +80,8 @@
       <contactBar/>
     </div>
 
+    <blogList/>
+
   </div>
 </template>
 
@@ -118,11 +120,13 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
+  // Blog
+  import blogList from '../components/blog.vue'
 
   const base_keywords = "uv, blacklight reactive, psychedelic, tapestry, uv deco, blacklight party deco, blacklight art, ";
   export default {
   name: "ArtServices",
-  components: { navBar, contactBar, imageList, breadcrumbs },
+  components: { navBar, contactBar, imageList, breadcrumbs, blogList },
   data() {
     return {
       deco: deco,
@@ -218,7 +222,8 @@
         { link: '/art', name: 'Art' },
         { link: '/art', name: 'Art Services' }
       ],
-      chosenImage: null
+      chosenImage: null,
+      blogFilter: 'blacklight'
     };
   },
   head () {

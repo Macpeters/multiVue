@@ -22,6 +22,7 @@
           trying to take a photo under UV lights, <span class="emphasize">any movement at all will show in the photo.</span>  If you have an 
           SLR/DSLR camera, or if your camera has any weight to it, you'll benefit from using a tripod. 
         </li>
+        <span><img v-bind:src="blacklightPhotographs" alt="Monochromatic animals for 'Colour Collective' weekly challenge" title="Monochromatic animals for 'Colour Collective' weekly challenge" /></span>
         <li>Choose the right camera to use.  I use a DSLR for photographing my art at home, but a big camera 
           and tripod might not be ideal in all situations.  For events where you might need to be more mobile,
           <span class="emphasize">it might be preferable to use a smaller, lightweight camera.</span>  Some cameras work better in low light situations.  
@@ -40,6 +41,8 @@
 </template>
 
 <script>
+  import blacklightPhotographs from "../../assets/blogs/macpeters_blacklightPhotographs.png";
+
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
 
@@ -53,7 +56,8 @@
             title: 'Email',
             url: 'mailto:peters.maryanne@gmail.com'
           }
-        ]
+        ],
+        blacklightPhotographs: blacklightPhotographs
       };
     }
 };
@@ -67,6 +71,9 @@
   }
   .emphasize {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.1em;
+  }
+  img {
+    padding-left: 20%;
   }
 </style>

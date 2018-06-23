@@ -20,6 +20,8 @@
 
     <imageList/>
 
+    <blogList/>
+
     <contactBar/>
 
   </div>
@@ -30,8 +32,13 @@
 import axylotl from "../assets/cartoons/macpeters_axylotl.png";
 import blueTurtle from "../assets/cartoons/macpeters_blueturtle.png";
 import canary from "../assets/cartoons/macpeters_canary.png";
+import coq from "../assets/cartoons/macpeters_coquelicotBird.png"
 import festivalFrog from "../assets/cartoons/macpeters_festivalfrog.png";
+import gambogeFrog from "../assets/cartoons/macpeters_gambogeFrog.png";
+import mallowSeahorse from "../assets/cartoons/macpeters_mallowSeahorse.png";
+import mintCreamInsect from "../assets/cartoons/macpeters_mintcreamInsect.png";
 import mu from "../assets/cartoons/macpeters_mu.png";
+import sepiaFieldMouse from "../assets/cartoons/macpeters_sepiaFieldMouse.png";
 import spock from "../assets/cartoons/macpeters_spock.png";
 import ursula from "../assets/cartoons/macpeters_ursula.png";
 import voldemort from "../assets/cartoons/macpeters_voldemort.png";
@@ -43,8 +50,13 @@ import yzma from "../assets/cartoons/macpeters_yzma.png";
 import axylotl_thumb from "../assets/cartoons/thumbnails/macpeters_axylotl.png";
 import blueTurtle_thumb from "../assets/cartoons/thumbnails/macpeters_blueturtle.png";
 import canary_thumb from "../assets/cartoons/thumbnails/macpeters_canary.png";
+import coq_thumb from "../assets/cartoons/thumbnails/macpeters_coquelicotBird.png"
 import festivalFrog_thumb from "../assets/cartoons/thumbnails/macpeters_festivalfrog.png";
+import gambogeFrog_thumb from "../assets/cartoons/thumbnails/macpeters_gambogeFrog.png";
+import mallowSeahorse_thumb from "../assets/cartoons/thumbnails/macpeters_mallowSeahorse.png";
+import mintCreamInsect_thumb from "../assets/cartoons/thumbnails/macpeters_mintcreamInsect.png";
 import mu_thumb from "../assets/cartoons/thumbnails/macpeters_mu.png";
+import sepiaFieldMouse_thumb from "../assets/cartoons/thumbnails/macpeters_sepiaFieldMouse.png";
 import spock_thumb from "../assets/cartoons/thumbnails/macpeters_spock.png";
 import ursula_thumb from "../assets/cartoons/thumbnails/macpeters_ursula.png";
 import voldemort_thumb from "../assets/cartoons/thumbnails/macpeters_voldemort.png";
@@ -57,12 +69,13 @@ import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
+import blogList from '../components/blog.vue'
 
 const base_keywords = "comic, funny, webcomic, cartoon, cartooning, digital art, ipad, autodesk, sketchbook, digital drawing, drawing, sketch, ";
 
 export default {
   name: "Cartoons",
-  components: { imageList, navBar, contactBar, breadcrumbs },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
   data() {
     return {
       images: [
@@ -88,6 +101,13 @@ export default {
           keywords: base_keywords + "canary, songbird, yellow, yellow canary, monochromatic art, color collective, colour study"
         },
         {
+          image: coq,
+          thumb: coq_thumb,
+          title: "Coquelicot Bird",
+          description: "A little red songbird - monochromatic.",
+          keywords: base_keywords + "coquelicot songbird, yellow, red bird, monochromatic art, color collective, colour study, red"
+        },
+        {
           image: festivalFrog,
           thumb: festivalFrog_thumb,
           title: "Festival Frog",
@@ -95,11 +115,39 @@ export default {
           keywords: base_keywords + "festival, music festival, edm, heart, hand heart, frog, plur"
         },
         {
+          image: gambogeFrog,
+          thumb: gambogeFrog_thumb,
+          title: "Gamboge Frog",
+          description: "Monochromatic Frog",
+          keywords: base_keywords + "frog, amphibian, mustard, colour collective, monochromatic"
+        },
+        {
+          image: mallowSeahorse,
+          thumb: mallowSeahorse_thumb,
+          title: "Mallow Seahorse",
+          description: "Monochromatic Seahorse in shades of purple",
+          keywords: base_keywords + "seahorse, underwater, ocean life, sea creature, colour collective, purple"
+        },
+        {
+          image: mintCreamInsect,
+          thumb: mintCreamInsect_thumb,
+          title: "Mint Cream Insect",
+          description: "Monochromatic Flying Insect",
+          keywords: base_keywords + "insect, invertibrate, flying insect, mint, green, off-white, nature, colour collective"
+        },
+        {
           image: mu,
           thumb: mu_thumb,
           title: "Mu",
           description: "Sassy Cow refuses to get dragged into a fight.",
           keywords: base_keywords + "sassy, cow, beef, no beef, pacifist, vegan, vegetarian, no war, plur"
+        },
+        {
+          image: sepiaFieldMouse,
+          thumb: sepiaFieldMouse_thumb,
+          title: "Sepia Fielf Mouse",
+          description: "A furry mouse caught by surprise",
+          keywords: base_keywords + "mouse, rodent, sepia, brown, monochromatic, small creatures, furry critter, cute animal, tiny animal"
         },
         {
           image: spock,
@@ -156,6 +204,7 @@ export default {
         { link: '/art', name: 'Art' },
         { link: '/art', name: 'Cartoons' }
       ],
+      blogFilter: 'improvingAtArt',
       chosenImage: null
     };
   },
