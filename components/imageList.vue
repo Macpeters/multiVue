@@ -19,8 +19,6 @@
 
 <script>
 
-const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive, psychedelic, psychedelic painting, fantasy, "
-
 export default {
   name: "imageList",
 

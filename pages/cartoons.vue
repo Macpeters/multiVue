@@ -108,13 +108,6 @@ export default {
           keywords: base_keywords + "coquelicot songbird, yellow, red bird, monochromatic art, color collective, colour study, red"
         },
         {
-          image: festivalFrog,
-          thumb: festivalFrog_thumb,
-          title: "Festival Frog",
-          description: "This frog hearts music festivals.",
-          keywords: base_keywords + "festival, music festival, edm, heart, hand heart, frog, plur"
-        },
-        {
           image: gambogeFrog,
           thumb: gambogeFrog_thumb,
           title: "Gamboge Frog",
@@ -136,18 +129,25 @@ export default {
           keywords: base_keywords + "insect, invertibrate, flying insect, mint, green, off-white, nature, colour collective"
         },
         {
-          image: mu,
-          thumb: mu_thumb,
-          title: "Mu",
-          description: "Sassy Cow refuses to get dragged into a fight.",
-          keywords: base_keywords + "sassy, cow, beef, no beef, pacifist, vegan, vegetarian, no war, plur"
-        },
-        {
           image: sepiaFieldMouse,
           thumb: sepiaFieldMouse_thumb,
           title: "Sepia Fielf Mouse",
           description: "A furry mouse caught by surprise",
           keywords: base_keywords + "mouse, rodent, sepia, brown, monochromatic, small creatures, furry critter, cute animal, tiny animal"
+        },
+        {
+          image: festivalFrog,
+          thumb: festivalFrog_thumb,
+          title: "Festival Frog",
+          description: "This frog hearts music festivals.",
+          keywords: base_keywords + "festival, music festival, edm, heart, hand heart, frog, plur"
+        },
+        {
+          image: mu,
+          thumb: mu_thumb,
+          title: "Mu",
+          description: "Sassy Cow refuses to get dragged into a fight.",
+          keywords: base_keywords + "sassy, cow, beef, no beef, pacifist, vegan, vegetarian, no war, plur"
         },
         {
           image: spock,

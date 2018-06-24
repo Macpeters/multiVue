@@ -11,7 +11,6 @@
         moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
         I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects. 
       </p>
-      <h3>I've been working on <a href="/cartoons">cartoons</a>, recently, if you are interested in checking them out.</h3>
     </div>
 
     <imageList/>

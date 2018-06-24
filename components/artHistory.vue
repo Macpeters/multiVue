@@ -1,31 +1,31 @@
 <template>
   <div>
     <table>
-      <tr><td><h2>Education</h2></td><td></td></tr>
+      <tr><td><h3>Education</h3></td><td></td></tr>
       <span v-for="edu in education" :key='edu.id'>
         <tr class="item"><td>{{edu.year}}</td><td><span class="title">{{edu.title}}</span>, <a target="_blank" v-bind:href="edu.link">{{edu.linkTitle}}</a>, {{edu.location}}</td></tr>
       </span>
 
       <!-- Solo -->
-      <tr><td><h2>Solo Exhibitions</h2></td><td></td></tr>
+      <tr><td><h3>Solo Exhibitions</h3></td><td></td></tr>
       <span v-for="solo in soloExhibitions" :key='solo.id'>
         <tr class="item"><td>{{solo.year}}</td><td><span class="title">{{solo.title}}</span>, {{solo.location}}</td></tr>
       </span>
 
       <!-- Group -->
-      <tr><td><h2>Group Exhibitions</h2></td><td></td></tr>
+      <tr><td><h3>Group Exhibitions</h3></td><td></td></tr>
       <span v-for="grp in groupExhibitions" :key='grp.id'>
         <tr class="item"><td>{{grp.year}}</td><td><span class="title">{{grp.title}}</span>, {{grp.location}}</td></tr>
       </span>
 
       <!-- Collaborations -->
-      <tr><td><h2>Select Collaborations</h2></td><td></td></tr>
+      <tr><td><h3>Select Collaborations</h3></td><td></td></tr>
       <span v-for="collab in collaborations" :key='collab.id'>
         <tr class="item"><td>{{collab.year}}</td><td><span class="title">{{collab.title}}</span>, {{collab.location}}</td></tr>
       </span>
 
       <!-- Commissions -->
-      <tr><td><h2>Select Commissions</h2></td><td></td></tr>
+      <tr><td><h3>Select Commissions</h3></td><td></td></tr>
       <span v-for="commis in commissions" :key='commis.id'>
         <tr class="item"> <td>{{commis.year}}</td> <td><span class="title">{{commis.title}}</span>, {{commis.location}}</td> </tr>
       </span>

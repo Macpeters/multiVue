@@ -19,6 +19,7 @@
         <p>I am inspired by the vast biodiversity around us and the heights and depths which the human mind is capable experiencing in life.</p>
         <p>Follow me on <a href="https://www.instagram.com/macpetersart/" target="_blank">Instagram (@macpetersart)</a> to join me in my journey!</p>
       </div>
+      <hr />
     </div>
 
     <!-- BIO -->
@@ -34,6 +35,7 @@
       <p>She is inspired by the vast bio diversity around us: the shining heights and murky depths that the human mind is capable of reaching.
         There are so many ways to experience life - and they are all beautiful.
         She wants people to be able to recognise something of themselves in her art - to feel what the characters do, and know they aren’t alone in whatever they are feeling, even though their specific experience is unique.</p>
+    <hr />
     </div>
 
     <!-- Inspirations -->
@@ -42,10 +44,12 @@
       <span v-for="artist in favouriteArtists" :key='artist.id'>
         <span class="link-list"><a v-bind:href="artist.link">{{artist.name}}</a></span> |
       </span>
+      <hr />
     </div>
 
     <!-- History/CV -->
     <div>
+      <h2>History</h2>
       <artHistory/>
     </div>
 

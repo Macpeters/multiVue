@@ -31,10 +31,10 @@
             <a href="/murals" title="Murals">Murals/Aerosol</a>
             <a href="/artServices" title="Artistic Services">Artistic Services</a>
             <a href="/tarot" title="Hidden Dreams Tarot">Hidden Dreams Tarot</a>
+            <a href="/cartoons" title="Hidden Dreams Tarot">Cartoons</a>
             <hr />
             <!-- <a href="/artShop" title="Art Shop">Shop</a> -->
             <a href="/aboutArtist" title="About Artist">About the Artist</a>
-            <a href="https://macpetersart.wordpress.com/" title="Blog" target="blank">Blog</a>
           </div>
         </div>
       </div>
