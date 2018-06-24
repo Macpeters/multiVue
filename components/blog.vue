@@ -24,7 +24,7 @@
   import practiceDrawing from "../assets/blogs/macpeters_practiceDrawing.png";
   import tarotJourney from "../assets/blogs/macpeters_tarotJourney.png";
   import drawingChallenge from "../assets/blogs/macpeters_drawingChallenge.png";
-  import tarotKickstarters from "../assets/blogs/macpeters_tarotKickstarter.png";
+  import tarotKickstarter from "../assets/blogs/kickstarterFailure.png";
 
   export default {
     name: "blog",
@@ -32,6 +32,14 @@
     data() {
       return {
         posts: [
+          {
+            title: 'Failing at Kickstarter',
+            date: 'April 5, 2018',
+            image: tarotKickstarter,
+            headline: 'How Lack of Momentum can Kill Your Project',
+            link: '/blogPosts/howToFailAtKickstarter',
+            tags: ['kickstarter', 'tarot']
+          },
           {
             title: 'Tarot and the Pursuit of Better',
             date: 'April 5, 2018',

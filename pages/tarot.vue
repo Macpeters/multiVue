@@ -84,7 +84,7 @@
     <signupForm/>
     <div>
       <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Kickstarter">
-        <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter Now Live" title="Hidden Dreams Kickstarter Now Live" />
+        <img v-bind:src="kickstarter" alt="Hidden Dreams Kickstarter" title="Hidden Dreams Kickstarter" class="kickstarter-image" />
       </a>
     </div>
 
@@ -127,7 +127,7 @@
         { link: '/art', name: 'Art' },
         { link: '/tarot', name: 'Hidden Dreams Tarot' }
       ],
-      blogFilter: 'visionary art'
+      blogFilter: 'tarot'
     };
   },
   head () {
@@ -218,6 +218,11 @@
   .columns a {
     text-decoration: none;
     font-weight: bold;
+  }
+  .kickstarter-image {
+    width: 400px;
+    height: auto;
+    padding: 5px;
   }
 
   @media screen and (max-width: 612px){
