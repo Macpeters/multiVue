@@ -81,6 +81,23 @@
       </div>
     </div>
 
+    <div class="columns">
+      <div class="left-column">
+        <img v-bind:src="cutiePieTarot" alt="Cutie Pie Tarot" title="Cutie Pie Tarot"/>
+      </div>
+      <div class="right-column">
+        <p>
+          The Cutie Pie Tarot was a fun little extra I put together.  The idea was to distill the main meaning or message of each card
+          into a basic interpretation, and have it personified by a cute human character.  Because the deck is made up of humans, I wanted
+          the characters to represent a really diverse collection of people - age, race, ability, gender, gender expression.  I hope that
+          everyone can see themselves in this deck.
+        </p> 
+        <p>
+          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.
+        </p>
+      </div>
+    </div>
+
     <signupForm/>
     <div>
       <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Kickstarter">
