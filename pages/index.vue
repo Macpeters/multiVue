@@ -34,7 +34,7 @@
   import design from "../assets/slideshow/macpeters_design.png";
   // import prints from "../assets/slideshow/macpeters_artPrints.png";
   import fineArt from "../assets/slideshow/macpeters_fineArt.png";
-  // import tarot from "../assets/slideshow/macpeters_hiddenDreamsTarot.png";
+  import tarot from "../assets/slideshow/macpeters_hiddenDreamsTarot.png";
   import murals from "../assets/slideshow/macpeters_murals.png";
   import skateboards from "../assets/slideshow/macpeters_paintedSkateboards.png";
   // Components
@@ -67,6 +67,11 @@
           image: murals,
           title: 'Murals and Street Art',
           link: '/murals'
+        },
+        {
+          image: tarot,
+          title: 'Hidden Dreams Tarot',
+          link: '/tarot'
         },
       ],
       imageIndex: 0,

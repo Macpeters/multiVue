@@ -72,12 +72,6 @@
     components: { navBar, contactBar },
     data() {
       return {
-        socialButtons: [
-          {
-            title: 'Email',
-            url: 'mailto:peters.maryanne@gmail.com'
-          }
-        ],
         tarotJourney: tarotJourney
       };
     }

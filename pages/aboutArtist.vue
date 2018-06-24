@@ -24,6 +24,7 @@
     <!-- BIO -->
     <div>
       <h2>Biography</h2>
+      <img v-bind:src="photo" title="Mac Peters: Toronto based artist" alt="Mac Peters: Toronto based artist" />
       <p>Mac Peters is a mostly self-taught artist from Toronto, Canada, creating psychedelic/visionary and low-brow art.
       She works with acrylic paint and airbrush, usually blacklight reactive, as well as a bit of spray paint and digital imagery.
       She enjoys co-creating and collaborating with other artists, sharing, and cross-pollinating ideas, and stumbling on unchartered territory to explore.</p>
@@ -54,10 +55,7 @@
 
 <script>
   // Images
-  import email from "../assets/social/email.png";
-  import facebook from "../assets/social/facebook.png";
-  import instagram from "../assets/social/instagram.png";
-  import twitter from "../assets/social/twitter.png";
+  import photo from "../assets/social/macpeters_photo.png";
   // Components
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
@@ -68,13 +66,6 @@
     components: { navBar, contactBar, artHistory, breadcrumbs },
     data() {
       return {
-        socialButtons: [
-          {
-            title: 'Email',
-            image: email,
-            url: 'mailto:peters.maryanne@gmail.com'
-          }
-        ],
         favouriteArtists: [
           {
             name: 'Alex Grey',
@@ -126,7 +117,8 @@
           { link: '/',  name: 'Home' },
           { link: '/art', name: 'Art' },
           { link: '/art', name: 'About' }
-        ]
+        ],
+        photo: photo
       };
     }
 };
@@ -134,15 +126,18 @@
 
 
 <style scoped>
+  img {
+    padding-left: 20%
+  }
   a {
     text-decoration: none;
     padding: 1px 1px 0;
     font-weight: bold;
   }
   .link-list {
-    padding: 20px;
-    margin: 10px;
-    display: inline;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
   }
 
 </style>
