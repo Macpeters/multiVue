@@ -154,17 +154,17 @@
     "pages/blogPosts/tarotAndPursuitOfBetter.4e74bd95ade365798a33.js",
     "pages/blogPosts/photographingBlacklightArt.74f778e242e9bedc9fce.js",
     "pages/blogPosts/howToPracticeDrawing.42384001f946d50473ad.js",
-    "pages/blogPosts/howToFailAtKickstarter.db4ff48875cf6cfa7d13.js",
+    "pages/blogPosts/howToFailAtKickstarter.59c3b7772a8ed1260d83.js",
     "layouts/default.db4de2499b34689bc4e7.js",
     "vendor.72051ac762dc6d88e490.js",
     "app.04144b655080574b2a8f.js",
-    "manifest.f5d62aa9d57eb83dc600.js",
+    "manifest.3edb9cada5e6031edc57.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.f5d62aa9d57eb83dc600.js",
+    "manifest.3edb9cada5e6031edc57.js",
     "vendor.72051ac762dc6d88e490.js",
     "app.04144b655080574b2a8f.js"
   ],
@@ -184,7 +184,7 @@
     "pages/blogPosts/tarotAndPursuitOfBetter.4e74bd95ade365798a33.js",
     "pages/blogPosts/photographingBlacklightArt.74f778e242e9bedc9fce.js",
     "pages/blogPosts/howToPracticeDrawing.42384001f946d50473ad.js",
-    "pages/blogPosts/howToFailAtKickstarter.db4ff48875cf6cfa7d13.js",
+    "pages/blogPosts/howToFailAtKickstarter.59c3b7772a8ed1260d83.js",
     "layouts/default.db4de2499b34689bc4e7.js"
   ],
   "modules": {

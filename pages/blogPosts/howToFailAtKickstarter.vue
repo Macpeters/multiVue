@@ -15,8 +15,13 @@
       <img v-bind:src="kickstarterFailure" alt="Cancelled Kickstarter Campaign" title="Cancelled Kickstarter Campaign" />
       <h3>The First 3 Days are the Most Crucial</h3>
       <p>
-        <a href="https://www.outerlimitgames.com/single-post/2016/11/12/Our-1st-Kickstarter-What-Went-Wrong">Other Campaigns will show</a>
-        that Kickstarter Projects rely heavily on momentum - if you don't get a ton of activity right away, your project will languish. 
+        <a href="https://www.outerlimitgames.com/single-post/2016/11/12/Our-1st-Kickstarter-What-Went-Wrong" target="_blank">
+          Other Campaigns will show
+        </a>
+        that Kickstarter Projects rely heavily on momentum - 
+        <a href="https://www.crowdcrux.com/these-seven-days-can-make-or-break-your-campaign-kicktraq-quick-tip/" target="_blank">
+          if you don't get a ton of activity right away, your project will languish.
+        </a> 
         In fact, you <span class="emphasize">should be ready to see 50% of your goal met in the first 2 days</span>.  Why?
         <ul>
           <li>Getting <span class="emphasize">listed on the Kickstarter site</span> itself.  New projects with a lot of activity float to the top, so that
@@ -53,8 +58,12 @@
         <li>I wasn't as prepared as I thought I was to do the marketing.  I had a lot of pictures ready to 
           share on social media, and stuff to write, and I had ideas for advertising (I figured I'd do a little
           bit of advertising, but probably wouldn't need a lot).  I'm not an advertiser, though, and I didn't
-          look into that ahead of time.  <span class="emphasize">Facebook has actual guidelines about ads</span> 
-          that I didn't know about until the last minute - they don't like seeing text at all.  
+          look into that ahead of time.  
+          <a href="https://www.facebook.com/policies/ads/" target="_blank">
+            <span class="emphasize">Facebook has very specific guidelines about ads</span> 
+          </a>
+          that I didn't know about until the last minute - they don't like seeing text at all, and I had planned to use a 
+          fair amount of text. 
         </li>
       </ul>
       <p>
