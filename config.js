@@ -3,14 +3,19 @@ generate: {
     collapseWhitespace: false
   }
 }
-{
-  modules: [
-    // Simple usage
-    ['@nuxtjs/google-analytics', {
-      id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
-    }]
+module.exports = {
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
   ]
 }
+// {
+//   modules: [
+//     // Simple usage
+//     ['@nuxtjs/google-analytics', {
+//       id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
+//     }]
+//   ]
+// }
 // {
 //   modules: [
 //     ['@nuxtjs/google-analytics']
