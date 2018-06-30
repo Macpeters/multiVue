@@ -7,13 +7,15 @@
     <h2>Indoor and Outdoor murals to brighten up your business, home, or neighbourhood.</h2>
 
     <div class="page-description">
+      <p>
+        <img v-bind:src="hockeyBeesComplete" alt="Hockey Bees - completed" title="Hockey Bees - completed" />
+      </p>
       <p>One of my favourite things about creating public art is fitting the art to the space it's in.  
         It was fun to paint a weight lifting octopus in a fitness club, or bees playing hockey near a 
         city's new hockey arena.  It gives me an extra element to play with and helps generate ideas that
         I otherwise wouldn't have had.
       </p>
       <p>
-        I haven't used spraypaint for very long, but it sure is fun.
       Painting on walls is something I've been doing since I was 14 - my bedroom in highschool was one big mural.
       I find murals are the best opportunity to collaborate with other artists, because there's so much space.
       I'd love to work with more 3D spaces.
@@ -36,6 +38,7 @@ import logoImage from "../assets/logo.png";
 import chamBee from "../assets/graf/macpeters_chamBee.png";
 import demolition from "../assets/graf/macpeters_demolitionParty.png";
 import hockeyBees from "../assets/graf/macpeters_hockeyBees.png";
+import hockeyBeesComplete from "../assets/graf/macpeters_hockeybees_complete.png";
 import mouseBot from "../assets/graf/macpeters_mouseNBot.png";
 import octoBuddy from "../assets/graf/macpeters_octoBuddy.png";
 import pastaMancer from "../assets/graf/macpeters_pastaMancer.png";
@@ -64,14 +67,15 @@ export default {
   data() {
     return {
       logoImage: logoImage,
+      hockeyBeesComplete: hockeyBeesComplete,
       images: [
         {
           image: hockeyBees,
           thumb: hockeyBees_thumb,
           title: "Hockey Bees",
           subtitle: "UV reactive acrylic on wall",
-          description: "Along the path to the new Meridian Center in St. Catherines, Ontario, this was painted as part of the Niagara International Mural Festival",
-          keywords: base_keywords + "bridge, hockey bees, hockey, flying insects, pollinators, meridian center, st catherines, ontario, niagara international mural festival, chrome, sky, water, bugs, ice dogs, entertainment center, hockey arena"
+          description: "Along the path to the new Meridian Center in St. Catherines, Ontario, this was painted as part of the Niagara International Mural Festival.  This photo shows the first day of work completed, while the panoramic photo above also shows the second day of work, which includes the poppy, grape vine, mushrooms, and saxophone playing moth.",
+          keywords: base_keywords + "bridge, hockey bees, hockey, flying insects, pollinators, meridian center, st catherines, ontario, niagara international mural festival, chrome, sky, water, bugs, ice dogs, entertainment center, hockey arena, fuzzy moth, saxophone, music, musical notes, poppy, flower, mushrooms, chillaxing"
         },
         {
           image: chamBee,

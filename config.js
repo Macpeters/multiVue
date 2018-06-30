@@ -3,10 +3,15 @@ generate: {
     collapseWhitespace: false
   }
 }
+  
 module.exports = {
   plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+    '@nuxtjs/google-analytics', {
+      id: 'UA-12301-2'
+    }
   ]
+//    { src: '~plugins/ga.js', ssr: false }
+
 }
 // {
 //   modules: [
