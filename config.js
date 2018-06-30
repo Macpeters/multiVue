@@ -2,6 +2,12 @@ generate: {
   minify: {
     collapseWhitespace: false
   }
+  modules: [
+    // Simple usage
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-12301-2'
+    }]
+  ]
 }
   
 module.exports = {
