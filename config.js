@@ -2,12 +2,6 @@ generate: {
   minify: {
     collapseWhitespace: false
   }
-  modules: [
-    // Simple usage
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-113895926-1'
-    }]
-  ]
 }
 module.exports = {
   head: {
@@ -23,16 +17,17 @@ module.exports = {
     ['@nuxtjs/google-analytics', {
       id: 'UA-113895926-1'
     }]
+  ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
   ]
 }
   
 // module.exports = {
-//   plugins: [
-//     '@nuxtjs/google-analytics', {
-//       id: 'UA-12301-2'
-//     }
-//   ]
-//    { src: '~plugins/ga.js', ssr: false }
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ]
+   
 
 }
 // {
