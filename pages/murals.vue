@@ -149,14 +149,22 @@ export default {
         { hid: `og:description`, property: 'og:description', content: 'Murals, Aerosol and Street Art. Freshen up your old garage door, beautify concrete walls, and add lively, fanciful colour to unloved spaces.' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
         { hid: `og:image`, property: 'og:image', content: octoBuddy_thumb }
-      ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+      ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      script: [
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+      ],
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+      ]
     }
   }
 };
 </script>
 
 <style scoped>
-
+  h1 {
+    /* font-family: Roboto, sans-serif; */
+  }
   div {
     text-align: center
   }
