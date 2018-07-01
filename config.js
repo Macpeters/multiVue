@@ -13,36 +13,9 @@ module.exports = {
     ]
   },
   modules: [
-    // Simple usage
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-113895926-1'
-    }]
+    ['@nuxtjs/google-analytics', { id: 'UA-113895926-1' }]
   ],
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false }
-  ]
+  // plugins: [
+  //   { src: '~plugins/ga.js', ssr: false }
+  // ]
 }
-  
-// module.exports = {
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false }
-  ]
-   
-
-}
-// {
-//   modules: [
-//     // Simple usage
-//     ['@nuxtjs/google-analytics', {
-//       id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
-//     }]
-//   ]
-// }
-// {
-//   modules: [
-//     ['@nuxtjs/google-analytics']
-//   ],
-//     'google-analytics': {
-//     id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
-//   }
-// }
