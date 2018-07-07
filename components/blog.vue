@@ -20,11 +20,12 @@
 </template>
 
 <script>
-  import blacklightPhotography from "../assets/blogs/macpeters_blacklightPhotographs.png";
-  import practiceDrawing from "../assets/blogs/macpeters_practiceDrawing.png";
-  import tarotJourney from "../assets/blogs/macpeters_tarotJourney.png";
-  import drawingChallenge from "../assets/blogs/macpeters_drawingChallenge.png";
-  import tarotKickstarter from "../assets/blogs/kickstarterFailure.png";
+  import blacklightPhotography from "../assets/blogs/thumbnails/macpeters_blacklightPhotographs.png";
+  import practiceDrawing from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
+  import tarotJourney from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
+  import drawingChallenge from "../assets/blogs/thumbnails/macpeters_drawingChallenge.png";
+  import tarotKickstarter from "../assets/blogs/thumbnails/kickstarterFailure.png";
+  import hockeyBeesProgress from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
 
   export default {
     name: "blog",
@@ -32,6 +33,14 @@
     data() {
       return {
         posts: [
+          {
+            title: 'The Process Behind the Hockey Bees Mural',
+            date: 'July 6, 2018',
+            image: hockeyBeesProgress,
+            headline: 'rom Inception to Completion: My Mural Process',
+            link: '/blogPosts/processOfAMural',
+            tags: ['art', 'streetart']
+          },
           {
             title: 'Failing at Kickstarter',
             date: 'April 5, 2018',

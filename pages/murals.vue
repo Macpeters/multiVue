@@ -132,7 +132,7 @@ export default {
         { link: '/murals', name: 'Murals' }
       ],
       chosenImage: null,
-      blogFilter: 'art'
+      blogFilter: 'streetart'
     };
   },
   head () {
