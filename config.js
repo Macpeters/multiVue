@@ -7,7 +7,8 @@ generate: {
   modules: [
     // Simple usage
     ['@nuxtjs/google-analytics', {
-      id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
+      id: 'UA-113895926-1'
+      // id: 'ZxmnP8EXJRjiayUi1MzTxW0p9D'
     }]
   ]
 }
