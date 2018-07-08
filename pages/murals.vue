@@ -151,10 +151,12 @@ export default {
         { hid: `og:image`, property: 'og:image', content: octoBuddy_thumb }
       ],link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       script: [
-        { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+        // these scripts cost load time
+        // { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
       ],
       link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+         // these scripts cost load time
+        // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
       ]
     }
   }
@@ -162,9 +164,6 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
-    /* font-family: Roboto, sans-serif; */
-  }
   div {
     text-align: center
   }
