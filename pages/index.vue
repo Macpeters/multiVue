@@ -41,16 +41,18 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
 
-  import Vue from 'vue'
-  import VueAnalytics from 'vue-analytics'
+  import ga from '../plugins/ga.js'
 
-  Vue.use(VueAnalytics, {
-    id: 'UA-113895926-1'
-  })
+  // import Vue from 'vue'
+  // import VueAnalytics from 'vue-analytics'
+
+  // Vue.use(VueAnalytics, {
+  //   id: 'UA-113895926-1'
+  // })
 
   export default {
   name: "Home",
-  components: { navBar, contactBar, Vue },
+  components: { navBar, contactBar, ga },
   data() {
     return {
       logoImage: logoImage,
