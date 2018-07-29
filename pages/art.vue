@@ -26,6 +26,7 @@
 // Images
 import baphomet from "../assets/fineArt/macpeters_baphomet.png";
 import bliss from "../assets/fineArt/macpeters_bliss.png";
+import caughtInTheMusic from "../assets/fineArt/macpeters_caughtInTheMusic.jpg"; 
 import cracking from "../assets/fineArt/macpeters_crackingUnderThePressure.png";
 import eagerness from "../assets/fineArt/macpeters_eagerness.png";
 import fascination from "../assets/fineArt/macpeters_fascination.png";
@@ -40,6 +41,7 @@ import stubborn from "../assets/fineArt/macpeters_stubbornResentment.png";
 // Thumbs
 import baphomet_thumb from "../assets/fineArt/thumbnails/macpeters_baphomet.png";
 import bliss_thumb from "../assets/fineArt/thumbnails/macpeters_bliss.png";
+import caughtInTheMusic_thumb from "../assets/fineArt/thumbnails/macpeters_caughtInTheMusic.png"; 
 import cracking_thumb from "../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
 import eagerness_thumb from "../assets/fineArt/thumbnails/macpeters_eagerness.png";
 import fascination_thumb from "../assets/fineArt/thumbnails/macpeters_fascination.png";
@@ -68,44 +70,20 @@ export default {
     return {
       images: [
         {
+          image: caughtInTheMusic,
+          thumb: caughtInTheMusic_thumb,
+          title: "Caught in the Music",
+          subtitle: "24x24 UV Acrylic on canvas",
+          description: "A fairy is transfixed by the sound of music, while her imagination runs wild around her.  A maelstrom of journeys, visions, and experiences hold her attention as a spider's web holds an unfortunate fly",
+          keywords: base_keywords + 'eyeball, fairy, hypnotized, attention, jungle bird, sailing ships, stormy seas, spiderweb, music, experience, snail,  imagination'
+        },
+        {
           image: baphomet,
           thumb: baphomet_thumb,
           title: "Baphomet - Magic Mushroom Magician",
           subtitle: "24x24 UV Acrylic on canvas",
           description: "Floating above the golden city that sits on the edge of the Amethyst Mountains, young Baphomet pays no mind to the dance of mortals, for he is filled with the light of the Universe. This piece is what I'm referring to as 'living art', because I haven't varnished it, and I don't plan to until it sells.  I find if I have art around for a little while, I start noticing things I'd like to change, because I've learned new tricks since then.  If I don't varnish the piece, I feel I have the option of going back and updating old art, so it stays interesting to me.  Maybe I'll ruin it, next time I touch it.  Who knows?  If you like how it looks right now, contact me for purchasing.",
           keywords: base_keywords + 'baphomet, goat, magician, wonder, magick, magic mushroom, wizardry, horns, horned beast, universal power, universal wonder, inner power, galaxies, otherworldly, glass mushroom, amethyst crystal, seaside city, stone city'
-        },
-        {
-          image: bliss,
-          thumb: bliss_thumb,
-          title: "Bliss",
-          subtitle: "18x18 UV Acrylic on canvas",
-          description: "As a jellyfish, Bliss has no weight, and no resistance to the changing currents of the world. He enjoys every ripple to the fullest extent.",
-          keywords: base_keywords + "monster, jellyfish, bliss, happiness, higher realms, joy, comfort, go with the flow, enjoyment, weightlessness, smiling, free, nirvana, heavenly"
-        },
-        {
-          image: cracking,
-          thumb: cracking_thumb,
-          title: "Cracking Under the Pressure",
-          subtitle: "18x18 UV Acrylic on canvas",
-          description: "Intense pressure and stress mean that you've outgrown your shell - when it cracks, you are free to grow a new one.  Check out Twerski on stress for a neat talk.",
-          keywords: base_keywords + "crystal, cracked, pressure, anger, rage, breaking, growth, transformation, seething, fractured, reflection, crystals, bubbles, perspectives, shards, metatrons cube, sacred geometry, darkness, light"
-        },
-        {
-          image: eagerness,
-          thumb: eagerness_thumb,
-          title: "Eagerness",
-          subtitle: "18x18 UV Acrylic on canvas",
-          description: "Eagerness has his eye on a treat, and is in a hurry to get a taste of it.",
-          keywords: base_keywords + "monster, feels monster, emotional, eager, wanting, longing, craving, drive, driving force, excitement, tentacles, eyeball, long tongue, long tail, stripes, pink and green"
-        },
-        {
-          image: fascination,
-          thumb: fascination_thumb,
-          title: "Fascination",
-          subtitle: "24x24 UV Acrylic on canvas",
-          description: "Behold the biodiversity of this alien crystaline planet.  What wonders it might hold!",
-          keywords: base_keywords + 'white squirrel, butterfly, bubbles, crystals, crystal mountain, cloud faces, long tail, furry animal, cute animal, leafy, water, calm water, flying, serpent, snake skin, sparkle, drops'
         },
         {
           image: gratitude,
@@ -116,12 +94,44 @@ export default {
           keywords: base_keywords + "gratitude, appreciation, morning sun, gift of light, life, grateful, thank you, arise, gift, water, growth, becoming, being, existence"
         },
         {
-          image: lovebird,
-          thumb: lovebird_thumb,
-          title: "Love Bird",
-          subtitle: "12x12 UV Acrylic on canvas",
-          description: "Real Love persists when passion cools, and wants nothing in return.",
-          keywords: base_keywords + "bird, moon, feeling love, heart, warm feelings, warm glow, receiving love, enjoying love, floating, love of the heart"
+          image: fascination,
+          thumb: fascination_thumb,
+          title: "Fascination",
+          subtitle: "24x24 UV Acrylic on canvas",
+          description: "Behold the biodiversity of this alien crystaline planet.  What wonders it might hold!",
+          keywords: base_keywords + 'white squirrel, butterfly, bubbles, crystals, crystal mountain, cloud faces, long tail, furry animal, cute animal, leafy, water, calm water, flying, serpent, snake skin, sparkle, drops'
+        },
+        {
+          image: cracking,
+          thumb: cracking_thumb,
+          title: "Cracking Under the Pressure",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "Intense pressure and stress mean that you've outgrown your shell - when it cracks, you are free to grow a new one.  Check out Twerski on stress for a neat talk.",
+          keywords: base_keywords + "crystal, cracked, pressure, anger, rage, breaking, growth, transformation, seething, fractured, reflection, crystals, bubbles, perspectives, shards, metatrons cube, sacred geometry, darkness, light"
+        },
+        {
+          image: bliss,
+          thumb: bliss_thumb,
+          title: "Bliss",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "As a jellyfish, Bliss has no weight, and no resistance to the changing currents of the world. He enjoys every ripple to the fullest extent.",
+          keywords: base_keywords + "monster, jellyfish, bliss, happiness, higher realms, joy, comfort, go with the flow, enjoyment, weightlessness, smiling, free, nirvana, heavenly"
+        },
+        {
+          image: eagerness,
+          thumb: eagerness_thumb,
+          title: "Eagerness",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "Eagerness has his eye on a treat, and is in a hurry to get a taste of it.",
+          keywords: base_keywords + "monster, feels monster, emotional, eager, wanting, longing, craving, drive, driving force, excitement, tentacles, eyeball, long tongue, long tail, stripes, pink and green"
+        },
+        {
+          image: stubborn,
+          thumb: stubborn_thumb,
+          title: "Stubborn Resentment",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "He has had just about enough.  Careful you don't push him too far, as he's liable to lash out.",
+          keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
         },
         {
           image: maskedFear,
@@ -156,20 +166,20 @@ export default {
           keywords: base_keywords + "shpongle, psytrance, goa, codex6, codex 6, album art, cover art, universe, watching itself, self observation, meta, self referencing, feather, feather pen, dancing, clay, clay bodies, veiny, space, stars, forever, earth, life, path of enlightenment, from the earth, logos, the word"
         },
         {
+          image: lovebird,
+          thumb: lovebird_thumb,
+          title: "Love Bird",
+          subtitle: "12x12 UV Acrylic on canvas",
+          description: "Real Love persists when passion cools, and wants nothing in return.",
+          keywords: base_keywords + "bird, moon, feeling love, heart, warm feelings, warm glow, receiving love, enjoying love, floating, love of the heart"
+        },
+        {
           image: starbird,
           thumb: starbird_thumb,
           title: "Star Bird",
           subtitle: "12x12 UV Acrylic on canvas",
           description: "Shooting through space, Star Bird is just enjoying the journey for what it is and sharing that enjoyment freely",
           keywords: base_keywords + "bird, star, crystal, shard, heart, soaring, enjoyment, life, space, giving love, enjoying love, flight, love of the universe"
-        },
-        {
-          image: stubborn,
-          thumb: stubborn_thumb,
-          title: "Stubborn Resentment",
-          subtitle: "18x18 UV Acrylic on canvas",
-          description: "He has had just about enough.  Careful you don't push him too far, as he's liable to lash out.",
-          keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
         }
       ],
       chosenImage: null,

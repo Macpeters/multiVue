@@ -87,10 +87,11 @@
   }
 
   .social-button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     padding: 10px;
     border-radius: 25px;
+    opacity: 0.7;
   }
 
   @media screen and (max-width: 450px){

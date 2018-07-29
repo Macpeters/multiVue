@@ -41,6 +41,13 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
 
+  import Vue from 'vue'
+  import VueAnalytics from 'vue-analytics'
+
+  Vue.use(VueAnalytics, {
+    id: 'UA-113895926-1'
+  })
+
   export default {
   name: "Home",
   components: { navBar, contactBar },
