@@ -50,7 +50,7 @@
 
   export default {
   name: "Home",
-  components: { navBar, contactBar },
+  components: { navBar, contactBar, Vue },
   data() {
     return {
       logoImage: logoImage,
