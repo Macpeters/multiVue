@@ -8,7 +8,6 @@
       <h3>The art I make ranges from low-brow
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
       Nuxt, and Served on Netlify.</h3>
-      <p>Currently</p>
     </div>
 
     <div class="art-gallery">
@@ -41,18 +40,9 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
 
-  import ga from '../plugins/ga.js'
-
-  // import Vue from 'vue'
-  // import VueAnalytics from 'vue-analytics'
-
-  // Vue.use(VueAnalytics, {
-  //   id: 'UA-113895926-1'
-  // })
-
   export default {
   name: "Home",
-  components: { navBar, contactBar, ga },
+  components: { navBar, contactBar },
   data() {
     return {
       logoImage: logoImage,
