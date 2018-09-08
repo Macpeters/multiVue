@@ -8,6 +8,7 @@
       <h3>The art I make ranges from low-brow
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
       Nuxt, and Served on Netlify.</h3>
+      <p>Currently</p>
     </div>
 
     <div class="art-gallery">

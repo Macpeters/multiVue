@@ -159,7 +159,7 @@
     "pages/aboutArtist.19b8923f394135c42c95.js",
     "pages/devResume.74e7614a0bc04d54fe31.js",
     "pages/dev.9694d9aef1fb0b286cb6.js",
-    "pages/index.b1ab4e4de6e02540750a.js",
+    "pages/index.6a2e7060910559924f4c.js",
     "pages/blogPosts/whatIlearnedFromDrawingChallenge.f5ba312bdb55ed62ab6c.js",
     "pages/blogPosts/tarotAndPursuitOfBetter.1906145db381f24cfbe1.js",
     "pages/blogPosts/processOfAMural.bef48945451cdf22ba4c.js",
@@ -169,13 +169,13 @@
     "layouts/default.637b01cc54819e72f9d0.js",
     "vendor.c4d827b9eac1b4257e25.js",
     "app.ae67a9bc6334395815ac.js",
-    "manifest.71138b327e5ae6de26b4.js",
+    "manifest.5510644be94f061a94ae.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.71138b327e5ae6de26b4.js",
+    "manifest.5510644be94f061a94ae.js",
     "vendor.c4d827b9eac1b4257e25.js",
     "app.ae67a9bc6334395815ac.js"
   ],
@@ -190,7 +190,7 @@
     "pages/aboutArtist.19b8923f394135c42c95.js",
     "pages/devResume.74e7614a0bc04d54fe31.js",
     "pages/dev.9694d9aef1fb0b286cb6.js",
-    "pages/index.b1ab4e4de6e02540750a.js",
+    "pages/index.6a2e7060910559924f4c.js",
     "pages/blogPosts/whatIlearnedFromDrawingChallenge.f5ba312bdb55ed62ab6c.js",
     "pages/blogPosts/tarotAndPursuitOfBetter.1906145db381f24cfbe1.js",
     "pages/blogPosts/processOfAMural.bef48945451cdf22ba4c.js",
@@ -1315,21 +1315,6 @@
       138,
       146
     ],
-    "03bd84a9": [
-      158,
-      86,
-      9,
-      15,
-      17,
-      43,
-      46,
-      71,
-      112,
-      113,
-      115,
-      118,
-      135
-    ],
     "8f373f1e": [
       166
     ],
@@ -2039,6 +2024,21 @@
     ],
     "a4ae4d72": [
       166
+    ],
+    "78f2c74b": [
+      158,
+      86,
+      9,
+      15,
+      17,
+      43,
+      46,
+      71,
+      112,
+      113,
+      115,
+      118,
+      135
     ],
     "572a02cc": [
       153,
@@ -2999,6 +2999,36 @@
       118,
       135
     ],
+    "5694a98a": [
+      158,
+      86,
+      9,
+      15,
+      17,
+      43,
+      46,
+      71,
+      112,
+      113,
+      115,
+      118,
+      135
+    ],
+    "416734b2": [
+      158,
+      86,
+      9,
+      15,
+      17,
+      43,
+      46,
+      71,
+      112,
+      113,
+      115,
+      118,
+      135
+    ],
     "878096c0": [
       166
     ],
@@ -3254,21 +3284,6 @@
     ],
     "28c66048": [
       166
-    ],
-    "5cf623e8": [
-      158,
-      86,
-      9,
-      15,
-      17,
-      43,
-      46,
-      71,
-      112,
-      113,
-      115,
-      118,
-      135
     ],
     "6b2978af": [
       157,
@@ -4909,21 +4924,6 @@
       142,
       147
     ],
-    "6a172305": [
-      158,
-      86,
-      9,
-      15,
-      17,
-      43,
-      46,
-      71,
-      112,
-      113,
-      115,
-      118,
-      135
-    ],
     "230b2a2e": [
       167
     ],
@@ -6117,16 +6117,8 @@
     "1112c050": [
       166
     ],
-    "ae990c00": [
-      162,
-      17,
-      43,
-      49,
-      71,
-      112,
-      115,
-      118,
-      135
+    "83960fde": [
+      166
     ],
     "2ea586e5": [
       166
@@ -6603,9 +6595,6 @@
       137,
       138,
       146
-    ],
-    "83960fde": [
-      166
     ],
     "267da961": [
       160,
@@ -7345,6 +7334,17 @@
     ],
     "9059d4b4": [
       166
+    ],
+    "ae990c00": [
+      162,
+      17,
+      43,
+      49,
+      71,
+      112,
+      115,
+      118,
+      135
     ],
     "3880123e": [
       166
