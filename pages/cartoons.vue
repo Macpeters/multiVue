@@ -29,16 +29,10 @@
 
 <script>
 // images
-import axylotl from "../assets/cartoons/macpeters_axylotl.png";
-import blueTurtle from "../assets/cartoons/macpeters_blueturtle.png";
-import canary from "../assets/cartoons/macpeters_canary.png";
-import coq from "../assets/cartoons/macpeters_coquelicotBird.png"
+import portraits_01 from "../assets/cartoons/macpeters_portraits_01.png";
+import colourGroup_01 from "../assets/cartoons/macpeters_colourGroup_01.png";
 import festivalFrog from "../assets/cartoons/macpeters_festivalfrog.png";
-import gambogeFrog from "../assets/cartoons/macpeters_gambogeFrog.png";
-import mallowSeahorse from "../assets/cartoons/macpeters_mallowSeahorse.png";
-import mintCreamInsect from "../assets/cartoons/macpeters_mintcreamInsect.png";
 import mu from "../assets/cartoons/macpeters_mu.png";
-import sepiaFieldMouse from "../assets/cartoons/macpeters_sepiaFieldMouse.png";
 import spock from "../assets/cartoons/macpeters_spock.png";
 import ursula from "../assets/cartoons/macpeters_ursula.png";
 import voldemort from "../assets/cartoons/macpeters_voldemort.png";
@@ -47,16 +41,10 @@ import xenomorph from "../assets/cartoons/macpeters_xenomorph.png";
 import yoda from "../assets/cartoons/macpeters_yoda.png";
 import yzma from "../assets/cartoons/macpeters_yzma.png";
 // Thumbnails
-import axylotl_thumb from "../assets/cartoons/thumbnails/macpeters_axylotl.png";
-import blueTurtle_thumb from "../assets/cartoons/thumbnails/macpeters_blueturtle.png";
-import canary_thumb from "../assets/cartoons/thumbnails/macpeters_canary.png";
-import coq_thumb from "../assets/cartoons/thumbnails/macpeters_coquelicotBird.png"
+import portraits_01_thumb from "../assets/cartoons/thumbnails/macpeters_portraits_01.png";
+import colourGroup_01_thumb from "../assets/cartoons/thumbnails/macpeters_colourGroup_01.png";
 import festivalFrog_thumb from "../assets/cartoons/thumbnails/macpeters_festivalfrog.png";
-import gambogeFrog_thumb from "../assets/cartoons/thumbnails/macpeters_gambogeFrog.png";
-import mallowSeahorse_thumb from "../assets/cartoons/thumbnails/macpeters_mallowSeahorse.png";
-import mintCreamInsect_thumb from "../assets/cartoons/thumbnails/macpeters_mintcreamInsect.png";
 import mu_thumb from "../assets/cartoons/thumbnails/macpeters_mu.png";
-import sepiaFieldMouse_thumb from "../assets/cartoons/thumbnails/macpeters_sepiaFieldMouse.png";
 import spock_thumb from "../assets/cartoons/thumbnails/macpeters_spock.png";
 import ursula_thumb from "../assets/cartoons/thumbnails/macpeters_ursula.png";
 import voldemort_thumb from "../assets/cartoons/thumbnails/macpeters_voldemort.png";
@@ -80,60 +68,18 @@ export default {
     return {
       images: [
         {
-          image: axylotl,
-          thumb: axylotl_thumb,
-          title: "Cherry Blossom Axylotle",
-          description: "The Axylotle is staring into your soul.",
-          keywords: base_keywords + "axylotl, underwater, cherry blossom pink, monochromatic art, color collective, colour study"
+          image: portraits_01,
+          thumb: portraits_01_thumb,
+          title: "Portrait Studies",
+          description: "A selection of portaits - I'm trying to timebox these so as not to get lost in the details",
+          keywords: base_keywords + "portrait, child, face, different angles, purple lighting, daylight"
         },
         {
-          image: blueTurtle,
-          thumb: blueTurtle_thumb,
-          title: "French Sky Blue Sea Turtle",
-          description: "A little baby sea turtle made for colour collective: monochromatic",
-          keywords: base_keywords + "turtle, sea turtle, sand, sky blue, monochromatic art, color collective, colour study"
-        },
-        {
-          image: canary,
-          thumb: canary_thumb,
-          title: "Canary Yellow",
-          description: "Just a little songbird - monochromatic.",
-          keywords: base_keywords + "canary, songbird, yellow, yellow canary, monochromatic art, color collective, colour study"
-        },
-        {
-          image: coq,
-          thumb: coq_thumb,
-          title: "Coquelicot Bird",
-          description: "A little red songbird - monochromatic.",
-          keywords: base_keywords + "coquelicot songbird, yellow, red bird, monochromatic art, color collective, colour study, red"
-        },
-        {
-          image: gambogeFrog,
-          thumb: gambogeFrog_thumb,
-          title: "Gamboge Frog",
-          description: "Monochromatic Frog",
-          keywords: base_keywords + "frog, amphibian, mustard, colour collective, monochromatic"
-        },
-        {
-          image: mallowSeahorse,
-          thumb: mallowSeahorse_thumb,
-          title: "Mallow Seahorse",
-          description: "Monochromatic Seahorse in shades of purple",
-          keywords: base_keywords + "seahorse, underwater, ocean life, sea creature, colour collective, purple"
-        },
-        {
-          image: mintCreamInsect,
-          thumb: mintCreamInsect_thumb,
-          title: "Mint Cream Insect",
-          description: "Monochromatic Flying Insect",
-          keywords: base_keywords + "insect, invertibrate, flying insect, mint, green, off-white, nature, colour collective"
-        },
-        {
-          image: sepiaFieldMouse,
-          thumb: sepiaFieldMouse_thumb,
-          title: "Sepia Fielf Mouse",
-          description: "A furry mouse caught by surprise",
-          keywords: base_keywords + "mouse, rodent, sepia, brown, monochromatic, small creatures, furry critter, cute animal, tiny animal"
+          image: colourGroup_01,
+          thumb: colourGroup_01_thumb,
+          title: "Colour Collective",
+          description: "A collection of images created for the #colourCollective weekly drawing challenge on Twitter",
+          keywords: base_keywords + "coquelicot bird, cherry blossom axylotl, cherry blossom pig, basalt grey elephant, canary yellow, cornflower blue butterfly dioxazine maroon bettafish, french sky blue turtle, gamboge frog, mallow seahorse, mint cream insect, seashell wolly aphid, sepia field mouse, sunshine banana, teal blue jellyfish, vanilla cockatiel, monochromatic"
         },
         {
           image: festivalFrog,

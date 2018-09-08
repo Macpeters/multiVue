@@ -4,6 +4,7 @@
 
     <h1>Murals and Aerosol Art</h1>
     <breadcrumbs/>
+    <artNav/>
     <h2>Indoor and Outdoor murals to brighten up your business, home, or neighbourhood.</h2>
 
     <div class="page-description">
@@ -52,6 +53,7 @@ import octoBuddy_thumb from "../assets/graf/thumbnails/macpeters_octoBuddy.png";
 import pastaMancer_thumb from "../assets/graf/thumbnails/macpeters_pastaMancer.png";
 import ribbit_thumb from "../assets/graf/thumbnails/macpeters_ribbit.png";
 // components
+import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
@@ -63,7 +65,7 @@ const base_keywords = "murals, wall art, graffiti, urban art, outdoor art, publi
 
 export default {
   name: "Murals",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
   data() {
     return {
       logoImage: logoImage,
@@ -128,7 +130,7 @@ export default {
       ],
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'Paintings' },
         { link: '/murals', name: 'Murals' }
       ],
       chosenImage: null,

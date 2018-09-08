@@ -37,7 +37,7 @@
             title: 'The Process Behind the Hockey Bees Mural',
             date: 'July 6, 2018',
             image: hockeyBeesProgress,
-            headline: 'rom Inception to Completion: My Mural Process',
+            headline: 'From Inception to Completion: My Mural Process',
             link: '/blogPosts/processOfAMural',
             tags: ['art', 'streetart']
           },

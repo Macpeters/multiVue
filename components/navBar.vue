@@ -26,12 +26,10 @@
           <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
           <input type="checkbox" id="show-menu" role="button">
           <div class="dropdown-content" id="dropdown-content">
-            <a href="/art" title="Fine Art">Fine Art</a>
-            <a href="/skateboards" title="Painted Skateboards">Painted Skateboards</a>
-            <a href="/murals" title="Murals">Murals/Aerosol</a>
-            <a href="/artServices" title="Artistic Services">Artistic Services</a>
-            <a href="/tarot" title="Hidden Dreams Tarot">Hidden Dreams Tarot</a>
+            <a href="/art" title="Paintings">Paintings</a>
             <a href="/cartoons" title="Hidden Dreams Tarot">Cartoons</a>
+            <a href="/artServices" title="Artistic Services">Artistic Services</a>
+            <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
             <hr />
             <!-- <a href="/artShop" title="Art Shop">Shop</a> -->
             <a href="/aboutArtist" title="About Artist">About the Artist</a>

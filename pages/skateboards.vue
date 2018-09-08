@@ -4,6 +4,7 @@
 
     <h1>Hand Painted Skateboard Decks</h1>
     <breadcrumbs/>
+    <artNav/>
     <h2>Custom Painted on Request</h2>
 
     <div class="page-description">
@@ -41,6 +42,7 @@ import psychedelicBee_thumb from "../assets/skateboards/thumbnails/macpeters_psy
 import tikiFaces_thumb from "../assets/skateboards/thumbnails/macpeters_tikiFaces.png";
 import trickRTreat_thumb from "../assets/skateboards/thumbnails/macpeters_trickrtreat.png";
 // components
+import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
@@ -52,7 +54,7 @@ const base_keywords = "skateboards, skate art, skateboard art, painted decks, lo
 
 export default {
   name: "Skateboards",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
   data() {
     return {
       logoImage: logoImage,
@@ -109,7 +111,7 @@ export default {
       ],
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'Paintings' },
         { link: '/skateboards', name: 'Skateboards' }
       ],
       chosenImage: null,

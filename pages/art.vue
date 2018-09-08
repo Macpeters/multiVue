@@ -3,6 +3,7 @@
     <navBar />
     <h1>Macpeters: Fine Art</h1>
     <breadcrumbs/>
+    <artNav/>
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
@@ -54,6 +55,7 @@ import shpongle_thumb from "../assets/fineArt/thumbnails/macpeters_shpongle.png"
 import starbird_thumb from "../assets/fineArt/thumbnails/macpeters_starBird.png";
 import stubborn_thumb from "../assets/fineArt/thumbnails/macpeters_stubbornResentment.png";
 // Components
+import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
 import navBar from '../components/navBar.vue'
 import contactBar from '../components/contactBar.vue'
@@ -65,18 +67,18 @@ const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive
 
 export default {
   name: "Art",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
+  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
   data() {
     return {
       images: [
-        {
-          image: caughtInTheMusic,
-          thumb: caughtInTheMusic_thumb,
-          title: "Caught in the Music",
-          subtitle: "24x24 UV Acrylic on canvas",
-          description: "A fairy is transfixed by the sound of music, while her imagination runs wild around her.  A maelstrom of journeys, visions, and experiences hold her attention as a spider's web holds an unfortunate fly",
-          keywords: base_keywords + 'eyeball, fairy, hypnotized, attention, jungle bird, sailing ships, stormy seas, spiderweb, music, experience, snail,  imagination'
-        },
+        // {
+        //   image: caughtInTheMusic,
+        //   thumb: caughtInTheMusic_thumb,
+        //   title: "Caught in the Music",
+        //   subtitle: "24x24 UV Acrylic on canvas",
+        //   description: "A fairy is transfixed by the sound of music, while her imagination runs wild around her.  A maelstrom of journeys, visions, and experiences hold her attention as a spider's web holds an unfortunate fly",
+        //   keywords: base_keywords + 'eyeball, fairy, hypnotized, attention, jungle bird, sailing ships, stormy seas, spiderweb, music, experience, snail,  imagination'
+        // },
         {
           image: baphomet,
           thumb: baphomet_thumb,
@@ -185,10 +187,11 @@ export default {
       chosenImage: null,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Art' },
+        { link: '/art', name: 'Paintings' },
         { link: '/art', name: 'FineArt' }
       ],
-      blogFilter: 'visionary art'
+      blogFilter: 'visionary art',
+      name: 'fine-art'
     };
   },
   head () {
@@ -212,7 +215,6 @@ export default {
 </script>
 
 <style scoped>
-
   div {
     text-align: center
   }
