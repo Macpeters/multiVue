@@ -21,3 +21,4 @@ http://localhost:3000
 ### missing
 * social profile (sameas)
 * moar content (dev posts, etc)
+* google verification

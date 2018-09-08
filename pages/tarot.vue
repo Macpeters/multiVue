@@ -8,8 +8,8 @@
       <h2>A synthesis of symbolism and lore.</h2>
       <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
       <p>
-          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Your Copy Now</a>
-        </p> 
+        <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Your Copy Now</a>
+      </p> 
     </div>
     
 

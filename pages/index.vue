@@ -4,16 +4,15 @@
     <h1>Macpeters: Artist and Programmer</h1>
     
     <div class="page-description">
-      <p>
-        Fullstack web developer by day, creating art and games in my off hours. The art I make ranges from low-brow
-        to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
-        Nuxt, and Served on Netlify.
-      </p>
+      <h2>Fullstack web developer by day, creating art and games in my off hours.</h2> 
+      <h3>The art I make ranges from low-brow
+      to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
+      Nuxt, and Served on Netlify.</h3>
     </div>
 
     <div class="art-gallery">
       <a v-bind:href="chosenImage.link">
-        <span class="slideImage"><img v-bind:src="chosenImage.image" /></span>
+        <span class="slideImage"><img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" /></span>
       </a>
       <div class="slideDots">
         <span v-for="image in images" :key='image.id' >  
@@ -69,7 +68,7 @@
         },
         {
           image: design,
-          title: 'Design',
+          title: 'Development/Design',
           link: '/dev'
         },
         {
@@ -119,6 +118,7 @@
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'title', content: 'Macpeters: Artist and Programmer' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
         { hid: 'artDescription', name: 'description', content: 'Fine Art, Murals, Painted Skateboard Decks, Cartoons, Web and Game Development'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
@@ -136,6 +136,9 @@
 <style scoped>
   div {
     text-align: center
+  }
+  .page-description {
+    padding: 10px;
   }
 
   /* Slideshow */
