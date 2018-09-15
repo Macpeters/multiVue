@@ -19,8 +19,8 @@
       <div class="main-nav-row">
         <a href="/" class="logo" title="Macpeters Creations Home"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
     
-        <a href="/dev" title="Macpeters Development/Programming" class="dropbtn">Development/Programming</a>
-        <!-- <a href="/blog" class="dropbtn">Blog</a> -->
+        <a href="/gameDev" title="Macpeters Game Development" class="dropbtn">Games</a>
+        <a href="/webDev" title="Macpeters Web Development" class="dropbtn">Web Dev</a>
     
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
@@ -31,7 +31,6 @@
             <a href="/artServices" title="Artistic Services">Artistic Services</a>
             <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
             <hr />
-            <!-- <a href="/artShop" title="Art Shop">Shop</a> -->
             <a href="/aboutArtist" title="About Artist">About the Artist</a>
           </div>
         </div>

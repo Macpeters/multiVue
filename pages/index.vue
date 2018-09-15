@@ -11,12 +11,20 @@
     </div>
 
     <div class="art-gallery">
-      <a v-bind:href="chosenImage.link">
-        <span class="slideImage"><img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" /></span>
-      </a>
-      <div class="slideDots">
+      <div>
         <span v-for="image in images" :key='image.id' >  
-          <span class="dot" @click='choose(image)'></span>
+          
+          <div class="page-teaser">
+            <a v-bind:href="image.link">
+              <div class="teaser-image"><img v-bind:src="image.image" v-bind:alt="image.title" v-bind:title="image.title" /></div>
+              <div class="teaser-text">
+              <div class="teaser-title">{{image.title}}</div>
+              <div>{{image.description}}</div>
+            </div>
+            </a>
+            
+          </div>
+
         </span>
       </div>
     </div>
@@ -29,13 +37,13 @@
 <script>
   // Images
   import logoImage from "../assets/logo.png";
-  // import gifts from "../assets/slideshow/macpeters_artGifts.png";
-  import design from "../assets/slideshow/macpeters_design.png";
-  // import prints from "../assets/slideshow/macpeters_artPrints.png";
-  import fineArt from "../assets/slideshow/macpeters_fineArt.png";
-  import tarot from "../assets/slideshow/macpeters_hiddenDreamsTarot.png";
-  import murals from "../assets/slideshow/macpeters_murals.png";
-  import skateboards from "../assets/slideshow/macpeters_paintedSkateboards.png";
+
+  import paintings from "../assets/index/macpeters_paintings.png";
+  import cartoons from "../assets/index/macpeters_cartoons.png";
+  import games from "../assets/index/macpeters_games.png";
+  import tarot from "../assets/index/macpeters_tarot.png";
+  import webDev from "../assets/index/macpeters_webDev.png";
+  
   // Components
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
@@ -48,60 +56,37 @@
       logoImage: logoImage,
       images: [
         {
-          image: fineArt,
-          title: 'Fine Art',
-          link: '/art'
+          image: paintings,
+          title: 'Paintings',
+          link: '/art',
+          description: 'Psychedelic fine art, hand-painted skateboard decks, and murals'
         },
         {
-          image: skateboards,
-          title: 'Painted Skateboards',
-          link: '/skateboards'
+          image: cartoons,
+          title: 'Cartoons',
+          link: '/cartoons',
+          description: 'digital sketches, cartoons, characters, draw9 and other drawing challenges'
         },
         {
-          image: design,
-          title: 'Development/Design',
-          link: '/dev'
+          image: webDev,
+          title: 'Web Developement',
+          link: '/webDev',
+          description: 'Professional Web Development and open source projects'
         },
         {
-          image: murals,
-          title: 'Murals and Street Art',
-          link: '/murals'
+          image: games,
+          title: 'Game Developement',
+          link: '/gameDev',
+          description: 'indie game developement projects, including RaveMau5'
         },
         {
           image: tarot,
-          title: 'Hidden Dreams Tarot',
-          link: '/tarot'
-        },
+          title: 'Major Arcana Tarot Decks',
+          link: '/tarot',
+          description: 'Hidden Dreams and Cutie Pie Tarot major arcana decks'
+        }
       ],
-      imageIndex: 0,
-      chosenImage: {
-        image: fineArt,
-        title: 'Fine Art',
-        linke: '/art'
-      }
     };
-  },
-  methods: {
-    choose(img) {
-      this.chosenImage = img;
-    },
-    next(){
-      this.ImageIndex += 1;
-      if(this.imageIndex >= this.images.length) {
-        this.imageIndex = 0;
-      }
-      this.choose(this.images[this.imageIndex]);
-    },
-    previous(){
-      this.ImageIndex -= 1;
-      if(this.imageIndex < 0) {
-        this.imageIndex = this.images.length - 1;
-      }
-      this.choose(this.images[this.imageIndex]);
-    }
-  },
-  beforeMount(){
-    this.choose(this.images[this.imageIndex])    
   },
   head () {
     return {
@@ -128,30 +113,39 @@
   div {
     text-align: center
   }
+  a {
+    text-decoration: none;
+  }
   .page-description {
     padding: 10px;
   }
 
-  /* Slideshow */
-  .slideDots {
-    padding-top: 10px;
-    width: 100%;
-    display: block;
+  .page-teaser {
+    max-width: 275px;
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
     clear: both;
   }
-  .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 15px;
+
+  .page-teaser :hover {
+    color: #897DF4;
   }
-  .dot:hover {
-    background-color: #0651cc;
-  }
-  .slideImage img{
-    max-height: 350px;
+
+  .teaser-image img {
     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .teaser-title {
+    font-weight: bold;
+  }
+  .teaser-text {
+    height: 100px;
   }
 </style>
