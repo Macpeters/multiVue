@@ -77,7 +77,7 @@
   import ddos from "../../assets/blogs/ddos.png";
 
   export default {
-    name: "NewPost",
+    name: "RepurcussionsOfDDOSAttack",
     components: { navBar, contactBar },
     data() {
       return {
