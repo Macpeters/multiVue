@@ -42,7 +42,7 @@
   import cartoons from "../assets/index/macpeters_cartoons.png";
   import games from "../assets/index/macpeters_games.png";
   import tarot from "../assets/index/macpeters_tarot.png";
-  import webDev from "../assets/index/macpeters_webDev.png";
+  import webDev from "../assets/index/macpeters_webdev.png";
   
   // Components
   import navBar from '../components/navBar.vue'
