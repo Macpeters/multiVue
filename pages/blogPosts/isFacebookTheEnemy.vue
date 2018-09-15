@@ -94,7 +94,7 @@
 </template>
 
 <script>
-  import practiceDrawing from "../../assets/blogs/macpeters_practiceDrawing.png";
+  // import practiceDrawing from "../../assets/blogs/macpeters_practiceDrawing.png";
 
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
@@ -104,7 +104,7 @@
     components: { navBar, contactBar },
     data() {
       return {
-        practiceDrawing: practiceDrawing
+        // practiceDrawing: practiceDrawing
       };
     }
 };

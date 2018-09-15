@@ -27,7 +27,7 @@
   import tarotKickstarter from "../assets/blogs/thumbnails/kickstarterFailure.png";
   import hockeyBeesProgress from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
   import facebookTheEnemy from "../assets/blogs/facebookTheEnemy.jpg";
-  import ddos from "../assets/blogs/thumbnails/ddos.png";
+  // import ddos from "../assets/blogs/thumbnails/ddos.png";
 
   export default {
     name: "blog",
@@ -94,8 +94,8 @@
           {
             title: 'The Fragility of the Web',
             date: 'October 22, 2016',
-            // image: '',
-            image: ddos,
+            image: '',
+            // image: ddos,
             headline: 'What are the Repercussions of Huge DDOS Attack?',
             link: '/blogPosts/repurcussionsOfDDOSAttack',
             tags: ['technology', 'web security', 'privacy']
