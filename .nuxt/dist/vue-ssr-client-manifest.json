@@ -140,15 +140,15 @@
     "img/macpeters_trickrtreat.ccc0737.png",
     "img/macpeters_mischeif.05fd1be.png",
     "img/macpeters_mushroomDude.8ea8425.png",
-    "pages/art.d157b4db698345ee4851.js",
-    "pages/artServices.bb8ad38ecc949f4ff483.js",
-    "pages/cartoons.916bb8194328c5bd9a7a.js",
-    "pages/murals.ef9e62c1ff56cf62dc66.js",
-    "pages/skateboards.9359e9a658bb618c561c.js",
-    "pages/tarot.d9862a4337bac081913a.js",
-    "pages/webDev.97e0e9f77264155b20e5.js",
-    "pages/gameDev.06cc4240aeb578817641.js",
-    "pages/blog.36ed2232a2ddcd68d85a.js",
+    "pages/art.9e18983e777f191c4c3f.js",
+    "pages/artServices.ac28a8960101bcbc8efd.js",
+    "pages/cartoons.69c28838afbb705e10fc.js",
+    "pages/murals.9d01b652882eda99332b.js",
+    "pages/skateboards.ac245995b9dfda11ea12.js",
+    "pages/tarot.aa615c8dcfa06c1c3fc2.js",
+    "pages/webDev.ffc7bfc7ce4c7fc49cc0.js",
+    "pages/gameDev.1108a8cf701aed997586.js",
+    "pages/blog.b2156f0db34e3b64618a.js",
     "pages/aboutArtist.e019c830cf06d2f3396c.js",
     "pages/devResume.3f59de8867dd37f93c4c.js",
     "pages/index.210a5bec26d638766b6a.js",
@@ -163,26 +163,26 @@
     "layouts/default.c88454aa2b9415dc8004.js",
     "vendor.1bc41cbbe619a6f384c9.js",
     "app.bbfb6b43e439088039b3.js",
-    "manifest.717e80b33bade7d0945b.js",
+    "manifest.34084c08af695b02671e.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.717e80b33bade7d0945b.js",
+    "manifest.34084c08af695b02671e.js",
     "vendor.1bc41cbbe619a6f384c9.js",
     "app.bbfb6b43e439088039b3.js"
   ],
   "async": [
-    "pages/art.d157b4db698345ee4851.js",
-    "pages/artServices.bb8ad38ecc949f4ff483.js",
-    "pages/cartoons.916bb8194328c5bd9a7a.js",
-    "pages/murals.ef9e62c1ff56cf62dc66.js",
-    "pages/skateboards.9359e9a658bb618c561c.js",
-    "pages/tarot.d9862a4337bac081913a.js",
-    "pages/webDev.97e0e9f77264155b20e5.js",
-    "pages/gameDev.06cc4240aeb578817641.js",
-    "pages/blog.36ed2232a2ddcd68d85a.js",
+    "pages/art.9e18983e777f191c4c3f.js",
+    "pages/artServices.ac28a8960101bcbc8efd.js",
+    "pages/cartoons.69c28838afbb705e10fc.js",
+    "pages/murals.9d01b652882eda99332b.js",
+    "pages/skateboards.ac245995b9dfda11ea12.js",
+    "pages/tarot.aa615c8dcfa06c1c3fc2.js",
+    "pages/webDev.ffc7bfc7ce4c7fc49cc0.js",
+    "pages/gameDev.1108a8cf701aed997586.js",
+    "pages/blog.b2156f0db34e3b64618a.js",
     "pages/aboutArtist.e019c830cf06d2f3396c.js",
     "pages/devResume.3f59de8867dd37f93c4c.js",
     "pages/index.210a5bec26d638766b6a.js",
@@ -5781,6 +5781,12 @@
     "1112c050": [
       160
     ],
+    "1f00b622": [
+      160
+    ],
+    "2ea586e5": [
+      160
+    ],
     "934ab510": [
       139,
       1,
@@ -6111,20 +6117,6 @@
       131,
       133,
       138
-    ],
-    "f4694cfe": [
-      158,
-      3,
-      12,
-      35,
-      62,
-      102,
-      105,
-      109,
-      126
-    ],
-    "2ea586e5": [
-      160
     ],
     "6408080c": [
       160
@@ -6847,6 +6839,17 @@
       116,
       126
     ],
+    "f4694cfe": [
+      158,
+      3,
+      12,
+      35,
+      62,
+      102,
+      105,
+      109,
+      126
+    ],
     "03dd673a": [
       139,
       1,
@@ -7167,9 +7170,6 @@
       105,
       109,
       126
-    ],
-    "1f00b622": [
-      160
     ],
     "457b5129": [
       141,

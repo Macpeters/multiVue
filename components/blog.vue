@@ -97,7 +97,7 @@
             image: ddos,
             headline: 'What are the Repercussions of Huge DDOS Attack?',
             link: '/blogPosts/repurcussionsOfDDOSAttack',
-            tags: ['technology', 'web security']
+            tags: ['technology', 'web security', 'privacy']
           }
         ],
         chosenPost: {},
