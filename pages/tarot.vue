@@ -8,7 +8,7 @@
       <h2>A synthesis of symbolism and lore.</h2>
       <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
       <p>
-        <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Your Copy Now</a>
+        <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Hidden Dreams Tarot Deck Now</a>
       </p> 
     </div>
     
@@ -48,7 +48,7 @@
           modern and memorable.
         </p> 
         <p>
-          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Now</a>
+          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy The Hidden Dreams Tarot Deck Now</a>
         </p>       
       </div>
       <div class="right-column">
@@ -77,7 +77,7 @@
           Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
           your copy today.
         </p> 
-        <p><a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Now</a></p>
+        <p><a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Hidden Dreams Guidebook Now</a></p>
       </div>
     </div>
 

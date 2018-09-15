@@ -41,6 +41,8 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/1Za-n3DstI0?enablejsapi=1&origin=https://macpeters-vue.netlify.com/dev/" frameborder="0" allowfullscreen></iframe>
     </div>
 
+    <blogList/>
+
     <contactBar/>
   </div>
   
@@ -54,17 +56,20 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
+  // Blog
+  import blogList from '../components/blog.vue'
 
   export default {
   name: "Dev",
-  components: { navBar, contactBar, breadcrumbs },
+  components: { navBar, contactBar, breadcrumbs, blogList },
   data() {
     return {
       githubImage: github,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/gameDev', name: 'Game Development' }
-      ]
+      ],
+      blogFilter: 'technology',
     };
   },
   head () {

@@ -6,16 +6,15 @@
     <h2>builder of websites, surveys, data visualizations</h2>
     <hr />
     <div class="page-description">
-      <h3>Professional Web Developer</h3>
-      <h4><a href="/devResume">Resume</a></h4>
       <p>
-        I work at 
+        I work as a Professional Web Developerat 
         <a href="https://www.infotech.com/">Infotech Research Group</a>, building surveys, reports,
         and data visualization dashboards for IT Research.  I work in a number of different systems,
         some legacy, and many of them interact.
         I love collaborating, and working on a dev team is great for that. 
         We have recently chosen Vue.js as a framework since our content is becoming more dynamic.  
       </p>
+      <p><h4><a href="/devResume">See my Resume</a></h4></p>
       <p>
         My own site is a multipage vue app, served on Netlify, using npm and nuxt.  
         I've rebuilt it more times than I can count, trying out new technology, looking for a UX
@@ -26,18 +25,32 @@
     <div>
       <h3>Open Source Projects</h3>
       <ul>
-        <li><a href="https://codepen.io/Macpeters/">Codepen</a></li>
-        <li><a href="https://github.com/macpeters">Github</a></li>
+        <li>
+          <div class="list title"><a href="https://codepen.io/Macpeters/">Codepen</a></div>
+          <div class="list description">Used for testing out ideas, trying new technologies</div>
+        </li>
+        <li>
+          <div class="list title"><a href="https://github.com/macpeters">Github</a></div>
+          <div class="list description">All my codes that don't belong to a company</div>
+        </li>
       </ul>
     </div>
 
     <div>
       <h3>Community Involvement</h3>
       <ul>
-        <li><a href="https://www.meetup.com/HackerNest/">Hackernest</a></li>
-        <li><a href="https://stackoverflow.com/users/2111713/macpeters">Stack Overflow</a></li>
+        <li>
+          <div class="list title"><a href="https://www.meetup.com/HackerNest/">Hackernest</a></div>
+          <div class="list description">Monthly Tech Social</div>
+        </li>
+        <li>
+          <div class="list title"><a href="https://stackoverflow.com/users/2111713/macpeters">Stack Overflow</a></div>
+          <div class="list description">Questions and answers.</div>
+        </li>
       </ul>
     </div>
+
+    <blogList/>
 
     <contactBar/>
   </div>
@@ -52,17 +65,20 @@
   import navBar from '../components/navBar.vue'
   import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
+  // Blog
+  import blogList from '../components/blog.vue'
 
   export default {
   name: "Dev",
-  components: { navBar, contactBar, breadcrumbs },
+  components: { navBar, contactBar, breadcrumbs, blogList },
   data() {
     return {
       githubImage: github,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/webDev', name: 'Web Development' }
-      ]
+      ],
+      blogFilter: 'technology',
     };
   },
   head () {
@@ -91,9 +107,19 @@
   div {
     text-align: center
   }
-
   ul {
     list-style: none;
+  }
+
+  .page-description {
+    width: 80%;
+    padding-left: 10%;
+
+  }
+
+  .list {
+    display: inline-block;
+    padding: 3px;
   }
 
 </style>
