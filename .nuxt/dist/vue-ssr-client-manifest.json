@@ -140,21 +140,21 @@
     "img/macpeters_trickrtreat.ccc0737.png",
     "img/macpeters_mischeif.05fd1be.png",
     "img/macpeters_mushroomDude.8ea8425.png",
-    "pages/art.9e18983e777f191c4c3f.js",
-    "pages/artServices.ac28a8960101bcbc8efd.js",
-    "pages/cartoons.69c28838afbb705e10fc.js",
-    "pages/murals.9d01b652882eda99332b.js",
-    "pages/skateboards.ac245995b9dfda11ea12.js",
-    "pages/tarot.aa615c8dcfa06c1c3fc2.js",
-    "pages/webDev.ffc7bfc7ce4c7fc49cc0.js",
-    "pages/gameDev.1108a8cf701aed997586.js",
-    "pages/blog.b2156f0db34e3b64618a.js",
+    "pages/art.3a58038b913c3004082f.js",
+    "pages/artServices.21f14742fdd0e49fe75b.js",
+    "pages/cartoons.b5a61812f3cffb1866ea.js",
+    "pages/murals.3d31e21fd56bb6764b45.js",
+    "pages/skateboards.42dc3a5c62078b26676c.js",
+    "pages/tarot.adfac20fd8e02a8239f2.js",
+    "pages/webDev.5de653ba215a55b83a74.js",
+    "pages/gameDev.823a1333302ec5d06a87.js",
+    "pages/blog.ef05c8e05b88a9326e77.js",
     "pages/aboutArtist.e019c830cf06d2f3396c.js",
     "pages/devResume.3f59de8867dd37f93c4c.js",
     "pages/index.210a5bec26d638766b6a.js",
     "pages/blogPosts/whatIlearnedFromDrawingChallenge.e513618d0849a219d194.js",
     "pages/blogPosts/tarotAndPursuitOfBetter.cc4229b6a02b60ebfe3b.js",
-    "pages/blogPosts/repurcussionsOfDDOSAttack.9a71b0b16ae99b9bb79f.js",
+    "pages/blogPosts/repurcussionsOfDDOSAttack.a571642c32cecc32a432.js",
     "pages/blogPosts/processOfAMural.c3b24b6b8d3a54eddad2.js",
     "pages/blogPosts/photographingBlacklightArt.6c0eb8096dff2547f585.js",
     "pages/blogPosts/isFacebookTheEnemy.3eaac7fa811a97ba55ad.js",
@@ -163,32 +163,32 @@
     "layouts/default.c88454aa2b9415dc8004.js",
     "vendor.1bc41cbbe619a6f384c9.js",
     "app.bbfb6b43e439088039b3.js",
-    "manifest.c95e5d26b6d8014ddbc8.js",
+    "manifest.2c222aebe42d70af4868.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.c95e5d26b6d8014ddbc8.js",
+    "manifest.2c222aebe42d70af4868.js",
     "vendor.1bc41cbbe619a6f384c9.js",
     "app.bbfb6b43e439088039b3.js"
   ],
   "async": [
-    "pages/art.9e18983e777f191c4c3f.js",
-    "pages/artServices.ac28a8960101bcbc8efd.js",
-    "pages/cartoons.69c28838afbb705e10fc.js",
-    "pages/murals.9d01b652882eda99332b.js",
-    "pages/skateboards.ac245995b9dfda11ea12.js",
-    "pages/tarot.aa615c8dcfa06c1c3fc2.js",
-    "pages/webDev.ffc7bfc7ce4c7fc49cc0.js",
-    "pages/gameDev.1108a8cf701aed997586.js",
-    "pages/blog.b2156f0db34e3b64618a.js",
+    "pages/art.3a58038b913c3004082f.js",
+    "pages/artServices.21f14742fdd0e49fe75b.js",
+    "pages/cartoons.b5a61812f3cffb1866ea.js",
+    "pages/murals.3d31e21fd56bb6764b45.js",
+    "pages/skateboards.42dc3a5c62078b26676c.js",
+    "pages/tarot.adfac20fd8e02a8239f2.js",
+    "pages/webDev.5de653ba215a55b83a74.js",
+    "pages/gameDev.823a1333302ec5d06a87.js",
+    "pages/blog.ef05c8e05b88a9326e77.js",
     "pages/aboutArtist.e019c830cf06d2f3396c.js",
     "pages/devResume.3f59de8867dd37f93c4c.js",
     "pages/index.210a5bec26d638766b6a.js",
     "pages/blogPosts/whatIlearnedFromDrawingChallenge.e513618d0849a219d194.js",
     "pages/blogPosts/tarotAndPursuitOfBetter.cc4229b6a02b60ebfe3b.js",
-    "pages/blogPosts/repurcussionsOfDDOSAttack.9a71b0b16ae99b9bb79f.js",
+    "pages/blogPosts/repurcussionsOfDDOSAttack.a571642c32cecc32a432.js",
     "pages/blogPosts/processOfAMural.c3b24b6b8d3a54eddad2.js",
     "pages/blogPosts/photographingBlacklightArt.6c0eb8096dff2547f585.js",
     "pages/blogPosts/isFacebookTheEnemy.3eaac7fa811a97ba55ad.js",
@@ -1246,17 +1246,6 @@
       126,
       127,
       132
-    ],
-    "5fbd51ae": [
-      153,
-      12,
-      35,
-      62,
-      74,
-      102,
-      105,
-      109,
-      126
     ],
     "2493d4bb": [
       143,
@@ -4355,17 +4344,6 @@
       127,
       132
     ],
-    "2cc314ac": [
-      153,
-      12,
-      35,
-      62,
-      74,
-      102,
-      105,
-      109,
-      126
-    ],
     "76dd0878": [
       152,
       12,
@@ -5238,6 +5216,17 @@
       121,
       126
     ],
+    "4837d114": [
+      153,
+      12,
+      35,
+      62,
+      74,
+      102,
+      105,
+      109,
+      126
+    ],
     "e0e6df04": [
       144,
       7,
@@ -5781,12 +5770,6 @@
     "1112c050": [
       160
     ],
-    "1f00b622": [
-      160
-    ],
-    "2ea586e5": [
-      160
-    ],
     "934ab510": [
       139,
       1,
@@ -5953,6 +5936,17 @@
       126,
       136
     ],
+    "b5cf3cda": [
+      153,
+      12,
+      35,
+      62,
+      74,
+      102,
+      105,
+      109,
+      126
+    ],
     "26f9687b": [
       140,
       83,
@@ -6118,6 +6112,12 @@
       133,
       138
     ],
+    "4d761126": [
+      160
+    ],
+    "2ea586e5": [
+      160
+    ],
     "6408080c": [
       160
     ],
@@ -6138,6 +6138,17 @@
     ],
     "98bf52f4": [
       160
+    ],
+    "07de3320": [
+      153,
+      12,
+      35,
+      62,
+      74,
+      102,
+      105,
+      109,
+      126
     ],
     "12c2219a": [
       139,
@@ -6486,17 +6497,6 @@
     ],
     "632440d6": [
       161
-    ],
-    "c510e9f4": [
-      153,
-      12,
-      35,
-      62,
-      74,
-      102,
-      105,
-      109,
-      126
     ],
     "74101e78": [
       139,
@@ -7107,9 +7107,6 @@
       127,
       132
     ],
-    "4d761126": [
-      160
-    ],
     "9ed049c6": [
       159
     ],
@@ -7170,6 +7167,9 @@
       105,
       109,
       126
+    ],
+    "1f00b622": [
+      160
     ],
     "457b5129": [
       141,

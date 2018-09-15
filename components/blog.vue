@@ -94,6 +94,7 @@
           {
             title: 'The Fragility of the Web',
             date: 'October 22, 2016',
+            // image: '',
             image: ddos,
             headline: 'What are the Repercussions of Huge DDOS Attack?',
             link: '/blogPosts/repurcussionsOfDDOSAttack',

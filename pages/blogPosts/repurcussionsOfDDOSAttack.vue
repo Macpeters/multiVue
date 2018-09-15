@@ -82,6 +82,7 @@
     data() {
       return {
         ddos: ddos
+        // ddos: ''
       };
     }
 };
