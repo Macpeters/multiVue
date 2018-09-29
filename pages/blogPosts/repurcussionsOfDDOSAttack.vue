@@ -74,15 +74,14 @@
   import navBar from '../../components/navBar.vue'
   import contactBar from '../../components/contactBar.vue'
 
-  // import ddos from "../../assets/blogs/ddos.png";
+  import ddos from "../../assets/blogs/ddos_resave.png";
 
   export default {
     name: "RepurcussionsOfDDOSAttack",
     components: { navBar, contactBar },
     data() {
       return {
-        // ddos: ddos
-        ddos: ''
+        ddos: ddos
       };
     }
 };

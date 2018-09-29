@@ -29,6 +29,7 @@
 
 <script>
 // images
+import landscapes_01 from "../assets/cartoons/macpeters_landscapes_01.png";
 import portraits_01 from "../assets/cartoons/macpeters_portraits_01.png";
 import colourGroup_01 from "../assets/cartoons/macpeters_colourGroup_01.png";
 import festivalFrog from "../assets/cartoons/macpeters_festivalfrog.png";
@@ -41,6 +42,7 @@ import xenomorph from "../assets/cartoons/macpeters_xenomorph.png";
 import yoda from "../assets/cartoons/macpeters_yoda.png";
 import yzma from "../assets/cartoons/macpeters_yzma.png";
 // Thumbnails
+import landscapes_01_thumb from "../assets/cartoons/thumbnails/macpeters_landscapes_01.png";
 import portraits_01_thumb from "../assets/cartoons/thumbnails/macpeters_portraits_01.png";
 import colourGroup_01_thumb from "../assets/cartoons/thumbnails/macpeters_colourGroup_01.png";
 import festivalFrog_thumb from "../assets/cartoons/thumbnails/macpeters_festivalfrog.png";
@@ -59,7 +61,7 @@ import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
 import blogList from '../components/blog.vue'
 
-const base_keywords = "comic, funny, webcomic, cartoon, cartooning, digital art, ipad, autodesk, sketchbook, digital drawing, drawing, sketch, ";
+const base_keywords = "cartoon, cartooning, digital art, ipad, autodesk, sketchbook, digital drawing, drawing, sketch, ";
 
 export default {
   name: "Cartoons",
@@ -67,6 +69,13 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: landscapes_01,
+          thumb: landscapes_01_thumb,
+          title: "Landscape Studies",
+          description: "A selection of landscapes - I'm trying to timebox these so as not to get lost in the details.  The focus is on colour, value, and composition",
+          keywords: base_keywords + "landscape, sunset, grass, water, lake, pond, lillypad, waterlilly, rocky shoreline, cottage, autumn"
+        },
         {
           image: portraits_01,
           thumb: portraits_01_thumb,
