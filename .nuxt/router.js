@@ -3,25 +3,26 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _02a8f70d = () => import('../pages/webDev.vue' /* webpackChunkName: "pages/webDev" */).then(m => m.default || m)
-const _0aaf5e8e = () => import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */).then(m => m.default || m)
-const _4400a60a = () => import('../pages/murals.vue' /* webpackChunkName: "pages/murals" */).then(m => m.default || m)
-const _5f70526a = () => import('../pages/skateboards.vue' /* webpackChunkName: "pages/skateboards" */).then(m => m.default || m)
-const _3ab0d8e6 = () => import('../pages/devResume.vue' /* webpackChunkName: "pages/devResume" */).then(m => m.default || m)
-const _e628fd10 = () => import('../pages/aboutArtist.vue' /* webpackChunkName: "pages/aboutArtist" */).then(m => m.default || m)
-const _2589e727 = () => import('../pages/art.vue' /* webpackChunkName: "pages/art" */).then(m => m.default || m)
-const _29ab9eb1 = () => import('../pages/cartoons.vue' /* webpackChunkName: "pages/cartoons" */).then(m => m.default || m)
-const _0b226987 = () => import('../pages/gameDev.vue' /* webpackChunkName: "pages/gameDev" */).then(m => m.default || m)
-const _491624b6 = () => import('../pages/artServices.vue' /* webpackChunkName: "pages/artServices" */).then(m => m.default || m)
 const _9eadd9e4 = () => import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */).then(m => m.default || m)
-const _14734ff7 = () => import('../pages/blogPosts/whatIlearnedFromDrawingChallenge.vue' /* webpackChunkName: "pages/blogPosts/whatIlearnedFromDrawingChallenge" */).then(m => m.default || m)
+const _02a8f70d = () => import('../pages/webDev.vue' /* webpackChunkName: "pages/webDev" */).then(m => m.default || m)
+const _0979ae46 = () => import('../pages/uvArt.vue' /* webpackChunkName: "pages/uvArt" */).then(m => m.default || m)
+const _4400a60a = () => import('../pages/murals.vue' /* webpackChunkName: "pages/murals" */).then(m => m.default || m)
+const _e628fd10 = () => import('../pages/aboutArtist.vue' /* webpackChunkName: "pages/aboutArtist" */).then(m => m.default || m)
+const _5f70526a = () => import('../pages/skateboards.vue' /* webpackChunkName: "pages/skateboards" */).then(m => m.default || m)
+const _0aaf5e8e = () => import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */).then(m => m.default || m)
+const _491624b6 = () => import('../pages/artServices.vue' /* webpackChunkName: "pages/artServices" */).then(m => m.default || m)
+const _0b226987 = () => import('../pages/gameDev.vue' /* webpackChunkName: "pages/gameDev" */).then(m => m.default || m)
+const _29ab9eb1 = () => import('../pages/cartoons.vue' /* webpackChunkName: "pages/cartoons" */).then(m => m.default || m)
+const _2589e727 = () => import('../pages/art.vue' /* webpackChunkName: "pages/art" */).then(m => m.default || m)
+const _3ab0d8e6 = () => import('../pages/devResume.vue' /* webpackChunkName: "pages/devResume" */).then(m => m.default || m)
 const _c08a2c20 = () => import('../pages/blogPosts/photographingBlacklightArt.vue' /* webpackChunkName: "pages/blogPosts/photographingBlacklightArt" */).then(m => m.default || m)
-const _bd58220c = () => import('../pages/blogPosts/tarotAndPursuitOfBetter.vue' /* webpackChunkName: "pages/blogPosts/tarotAndPursuitOfBetter" */).then(m => m.default || m)
-const _efd4dad2 = () => import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */).then(m => m.default || m)
-const _65a8719e = () => import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */).then(m => m.default || m)
-const _dd9ffb3c = () => import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */).then(m => m.default || m)
-const _18ee1b80 = () => import('../pages/blogPosts/repurcussionsOfDDOSAttack.vue' /* webpackChunkName: "pages/blogPosts/repurcussionsOfDDOSAttack" */).then(m => m.default || m)
+const _14734ff7 = () => import('../pages/blogPosts/whatIlearnedFromDrawingChallenge.vue' /* webpackChunkName: "pages/blogPosts/whatIlearnedFromDrawingChallenge" */).then(m => m.default || m)
 const _7faacf40 = () => import('../pages/blogPosts/processOfAMural.vue' /* webpackChunkName: "pages/blogPosts/processOfAMural" */).then(m => m.default || m)
+const _18ee1b80 = () => import('../pages/blogPosts/repurcussionsOfDDOSAttack.vue' /* webpackChunkName: "pages/blogPosts/repurcussionsOfDDOSAttack" */).then(m => m.default || m)
+const _dd9ffb3c = () => import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */).then(m => m.default || m)
+const _65a8719e = () => import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */).then(m => m.default || m)
+const _efd4dad2 = () => import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */).then(m => m.default || m)
+const _bd58220c = () => import('../pages/blogPosts/tarotAndPursuitOfBetter.vue' /* webpackChunkName: "pages/blogPosts/tarotAndPursuitOfBetter" */).then(m => m.default || m)
 const _0682e9d4 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -83,14 +84,19 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
+			path: "/blog",
+			component: _9eadd9e4,
+			name: "blog"
+		},
+		{
 			path: "/webDev",
 			component: _02a8f70d,
 			name: "webDev"
 		},
 		{
-			path: "/tarot",
-			component: _0aaf5e8e,
-			name: "tarot"
+			path: "/uvArt",
+			component: _0979ae46,
+			name: "uvArt"
 		},
 		{
 			path: "/murals",
@@ -98,34 +104,19 @@ export function createRouter () {
 			name: "murals"
 		},
 		{
-			path: "/skateboards",
-			component: _5f70526a,
-			name: "skateboards"
-		},
-		{
-			path: "/devResume",
-			component: _3ab0d8e6,
-			name: "devResume"
-		},
-		{
 			path: "/aboutArtist",
 			component: _e628fd10,
 			name: "aboutArtist"
 		},
 		{
-			path: "/art",
-			component: _2589e727,
-			name: "art"
+			path: "/skateboards",
+			component: _5f70526a,
+			name: "skateboards"
 		},
 		{
-			path: "/cartoons",
-			component: _29ab9eb1,
-			name: "cartoons"
-		},
-		{
-			path: "/gameDev",
-			component: _0b226987,
-			name: "gameDev"
+			path: "/tarot",
+			component: _0aaf5e8e,
+			name: "tarot"
 		},
 		{
 			path: "/artServices",
@@ -133,14 +124,24 @@ export function createRouter () {
 			name: "artServices"
 		},
 		{
-			path: "/blog",
-			component: _9eadd9e4,
-			name: "blog"
+			path: "/gameDev",
+			component: _0b226987,
+			name: "gameDev"
 		},
 		{
-			path: "/blogPosts/whatIlearnedFromDrawingChallenge",
-			component: _14734ff7,
-			name: "blogPosts-whatIlearnedFromDrawingChallenge"
+			path: "/cartoons",
+			component: _29ab9eb1,
+			name: "cartoons"
+		},
+		{
+			path: "/art",
+			component: _2589e727,
+			name: "art"
+		},
+		{
+			path: "/devResume",
+			component: _3ab0d8e6,
+			name: "devResume"
 		},
 		{
 			path: "/blogPosts/photographingBlacklightArt",
@@ -148,24 +149,14 @@ export function createRouter () {
 			name: "blogPosts-photographingBlacklightArt"
 		},
 		{
-			path: "/blogPosts/tarotAndPursuitOfBetter",
-			component: _bd58220c,
-			name: "blogPosts-tarotAndPursuitOfBetter"
+			path: "/blogPosts/whatIlearnedFromDrawingChallenge",
+			component: _14734ff7,
+			name: "blogPosts-whatIlearnedFromDrawingChallenge"
 		},
 		{
-			path: "/blogPosts/howToFailAtKickstarter",
-			component: _efd4dad2,
-			name: "blogPosts-howToFailAtKickstarter"
-		},
-		{
-			path: "/blogPosts/isFacebookTheEnemy",
-			component: _65a8719e,
-			name: "blogPosts-isFacebookTheEnemy"
-		},
-		{
-			path: "/blogPosts/howToPracticeDrawing",
-			component: _dd9ffb3c,
-			name: "blogPosts-howToPracticeDrawing"
+			path: "/blogPosts/processOfAMural",
+			component: _7faacf40,
+			name: "blogPosts-processOfAMural"
 		},
 		{
 			path: "/blogPosts/repurcussionsOfDDOSAttack",
@@ -173,9 +164,24 @@ export function createRouter () {
 			name: "blogPosts-repurcussionsOfDDOSAttack"
 		},
 		{
-			path: "/blogPosts/processOfAMural",
-			component: _7faacf40,
-			name: "blogPosts-processOfAMural"
+			path: "/blogPosts/howToPracticeDrawing",
+			component: _dd9ffb3c,
+			name: "blogPosts-howToPracticeDrawing"
+		},
+		{
+			path: "/blogPosts/isFacebookTheEnemy",
+			component: _65a8719e,
+			name: "blogPosts-isFacebookTheEnemy"
+		},
+		{
+			path: "/blogPosts/howToFailAtKickstarter",
+			component: _efd4dad2,
+			name: "blogPosts-howToFailAtKickstarter"
+		},
+		{
+			path: "/blogPosts/tarotAndPursuitOfBetter",
+			component: _bd58220c,
+			name: "blogPosts-tarotAndPursuitOfBetter"
 		},
 		{
 			path: "/",
