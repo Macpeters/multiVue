@@ -7,6 +7,7 @@
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
+      <div class="neon"><a href="/art">Blacklight Off</a></div>
       <p>
         I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours, 
         moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
@@ -32,6 +33,7 @@ import cracking_uv from "../assets/fineArtUv/macpeters_cracking_uv.png";
 import eagerness_uv from "../assets/fineArtUv/macpeters_eagerness_uv.png";
 import fascination_uv from "../assets/fineArtUv/macpeters_fascination_uv.png";
 import maskedFear_uv from "../assets/fineArtUv/macpeters_maskedFear_uv.png";
+import mischief_uv from "../assets/fineArtUv/macpeters_mischeif_uv.png";
 import stubborn_uv from "../assets/fineArtUv/macpeters_stubbornResentment_uv.png";
 // Thumbs
 import baphomet_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
@@ -41,6 +43,7 @@ import cracking_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cracking
 import eagerness_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
 import fascination_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
 import maskedFear_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_maskedFear_uv.png";
+import mischief_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_mischief_uv.png";
 import stubborn_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png";
 // Components
 import artNav from '../components/artNav.vue'
@@ -116,6 +119,14 @@ export default {
           keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
         },
         {
+          image: mischief_uv,
+          thumb: mischief_uv_thumb,
+          title: "Mischief",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "Did you see snakes in her hair?  Look again.  Mischief likes to play harmless tricks.  She is the spirit of Nature in spring, playful and fun.",
+          keywords: base_keywords + "mischeif, life, diversity, games, pranks, camoflage, flowers, earth goddess, gaia, spring, hope, enjoyment, festival, smiles, friendliness, vines, plants, hair, medussa"
+        },
+        {
           image: maskedFear_uv,
           thumb: maskedFear_uv_thumb,
           title: "Masked Fear",
@@ -158,6 +169,14 @@ export default {
   div {
     background-color: black;
     color: white;
+    text-align: center;
+  }
+
+  .neon{
+    font-size: 30px;
+    font-family: 'Futura';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
     text-align: center;
   }
 

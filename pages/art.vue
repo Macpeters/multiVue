@@ -7,6 +7,7 @@
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
+      <div class="no-neon"><a href="/uvArt">Blacklight On</a></div>
       <p>
         I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours, 
         moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
@@ -218,4 +219,13 @@ export default {
   div {
     text-align: center
   }
+
+  .no-neon{
+    font-size: 30px;
+    font-family: 'Futura';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+  }
+
 </style>
