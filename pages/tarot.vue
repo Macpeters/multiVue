@@ -3,9 +3,13 @@
     <navBar />
 
     <div>
-      <h1>The Hidden Dreams Tarot</h1>
+      <h1>Macpeters Tarot Decks</h1>
       <breadcrumbs/>
-      <h2>A synthesis of symbolism and lore.</h2>
+      <div class="sub-nav-bar">
+        <span class="button sub-nav"><a href="#hidden-dreams">Hidden Dreams Tarot</a></span>
+        <span class="button sub-nav"><a href="#cutie-pie">Cutie Pie Tarot</a></span>
+      </div>
+      <h2>The Hidden Dreams Tarot</h2>
       <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
       <p>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Hidden Dreams Tarot Deck Now</a>
@@ -13,7 +17,7 @@
     </div>
     
 
-    <div>
+    <div id="hidden-dreams">
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/fwCA5DEUbd8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
     </div>
     <div id="inspiration" class="columns">
@@ -81,7 +85,16 @@
       </div>
     </div>
 
+    <div id="cutie-pie">
+      <h2>The CutiePie Tarot</h2>
+      <h3>Designed with inclusivity children in mind.</h3>
+      <p>
+        <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy CutiePie Tarot Deck Now</a>
+      </p> 
+    </div>
+
     <div class="columns">
+      <div><iframe width="560" height="315" src="https://www.youtube.com/embed/OK4yx7mOcJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <div class="left-column">
         <img v-bind:src="cutiePieTarot" alt="Cutie Pie Tarot" title="Cutie Pie Tarot"/>
       </div>
@@ -93,8 +106,13 @@
           everyone can see themselves in this deck.
         </p> 
         <p>
-          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.
+          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.  It 
+          comes in a sturdy rigid box, with the cards sized more like standard playing cards so they're easier to handle, particularly for 
+          little hands.
         </p>
+        <p>
+          <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy The CutiePie Tarot Deck Now</a>
+        </p> 
       </div>
     </div>
 
@@ -156,7 +174,7 @@
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
         { hid: 'artDescription', name: 'description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all in one cohesive cross-cultural experience'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
-        { hid: `og:title`, property: 'og:title', content: 'Hidden Dreams Tarot by Mac Peters' },
+        { hid: `og:title`, property: 'og:title', content: 'Hidden Dreams and CutiePie Tarot by Mac Peters' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/' },
         { hid: `og:description`, property: 'og:description', content: 'Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all in one cohesive cross-cultural experience.' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
@@ -185,9 +203,20 @@
     background-color: #FF6;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
+  .sub-nav-bar {
+    margin-top: 40px;
+  }
+  .sub-nav {
+    background-color: #897DF4;
+    margin: 20px;
+  }
+  .sub-nav a {
+    color: white;
+    text-decoration: none;
+  }
   .tarot-sub-nav {
     height: 40px;
-    padding: 10px;
+    padding: 10px; 
     text-align: center;
   }
   hr {
