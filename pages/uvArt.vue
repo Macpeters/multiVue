@@ -32,8 +32,10 @@ import cosmicKitten_uv from "../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
 import cracking_uv from "../assets/fineArtUv/macpeters_cracking_uv.png";
 import eagerness_uv from "../assets/fineArtUv/macpeters_eagerness_uv.png";
 import fascination_uv from "../assets/fineArtUv/macpeters_fascination_uv.png";
+import gratitude_uv from "../assets/fineArtUv/macpeters_gratitude_uv.png";
 import maskedFear_uv from "../assets/fineArtUv/macpeters_maskedFear_uv.png";
 import mischief_uv from "../assets/fineArtUv/macpeters_mischeif_uv.png";
+import shpongle_uv from "../assets/fineArtUv/macpeters_shpongle_uv.png";
 import stubborn_uv from "../assets/fineArtUv/macpeters_stubbornResentment_uv.png";
 // Thumbs
 import baphomet_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
@@ -42,8 +44,10 @@ import cosmicKitten_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cosm
 import cracking_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
 import eagerness_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
 import fascination_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
+import gratitude_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_gratitude_uv.png";
 import maskedFear_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_maskedFear_uv.png";
 import mischief_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_mischief_uv.png";
+import shpongle_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
 import stubborn_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png";
 // Components
 import artNav from '../components/artNav.vue'
@@ -69,6 +73,14 @@ export default {
           subtitle: "24x24 UV Acrylic on canvas",
           description: "Kitten enjoys the journey, the spectacle, the festival of creation through space and time",
           keywords: base_keywords + 'space, cosmos, kitten, cosmic, galaxies, universe, festival, edm, trippy, cat, kitten, space cat'
+        },
+        {
+          image: shpongle_uv,
+          thumb: shpongle_uv_thumb,
+          title: "Dancing With the Universe AKA Shpongle: Codex 6",
+          subtitle: "18x18 UV Acrylic on canvas",
+          description: "You are the Universe enjoying a dance through one timeline from one perspective, and the Universe is watching your dance, and everyone else's, experiencing itself in every way",
+          keywords: base_keywords + "shpongle, psytrance, goa, codex6, codex 6, album art, cover art, universe, watching itself, self observation, meta, self referencing, feather, feather pen, dancing, clay, clay bodies, veiny, space, stars, forever, earth, life, path of enlightenment, from the earth, logos, the word"
         },
         {
           image: baphomet_uv,
@@ -109,6 +121,14 @@ export default {
           subtitle: "18x18 UV Acrylic on canvas",
           description: "Eagerness has his eye on a treat, and is in a hurry to get a taste of it.",
           keywords: base_keywords + "monster, feels monster, emotional, eager, wanting, longing, craving, drive, driving force, excitement, tentacles, eyeball, long tongue, long tail, stripes, pink and green"
+        },
+        {
+          image: gratitude_uv,
+          thumb: gratitude_uv_thumb,
+          title: "Gratitude",
+          subtitle: "24x24 UV Acrylic on canvas",
+          description: "Accepting the gift of light, and giving gratitude in return.",
+          keywords: base_keywords + "gratitude, appreciation, morning sun, gift of light, life, grateful, thank you, arise, gift, water, growth, becoming, being, existence"
         },
         {
           image: stubborn_uv,
