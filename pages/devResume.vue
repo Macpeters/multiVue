@@ -1,7 +1,5 @@
 <template>
   <div class="resume">
-    <navBar />
-
     <div class="resume-header">
       <h1>Maryanne Peters a.k.a. Macpeters</h1>
       <div>www.macpeters.com</div>
@@ -96,8 +94,6 @@
       </ul>
     </div>
     <br />
-
-    <contactBar/>
   </div>
 </template>
 
@@ -107,13 +103,11 @@
   import twitter from "../assets/social/twitter.png";
   import stackOverflow from "../assets/social/stackoverflow.png";
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
 
   export default {
     name: "devResume",
-    components: { contactBar, navBar, breadcrumbs },
+    components: { breadcrumbs },
     data() {
       return {
         socialMedia: [

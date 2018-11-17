@@ -1,6 +1,5 @@
 <template>
   <div>
-    <navBar />
     <h1>Macpeters: UV Reactive Blacklight Art</h1>
     <breadcrumbs/>
     <artNav/>
@@ -9,17 +8,15 @@
     <div class="page-description">
       <div id="neon"><a href="/art#no-neon">Blacklight Off</a></div>
       <p>
-        I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours, 
-        moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.   
-        I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects. 
+        I often work with a mixture of airbrush and brush paint, and I'll start with base (not blacklight/uv reactive) colours,
+        moving onto neon once I have the basic structure in place. Orbs and crystals are an ongoing theme for me these days.
+        I might work on one painting for months, adding layers to create depth, transparency, and different lighting effects.
       </p>
     </div>
 
     <imageList/>
 
     <blogList/>
-
-    <contactBar/>
 
   </div>
 </template>
@@ -28,7 +25,7 @@
 // Images
 import baphomet_uv from "../assets/fineArtUv/macpeters_baphomet_uv.png";
 import bliss_uv from "../assets/fineArtUv/macpeters_bliss_uv.png";
-import cosmicKitten_uv from "../assets/fineArtUv/macpeters_cosmicKitten_uv.png"; 
+import cosmicKitten_uv from "../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
 import cracking_uv from "../assets/fineArtUv/macpeters_cracking_uv.png";
 import eagerness_uv from "../assets/fineArtUv/macpeters_eagerness_uv.png";
 import fascination_uv from "../assets/fineArtUv/macpeters_fascination_uv.png";
@@ -40,7 +37,7 @@ import stubborn_uv from "../assets/fineArtUv/macpeters_stubbornResentment_uv.png
 // Thumbs
 import baphomet_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
 import bliss_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_bliss_uv.png";
-import cosmicKitten_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png"; 
+import cosmicKitten_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
 import cracking_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
 import eagerness_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
 import fascination_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
@@ -52,8 +49,6 @@ import stubborn_uv_thumb from "../assets/fineArtUv/thumbnails/macpeters_stubborn
 // Components
 import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
-import navBar from '../components/navBar.vue'
-import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
 // Blog
 import blogList from '../components/blog.vue'
@@ -62,7 +57,7 @@ const base_keywords = "painting, visionary, sci-fi, art, blacklight, uv reactive
 
 export default {
   name: "Art",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
+  components: { imageList, breadcrumbs, blogList, artNav },
   data() {
     return {
       images: [

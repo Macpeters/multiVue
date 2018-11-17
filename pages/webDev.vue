@@ -1,24 +1,23 @@
 <template>
   <div>
-    <navBar />
     <h1>Macpeters: Web Development</h1>
     <breadcrumbs/>
     <h2>builder of websites, surveys, data visualizations</h2>
     <hr />
     <div class="page-description">
       <p>
-        I work as a Professional Web Developerat 
+        I work as a Professional Web Developerat
         <a href="https://www.infotech.com/">Infotech Research Group</a>, building surveys, reports,
         and data visualization dashboards for IT Research.  I work in a number of different systems,
         some legacy, and many of them interact.
-        I love collaborating, and working on a dev team is great for that. 
-        We have recently chosen Vue.js as a framework since our content is becoming more dynamic.  
+        I love collaborating, and working on a dev team is great for that.
+        We have recently chosen Vue.js as a framework since our content is becoming more dynamic.
       </p>
       <p><h4><a href="/devResume">See my Resume</a></h4></p>
       <p>
-        My own site is a multipage vue app, served on Netlify, using npm and nuxt.  
+        My own site is a multipage vue app, served on Netlify, using npm and nuxt.
         I've rebuilt it more times than I can count, trying out new technology, looking for a UX
-        that is compelling, and intuitive.  
+        that is compelling, and intuitive.
       </p>
     </div>
 
@@ -51,10 +50,8 @@
     </div>
 
     <blogList/>
-
-    <contactBar/>
   </div>
-  
+
 </template>
 
 <script>
@@ -62,15 +59,13 @@
   import logoImage from "../assets/logo.png";
   import github from "../assets/social/github.png";
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   // Blog
   import blogList from '../components/blog.vue'
 
   export default {
   name: "Dev",
-  components: { navBar, contactBar, breadcrumbs, blogList },
+  components: { breadcrumbs, blogList },
   data() {
     return {
       githubImage: github,

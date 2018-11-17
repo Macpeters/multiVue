@@ -1,7 +1,5 @@
 <template>
   <div>
-    <navBar />
-
     <h1>Macpeters: Cartoons and Comics</h1>
     <breadcrumbs/>
 
@@ -15,14 +13,12 @@
         be on point.  So cartooning gives me a lighter, more humourous medium within which I can work
         on fundamental drawing skills while breaking down creative barriers.
       </p>
-      
+
     </div>
 
     <imageList/>
 
     <blogList/>
-
-    <contactBar/>
 
   </div>
 </template>
@@ -56,8 +52,6 @@ import yoda_thumb from "../assets/cartoons/thumbnails/macpeters_yoda.png";
 import yzma_thumb from "../assets/cartoons/thumbnails/macpeters_yzma.png";
 // components
 import imageList from '../components/imageList.vue'
-import navBar from '../components/navBar.vue'
-import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
 import blogList from '../components/blog.vue'
 
@@ -65,7 +59,7 @@ const base_keywords = "cartoon, cartooning, digital art, ipad, autodesk, sketchb
 
 export default {
   name: "Cartoons",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList },
+  components: { imageList, breadcrumbs, blogList },
   data() {
     return {
       images: [
@@ -130,7 +124,7 @@ export default {
           thumb: wolfman_thumb,
           title: "Wolfman",
           description: "The wolfman is now more accepting of his whole self.",
-          keywords: base_keywords + "wolfman, fright night, frightenstein, film character, werewolf, bela lugosi, cross-dressing, pretty man, beast man, beast, wolf, flirty, fan art, animal alphabets"  
+          keywords: base_keywords + "wolfman, fright night, frightenstein, film character, werewolf, bela lugosi, cross-dressing, pretty man, beast man, beast, wolf, flirty, fan art, animal alphabets"
         },
         {
           image: xenomorph,

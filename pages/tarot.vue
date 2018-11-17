@@ -1,7 +1,5 @@
 <template>
   <div class="page-content">
-    <navBar />
-
     <div>
       <h1>Macpeters Tarot Decks</h1>
       <breadcrumbs/>
@@ -13,9 +11,9 @@
       <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
       <p>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Hidden Dreams Tarot Deck Now</a>
-      </p> 
+      </p>
     </div>
-    
+
 
     <div id="hidden-dreams">
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/fwCA5DEUbd8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
@@ -33,7 +31,7 @@
             Over the course of a year, I took notes on all of these associations, and clarified their mappings.
           </p>
           <p>The Kickstarter project got off to a luke-warm start, so I'll be selling <a href="#tarot-deck-purchase">print-to-order copies</a> of
-            both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a> 
+            both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a>
             for more information.
           </p>
         </div>
@@ -44,16 +42,16 @@
       <div class="left-column" id="tarot-deck-purchase">
         <p>
           Order your own copy of the Hidden Dreams Tarot Deck.  Discover the modern sybolic representations of many different
-          cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.  
+          cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.
         </p>
         <p>
-          Wherever you are in your own journey, the Hidden Dreams Tarot can offer insight into your circumstances, and 
-          advice on how to proceed. If you are new to tarot, this deck is a great way to learn, because the imagery is 
+          Wherever you are in your own journey, the Hidden Dreams Tarot can offer insight into your circumstances, and
+          advice on how to proceed. If you are new to tarot, this deck is a great way to learn, because the imagery is
           modern and memorable.
-        </p> 
+        </p>
         <p>
           <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy The Hidden Dreams Tarot Deck Now</a>
-        </p>       
+        </p>
       </div>
       <div class="right-column">
         <a href="http://www.makeplayingcards.com/sell/macpeters" target="_blank" title="Buy Hidden Dreams Tarot Deck Image">
@@ -61,7 +59,7 @@
         </a>
       </div>
     </div>
-    
+
     <div class="columns">
       <div class="left-column">
         <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">
@@ -70,17 +68,17 @@
       </div>
       <div class="right-column">
         <p>
-          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.  
+          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.
         </p>
         <p>
-          Along with descriptions of the cards and their meanings, the guidebook contains quick references to crystals, astrology, 
+          Along with descriptions of the cards and their meanings, the guidebook contains quick references to crystals, astrology,
           entheogens, runes, and more, beautifully illustrated.  This book can give you a quick look into different belief
-          systems and how they associate with the tarot.  
+          systems and how they associate with the tarot.
         </p>
         <p>
-          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
+          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order
           your copy today.
-        </p> 
+        </p>
         <p><a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Hidden Dreams Guidebook Now</a></p>
       </div>
     </div>
@@ -90,7 +88,7 @@
       <h3>Designed with inclusivity children in mind.</h3>
       <p>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy CutiePie Tarot Deck Now</a>
-      </p> 
+      </p>
     </div>
 
     <div class="columns">
@@ -104,15 +102,15 @@
           into a basic interpretation, and have it personified by a cute human character.  Because the deck is made up of humans, I wanted
           the characters to represent a really diverse collection of people - age, race, ability, gender, gender expression.  I hope that
           everyone can see themselves in this deck.
-        </p> 
+        </p>
         <p>
-          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.  It 
-          comes in a sturdy rigid box, with the cards sized more like standard playing cards so they're easier to handle, particularly for 
+          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.  It
+          comes in a sturdy rigid box, with the cards sized more like standard playing cards so they're easier to handle, particularly for
           little hands.
         </p>
         <p>
           <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy The CutiePie Tarot Deck Now</a>
-        </p> 
+        </p>
       </div>
     </div>
 
@@ -124,10 +122,8 @@
     </div>
 
      <blogList/>
-
-    <contactBar/>
   </div>
-  
+
 </template>
 
 <script>
@@ -139,16 +135,14 @@
   import hiddenDreamsCardSpread from "../assets/tarot/hiddenDreamsTarotSpread.png"
   import hiddenDreamsGuidebook from "../assets/tarot/hiddenDreamsTarotGuidebook.png"
   // Components
-  import navBar from '../components/navBar.vue'
   import signupForm from '../components/signupForm.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   // Blog
   import blogList from '../components/blog.vue'
 
   export default {
   name: "Home",
-  components: { navBar, contactBar, signupForm, breadcrumbs, blogList },
+  components: { signupForm, breadcrumbs, blogList },
   data() {
     return {
       logoImage: logoImage,
@@ -216,7 +210,7 @@
   }
   .tarot-sub-nav {
     height: 40px;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
   }
   hr {
@@ -288,7 +282,7 @@
     .columns {
       height: 450px;
     }
-  
+
     #tarot-history {
       height: 1100px;
     }

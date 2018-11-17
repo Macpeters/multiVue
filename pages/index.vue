@@ -1,10 +1,9 @@
 <template>
   <div>
-    <navBar />
     <h1>Macpeters: Artist and Programmer</h1>
-    
+
     <div class="page-description">
-      <h2>Fullstack web developer by day, creating art and games in my off hours.</h2> 
+      <h2>Fullstack web developer by day, creating art and games in my off hours.</h2>
       <h3>The art I make ranges from low-brow
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
       Nuxt, and Served on Netlify.</h3>
@@ -12,8 +11,8 @@
 
     <div class="art-gallery">
       <div>
-        <span v-for="image in images" :key='image.id' >  
-          
+        <span v-for="image in images" :key='image.id' >
+
           <div class="page-teaser">
             <a v-bind:href="image.link">
               <div class="teaser-image"><img v-bind:src="image.image" v-bind:alt="image.title" v-bind:title="image.title" /></div>
@@ -22,16 +21,14 @@
               <div>{{image.description}}</div>
             </div>
             </a>
-            
+
           </div>
 
         </span>
       </div>
     </div>
-
-    <contactBar/>
   </div>
-  
+
 </template>
 
 <script>
@@ -43,14 +40,12 @@
   import games from "../assets/index/macpeters_games.png";
   import tarot from "../assets/index/macpeters_tarot.png";
   import webDev from "../assets/index/macpeters_webdev.png";
-  
+
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
 
   export default {
   name: "Home",
-  components: { navBar, contactBar },
+  components: { },
   data() {
     return {
       logoImage: logoImage,

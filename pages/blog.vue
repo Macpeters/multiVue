@@ -1,13 +1,9 @@
 <template>
   <div>
-    <navBar/>
-
     <div>
       <h1>All Blog Posts by Macpeters</h1>
       <blogList/>
     </div>
-
-    <contactBar/>
   </div>
 </template>
 
@@ -16,13 +12,10 @@
   import email from "../assets/social/email.png";
   // Blogs
   import blogList from '../components/blog.vue'
-  // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
 
   export default {
     name: "blog",
-    components: { navBar, contactBar, blogList },
+    components: { blogList },
     data() {
       return {
         blogFilter: null

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <navBar />
-
     <h1>Hand Painted Skateboard Decks</h1>
     <breadcrumbs/>
     <artNav/>
@@ -16,8 +14,6 @@
     <imageList/>
 
     <blogList/>
-
-    <contactBar/>
 
   </div>
 </template>
@@ -44,8 +40,6 @@ import trickRTreat_thumb from "../assets/skateboards/thumbnails/macpeters_trickr
 // components
 import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
-import navBar from '../components/navBar.vue'
-import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
 // Blog
 import blogList from '../components/blog.vue'
@@ -54,7 +48,7 @@ const base_keywords = "skateboards, skate art, skateboard art, painted decks, lo
 
 export default {
   name: "Skateboards",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
+  components: { imageList, breadcrumbs, blogList, artNav },
   data() {
     return {
       logoImage: logoImage,
@@ -99,7 +93,7 @@ export default {
           thumb: tikiFaces_thumb,
           title: "Super Friends",
           description: "An unusual group of characters",
-          keywords: base_keywords + "faces, friends, super friends, unique characters, different faces, different colours, different expressions, totem, tropical, flowers"  
+          keywords: base_keywords + "faces, friends, super friends, unique characters, different faces, different colours, different expressions, totem, tropical, flowers"
         },
         {
           image: trickRTreat,

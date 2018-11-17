@@ -1,7 +1,5 @@
 <template>
   <div>
-    <navBar />
-
     <h1>Murals and Aerosol Art</h1>
     <breadcrumbs/>
     <artNav/>
@@ -11,8 +9,8 @@
       <p>
         <img v-bind:src="hockeyBeesComplete" alt="Hockey Bees - completed" title="Hockey Bees - completed" />
       </p>
-      <p>One of my favourite things about creating public art is fitting the art to the space it's in.  
-        It was fun to paint a weight lifting octopus in a fitness club, or bees playing hockey near a 
+      <p>One of my favourite things about creating public art is fitting the art to the space it's in.
+        It was fun to paint a weight lifting octopus in a fitness club, or bees playing hockey near a
         city's new hockey arena.  It gives me an extra element to play with and helps generate ideas that
         I otherwise wouldn't have had.
       </p>
@@ -26,9 +24,6 @@
     <imageList/>
 
     <blogList/>
-
-    <contactBar/>
-    
   </div>
 </template>
 
@@ -55,8 +50,6 @@ import ribbit_thumb from "../assets/graf/thumbnails/macpeters_ribbit.png";
 // components
 import artNav from '../components/artNav.vue'
 import imageList from '../components/imageList.vue'
-import navBar from '../components/navBar.vue'
-import contactBar from '../components/contactBar.vue'
 import breadcrumbs from '../components/breadcrumbs.vue'
 // Blog
 import blogList from '../components/blog.vue'
@@ -65,7 +58,7 @@ const base_keywords = "murals, wall art, graffiti, urban art, outdoor art, publi
 
 export default {
   name: "Murals",
-  components: { imageList, navBar, contactBar, breadcrumbs, blogList, artNav },
+  components: { imageList, breadcrumbs, blogList, artNav },
   data() {
     return {
       logoImage: logoImage,
@@ -94,7 +87,7 @@ export default {
           subtitle: "UV reactive/Blacklight painting on wall",
           description: "With the building to be demolished soon - this collaborative mural was done in the spirit of coming together to make friends, and create a magical experience.",
           keywords: base_keywords + "building, demolition, free for all, blacklight, jungle, dnb, party, collaboration, party art, pyramid, alien, summoning, sweetness, sugar, tentacles"
-        },  
+        },
         {
           image: mouseBot,
           thumb: mouseBot_thumb,
@@ -125,7 +118,7 @@ export default {
           title: "Ribbit",
           subtitle: "Spray paint on wooden door",
           description: "Painted during a workshop at Mural Routes, Scarborough.",
-          keywords: base_keywords + "frog, storm, ribbit, workshop, mediah, spraypaint, mural routes, scarborough, outdoor art"  
+          keywords: base_keywords + "frog, storm, ribbit, workshop, mediah, spraypaint, mural routes, scarborough, outdoor art"
         }
       ],
       breadcrumbs: [

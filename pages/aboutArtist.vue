@@ -1,6 +1,5 @@
 <template>
   <div>
-    <navBar />
     <h1>Macpeters: Background and Insights</h1>
 
     <breadcrumbs/>
@@ -53,7 +52,6 @@
       <artHistory/>
     </div>
 
-    <contactBar/>
   </div>
 </template>
 
@@ -61,13 +59,11 @@
   // Images
   import photo from "../assets/social/macpeters_photo.png";
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import artHistory from '../components/artHistory.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   export default {
     name: "aboutArtist",
-    components: { navBar, contactBar, artHistory, breadcrumbs },
+    components: { artHistory, breadcrumbs },
     data() {
       return {
         favouriteArtists: [

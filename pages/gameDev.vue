@@ -1,6 +1,5 @@
 <template>
   <div>
-    <navBar />
     <h1>Macpeters: Indie Game Development</h1>
     <breadcrumbs/>
     <h2>web and mobile games</h2>
@@ -8,11 +7,11 @@
     <div class="page-description">
       <h3>Hobby Game Developer</h3>
       <p>
-        If I get the dev bug on my own time, I mess around in GameMaker Studio 2 on games that may not be all 
-        that fun to play, but they're pretty fun to build.  I create simple vector sprites using Inkscape to 
-        represent game objects and states.  I have 2 games on the go at the moment - a simulation game where 
-        single celled organisms compete for resources - the difficulty is adjustable by the user.  The other 
-        game is a strategy skating game.  In both, most of the work is done by the computer, with basic 
+        If I get the dev bug on my own time, I mess around in GameMaker Studio 2 on games that may not be all
+        that fun to play, but they're pretty fun to build.  I create simple vector sprites using Inkscape to
+        represent game objects and states.  I have 2 games on the go at the moment - a simulation game where
+        single celled organisms compete for resources - the difficulty is adjustable by the user.  The other
+        game is a strategy skating game.  In both, most of the work is done by the computer, with basic
         artificial intelligence.
       </p>
       <h3>Collaborate with Me!</h3>
@@ -20,7 +19,7 @@
         While I have worked in the past with Unity3d, flash, XNA, and DirectX, these days I generally stick with GMS2.
         I tend to build prototypes, then lose interest once the interesting mechanics are in place.
         If you're more into level design, graphics, or UX, and would like to collaborate, get in touch with me.
-        GMS2 is github friendly, and all my repos are public.  
+        GMS2 is github friendly, and all my repos are public.
       </p>
       <hr />
     </div>
@@ -42,10 +41,8 @@
     </div>
 
     <blogList/>
-
-    <contactBar/>
   </div>
-  
+
 </template>
 
 <script>
@@ -53,15 +50,13 @@
   import logoImage from "../assets/logo.png";
   import github from "../assets/social/github.png";
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   // Blog
   import blogList from '../components/blog.vue'
 
   export default {
   name: "Dev",
-  components: { navBar, contactBar, breadcrumbs, blogList },
+  components: { breadcrumbs, blogList },
   data() {
     return {
       githubImage: github,

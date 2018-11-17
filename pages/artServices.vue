@@ -1,9 +1,7 @@
 <template>
   <div>
-    <navBar />
-    
     <h1>Macpeters: Art Services</h1>
-    
+
     <breadcrumbs/>
 
     <div class="shop-buttons">
@@ -22,10 +20,10 @@
       <div>
         <h2 id="livePainting">Live Painting</h2>
         <div class="page-description">
-          <p> Give your guests the opportunity to see art in action.  I will produce a painting at your event, 
-              on any theme of your choosing.  I have painted at drum circles, outdoor festivals, and 
+          <p> Give your guests the opportunity to see art in action.  I will produce a painting at your event,
+              on any theme of your choosing.  I have painted at drum circles, outdoor festivals, and
               charity events such as Art For Heart at Workman Arts.  People enjoy seeing the process and
-              watching art come to life.  Paintings can be done slowly over a weekend, or timeboxed to 
+              watching art come to life.  Paintings can be done slowly over a weekend, or timeboxed to
               20 or 60 minutes.</p>
         </div>
         <div>
@@ -33,30 +31,30 @@
           <hr />
         </div>
       </div>
-      
+
       <!-- Deco -->
       <div>
         <h2 id="deco">UV/Blacklight Deco</h2>
         <div class="page-description">
           <p>Make your event magical with blacklight reactive deco.  Kids and Adults alike can enjoy
             the beauty and magic of glowing blacklight decor.  It's great for birthdays, sweet sixteens,
-            and weddings.</p>    
+            and weddings.</p>
         </div>
         <div class="featured-image">
           <img v-bind:src="deco" alt="Macpeters Blacklight Deco" title="Macpeters Blacklight Deco" />
           <hr />
         </div>
       </div>
-      
+
       <!-- Tapestries -->
       <div>
         <h2 id="tapestries">UV/Blacklight Reactive Tapestry Rentals</h2>
         <div class="page-description">
-          <p> These are painted on loose canvas, and can be rolled up and brought to outdoor festivals, blacklight events, and park outings. 
+          <p> These are painted on loose canvas, and can be rolled up and brought to outdoor festivals, blacklight events, and park outings.
             The pieces are of varying sizes, and can be arranged according to the space.  Each painting is fitted with grommets for easy hanging.
-            These are positive, friendly, conscious artworks that have graced the walls of electronic parties and events in Toronto, for Squid Lid 
-            at Zion Lounge, Soul Movement at Temple 23, Acid Reign Productions at the Velvet Underground, TdotLove at Bassline Bar, and House of 
-            Dust's 'Body Light' event.  Psytrance, Dubstep, and Drum and Bass events are more memorable and photo worthy when they are beautified 
+            These are positive, friendly, conscious artworks that have graced the walls of electronic parties and events in Toronto, for Squid Lid
+            at Zion Lounge, Soul Movement at Temple 23, Acid Reign Productions at the Velvet Underground, TdotLove at Bassline Bar, and House of
+            Dust's 'Body Light' event.  Psytrance, Dubstep, and Drum and Bass events are more memorable and photo worthy when they are beautified
             with these glowing colours.</p>
         </div>
         <imageList/>
@@ -67,17 +65,15 @@
       <div>
         <h2 id="toys">Blacklight Party Crafting</h2>
         <div class="page-description">
-          <p> A great way to make your event memorable is to give your guests the opportunity to create something themselves to take home as a souvenir.  
-              Using low cost materials, a number of fun crafts and artworks can be made under the magical glow of UV light.  I can provide materials, instruction, 
-              and encouragement to help your guests enjoy themselves on any occasion.  Kid-friendly materials such as pipecleaners and string make these activities 
+          <p> A great way to make your event memorable is to give your guests the opportunity to create something themselves to take home as a souvenir.
+              Using low cost materials, a number of fun crafts and artworks can be made under the magical glow of UV light.  I can provide materials, instruction,
+              and encouragement to help your guests enjoy themselves on any occasion.  Kid-friendly materials such as pipecleaners and string make these activities
               great for all ages. </p>
         </div>
         <div class="featured-image">
           <img v-bind:src="crafts" alt="Macpeters Blacklight Crafting" title="Macpeters Blacklight Crafting" />
         </div>
       </div>
- 
-      <contactBar/>
     </div>
 
     <blogList/>
@@ -117,8 +113,6 @@
   import unicornSplashThumb from "../assets/services/thumbnails/macpeters_unicornSplash.png";
   // Components
   import imageList from '../components/imageList.vue'
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   // Blog
   import blogList from '../components/blog.vue'
@@ -126,7 +120,7 @@
   const base_keywords = "uv, blacklight reactive, psychedelic, tapestry, uv deco, blacklight party deco, blacklight art, ";
   export default {
   name: "ArtServices",
-  components: { navBar, contactBar, imageList, breadcrumbs, blogList },
+  components: { imageList, breadcrumbs, blogList },
   data() {
     return {
       deco: deco,
@@ -275,7 +269,7 @@
     max-height: 500px;
   }
   .featured-image img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
   }
 

@@ -21,7 +21,6 @@
 
 export default {
   name: "imageList",
-
   components: { },
   data() {
     return {
@@ -74,7 +73,7 @@ export default {
     height: 500px;
   }
   .featured-image img {
-    max-width: 100%; 
+    max-width: 100%;
     max-height: 100%;
     height: auto;
   }
@@ -95,7 +94,7 @@ export default {
     object-fit: cover;
     overflow: hidden;
   }
-  
+
   @media screen and (max-width: 450px){
     .left-column {
       width: 100%;
