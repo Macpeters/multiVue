@@ -61,6 +61,9 @@ export default {
   }
 
   /* Featured Image */
+  h4 {
+    font-size: 16px;
+  }
   .left-column {
     width: 50%;
     float: left
@@ -82,6 +85,7 @@ export default {
   }
   .keywords {
     color: #bbb;
+    font-size: 12px;
   }
 
   .thumbnail {

@@ -11,12 +11,14 @@
   import cosmicKitten from "../../assets/fineArt/macpeters_cosmicKitten.png";
   import cracking     from "../../assets/fineArt/macpeters_crackingUnderThePressure.png";
   import eagerness    from "../../assets/fineArt/macpeters_eagerness.png";
+  import eyeOfStorm    from "../../assets/fineArt/macpeters_eyeOfStorm.png";
   import fascination  from "../../assets/fineArt/macpeters_fascination.png";
   import gratitude    from "../../assets/fineArt/macpeters_gratitude.png";
   import lovebird     from "../../assets/fineArt/macpeters_loveBird.png";
   import maskedFear   from "../../assets/fineArt/macpeters_maskedFear.png";
   import mischeif     from "../../assets/fineArt/macpeters_mischeif.png";
   import monsterball  from "../../assets/fineArt/macpeters_monsterball.png";
+  import selfPortrait     from "../../assets/fineArt/macpeters_selfPortrait.png";
   import shpongle     from "../../assets/fineArt/macpeters_shpongle.png";
   import starbird     from "../../assets/fineArt/macpeters_starBird.png";
   import stubborn     from "../../assets/fineArt/macpeters_stubbornResentment.png";
@@ -26,12 +28,14 @@
   import cosmicKitten_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
   import cracking_thumb     from "../../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
   import eagerness_thumb    from "../../assets/fineArt/thumbnails/macpeters_eagerness.png";
+  import eyeOfStorm_thumb    from "../../assets/fineArt/thumbnails/macpeters_eyeOfStorm.jpg";
   import fascination_thumb  from "../../assets/fineArt/thumbnails/macpeters_fascination.png";
   import gratitude_thumb    from "../../assets/fineArt/thumbnails/macpeters_gratitude.png";
   import lovebird_thumb     from "../../assets/fineArt/thumbnails/macpeters_loveBird.png";
   import maskedFear_thumb   from "../../assets/fineArt/thumbnails/macpeters_maskedFear.png";
   import mischeif_thumb     from "../../assets/fineArt/thumbnails/macpeters_mischeif.png";
   import monsterball_thumb  from "../../assets/fineArt/thumbnails/macpeters_monsterball.png";
+  import selfPortrait_thumb from "../../assets/fineArt/thumbnails/macpeters_selfPortrait.jpg";
   import shpongle_thumb     from "../../assets/fineArt/thumbnails/macpeters_shpongle.png";
   import starbird_thumb     from "../../assets/fineArt/thumbnails/macpeters_starBird.png";
   import stubborn_thumb     from "../../assets/fineArt/thumbnails/macpeters_stubbornResentment.png";
@@ -47,12 +51,28 @@
       return {
         images: [
           {
+            image: selfPortrait,
+            thumb: selfPortrait_thumb,
+            title: "Self Portrait",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Self portrait, painted at COSM, 2018",
+            keywords: base_keywords + 'self-portrait, mushrooms, squatting man, plants, paintbrushes, gargoyles, bubbles'
+          },
+          {
             image: cosmicKitten,
             thumb: cosmicKitten_thumb,
             title: "Cosmic Kitten",
             subtitle: "24x24 UV Acrylic on canvas",
             description: "Kitten enjoys the journey, the spectacle, the festival of creation through space and time",
             keywords: base_keywords + 'space, cosmos, kitten, cosmic, galaxies, universe, festival, edm, trippy, cat, kitten, space cat'
+          },
+          {
+            image: eyeOfStorm,
+            thumb: eyeOfStorm_thumb,
+            title: "Be the Eye of Your Stomr",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Stoic and calm, the frog sees the storm, is in the storm, but is not of the storm",
+            keywords: base_keywords + 'frog, tornado, storm, stoic, composed, calm of the storm, eye of the storm, calm within'
           },
           {
             image: baphomet,

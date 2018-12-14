@@ -11,10 +11,12 @@
   import cosmicKitten_uv  from "../../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
   import cracking_uv      from "../../assets/fineArtUv/macpeters_cracking_uv.png";
   import eagerness_uv     from "../../assets/fineArtUv/macpeters_eagerness_uv.png";
+  import eyeOfStorm_uv    from "../../assets/fineArtUv/macpeters_eyeOfStorm_uv.png";
   import fascination_uv   from "../../assets/fineArtUv/macpeters_fascination_uv.png";
   import gratitude_uv     from "../../assets/fineArtUv/macpeters_gratitude_uv.png";
   import maskedFear_uv    from "../../assets/fineArtUv/macpeters_maskedFear_uv.png";
   import mischief_uv      from "../../assets/fineArtUv/macpeters_mischeif_uv.png";
+  import selfPortrait_uv  from "../../assets/fineArtUv/macpeters_selfPortrait_uv.png";
   import shpongle_uv      from "../../assets/fineArtUv/macpeters_shpongle_uv.png";
   import stubborn_uv      from "../../assets/fineArtUv/macpeters_stubbornResentment_uv.png";
   // Thumbs
@@ -23,10 +25,12 @@
   import cosmicKitten_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
   import cracking_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
   import eagerness_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
+  import eyeOfStorm_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_eyeOfStorm_uv.png";
   import fascination_uv_thumb   from "../../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
   import gratitude_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_gratitude_uv.png";
   import maskedFear_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_maskedFear_uv.png";
   import mischief_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_mischief_uv.png";
+  import selfPortrait_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_selfPortrait_uv.jpg";
   import shpongle_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
   import stubborn_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png"; 
   // Components
@@ -41,12 +45,28 @@
       return {
         images: [
           {
+            image: selfPortrait_uv,
+            thumb: selfPortrait_uv_thumb,
+            title: "Self Portrait",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Self Portrait painted at COSM, 2018",
+            keywords: base_keywords + 'self-portrait, mushrooms, squatting man, plants, paintbrushes, gargoyles, bubbles'
+          },
+          {
             image: cosmicKitten_uv,
             thumb: cosmicKitten_uv_thumb,
             title: "Cosmic Kitten",
             subtitle: "24x24 UV Acrylic on canvas",
             description: "Kitten enjoys the journey, the spectacle, the festival of creation through space and time",
             keywords: base_keywords + 'space, cosmos, kitten, cosmic, galaxies, universe, festival, edm, trippy, cat, kitten, space cat'
+          },
+          {
+            image: eyeOfStorm_uv,
+            thumb: eyeOfStorm_uv_thumb,
+            title: "Be the Eye of Your Storm",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Stoic and calm, the frog sees the storm, is in the storm, but is not of the storm",
+            keywords: base_keywords + 'frog, tornado, storm, stoic, composed, calm of the storm, eye of the storm, calm within'
           },
           {
             image: shpongle_uv,
