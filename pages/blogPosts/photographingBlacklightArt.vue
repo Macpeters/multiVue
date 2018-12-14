@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>4 Tips for Photographing Blacklight Art</h1>
     <h2>Tips for Sharp Low-light photography</h2>
     <h3>August 17, 2017</h3>
@@ -34,7 +34,7 @@
       </ol>
     </div>
 
-  </div>
+  </article>
 </template>
 
 <script>

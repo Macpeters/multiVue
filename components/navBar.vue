@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <div class="header-image" />
     <div class="nav-header">
 
@@ -17,7 +17,7 @@
       <!-- AddToAny END -->
 
       <div class="main-nav-row">
-        <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
+        <a href="/" class="logo dropbtn header-purple-bg" title="Macpeters Creations Home">
           <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
         </a>
     
@@ -43,7 +43,7 @@
       </div>
       <br />
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -88,16 +88,16 @@ export default {
     margin: 0 10px 10px 10px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #C17DDB;
+    /* background-color: #C17DDB; */
     color: #fff;
     border-radius: 25px;
   }  
 
   .logo {
-    background-color: #897DF4;
+    /* background-color: #897DF4; */
   }
   .logo:hover {
-    background-color: #897DF4;
+    /* background-color: #897DF4; */
     opacity: 0.7;
   }
   .logo img {

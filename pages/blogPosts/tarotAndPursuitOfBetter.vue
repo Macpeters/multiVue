@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>Tarot and The Pursuit of Better</h1>
     <h2>How Tarot can represent a conscious decision to pursue a higher goal</h2>
     <h3>April 5, 2018</h3>
@@ -54,7 +54,7 @@
         and pursue a higher goal.
       </p>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -82,5 +82,9 @@
   }
   img {
     padding-left: 20%;
+  }
+
+  h2 {
+    font-size: 18px;
   }
 </style>

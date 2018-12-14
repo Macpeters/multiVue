@@ -52,4 +52,8 @@
     font-size: 18px;
     padding: 10px;
   }
+
+  .header-purple-bg {
+    background-color: #897DF4;
+  }
 </style>

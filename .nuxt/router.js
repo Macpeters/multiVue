@@ -12,6 +12,7 @@ const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* we
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
 const _e727dc14 = () => interopDefault(import('../pages/art/services.vue' /* webpackChunkName: "pages/art/services" */))
 const _c6db9dc2 = () => interopDefault(import('../pages/art/skateboards.vue' /* webpackChunkName: "pages/art/skateboards" */))
+const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQueries.vue' /* webpackChunkName: "pages/blogPosts/activeRecordQueries" */))
 const _efd4dad2 = () => interopDefault(import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */))
 const _dd9ffb3c = () => interopDefault(import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */))
 const _65a8719e = () => interopDefault(import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */))
@@ -121,6 +122,10 @@ export function createRouter() {
       path: "/art/skateboards",
       component: _c6db9dc2,
       name: "art-skateboards"
+    }, {
+      path: "/blogPosts/activeRecordQueries",
+      component: _77e6f175,
+      name: "blogPosts-activeRecordQueries"
     }, {
       path: "/blogPosts/howToFailAtKickstarter",
       component: _efd4dad2,

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
 
     <h1>The Process Behind the Hockey Bees Mural</h1>
     <h2>From Inception to Completion: My Mural Process</h2>
@@ -65,7 +65,7 @@
         bit of history, allowing those lines to determine the shadows of the flower petals.
       </p>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

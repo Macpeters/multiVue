@@ -21,7 +21,7 @@
       </p>
     </div>
 
-    <div>
+    <div class="page-description">
       <h3>Open Source Projects</h3>
       <ul>
         <li>
@@ -35,7 +35,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="page-description">
       <h3>Community Involvement</h3>
       <ul>
         <li>
@@ -97,7 +97,12 @@
 </script>
 
 
-<style scoped>
+<style scoped>  
+  .page-description {
+    text-align: left;
+    margin: 10px;
+  }
+
   ul {
     list-style: none;
   }

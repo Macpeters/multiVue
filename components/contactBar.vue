@@ -1,19 +1,19 @@
 <template>
-  <div>
-  <div class="contact">
-    <hr />
-    <span class="left-column">
-      All artwork copyright Mac Peters <br/>
-      2018<br/>
-      All rights reserved
-    </span>
-    <span class="right-column">
-      <span v-for="button in socialButtons" :key='button.id'>
-        <a v-bind:href="button.url" v-bind:title="button.title" target="_blank"><img v-bind:src="button.image" v-bind:title="button.title" v-bind:alt="button.title" class="social-button" /></a>
+  <footer>
+    <div class="contact">
+      <hr />
+      <span class="left-column">
+        All artwork copyright Mac Peters <br/>
+        2018<br/>
+        All rights reserved
       </span>
-    </span>
-  </div>
-  </div>
+      <span class="right-column">
+        <span v-for="button in socialButtons" :key='button.id'>
+          <a v-bind:href="button.url" v-bind:title="button.title" target="_blank"><img v-bind:src="button.image" v-bind:title="button.title" v-bind:alt="button.title" class="social-button" /></a>
+        </span>
+      </span>
+    </div>
+  </footer>
 </template>
 
 <script>

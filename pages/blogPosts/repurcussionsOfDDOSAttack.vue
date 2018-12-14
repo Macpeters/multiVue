@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>The Fragility of the Web</h1>
     <h2>What are the Repercussions of Huge DDOS Attack?</h2>
     <h3>October 22, 2016</h3>
@@ -64,7 +64,7 @@
       </p>
     </div>
 
-  </div>
+  </article>
 </template>
 
 <script>

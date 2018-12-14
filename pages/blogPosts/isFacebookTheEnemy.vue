@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>Is Facebook Really the Enemy?</h1>
     <h2>Privacy - the cost of being online</h2>
     <h3>April 7, 2018</h3>
@@ -78,8 +78,8 @@
         Well, probably most of us won’t.  I know a number of entertainers are pulling out – because Facebook is no longer a way to make money.
         Your page posts will only be seen by a tiny fraction of the people who follow it.  Your personal posts are the same way – and you are
         likely only seeing posts by a small percentage of your friends.   Maybe Facebook is still okay for chatting, and planning events.  I
-        personally lost interest in looking at the feed pretty quickly these days.  I’ve got my filters set to show me only stuff I want to see,
-        and that’s great.
+        personally lose interest in looking at the feed pretty quickly these days.  I’ve got my filters set to show me only stuff I want to see,
+        and even then, I find I have better things to do.
       </p>
 
       <p>
@@ -87,7 +87,7 @@
       </p>
     </div>
 
-  </div>
+  </article>
 </template>
 
 <script>

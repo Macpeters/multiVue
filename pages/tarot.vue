@@ -204,6 +204,11 @@
     clear: both;
     margin: 20px;
   }
+  .button {
+    padding: 5px;
+    border-radius: 25px;
+    background-color: pink
+  }
   #hidden-dreams {
     margin: 20px;
   }
@@ -217,6 +222,8 @@
   .sub-nav {
     background-color: #897DF4;
     margin: 20px;
+    padding: 5px;
+    border-radius: 25px;
   }
   .sub-nav a {
     color: white;
@@ -284,7 +291,7 @@
     font-size: 14px;
     padding: 10px;
     margin-top: 20px;
-    background-color: #FF6;
+    background-color: pink;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 

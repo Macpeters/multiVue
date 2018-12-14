@@ -87,12 +87,16 @@ export default {
   .thumbnail {
     width: 80px;
     height: 80px;
-    padding: 5px;
+    margin: 5px;
     border-width: 1px;
-    border-color: #fff;
+    border-color: #aaa;
     border-style: solid;
     object-fit: cover;
     overflow: hidden;
+  }
+  .thumbnail:hover {
+    border-color: #eee;
+    opacity: 0.7;
   }
 
   @media screen and (max-width: 450px){

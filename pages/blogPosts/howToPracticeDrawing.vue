@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>10 Ways to Practice Drawing In Order to Improve Quickly</h1>
     <h2>Get the most from your practice in the shortest possible time</h2>
     <h3>May 13, 2018</h3>
@@ -36,7 +36,7 @@
           occupies by seeing it from different angles.  This will help your art develop a sense of depth that the
           viewer can really feel.
         </li>
-        <li><span class="emphasize">Study something in repitition.</span>  Draw the same thing over and over.  Divide a page up and draw the same
+        <li><span class="emphasize">Study something in repetition.</span>  Draw the same thing over and over.  Divide a page up and draw the same
           thing in each section.  You'll see the improvements as you go.
         </li>
         <li><span class="emphasize"><a href="/blogPosts/whatIlearnedFromDrawingChallenge">Participate in Drawing Challenges.</a></span>  Stretch your imagination by drawing things that are outside your
@@ -57,7 +57,7 @@
       </ol>
     </div>
 
-  </div>
+  </article>
 </template>
 
 <script>

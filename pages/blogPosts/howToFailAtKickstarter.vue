@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>Failing at Kickstarter</h1>
     <h2>How Lack of Momentum can Kill Your Project</h2>
     <h3>June 23, 2018</h3>
@@ -82,7 +82,7 @@
         you will, too, after reading this :)
       </p>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

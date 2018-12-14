@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>What I learned from a 30 Day Drawing Challenge</h1>
     <h2>Tips and Benefits for Challenges to help you grow as an Artist</h2>
     <h3>September 9, 2017</h3>
@@ -22,7 +22,7 @@
       </ol>
 
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

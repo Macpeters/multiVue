@@ -20,14 +20,15 @@
 </template>
 
 <script>
+  import activeRecord from "../assets/blogs/thumbnails/macpeters_activeRecord.png";
   import blacklightPhotography from "../assets/blogs/thumbnails/macpeters_blacklightPhotographs.png";
   import practiceDrawing from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
   import tarotJourney from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
   import drawingChallenge from "../assets/blogs/thumbnails/macpeters_drawingChallenge.png";
-  import tarotKickstarter from "../assets/blogs/thumbnails/kickstarterFailure.png";
+  import tarotKickstarter from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
   import hockeyBeesProgress from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
-  import facebookTheEnemy from "../assets/blogs/facebookTheEnemy.jpg";
-  import ddos from "../assets/blogs/ddos_resave.png";
+  import facebookTheEnemy from "../assets/blogs/thumbnails/macpeters_facebookTheEnemy.png";
+  import ddos from "../assets/blogs/thumbnails/macpeters_ddos.png";
 
   export default {
     name: "blog",
@@ -35,6 +36,14 @@
     data() {
       return {
         posts: [
+          {
+            title: 'Rails Active Record Queries',
+            date: 'Dec 14, 2018',
+            image: activeRecord,
+            headline: 'A Cheatsheet',
+            link: '/blogPosts/activeRecordQueries',
+            tags: ['dev', 'rails', 'technology', 'webdev']
+          },
           {
             title: 'The Process Behind the Hockey Bees Mural',
             date: 'July 6, 2018',
@@ -97,7 +106,7 @@
             image: ddos,
             headline: 'What are the Repercussions of Huge DDOS Attack?',
             link: '/blogPosts/repurcussionsOfDDOSAttack',
-            tags: ['technology', 'web security', 'privacy']
+            tags: ['technology', 'web security', 'privacy', 'webdev']
           }
         ],
         chosenPost: {},
@@ -125,6 +134,7 @@
 
 <style scoped>
   .blog-list {
+    margin-top: 10px;
     display: block;
     clear: both;
   }
@@ -144,10 +154,13 @@
     display: inline-block;
     border: 2px solid #ddd;
     height: 200px;
+    position: relative;
   }
   .post-link {
     font-size: large;
-    float: right;
+    right: 5px;
+    bottom: 0;
+    position: absolute;
     text-decoration: none;
   }
   img {
@@ -156,7 +169,10 @@
     height: auto;
   }
   .date {
-    float: left;
+    left: 10px;
     font-size: small;
+  }
+  h4 {
+    font-size: 14px;
   }
 </style>
