@@ -1,7 +1,7 @@
 <template>
   <div class="signup-form">
     <!-- Begin MailChimp Signup Form -->
-    <div id="mc_embed_signup bottom-signup">
+    <div id="mc_embed_signup" class="bottom-signup">
       <form  class="subscriber validate" action="https://macpeters.us17.list-manage.com/subscribe/post?u=33c28c0895c09bd15c5448d9d&amp;id=1c61deb0d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
   	      <div><label for="mce-EMAIL">Subscribe for updates on the Hidden Dreams Tarot and other projects</label></div>
@@ -32,9 +32,9 @@
 
 <style scoped>
   .signup-form{
-    font-size: 24px;
-    background-color: beige;
+    font-size: 24px;  
     clear: both;
+    height: 165px;
   } 
   .email{
     max-width: 80%;
@@ -42,9 +42,7 @@
     width: 400px;
     margin: 10px;
   }
-  form {
-    height: 165px;
-  }
+
   #mc-embedded-subscribe {
     height: 50px;
     width: 100px;
@@ -57,6 +55,11 @@
     font-size: 20px;
     height: 100px;
     padding: 20px;
+  }
+  .bottom-signup {
+    margin-top: 60px;
+    background-color: beige;
+    height: 155px;
   }
 
    @media screen and (max-width: 612px){

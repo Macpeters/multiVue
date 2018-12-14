@@ -6,7 +6,6 @@
 
 <script>
 // images
-// import logoImage from "../assets/logo.png";
 // skate decks
 import brokenRobot      from "../../assets/skateboards/macpeters_brokenRobot.png";
 import drWho            from "../../assets/skateboards/macpeters_drWho.png";
@@ -24,13 +23,13 @@ import psychedelicBee_thumb from "../../assets/skateboards/thumbnails/macpeters_
 import tikiFaces_thumb      from "../../assets/skateboards/thumbnails/macpeters_tikiFaces.png";
 import trickRTreat_thumb    from "../../assets/skateboards/thumbnails/macpeters_trickrtreat.png";
 // components
-import imageList    from '../../components/imageList.vue'
+import imageList    from '../../components/art/imageList.vue'
 
 const base_keywords = "skateboards, skate art, skateboard art, painted decks, lowbrow, street art, recycled skateboards, sk8, skater, custom deck, psychedelic, visionary, ";
 
 export default {
   name: "Skateboards",
-  components: { imageList, breadcrumbs, blogList, artNav },
+  components: { imageList },
   data() {
     return {
       images: [
@@ -84,22 +83,11 @@ export default {
           keywords: base_keywords + "trick 'r treat, sam, samhain, trick or treat, movie, candy, lollypop, halloween, blood, costume, burlap, candy corn, button eyes, spirit, kids, horror, film"
         }
       ],
-      breadcrumbs: [
-        { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Paintings' },
-        { link: '/skateboards', name: 'Skateboards' }
-      ],
-      chosenImage: null,
-      blogFilter: 'art'
+      chosenImage: null
     };
   }
 };
 </script>
 
 <style scoped>
-
-  div {
-    text-align: center
-  }
-
 </style>

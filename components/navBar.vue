@@ -1,49 +1,52 @@
 <template>
   <div>
-    <div class="header-image"></div>
+    <div class="header-image" />
     <div class="nav-header">
 
       <div class="share-buttons">
         <!-- AddToAny BEGIN -->
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-          <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-          <a class="a2a_button_facebook"></a>
-          <a class="a2a_button_twitter"></a>
-          <a class="a2a_button_tumblr"></a>
-          <a class="a2a_button_pinterest"></a>
+          <a class="a2a_dd" href="https://www.addtoany.com/share" />
+          <a class="a2a_button_facebook" />
+          <a class="a2a_button_twitter" />
+          <a class="a2a_button_tumblr" />
+          <a class="a2a_button_pinterest"/>
         </div>
-        <script async src="https://static.addtoany.com/menu/page.js"></script>
-        <!-- AddToAny END -->
+        <script async src="https://static.addtoany.com/menu/page.js"/>
       </div>
+      <!-- AddToAny END -->
 
       <div class="main-nav-row">
-        <a href="/" class="logo" title="Macpeters Creations Home"><img :src=logo alt="Macpeters Creations" title="Macpeters Creations"></a>
+        <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
+          <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
+        </a>
     
-        <a href="/gameDev" title="Macpeters Game Development" class="dropbtn">Games</a>
-        <a href="/webDev" title="Macpeters Web Development" class="dropbtn">Web Dev</a>
+        <a href="/dev/gameDev" title="Macpeters Game Development" class="dropbtn">Games</a>
+        <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Web Dev</a>
     
         <div class="dropdown">
-          <label for="show-menu" class="show-menu dropbtn">Art/Design</label>
+          <label for="show-menu" class="show-menu dropbtn">
+            Art/Design
+            <i class="arrow down"></i>
+          </label>
+           
           <input type="checkbox" id="show-menu" role="button">
           <div class="dropdown-content" id="dropdown-content">
-            <a href="/art" title="Paintings">Paintings</a>
-            <a href="/cartoons" title="Hidden Dreams Tarot">Cartoons</a>
-            <a href="/artServices" title="Artistic Services">Artistic Services</a>
+            <a href="/art/fineArt" title="Paintings">Paintings</a>
+            <a href="/art/cartoons" title="Hidden Dreams Tarot">Cartoons</a>
+            <a href="/art/services" title="Artistic Services">Artistic Services</a>
             <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
             <hr />
-            <a href="/aboutArtist" title="About Artist">About the Artist</a>
+            <a href="/art/aboutArtist" title="About Artist">About the Artist</a>
           </div>
         </div>
       </div>
       <br />
     </div>
   </div>
-
-  
 </template>
 
 <script>
-
 import logoImage from "../assets/logo.png";
 
 export default {
@@ -63,6 +66,9 @@ export default {
 
 
 <style scoped>
+  ol li{
+    display: inline-block;
+  }
 
   .header-image {
     height: 250px;
@@ -72,44 +78,36 @@ export default {
     background-size: 100% 100%;
   }
 
-  a {
-    text-decoration: none !important;
-    padding: 10px;
-    margin: 10px;
-  }
-  ol li{
-    display: inline-block;
-  }
-  /* Nav Bar */
   .nav-header {
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #897DF4;
-    color: #ffffff;
-    padding: 10px;
     height: 60px;
-  }
-  .nav-header img {
-    height: 40px;
-    padding-right: 25px;
-    padding-top: 10px;
-    width: auto;
-  }
-  .nav-header img:hover {
-    opacity: .5;
-  }
-  .nav-header a {
-    padding-left: 15px;
+    background-color: #897DF4;
   }
 
-  /* Dropdown Button */
-  .nav-header .dropbtn {
-    border-radius: 25px;
+  .dropbtn {
+    padding: 5px;
+    margin: 0 10px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
     background-color: #C17DDB;
     color: #fff;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 25px;
+  }  
+
+  .logo {
+    background-color: #897DF4;
   }
+  .logo:hover {
+    background-color: #897DF4;
+    opacity: 0.7;
+  }
+  .logo img {
+    height: 40px;
+    width: auto;
+    opacity: 1.0;
+  }
+
+
+  /* Dropdown Button */
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
@@ -164,29 +162,46 @@ export default {
   .share-buttons{
     position: absolute;
     z-index: 10;
-    top: 230px;
+    top: 200px;
     right: 20px;
   }
 
-  @media screen and (max-width: 612px){
-    .main-nav-row a .dropdown .dropbtn {
+  /* Arrow */
+  i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  @media screen and (max-width: 411px){
+    .dropbtn {
       font-size: 18px;
       display: block;
-      margin: 10px;
-      clear: both;
+    }
+    .logo {
+      width: 50%;
+      padding: 0;
+      margin-top: 10px;
     }
     .dropdown {
       margin-top: 25px;
     }
-    .nav-header img {
-      padding-bottom: 15px;
-    }
+    
     .share-buttons a{
       margin: 0;
     }
     .nav-header {
-      height: 150px;
+      height: 190px;
+    }
+    .dropdown {
+      width: 100%;
+      margin-top: 0;
     }
   }
-
 </style>

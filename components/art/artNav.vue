@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <span><a id="fine-art" href="/art" title="Fine Art">Fine Art</a></span>
-    <span><a id="skateboard-art" href="/skateboards" title="Painted Skateboards">Painted Skateboards</a></span>
-    <span><a id="mural-art" href="/murals" title="Murals">Murals/Aerosol</a></span>
+  <div class="nav-tabs">
+    <span v-for="(navLink, index) in navLinks" :key='index'> 
+      <span><a v-bind:href="navLink.url" v-bind:id="navLink.id" v-bind:title="navLink.title">{{navLink.title}}</a></span>
+    </span>
   </div>
 </template>
 
@@ -12,13 +12,15 @@ export default {
   components: { },
   data() {
     return {
-      active: null
+      active: null,
+      navLinks: []
     };
   },
   methods: {
   },
   beforeMount(){
     this.active = this.$parent.name
+    this.navLinks = this.$parent.navLinks
   },
 };
 </script>
@@ -31,6 +33,12 @@ export default {
     border: 2px solid #bbb;
     border-radius: 5px;
     text-decoration: none;
+  }
+
+  .nav-tabs {
+    display: block;
+    padding: 20px;
+    clear: both;
   }
 
 </style>

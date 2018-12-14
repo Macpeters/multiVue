@@ -1,24 +1,22 @@
-# multiVue
-Mirror/rebuild of Macpeters as a multi-page Vue.js application.
+# nuxt2Website
 
-## Universal Vue Application:
-* https://nuxtjs.org/guide/installation
+> website redone in nuxt 2
 
-## Run Locally
-``` $ npm run dev  ```
-http://localhost:3000
+## Build Setup
 
-## Deploy
-``` $ npm run build ``` 
-```  git push ... ```
+``` bash
+# install dependencies
+$ npm install
 
-### Improvements on original site
-* https
-* blog
-* faster loading (actual thumbnails instead of original image resized in css)
-* easier maintenance (f yeah for components.  Why does vanilla html still not have partials?)
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-### missing
-* social profile (sameas)
-* moar content (dev posts, etc)
-* google verification
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

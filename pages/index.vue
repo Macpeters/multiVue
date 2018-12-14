@@ -4,26 +4,29 @@
 
     <div class="page-description">
       <h2>Fullstack web developer by day, creating art and games in my off hours.</h2>
-      <h3>The art I make ranges from low-brow
+      <span>The art I make ranges from low-brow
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
-      Nuxt, and Served on Netlify.</h3>
+      Nuxt, and Served on Netlify.</span>
     </div>
 
     <div class="art-gallery">
       <div>
-        <span v-for="image in images" :key='image.id' >
-
+        <span 
+          v-for="image in images" 
+          :key="image.id" >
           <div class="page-teaser">
-            <a v-bind:href="image.link">
-              <div class="teaser-image"><img v-bind:src="image.image" v-bind:alt="image.title" v-bind:title="image.title" /></div>
+            <a :href="image.link">
+              <div class="teaser-image"><img 
+                :src="image.image" 
+                :alt="image.title" 
+                :title="image.title" >
+              </div>
               <div class="teaser-text">
-              <div class="teaser-title">{{image.title}}</div>
-              <div>{{image.description}}</div>
-            </div>
+                <div class="teaser-title">{{ image.title }}</div>
+                <div>{{ image.description }}</div>
+              </div>
             </a>
-
           </div>
-
         </span>
       </div>
     </div>
@@ -33,18 +36,15 @@
 
 <script>
   // Images
-  import logoImage from "../assets/logo.png";
-
-  import paintings from "../assets/index/macpeters_paintings.png";
-  import cartoons from "../assets/index/macpeters_cartoons.png";
-  import games from "../assets/index/macpeters_games.png";
-  import tarot from "../assets/index/macpeters_tarot.png";
-  import webDev from "../assets/index/macpeters_webdev.png";
-
-  // Components
+  import logoImage  from "../assets/logo.png";
+  import paintings  from "../assets/index/macpeters_paintings.png";
+  import cartoons   from "../assets/index/macpeters_cartoons.png";
+  import games      from "../assets/index/macpeters_games.png";
+  import tarot      from "../assets/index/macpeters_tarot.png";
+  import webDev     from "../assets/index/macpeters_webdev.png";
 
   export default {
-  name: "Home",
+  name: 'Home',
   components: { },
   data() {
     return {
@@ -60,10 +60,10 @@
           image: cartoons,
           title: 'Cartoons',
           link: '/cartoons',
-          description: 'digital sketches, cartoons, characters, draw9 and other drawing challenges'
+          description: 'digital sketches, cartoons, characters, drawing challenges'
         },
         {
-          image: webDev,
+          image:  webDev,
           title: 'Web Developement',
           link: '/webDev',
           description: 'Professional Web Development and open source projects'
@@ -105,16 +105,6 @@
 </script>
 
 <style scoped>
-  div {
-    text-align: center
-  }
-  a {
-    text-decoration: none;
-  }
-  .page-description {
-    padding: 10px;
-  }
-
   .page-teaser {
     max-width: 275px;
     width: 40%;
