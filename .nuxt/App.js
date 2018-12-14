@@ -1,17 +1,13 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
+import _6f6c098b from '../layouts/default.vue'
 
-let layouts = {
-
-  "_default": () => import('./layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m)
-
-}
-
-let resolvedLayouts = {}
+const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"meta":[],"link":[],"style":[],"script":[]},
+  head: {"title":"nuxt2Website","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"website redone in nuxt 2"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
@@ -29,7 +25,7 @@ export default {
       }
     }, [ templateEl ])
 
-    return h('div',{
+    return h('div', {
       domProps: {
         id: '__nuxt'
       }
@@ -42,10 +38,10 @@ export default {
     layout: null,
     layoutName: ''
   }),
-  beforeCreate () {
+  beforeCreate() {
     Vue.util.defineReactive(this, 'nuxt', this.$options.nuxt)
   },
-  created () {
+  created() {
     // Add this.$nuxt in child instances
     Vue.prototype.$nuxt = this
     // add to window so we can listen when ready
@@ -55,51 +51,38 @@ export default {
     // Add $nuxt.error()
     this.error = this.nuxt.error
   },
-  
-  mounted () {
+
+  mounted() {
     this.$loading = this.$refs.loading
   },
   watch: {
     'nuxt.err': 'errorChanged'
   },
-  
+
   methods: {
-    
-    errorChanged () {
+    errorChanged() {
       if (this.nuxt.err && this.$loading) {
         if (this.$loading.fail) this.$loading.fail()
         if (this.$loading.finish) this.$loading.finish()
       }
     },
-    
-    setLayout (layout) {
-      if (!layout || !resolvedLayouts['_' + layout]) layout = 'default'
+
+    setLayout(layout) {
+      if (!layout || !layouts['_' + layout]) {
+        layout = 'default'
+      }
       this.layoutName = layout
-      let _layout = '_' + layout
-      this.layout = resolvedLayouts[_layout]
+      this.layout = layouts['_' + layout]
       return this.layout
     },
-    loadLayout (layout) {
-      if (!layout || !(layouts['_' + layout] || resolvedLayouts['_' + layout])) layout = 'default'
-      let _layout = '_' + layout
-      if (resolvedLayouts[_layout]) {
-        return Promise.resolve(resolvedLayouts[_layout])
+    loadLayout(layout) {
+      if (!layout || !layouts['_' + layout]) {
+        layout = 'default'
       }
-      return layouts[_layout]()
-      .then((Component) => {
-        resolvedLayouts[_layout] = Component
-        delete layouts[_layout]
-        return resolvedLayouts[_layout]
-      })
-      .catch((e) => {
-        if (this.$nuxt) {
-          return this.$nuxt.error({ statusCode: 500, message: e.message })
-        }
-      })
+      return Promise.resolve(layouts['_' + layout])
     }
   },
   components: {
     NuxtLoading
   }
 }
-

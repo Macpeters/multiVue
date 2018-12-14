@@ -1,5 +1,0 @@
-generate: {
-  minify: {
-    collapseWhitespace: false
-  }
-}

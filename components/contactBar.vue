@@ -1,6 +1,5 @@
 <template>
   <div>
-
   <div class="contact">
     <hr />
     <span class="left-column">
@@ -13,9 +12,7 @@
         <a v-bind:href="button.url" v-bind:title="button.title" target="_blank"><img v-bind:src="button.image" v-bind:title="button.title" v-bind:alt="button.title" class="social-button" /></a>
       </span>
     </span>
-    
   </div>
-
   </div>
 </template>
 
@@ -70,7 +67,6 @@
 
 
 <style scoped>
-
   .contact {
     text-align: center;
     background-color: #ddd;
@@ -87,11 +83,15 @@
   }
 
   .social-button {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     padding: 10px;
     border-radius: 25px;
     opacity: 0.7;
+  }
+
+  .social-button:hover {
+    opacity: 1.0;
   }
 
   @media screen and (max-width: 450px){
@@ -107,5 +107,4 @@
       width: 100%;
     }
   }
-
 </style>

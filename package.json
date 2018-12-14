@@ -1,16 +1,26 @@
 {
-  "name": "my-app",
+  "name": "nuxt2Website",
+  "version": "1.0.0",
+  "description": "website redone in nuxt 2",
+  "author": "Macpeters",
+  "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "NODE_ENV=production nuxt build",
+    "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.0.2",
-    "ajv": "^6.5.2",
-    "nuxt": "^1.4.0",
-    "vue-analytics": "^5.12.2",
-    "vue-meta": "^1.5.0"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
   }
 }

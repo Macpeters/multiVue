@@ -1,25 +1,29 @@
 <template>
-  <div class="page-content">
-    <navBar />
-
+  <div class="container">
     <div>
       <h1>Macpeters Tarot Decks</h1>
       <breadcrumbs/>
+      
       <div class="sub-nav-bar">
         <span class="button sub-nav"><a href="#hidden-dreams">Hidden Dreams Tarot</a></span>
         <span class="button sub-nav"><a href="#cutie-pie">Cutie Pie Tarot</a></span>
       </div>
+      
+      
       <h2>The Hidden Dreams Tarot</h2>
-      <h3>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h3>
-      <p>
+      <h4>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h4>
+
+      <div>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Hidden Dreams Tarot Deck Now</a>
-      </p> 
-    </div>
+      </div>
     
+    </div>
+
 
     <div id="hidden-dreams">
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/fwCA5DEUbd8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
     </div>
+
     <div id="inspiration" class="columns">
       <h4>The Inspiration Behind Hidden Dreams Tarot</h4>
       <div>
@@ -33,27 +37,31 @@
             Over the course of a year, I took notes on all of these associations, and clarified their mappings.
           </p>
           <p>The Kickstarter project got off to a luke-warm start, so I'll be selling <a href="#tarot-deck-purchase">print-to-order copies</a> of
-            both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a> 
+            both the deck and the book.  Original drawings and prints are also available.  <a href="mailto:peters.maryanne@gmail.com">Contact me</a>
             for more information.
           </p>
         </div>
       </div>
     </div>
 
+    <!-- Hidden Dreams Deck -->
     <div class="columns">
       <div class="left-column" id="tarot-deck-purchase">
-        <p>
-          Order your own copy of the Hidden Dreams Tarot Deck.  Discover the modern sybolic representations of many different
-          cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.  
-        </p>
-        <p>
-          Wherever you are in your own journey, the Hidden Dreams Tarot can offer insight into your circumstances, and 
-          advice on how to proceed. If you are new to tarot, this deck is a great way to learn, because the imagery is 
-          modern and memorable.
-        </p> 
-        <p>
+        <div>
+          <p>
+            Order your own copy of the Hidden Dreams Tarot Deck.  Discover the modern sybolic representations of many different
+            cultures, all of which tell the story of the Tarot - the Fool's Journey, or the Hero's Journey.
+          </p>
+          <p>
+            Wherever you are in your own journey, the Hidden Dreams Tarot can offer insight into your circumstances, and
+            advice on how to proceed. If you are new to tarot, this deck is a great way to learn, because the imagery is
+            modern and memorable.
+          </p>
+        </div>
+        <div>
+          <br />
           <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy The Hidden Dreams Tarot Deck Now</a>
-        </p>       
+        </div>
       </div>
       <div class="right-column">
         <a href="http://www.makeplayingcards.com/sell/macpeters" target="_blank" title="Buy Hidden Dreams Tarot Deck Image">
@@ -61,7 +69,8 @@
         </a>
       </div>
     </div>
-    
+
+  <!-- Hidden Dreams Guidebook -->
     <div class="columns">
       <div class="left-column">
         <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">
@@ -69,53 +78,62 @@
         </a>
       </div>
       <div class="right-column">
-        <p>
-          The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.  
-        </p>
-        <p>
-          Along with descriptions of the cards and their meanings, the guidebook contains quick references to crystals, astrology, 
-          entheogens, runes, and more, beautifully illustrated.  This book can give you a quick look into different belief
-          systems and how they associate with the tarot.  
-        </p>
-        <p>
-          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order 
+        <div>
+          <p>
+            The Hidden Dreams Tarot Guidebook is available in softcover, hardcover, and pdf format.
+          </p>
+          <p>
+            Along with descriptions of the cards and their meanings, the guidebook contains quick references to crystals, astrology,
+            entheogens, runes, and more, beautifully illustrated.  This book can give you a quick look into different belief
+            systems and how they associate with the tarot.
+          </p>
+        </div>
+        <div>
+          Check out a  <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Guidebook Preview">Preview</a> now and order
           your copy today.
-        </p> 
-        <p><a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Hidden Dreams Guidebook Now</a></p>
+        </div>
+        <div>
+          <br />
+          <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Hidden Dreams Guidebook Now</a>
+        </div>    
       </div>
     </div>
 
+    <!-- Cutie Pie -->
     <div id="cutie-pie">
       <h2>The CutiePie Tarot</h2>
       <h3>Designed with inclusivity children in mind.</h3>
       <p>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy CutiePie Tarot Deck Now</a>
-      </p> 
+      </p>
     </div>
-
     <div class="columns">
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/OK4yx7mOcJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <div class="left-column">
         <img v-bind:src="cutiePieTarot" alt="Cutie Pie Tarot" title="Cutie Pie Tarot"/>
+        <p>The Cutie Pie Tarot was a fun little extra I put together.  </p>
       </div>
       <div class="right-column">
-        <p>
-          The Cutie Pie Tarot was a fun little extra I put together.  The idea was to distill the main meaning or message of each card
-          into a basic interpretation, and have it personified by a cute human character.  Because the deck is made up of humans, I wanted
-          the characters to represent a really diverse collection of people - age, race, ability, gender, gender expression.  I hope that
-          everyone can see themselves in this deck.
-        </p> 
-        <p>
-          This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.  It 
-          comes in a sturdy rigid box, with the cards sized more like standard playing cards so they're easier to handle, particularly for 
-          little hands.
-        </p>
-        <p>
+        <div>
+          <p>
+            The idea was to distill the main meaning or message of each card
+            into a basic interpretation, and have it personified by a cute human character.  Because the deck is made up of humans, I wanted
+            the characters to represent a really diverse collection of people - age, race, ability, gender, gender expression.  I hope that
+            everyone can see themselves in this deck.
+          </p>
+          <p>
+            This is a family friendly tarot deck, which can be used to start children on the road to understanding what Tarot is all about.  It
+            comes in a sturdy rigid box, with the cards sized more like standard playing cards so they're easier to handle, particularly for
+            little hands.
+          </p>
+        </div>
+        <div>
+          <br />
           <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy CutiePie Tarot Deck Button">Buy The CutiePie Tarot Deck Now</a>
-        </p> 
+        </div>
       </div>
     </div>
-
+    <br />
     <signupForm/>
     <div>
       <a href="https://www.kickstarter.com/projects/macpeters/hidden-dreams-tarot" target="_blank" title="Hidden Dreams Tarot Kickstarter">
@@ -124,10 +142,8 @@
     </div>
 
      <blogList/>
-
-    <contactBar/>
   </div>
-  
+
 </template>
 
 <script>
@@ -139,16 +155,14 @@
   import hiddenDreamsCardSpread from "../assets/tarot/hiddenDreamsTarotSpread.png"
   import hiddenDreamsGuidebook from "../assets/tarot/hiddenDreamsTarotGuidebook.png"
   // Components
-  import navBar from '../components/navBar.vue'
   import signupForm from '../components/signupForm.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   // Blog
-  import blogList from '../components/blog.vue'
+  // import blogList from '../components/blog.vue'
 
   export default {
   name: "Home",
-  components: { navBar, contactBar, signupForm, breadcrumbs, blogList },
+  components: { signupForm, breadcrumbs },
   data() {
     return {
       logoImage: logoImage,
@@ -186,25 +200,19 @@
 </script>
 
 <style scoped>
-  .page-content {
-    text-align: center;
+  h4 {
+    clear: both;
+    margin: 20px;
   }
-  h1 {
-    font-size: 27px;
-    font-weight: bolder;
-    padding: 10px;
+  #hidden-dreams {
+    margin: 20px;
   }
-  .button {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: #FF6;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-  }
+  
   .sub-nav-bar {
     margin-top: 40px;
+    display: block;
+    clear: both;
+    padding-bottom: 15px;
   }
   .sub-nav {
     background-color: #897DF4;
@@ -216,7 +224,7 @@
   }
   .tarot-sub-nav {
     height: 40px;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
   }
   hr {
@@ -238,29 +246,28 @@
     height: auto;
     margin: 10px;
   }
+  
 
   /* All Info Sections */
   .left-column {
-    width: 45%;
-    float: left
+    width: 48%;
+    float: left;
   }
   .right-column {
-    width: 45%;
+    width: 48%;
     float: right;
   }
   .columns {
     clear: both;
     height: 450px;
-    padding: 0;
+    padding: 10px;
     padding-top: 10px;
     display: block;
   }
   .columns img {
     height: auto;
   }
-  .columns div {
-    padding: 10px;
-  }
+
   .columns a {
     text-decoration: none;
     font-weight: bold;
@@ -270,6 +277,28 @@
     height: auto;
     padding: 5px;
   }
+
+  .columns .button {
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FF6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  @media screen and (max-width: 656px){
+    .columns {
+      height: 420px;
+    }
+    .columns .button {
+      width: 80%;
+      height: 200px;
+      font-size: 12px;
+    }
+  }
+
 
   @media screen and (max-width: 612px){
     .left-column {
@@ -288,7 +317,7 @@
     .columns {
       height: 450px;
     }
-  
+
     #tarot-history {
       height: 1100px;
     }
