@@ -90,13 +90,13 @@
           description: "The spirit of the mushroom will share your mind for a time.",
           keywords: "magic mushroom, worry free, mushroom guide, teacher, shared mind, friendly, spirit, consciousness"
         },
-        {
-          image: potleafButterfly,
-          thumb: potleafButterflyThumb,
-          title: "Potleaf Butterfly",
-          description: "Sorry, This piece in not available. This was a commision for a glass blower with a head shop.",
-          keywords: "pot, marijuana, high art, high times, dooby, sativa, indica, butterfly, wings"
-        },
+        // {
+        //   image: potleafButterfly,
+        //   thumb: potleafButterflyThumb,
+        //   title: "Potleaf Butterfly",
+        //   description: "Sorry, This piece in not available. This was a commision for a glass blower with a head shop.",
+        //   keywords: "pot, marijuana, high art, high times, dooby, sativa, indica, butterfly, wings"
+        // },
         {
           image: reflectingFrog,
           thumb: reflectingFrogThumb,
@@ -104,20 +104,20 @@
           description: "The Frog is one of my power animals.  It lives in two worlds yet belongs to neither.",
           keywords: "juicy, frog, dripping, wet mouth, hypnotism, hypnotoad, reflection, symmetry"
         },
-        {
-          image: spiderAnt,
-          thumb: spiderAntThumb,
-          title: "Spider Ant",
-          description: "Sorry, this piece is not available.  It was stolen off the wall at the Green Room (Poor Alex Theatre).",
-          keywords: "ant, spider, web, heart, mushrooms, insecticide, love"
-        },
-        {
-          image: treeOfLife,
-          thumb: treeOfLifeThumb,
-          title: "Tree of Life",
-          description: "The white paint on the trunk of the Tree of Life only shows under blacklight, so this one is like having 2 different paintings.  Sorry, this tapestry has been sold and is no longer available.",
-          keywords: "tree of life, life tree, world tree"
-        },
+        // {
+        //   image: spiderAnt,
+        //   thumb: spiderAntThumb,
+        //   title: "Spider Ant",
+        //   description: "Sorry, this piece is not available.  It was stolen off the wall at the Green Room (Poor Alex Theatre).",
+        //   keywords: "ant, spider, web, heart, mushrooms, insecticide, love"
+        // },
+        // {
+        //   image: treeOfLife,
+        //   thumb: treeOfLifeThumb,
+        //   title: "Tree of Life",
+        //   description: "The white paint on the trunk of the Tree of Life only shows under blacklight, so this one is like having 2 different paintings.  Sorry, this tapestry has been sold and is no longer available.",
+        //   keywords: "tree of life, life tree, world tree"
+        // },
         {
           image: unicornSplash,
           thumb: unicornSplashThumb,

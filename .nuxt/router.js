@@ -13,6 +13,9 @@ const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpa
 const _e727dc14 = () => interopDefault(import('../pages/art/services.vue' /* webpackChunkName: "pages/art/services" */))
 const _c6db9dc2 = () => interopDefault(import('../pages/art/skateboards.vue' /* webpackChunkName: "pages/art/skateboards" */))
 const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQueries.vue' /* webpackChunkName: "pages/blogPosts/activeRecordQueries" */))
+const _2408cb10 = () => interopDefault(import('../pages/blogPosts/aLookBack2016.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2016" */))
+const _2416e291 = () => interopDefault(import('../pages/blogPosts/aLookBack2017.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2017" */))
+const _2424fa12 = () => interopDefault(import('../pages/blogPosts/aLookBack2018.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2018" */))
 const _efd4dad2 = () => interopDefault(import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */))
 const _dd9ffb3c = () => interopDefault(import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */))
 const _65a8719e = () => interopDefault(import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */))
@@ -126,6 +129,18 @@ export function createRouter() {
       path: "/blogPosts/activeRecordQueries",
       component: _77e6f175,
       name: "blogPosts-activeRecordQueries"
+    }, {
+      path: "/blogPosts/aLookBack2016",
+      component: _2408cb10,
+      name: "blogPosts-aLookBack2016"
+    }, {
+      path: "/blogPosts/aLookBack2017",
+      component: _2416e291,
+      name: "blogPosts-aLookBack2017"
+    }, {
+      path: "/blogPosts/aLookBack2018",
+      component: _2424fa12,
+      name: "blogPosts-aLookBack2018"
     }, {
       path: "/blogPosts/howToFailAtKickstarter",
       component: _efd4dad2,

@@ -20,22 +20,33 @@
 </template>
 
 <script>
-  import activeRecord from "../assets/blogs/thumbnails/macpeters_activeRecord.png";
-  import blacklightPhotography from "../assets/blogs/thumbnails/macpeters_blacklightPhotographs.png";
-  import practiceDrawing from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
-  import tarotJourney from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
-  import drawingChallenge from "../assets/blogs/thumbnails/macpeters_drawingChallenge.png";
-  import tarotKickstarter from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
-  import hockeyBeesProgress from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
-  import facebookTheEnemy from "../assets/blogs/thumbnails/macpeters_facebookTheEnemy.png";
-  import ddos from "../assets/blogs/thumbnails/macpeters_ddos.png";
-
+  import activeRecord           from "../assets/blogs/thumbnails/macpeters_activeRecord.png";
+  import blacklightPhotography  from "../assets/blogs/thumbnails/macpeters_blacklightPhotographs.png";
+  import cosmicKitten           from "../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
+  import ddos                   from "../assets/blogs/thumbnails/macpeters_ddos.png";
+  import drawingChallenge       from "../assets/blogs/thumbnails/macpeters_drawingChallenge.png";
+  import eagerness              from "../assets/fineArt/thumbnails/macpeters_eagerness.png";
+  import facebookTheEnemy       from "../assets/blogs/thumbnails/macpeters_facebookTheEnemy.png";
+  import hockeyBeesProgress     from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
+  import neonJungle             from "../assets/services/thumbnails/macpeters_neonJungle.jpg";
+  import practiceDrawing        from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
+  import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
+  import tarotKickstarter       from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
+  
   export default {
     name: "blog",
     components: { },
     data() {
       return {
         posts: [
+          {
+            title: 'A Look Back - 2018',
+            date: 'Dec 31, 2018',
+            image: cosmicKitten,
+            headline: 'A recap of Art in 2018',
+            link: '/blogPosts/aLookBack2018',
+            tags: ['art', 'tarot', 'visionary art', 'improvingAtArt']
+          },
           {
             title: 'Rails Active Record Queries',
             date: 'Dec 14, 2018',
@@ -77,6 +88,22 @@
             tags: ['art', 'visionary art', 'tarot']
           },
           {
+            title: 'A Look Back - 2017',
+            date: 'Dec 31, 2017',
+            image: eagerness,
+            headline: 'A recap of Art in 2017',
+            link: '/blogPosts/aLookBack2017',
+            tags: ['art', 'visionary art', 'improvingAtArt']
+          },
+          {
+            title: 'The Fragility of the Web',
+            date: 'October 22, 2017',
+            image: ddos,
+            headline: 'What are the Repercussions of Huge DDOS Attack?',
+            link: '/blogPosts/repurcussionsOfDDOSAttack',
+            tags: ['technology', 'web security', 'privacy', 'webdev']
+          },
+          {
             title: 'What I learned from a 30 Day Drawing Challenge',
             date: 'September 9, 2017',
             image: drawingChallenge,
@@ -101,12 +128,12 @@
             tags: ['art', 'improvingAtArt']
           },
           {
-            title: 'The Fragility of the Web',
-            date: 'October 22, 2016',
-            image: ddos,
-            headline: 'What are the Repercussions of Huge DDOS Attack?',
-            link: '/blogPosts/repurcussionsOfDDOSAttack',
-            tags: ['technology', 'web security', 'privacy', 'webdev']
+            title: 'A Look Back - 2016',
+            date: 'Dec 31, 2016',
+            image: neonJungle,
+            headline: 'A recap of Art in 2016',
+            link: '/blogPosts/aLookBack2016',
+            tags: ['art', 'streetart', 'improvingAtArt']
           }
         ],
         chosenPost: {},
