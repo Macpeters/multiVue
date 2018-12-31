@@ -53,7 +53,7 @@
         {
           image: paintings,
           title: 'Paintings',
-          link: '/art',
+          link: '/art/fineart/',
           description: 'Psychedelic fine art, hand-painted skateboard decks, and murals'
         },
         {

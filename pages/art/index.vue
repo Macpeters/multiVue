@@ -3,11 +3,22 @@
     <h1>Art</h1>
     <breadcrumbs/>
      <artNav/>
+
+      <section>
+        <p>The most recent painting I've finished is this self-portrait, which I started this year at COSM during 
+        a Visionary Art Intensive workshop with Alex and Allyson Grey.  I started so many paintings over the summer, 
+        it took me the next 6 months to finish them all.  I'm working on a brand new painting called Serenity.  For
+        now, you can <a href="art/fineArt">check out more of my fine art</a> or click any of the above tabs to see 
+        what other art I've been working on.</p>
+        <img src="~/assets/fineArt/macpeters_selfPortrait.png" alt="self portrait" title="self portrait" />
+      </section>
+
      <blogList/>
   </div>
 </template>
 
 <script>
+import selfPortrait   from "../../assets/fineArt/macpeters_selfPortrait.png";
 
 // Components
 import artNav from '../../components/art/artNav.vue'
@@ -56,4 +67,14 @@ export default {
 </script>
 
 <style scoped>
+  p {
+    width: 80%;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 10px;
+  }
+  img {
+    width: 80%;
+    padding-top: 10px;
+  }
 </style>
