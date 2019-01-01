@@ -55,9 +55,10 @@
             but not from a sketch.  I discovered that the small and free but still very powerful <a href="https://inkscape.org/" target="_blank">Inkscape</a> has the ability 
             to trace a bitmap image, which is fantastic.  
         </li>
-        
       </ul>
     </section>
+
+    <span><img v-bind:src="eagerness" alt="Eagerness by Macpeters" title="Eagerness by Macpeters" /></span>
 
     <section>
       <h2><a href="/art/fineArt" title="Paintings">Paintings</a></h2>
@@ -80,12 +81,23 @@
         <li>Fascination</li>
       </ul>
     </section>
+
+    <section>
+      <div class="previous"><a href="/blogPosts/aLookBack2016">Recap 2016</a></div>
+      <div class="next"><a href="/blogPosts/aLookBack2018">Recap 2018</a></div>
+    </section>
   </article>
 </template>
 
 <script>
+  import eagerness  from "../../assets/fineArt/macpeters_eagerness.png";
+
   export default {
-    // name: "activeRecordQueries"
+     data() {
+      return {
+        eagerness: eagerness
+      };
+    }
   };
 </script>
 
@@ -98,5 +110,18 @@
   li {
     list-style: none;
     padding: 5px;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  .previous {
+    float: left;
+    display: inline-block;
+  }
+  .next {
+    float: right;
+    display: inline-block;
   }
 </style>

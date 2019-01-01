@@ -9,28 +9,22 @@
 import landscapes_01    from "../../assets/cartoons/macpeters_landscapes_01.png";
 import portraits_01     from "../../assets/cartoons/macpeters_portraits_01.png";
 import colourGroup_01   from "../../assets/cartoons/macpeters_colourGroup_01.png";
-import festivalFrog     from "../../assets/cartoons/macpeters_festivalfrog.png";
-import mu               from "../../assets/cartoons/macpeters_mu.png";
-import spock            from "../../assets/cartoons/macpeters_spock.png";
-import ursula           from "../../assets/cartoons/macpeters_ursula.png";
-import voldemort        from "../../assets/cartoons/macpeters_voldemort.png";
-import wolfman          from "../../assets/cartoons/macpeters_wolfman.png";
-import xenomorph        from "../../assets/cartoons/macpeters_xenomorph.png";
-import yoda             from "../../assets/cartoons/macpeters_yoda.png";
-import yzma             from "../../assets/cartoons/macpeters_yzma.png";
+import catober_01       from "../../assets/cartoons/macpeters_catober_01.png";
+import catober_02       from "../../assets/cartoons/macpeters_catober_02.png";
+import extinct_alph_01       from "../../assets/cartoons/macpeters_animalAlph_extinct_01.png";
+import extinct_alph_02       from "../../assets/cartoons/macpeters_animalAlph_extinct_02.png";
+import extinct_alph_03       from "../../assets/cartoons/macpeters_animalAlph_extinct_03.png";
+
 // Thumbnails
-import landscapes_01_thumb  from "../../assets/cartoons/thumbnails/macpeters_landscapes_01.png";
-import portraits_01_thumb   from "../../assets/cartoons/thumbnails/macpeters_portraits_01.png";
-import colourGroup_01_thumb from "../../assets/cartoons/thumbnails/macpeters_colourGroup_01.png";
-import festivalFrog_thumb   from "../../assets/cartoons/thumbnails/macpeters_festivalfrog.png";
-import mu_thumb             from "../../assets/cartoons/thumbnails/macpeters_mu.png";
-import spock_thumb          from "../../assets/cartoons/thumbnails/macpeters_spock.png";
-import ursula_thumb         from "../../assets/cartoons/thumbnails/macpeters_ursula.png";
-import voldemort_thumb      from "../../assets/cartoons/thumbnails/macpeters_voldemort.png";
-import wolfman_thumb        from "../../assets/cartoons/thumbnails/macpeters_wolfman.png";
-import xenomorph_thumb      from "../../assets/cartoons/thumbnails/macpeters_xenomorph.png";
-import yoda_thumb           from "../../assets/cartoons/thumbnails/macpeters_yoda.png";
-import yzma_thumb           from "../../assets/cartoons/thumbnails/macpeters_yzma.png";
+import landscapes_01_thumb    from "../../assets/cartoons/thumbnails/macpeters_landscapes_01.png";
+import portraits_01_thumb     from "../../assets/cartoons/thumbnails/macpeters_portraits_01.png";
+import colourGroup_01_thumb   from "../../assets/cartoons/thumbnails/macpeters_colourGroup_01.png";
+import catober_01_thumb       from "../../assets/cartoons/thumbnails/macpeters_catober_01.png";
+import catober_02_thumb       from "../../assets/cartoons/thumbnails/macpeters_catober_02.png";
+import extinct_alph_01_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_01.png";
+import extinct_alph_02_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_02.png";
+import extinct_alph_03_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_03.png";
+
 // components
 import imageList from '../../components/art/imageList.vue'
 
@@ -42,6 +36,41 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: catober_01,
+          thumb: catober_01_thumb,
+          title: "31 Days of Cats Challenge - part 1",
+          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
+          keywords: base_keywords + "cats, drawtober, catober, pumpkin, frog, witch, skeleton, ghosts, scaredy cat, zombie, mummy, harry potter"
+        },
+        {
+          image: catober_02,
+          thumb: catober_02_thumb,
+          title: "31 Days of Cats Challenge - part 2",
+          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
+          keywords: base_keywords + "cats, drawtober, catober, stuffy, twisted horns, cauldron, baku, queen, halloween, jester, demagorgon"
+        },
+        {
+          image: extinct_alph_01,
+          thumb: extinct_alph_01_thumb,
+          title: "Animal Alphabets - Extinct Series part 1",
+          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "alvarezsaurus, boreaspis, ceratogaulus, dakosaurus, einiosaurus, feilongus, glyptodon, hesperornis, ianthasuarus"
+        },
+        {
+          image: extinct_alph_02,
+          thumb: extinct_alph_02_thumb,
+          title: "Animal Alphabets - Extinct Series part 2",
+          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "jaekelopterus, kryptops, lambesosaurus, mammoth, nigersaurus, orohippus, paraphysornis, quetzalcoatlus, rhynchosaurus"
+        },
+        {
+          image: extinct_alph_03,
+          thumb: extinct_alph_03_thumb,
+          title: "Animal Alphabets - Extinct Series part 3",
+          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "sabre tooth tiger, tyranosaurus, udanoceratops, velocaraptor, wooly rhinocerous, xinjiangtitan, yukon giant camel, zalmoxes"
+        },
         {
           image: landscapes_01,
           thumb: landscapes_01_thumb,
@@ -62,69 +91,6 @@ export default {
           title: "Colour Collective",
           description: "A collection of images created for the #colourCollective weekly drawing challenge on Twitter",
           keywords: base_keywords + "coquelicot bird, cherry blossom axylotl, cherry blossom pig, basalt grey elephant, canary yellow, cornflower blue butterfly dioxazine maroon bettafish, french sky blue turtle, gamboge frog, mallow seahorse, mint cream insect, seashell wolly aphid, sepia field mouse, sunshine banana, teal blue jellyfish, vanilla cockatiel, monochromatic"
-        },
-        {
-          image: festivalFrog,
-          thumb: festivalFrog_thumb,
-          title: "Festival Frog",
-          description: "This frog hearts music festivals.",
-          keywords: base_keywords + "festival, music festival, edm, heart, hand heart, frog, plur"
-        },
-        {
-          image: mu,
-          thumb: mu_thumb,
-          title: "Mu",
-          description: "Sassy Cow refuses to get dragged into a fight.",
-          keywords: base_keywords + "sassy, cow, beef, no beef, pacifist, vegan, vegetarian, no war, plur"
-        },
-        {
-          image: spock,
-          thumb: spock_thumb,
-          title: "Spock",
-          description: "Mr Spock, the vulcan",
-          keywords: base_keywords + "star trek, vulcan, spock, live long and prosper, next generation"
-        },
-        {
-          image: ursula,
-          thumb: ursula_thumb,
-          title: "Ursula",
-          description: "Ursula reimagined.",
-          keywords: base_keywords + "ariel, disney, ursula, little mermaid, sea witch, villain, cecaelian, animal alphabets, movie character"
-        },
-        {
-          image: voldemort,
-          thumb: voldemort_thumb,
-          title: "Voldemort",
-          description: "Voldemort isn't best friends with Harry Potter, for some reason.",
-          keywords: base_keywords + "voldemort, harry potter, slytherin, gryphindor, hufflepuff, magic, wizardry, hogwarts, snake, parseltongue, petulant, pouty, he-who-must-not-be-named, fan art, animal alphabets"
-        },
-        {
-          image: wolfman,
-          thumb: wolfman_thumb,
-          title: "Wolfman",
-          description: "The wolfman is now more accepting of his whole self.",
-          keywords: base_keywords + "wolfman, fright night, frightenstein, film character, werewolf, bela lugosi, cross-dressing, pretty man, beast man, beast, wolf, flirty, fan art, animal alphabets"
-        },
-        {
-          image: xenomorph,
-          thumb: xenomorph_thumb,
-          title: "Xenomorph",
-          description: "Always fashionable in her... um...  insect armour exoskeleton",
-          keywords: base_keywords + "xenomorph, alien, aliens, giger, film character, horror, thriller, insect, exoskeleton, species, cyborg, extraterrestrial, movie monster, creatures"
-        },
-        {
-          image: yoda,
-          thumb: yoda_thumb,
-          title: "Yoda",
-          description: "Train yourself to let go of everything you fear to lose",
-          keywords: base_keywords + "yoda, star wars, jedi, lightsaber, discipline, wisdom"
-        },
-        {
-          image: yzma,
-          thumb: yzma_thumb,
-          title: "Yzma",
-          description: "She didn't get the experience of a feel good adventure and a new friend, so she stayed a villain.",
-          keywords: base_keywords + "yzma, emperors new groove, disney, reimagined, villain, animal alphabets"
         }
       ],
       chosenImage: null

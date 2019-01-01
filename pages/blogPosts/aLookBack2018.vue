@@ -29,15 +29,18 @@
         <li>
           <h3>Animation</h3>
             As part of my work in cartoons and quick sketches, I've been trying my hand at a little bit of animation.  I haven't
-            taken any classes, and I really have no idea what I'm doing, but it's still pretty fun.  The very act of trying to 
-            animate is giving me a fresh perspective on movement, which can hopefully make all my future art more dynamic and
-            alive. 
+            taken any classes, and I really have no idea what I'm doing, but it's still pretty fun. 
+            <a href="https://www.youtube.com/watch?v=giQZ5PrCKCM">Watch a quick video on Youtube</a> 
+            Even if I never become a great animator, the very act of trying to animate is giving me a fresh perspective on 
+            movement, which can hopefully make all my future art more dynamic and alive. 
         </li>
-          
+               
         <li>
-          <h3>Live painting - Art for Heart</h3>
+          <h3>Live painting - <a href="https://www.facebook.com/events/578013875884326/">Art for Heart</a></h3>
             I have done a bit of live painting, on the street or in a part, but this was the first time I painted in front
-            of an audience.  It was both thrilling and nerve wracking.  
+            of an audience.  It was both thrilling and nerve wracking.  We all had a limited amount of time to paint whatever
+            we wanted.  I found the biggest challenge was the fact that I usually add layers on top of dry paint, but there wasn't
+            enough time to let the paint dry.
         </li>
         <li>
           <h3>Visionary Art Intensive</h3>
@@ -52,22 +55,33 @@
       </ul>
     </section>
 
+    <div>
+      <img v-bind:src="twistedHorns" id="cartoon" alt="Twisted Horns Cat by Macpeters" title="Twisted Horns Cat by Macpeters" />
+      <div class="caption">One of 31 cats drawn during the month of October - each one fitting a #drawtober prompt.</div>
+    </div>
+
     <section>
       <h2>Projects</h2>
        <ul>
         <li>
-          <h3>Hidden Dreams Tarot</h3>
-            I started my own interpretation of the <a href="/tarot" title="tarot deck">major arcana tarot deck</a> years ago, when self-publishing was less of an option.  This year I finally 
+          <h3><a href="/tarot#hidden-dreams" title="tarot deck">Hidden Dreams Tarot</a></h3>
+            I started my own interpretation of the major arcana tarot deck years ago, when self-publishing was less of an option.  This year I finally 
             took this project over the finish line. 
         </li>
 
         <li>
-          <h3>Cutie Pie Tarot</h3>
+          <h3><a href="/tarot#cutie-pie">Cutie Pie Tarot</a></h3>
             In the midst of finishing up the Hidden Dreams Tarot, and practicing cartoons, I thought it might be a fun little extra
             to whip up a cartoon version of the deck - something cute, kid friendly, inclusive, and accessible.  
         </li>
       </ul>
     </section>
+
+    <div>
+      <img v-bind:src="eye" id="painting" alt="Eye painted by Macpeters at Art For Heart" title="Eye painted by Macpeters at Art For Heart" />
+      <div class="caption">Eye was painted live before an audience at Art for Heart, and auctioned off to help fund an Art Therapy Centre</div>
+    </div>
+    
 
     <section>
       <h2><a href="/art/fineArt" title="Paintings">Paintings</a></h2>
@@ -76,17 +90,31 @@
         <li>Self Portrait</li>
         <li>Be the Eye of the Storm</li>
          <li>Caught in the Music</li>
+         <li>Eye (at Art for Heart)</li>
          <li>Golden Rabbit (skateboard deck)</li>
          <li>Hockey Bees (mural)</li>
          <li>Cosmic Kitten</li>
       </ul>
     </section>
+
+    <section>
+      <div class="previous"><a href="/blogPosts/aLookBack2017">Recap 2017</a></div>
+      <!-- <div class="next"><a href="">Recap 2019</a></div> -->
+    </section>
   </article>
 </template>
 
 <script>
+  import eye  from "../../assets/services/macpeters_artForHeart.jpg";
+  import twistedHorns  from "../../assets/cartoons/macpeters_twistedHorns.png";
+
   export default {
-    // name: "activeRecordQueries"
+     data() {
+      return {
+        eye: eye,
+        twistedHorns: twistedHorns
+      };
+    }
   };
 </script>
 
@@ -99,5 +127,23 @@
   li {
     list-style: none;
     padding: 5px;
+  }
+
+  .caption {
+    font-size: 12px;
+    color: #444;
+  }
+
+  #painting {
+    width: 50%;
+  }
+
+  .previous {
+    float: left;
+    display: inline-block;
+  }
+  .next {
+    float: right;
+    display: inline-block;
   }
 </style>

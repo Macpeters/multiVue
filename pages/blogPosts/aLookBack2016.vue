@@ -40,6 +40,8 @@
       </ul>
     </section>
 
+    <span><img v-bind:src="neonJungle" alt="Neon Jungle by Macpeters" title="Neon Jungle by Macpeters" /></span>
+
     <section>
       <h2>Projects</h2>
        <ul>
@@ -78,12 +80,23 @@
         <li>Jerry Bear</li> 
       </ul>
     </section>
+
+    <section>
+      <!-- <div class="previous"><a href="/blogPosts/aLookBack2016">Recap 2016</a></div> -->
+      <div class="next"><a href="/blogPosts/aLookBack2017">Recap 2017</a></div>
+    </section>
   </article>
 </template>
 
 <script>
+  import neonJungle  from "../../assets/services/macpeters_neonJungle.jpg";
+
   export default {
-    // name: "activeRecordQueries"
+     data() {
+      return {
+        neonJungle: neonJungle
+      };
+    }
   };
 </script>
 
@@ -100,5 +113,18 @@
 
   h4 {
     padding-left: 5px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .previous {
+    float: left;
+    display: inline-block;
+  }
+  .next {
+    float: right;
+    display: inline-block;
   }
 </style>
