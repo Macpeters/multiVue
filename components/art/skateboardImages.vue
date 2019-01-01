@@ -2,9 +2,11 @@
   <div class="horizontals">
     <div v-for="image in horizontals" :key='image.id' class="item">
       <img v-bind:src="image.image" v-bind:alt="image.title" v-bind:title="image.title" class="horizontal"/>
-      <div><h3>{{image.title}}</h3></div>
-      <div>{{image.description}}</div>
-      <div class="keywords">{{image.keywords}}</div>
+      <div class="text">
+        <div><h3>{{image.title}}</h3></div>
+        <div>{{image.description}}</div>
+        <div class="keywords">keywords: {{image.keywords}}</div>
+      </div>
     </div>
 
     <imageList/>
@@ -14,12 +16,13 @@
 <script>
 // images
 // horizontal
-import jerryBear        from "../../assets/skateboards/horizontals/macpeters_jerryBear.png";
-import mushroomEye      from "../../assets/skateboards/horizontals/macpeters_mushroomEye.png";
-import psychedelicBee   from "../../assets/skateboards/horizontals/macpeters_psychedelicBee.png";
+import jerryBear        from "../../assets/skateboards/horizontals/macpeters_jerryBear.jpg";
+import goldenRabbit     from "../../assets/skateboards/horizontals/macpeters_rabbit.jpg";
+import mushroomEye      from "../../assets/skateboards/horizontals/macpeters_mushroomEye.jpg";
+import psychedelicBee   from "../../assets/skateboards/horizontals/macpeters_psychedelicBee.jpg";
 
 // vertical
-import brokenRobot      from "../../assets/skateboards/macpeters_brokenRobot.png";
+import brokenRobot      from "../../assets/skateboards/macpeters_brokenRobot.jpg";
 import drWho            from "../../assets/skateboards/macpeters_drWho.png";
 import mrPizza          from "../../assets/skateboards/macpeters_mrPizza.jpg";
 import snake            from "../../assets/skateboards/macpeters_snake.jpg";
@@ -49,6 +52,12 @@ export default {
           title: "Grateful Dead Jerry Bear",
           description: "Inspired by the music and art of the Grateful Dead band and movement",
           keywords: base_keywords + "grateful dead, the dead, jerry, jerry garcia, dancing bears, jerry bears, deadhead, hippy, festival, acid, nitrous, nitrous oxide, laughing gas, tour, heads, music, dancing, uncle john's band, scarlet begonia, wings, flight, high, high on life, eyes, drips, paint, fly"
+        },
+        {
+          image: goldenRabbit,
+          title: "Golden Rabbit",
+          description: "Inspired by Watership Down, I wanted to show the Golden Rabbit, heralding life, as a balance to the Black Rabbit, which symoblizes death.",
+          keywords: base_keywords + "rabbits, watership down, black rabbit, golden rabbit, sign of life, bunny, easter, spring"
         },
         {
           image: mushroomEye,
@@ -115,11 +124,13 @@ export default {
 </script>
 
 <style scoped>
-  .horizontals {
+  .horizontals img{
     padding-left: 10%;
     width: 80%;
+  }
+  .text {
     font-size: 14px;
-    
+    text-align: center;
   }
   .item {
     padding: 10px;
@@ -127,12 +138,16 @@ export default {
   .keywords {
     font-size: 12px;
     color: #777;
+    padding-top: 7px;
   }
   h3 {
     font-size: 16px;
     font-weight: 700;
   }
-  /* .horizontal {
-    width: 80%;
-  } */
+
+  @media screen and (max-width: 615px){
+    .keywords {
+      display: none;
+    }
+  }
 </style>

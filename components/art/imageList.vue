@@ -103,6 +103,14 @@ export default {
     opacity: 0.7;
   }
 
+  @media screen and (max-width: 615px){
+    .keywords {
+      opacity: 0;
+      height: 50px;
+      overflow: hidden;
+    }
+  }
+
   @media screen and (max-width: 450px){
     .left-column {
       width: 100%;
@@ -110,6 +118,10 @@ export default {
 
     .right-column {
       width: 100%;
+    }
+    
+    .art-gallery {
+      margin-bottom: 10px;
     }
   }
 

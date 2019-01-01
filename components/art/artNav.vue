@@ -41,4 +41,11 @@ export default {
     clear: both;
   }
 
+  @media screen and (max-width: 450px){
+    a {
+      display: block;
+      width: 100%;
+    }
+  }
+
 </style>

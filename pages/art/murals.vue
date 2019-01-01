@@ -6,7 +6,7 @@
     <h2>Indoor and Outdoor murals to brighten up your business, home, or neighbourhood.</h2>
 
     <div class="page-description">
-      <p>
+      <p class="main-image">
         <img v-bind:src="hockeyBeesComplete" alt="Hockey Bees - completed" title="Hockey Bees - completed" />
       </p>
       <p>One of my favourite things about creating public art is fitting the art to the space it's in.
@@ -80,4 +80,8 @@ export default {
 </script>
 
 <style scoped>
+  .main-image img{
+    width: 90%;
+  }
+
 </style>
