@@ -1,27 +1,38 @@
 <template>
-  <div>
+  <div class="horizontals">
+    <div v-for="image in horizontals" :key='image.id' class="item">
+      <img v-bind:src="image.image" v-bind:alt="image.title" v-bind:title="image.title" class="horizontal"/>
+      <div><h3>{{image.title}}</h3></div>
+      <div>{{image.description}}</div>
+      <div class="keywords">{{image.keywords}}</div>
+    </div>
+
     <imageList/>
   </div>
 </template>
 
 <script>
 // images
-// skate decks
+// horizontal
+import jerryBear        from "../../assets/skateboards/horizontals/macpeters_jerryBear.png";
+import mushroomEye      from "../../assets/skateboards/horizontals/macpeters_mushroomEye.png";
+import psychedelicBee   from "../../assets/skateboards/horizontals/macpeters_psychedelicBee.png";
+
+// vertical
 import brokenRobot      from "../../assets/skateboards/macpeters_brokenRobot.png";
 import drWho            from "../../assets/skateboards/macpeters_drWho.png";
-import jerryBear        from "../../assets/skateboards/macpeters_jerryBear.png";
-import mushroomEye      from "../../assets/skateboards/macpeters_mushroomEye.png";
-import psychedelicBee   from "../../assets/skateboards/macpeters_psychedelicBee.png";
+import mrPizza          from "../../assets/skateboards/macpeters_mrPizza.jpg";
+import snake            from "../../assets/skateboards/macpeters_snake.jpg";
 import tikiFaces        from "../../assets/skateboards/macpeters_tikiFaces.png";
 import trickRTreat      from "../../assets/skateboards/macpeters_trickrtreat.png";
 // thumbnails
 import brokenRobot_thumb    from "../../assets/skateboards/thumbnails/macpeters_brokenRobot.png";
 import drWho_thumb          from "../../assets/skateboards/thumbnails/macpeters_drWho.png";
-import jerryBear_thumb      from "../../assets/skateboards/thumbnails/macpeters_jerryBear.png";
-import mushroomEye_thumb    from "../../assets/skateboards/thumbnails/macpeters_mushroomEye.png";
-import psychedelicBee_thumb from "../../assets/skateboards/thumbnails/macpeters_psychedelicBee.png";
+import mrPizza_thumb        from "../../assets/skateboards/thumbnails/macpeters_mrPizza.jpg";
+import snake_thumb          from "../../assets/skateboards/thumbnails/macpeters_snake.jpg";
 import tikiFaces_thumb      from "../../assets/skateboards/thumbnails/macpeters_tikiFaces.png";
 import trickRTreat_thumb    from "../../assets/skateboards/thumbnails/macpeters_trickrtreat.png";
+
 // components
 import imageList    from '../../components/art/imageList.vue'
 
@@ -32,6 +43,27 @@ export default {
   components: { imageList },
   data() {
     return {
+      horizontals: [
+        {
+          image: jerryBear,
+          title: "Grateful Dead Jerry Bear",
+          description: "Inspired by the music and art of the Grateful Dead band and movement",
+          keywords: base_keywords + "grateful dead, the dead, jerry, jerry garcia, dancing bears, jerry bears, deadhead, hippy, festival, acid, nitrous, nitrous oxide, laughing gas, tour, heads, music, dancing, uncle john's band, scarlet begonia, wings, flight, high, high on life, eyes, drips, paint, fly"
+        },
+        {
+          image: mushroomEye,
+          title: "Mushroom Eye",
+          description: "Psychedelic skateboard painted at COSM during a Chris Dyer workshop",
+          keywords: base_keywords + "mushroom, amanita, magic mushroom, red and white, eyeballs, many eyes, multi sight, symmetry, cosmic, energy, rainbows, fractals, sacred geometry, flower of life, mandala"
+        },
+        {
+          image: psychedelicBee,
+          title: "Psychedelic Bee",
+          description: "Three eyed bee with veiny wings",
+          keywords: base_keywords + "bee, three eyed, third eye, bug, insect, pollinator, flight, badass, flower, pollen, spread pollen"
+        },
+      ],
+      // verticals
       images: [
         {
           image: brokenRobot,
@@ -48,25 +80,18 @@ export default {
           keywords: base_keywords + "Dr Who, tardis, dalek, space travel, exterminate, time, space, time and relative dimension in space, doctor, time lords, companion, police box, blue box"
         },
         {
-          image: jerryBear,
-          thumb: jerryBear_thumb,
-          title: "Grateful Dead Jerry Bear",
-          description: "Inspired by the music and art of the Grateful Dead band and movement",
-          keywords: base_keywords + "grateful dead, the dead, jerry, jerry garcia, dancing bears, jerry bears, deadhead, hippy, festival, acid, nitrous, nitrous oxide, laughing gas, tour, heads, music, dancing, uncle john's band, scarlet begonia, wings, flight, high, high on life, eyes, drips, paint, fly"
+          image: mrPizza,
+          thumb: mrPizza_thumb,
+          title: "Mr Pizza",
+          description: "Junk food is gross and bad for you",
+          keywords: base_keywords + "pizza, food, gross, junk food, rotten"
         },
         {
-          image: mushroomEye,
-          thumb: mushroomEye_thumb,
-          title: "Mushroom Eye",
-          description: "Psychedelic skateboard painted at COSM during a Chris Dyer workshop",
-          keywords: base_keywords + "mushroom, amanita, magic mushroom, red and white, eyeballs, many eyes, multi sight, symmetry, cosmic, energy, rainbows, fractals, sacred geometry, flower of life, mandala"
-        },
-        {
-          image: psychedelicBee,
-          thumb: psychedelicBee_thumb,
-          title: "Psychedelic Bee",
-          description: "Three eyed bee with veiny wings",
-          keywords: base_keywords + "bee, three eyed, third eye, bug, insect, pollinator, flight, badass, flower, pollen, spread pollen"
+          image: snake,
+          thumb: snake_thumb,
+          title: "Snake",
+          description: "A snake in a tree with spider web and cherry blossom",
+          keywords: base_keywords + "snake, web, cherry blossom, spiderweb, serpent"
         },
         {
           image: tikiFaces,
@@ -90,4 +115,24 @@ export default {
 </script>
 
 <style scoped>
+  .horizontals {
+    padding-left: 10%;
+    width: 80%;
+    font-size: 14px;
+    
+  }
+  .item {
+    padding: 10px;
+  }
+  .keywords {
+    font-size: 12px;
+    color: #777;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  /* .horizontal {
+    width: 80%;
+  } */
 </style>
