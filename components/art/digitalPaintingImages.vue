@@ -7,7 +7,7 @@
 <script>
 // images
 import dragonfish      from "../../assets/digitalPaintings/macpeters_dragonFish.png";
-import dummyBird       from "../../assets/digitalPaintings/macpeters_dummybird.png";
+// import dummyBird       from "../../assets/digitalPaintings/macpeters_dummybird.png";
 import featherBird     from "../../assets/digitalPaintings/macpeters_featherbird.png";
 import hatchling       from "../../assets/digitalPaintings/macpeters_hatchling.png";  
 import impostor        from "../../assets/digitalPaintings/macpeters_Impostor.png";  
@@ -18,7 +18,7 @@ import draw9Lights_02  from "../../assets/digitalPaintings/macpeters_draw9Lights
 
 // Thumbnails
 import dragonfish_thumb     from "../../assets/digitalPaintings/thumbnails/macpeters_dragonFish.png";
-import dummyBird_thumb      from "../../assets/digitalPaintings/thumbnails/macpeters_dummybird.png";
+// import dummyBird_thumb      from "../../assets/digitalPaintings/thumbnails/macpeters_dummybird.png";
 import featherBird_thumb    from "../../assets/digitalPaintings/thumbnails/macpeters_featherbird.png";
 import hatchling_thumb      from "../../assets/digitalPaintings/thumbnails/macpeters_hatchling.png";  
 import impostor_thumb       from "../../assets/digitalPaintings/thumbnails/macpeters_Impostor.png";  
@@ -52,13 +52,13 @@ export default {
           description: "Part dragon, part fish, this gentle underwater monster is based on a sketch from several years ago",
           keywords: base_keywords + "underwater, fish, dragon, sea creature, fantasy, monster"
         },
-        {
-          image: dummyBird,
-          thumb: dummyBird_thumb,
-          title: "Dummybird",
-          description: "A lesser known relative of the dodobird, this poor creature went extinct very quickly",
-          keywords: base_keywords + "bird, extinct, fantasy, made-up animal, dummy, dodo, silly"
-        },
+        // {
+        //   image: dummyBird,
+        //   thumb: dummyBird_thumb,
+        //   title: "Dummybird",
+        //   description: "A lesser known relative of the dodobird, this poor creature went extinct very quickly",
+        //   keywords: base_keywords + "bird, extinct, fantasy, made-up animal, dummy, dodo, silly"
+        // },
         {
           image: featherBird,
           thumb: featherBird_thumb,
