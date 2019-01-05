@@ -33,7 +33,8 @@
           <input type="checkbox" id="show-menu" role="button">
           <div class="dropdown-content" id="dropdown-content">
             <a href="/art/fineArt" title="Paintings">Paintings</a>
-            <a href="/art/cartoons" title="Hidden Dreams Tarot">Cartoons</a>
+            <a href="/art/cartoons" title="Cartoon">Cartoons</a>
+            <a href="/art/digitalPainting" title="Digital Paintings">Digital Paintings</a>
             <a href="/art/services" title="Artistic Services">Artistic Services</a>
             <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
             <hr />

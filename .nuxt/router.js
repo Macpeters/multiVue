@@ -7,6 +7,7 @@ const _9eadd9e4 = () => interopDefault(import('../pages/blog.vue' /* webpackChun
 const _0aaf5e8e = () => interopDefault(import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */))
 const _5935dbcc = () => interopDefault(import('../pages/art/aboutArtist.vue' /* webpackChunkName: "pages/art/aboutArtist" */))
 const _e2b8f646 = () => interopDefault(import('../pages/art/cartoons.vue' /* webpackChunkName: "pages/art/cartoons" */))
+const _11117b94 = () => interopDefault(import('../pages/art/digitalPainting.vue' /* webpackChunkName: "pages/art/digitalPainting" */))
 const _da6b1b3e = () => interopDefault(import('../pages/art/fineArt.vue' /* webpackChunkName: "pages/art/fineArt" */))
 const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* webpackChunkName: "pages/art/fineArtUv" */))
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
@@ -105,6 +106,10 @@ export function createRouter() {
       path: "/art/cartoons",
       component: _e2b8f646,
       name: "art-cartoons"
+    }, {
+      path: "/art/digitalPainting",
+      component: _11117b94,
+      name: "art-digitalPainting"
     }, {
       path: "/art/fineArt",
       component: _da6b1b3e,

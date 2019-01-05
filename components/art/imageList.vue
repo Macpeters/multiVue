@@ -84,6 +84,7 @@ export default {
     clear: both;
   }
   .keywords {
+    padding-top: 10px;
     color: #bbb;
     font-size: 12px;
   }

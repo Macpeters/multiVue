@@ -95,7 +95,7 @@
             thumb: fascination_thumb,
             title: "Fascination",
             subtitle: "24x24 UV Acrylic on canvas",
-            description: "Behold the biodiversity of this alien crystaline planet.  What wonders it might hold!",
+            description: "Behold the biodiversity of this alien crystalline planet.  What wonders it might hold!",
             keywords: base_keywords + 'white squirrel, butterfly, bubbles, crystals, crystal mountain, cloud faces, long tail, furry animal, cute animal, leafy, water, calm water, flying, serpent, snake skin, sparkle, drops'
           },
           {
