@@ -23,6 +23,7 @@ export default {
 <style scoped>
   .tee_add {
     padding: 10px;
+    max-width: 100%;
   }
 
 </style>
