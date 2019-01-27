@@ -37,18 +37,18 @@ export default {
     return {
       images: [
         {
-          image: catober_01,
-          thumb: catober_01_thumb,
-          title: "31 Days of Cats Challenge - part 1",
-          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
-          keywords: base_keywords + "cats, drawtober, catober, pumpkin, frog, witch, skeleton, ghosts, scaredy cat, zombie, mummy, harry potter"
-        },
-        {
           image: catober_02,
           thumb: catober_02_thumb,
           title: "31 Days of Cats Challenge - part 2",
           description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
           keywords: base_keywords + "cats, drawtober, catober, stuffy, twisted horns, cauldron, baku, queen, halloween, jester, demagorgon"
+        },
+        {
+          image: catober_01,
+          thumb: catober_01_thumb,
+          title: "31 Days of Cats Challenge - part 1",
+          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
+          keywords: base_keywords + "cats, drawtober, catober, pumpkin, frog, witch, skeleton, ghosts, scaredy cat, zombie, mummy, harry potter"
         },
         {
           image: extinct_alph_01,

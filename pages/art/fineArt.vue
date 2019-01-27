@@ -10,6 +10,7 @@
     </div>
 
     <blogList/>
+    <society6Ad/>
   </div>
 </template>
 
@@ -21,10 +22,11 @@ import fineArtImages  from '../../components/art/fineArtImages.vue'
 import breadcrumbs    from '../../components/breadcrumbs.vue'
 // Blog
 import blogList       from '../../components/blog.vue'
+import society6Ad from "../../components/ads/society6.vue"
 
 export default {
   name: "Art",
-  components: { artNav, breadcrumbs, blogList, fineArtImages },
+  components: { artNav, breadcrumbs, blogList, fineArtImages, society6Ad },
   data() {
     return {
       chosenImage: null,

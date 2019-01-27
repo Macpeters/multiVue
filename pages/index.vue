@@ -8,8 +8,8 @@
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
       Nuxt, and Served on Netlify.</span>
     </div>
-
-    <div class="art-gallery">
+    
+    <div>
       <div>
         <span 
           v-for="image in images" 
@@ -30,6 +30,7 @@
         </span>
       </div>
     </div>
+    <teePublicAd/>
   </div>
 
 </template>
@@ -37,6 +38,7 @@
 <script>
   // Images
   import logoImage  from "../assets/logo.png";
+  import teePublicAd from "../components/ads/teePublic.vue"
   import paintings  from "../assets/index/macpeters_paintings.png";
   import cartoons   from "../assets/index/macpeters_cartoons.png";
   import games      from "../assets/index/macpeters_games.png";
@@ -45,7 +47,7 @@
 
   export default {
   name: 'Home',
-  components: { },
+  components: { teePublicAd },
   data() {
     return {
       logoImage: logoImage,
@@ -59,7 +61,7 @@
         {
           image: cartoons,
           title: 'Cartoons',
-          link: '/cartoons',
+          link: '/art/cartoons',
           description: 'digital sketches, cartoons, characters, drawing challenges'
         },
         {

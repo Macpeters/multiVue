@@ -19,7 +19,7 @@
     <cartoonImages/>
 
     <blogList/>
-
+    <teePublicAd/>
   </div>
 </template>
 
@@ -30,10 +30,11 @@
 import cartoonImages from '../../components/art/cartoonImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
+import teePublicAd from "../../components/ads/teePublic.vue"
 
 export default {
   name: "Cartoons",
-  components: { cartoonImages, breadcrumbs, blogList },
+  components: { cartoonImages, breadcrumbs, blogList, teePublicAd },
   data() {
     return {
       breadcrumbs: [
