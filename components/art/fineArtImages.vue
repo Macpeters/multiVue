@@ -18,7 +18,8 @@
   import maskedFear   from "../../assets/fineArt/macpeters_maskedFear.png";
   import mischeif     from "../../assets/fineArt/macpeters_mischeif.png";
   import monsterball  from "../../assets/fineArt/macpeters_monsterball.png";
-  import selfPortrait     from "../../assets/fineArt/macpeters_selfPortrait.png";
+  import serenity     from "../../assets/fineArt/macpeters_serenity.png";
+  import selfPortrait from "../../assets/fineArt/macpeters_selfPortrait.png";
   import shpongle     from "../../assets/fineArt/macpeters_shpongle.png";
   import starbird     from "../../assets/fineArt/macpeters_starBird.png";
   import stubborn     from "../../assets/fineArt/macpeters_stubbornResentment.png";
@@ -35,6 +36,7 @@
   import maskedFear_thumb   from "../../assets/fineArt/thumbnails/macpeters_maskedFear.png";
   import mischeif_thumb     from "../../assets/fineArt/thumbnails/macpeters_mischeif.png";
   import monsterball_thumb  from "../../assets/fineArt/thumbnails/macpeters_monsterball.png";
+  import serenity_thumb     from "../../assets/fineArt/thumbnails/macpeters_serenity.png";
   import selfPortrait_thumb from "../../assets/fineArt/thumbnails/macpeters_selfPortrait.jpg";
   import shpongle_thumb     from "../../assets/fineArt/thumbnails/macpeters_shpongle.png";
   import starbird_thumb     from "../../assets/fineArt/thumbnails/macpeters_starBird.png";
@@ -50,6 +52,14 @@
     data() {
       return {
         images: [
+           {
+            image: serenity,
+            thumb: serenity_thumb,
+            title: "Serenity",
+            subtitle: "30x30 UV Acrylic on canvas",
+            description: "A tiny sea monster, relaxing in the ebb and flow of of soft bubbly water",
+            keywords: base_keywords + 'serene, calm, floating, dragon, ocean, underwater, watery, dripping, bubbles, mythical, beast'
+          },
           {
             image: selfPortrait,
             thumb: selfPortrait_thumb,

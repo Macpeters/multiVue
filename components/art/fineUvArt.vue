@@ -16,6 +16,7 @@
   import gratitude_uv     from "../../assets/fineArtUv/macpeters_gratitude_uv.png";
   import maskedFear_uv    from "../../assets/fineArtUv/macpeters_maskedFear_uv.png";
   import mischief_uv      from "../../assets/fineArtUv/macpeters_mischeif_uv.png";
+  import serenity_uv      from "../../assets/fineArtUv/macpeters_serenity_uv.png";
   import selfPortrait_uv  from "../../assets/fineArtUv/macpeters_selfPortrait_uv.png";
   import shpongle_uv      from "../../assets/fineArtUv/macpeters_shpongle_uv.png";
   import stubborn_uv      from "../../assets/fineArtUv/macpeters_stubbornResentment_uv.png";
@@ -30,6 +31,7 @@
   import gratitude_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_gratitude_uv.png";
   import maskedFear_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_maskedFear_uv.png";
   import mischief_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_mischief_uv.png";
+  import serenity_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_serenity_uv.png";
   import selfPortrait_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_selfPortrait_uv.jpg";
   import shpongle_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
   import stubborn_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png"; 
@@ -44,6 +46,14 @@
     data() {
       return {
         images: [
+          {
+            image: serenity_uv,
+            thumb: serenity_uv_thumb,
+            title: "Serenity",
+            subtitle: "30x30 UV Acrylic on canvas",
+            description:  "A tiny sea monster, relaxing in the ebb and flow of of soft bubbly water",
+            keywords: base_keywords + 'serene, calm, floating, dragon, ocean, underwater, watery, dripping, bubbles'
+          },
           {
             image: selfPortrait_uv,
             thumb: selfPortrait_uv_thumb,
