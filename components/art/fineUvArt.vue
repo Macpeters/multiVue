@@ -52,7 +52,7 @@
             title: "Serenity",
             subtitle: "30x30 UV Acrylic on canvas",
             description:  "A tiny sea monster, relaxing in the ebb and flow of of soft bubbly water",
-            keywords: base_keywords + 'serene, calm, floating, dragon, ocean, underwater, watery, dripping, bubbles'
+            keywords: base_keywords + 'serene, calm, floating, dragon, ocean, underwater, watery, dripping, bubbles, mythical, beast'
           },
           {
             image: selfPortrait_uv,

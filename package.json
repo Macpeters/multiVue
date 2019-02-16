@@ -1,7 +1,7 @@
 {
-  "name": "nuxt2Website",
+  "name": "Macpeters",
   "version": "1.0.0",
-  "description": "website redone in nuxt 2",
+  "description": "Macpeters: artist and developer.",
   "author": "Macpeters",
   "private": true,
   "scripts": {

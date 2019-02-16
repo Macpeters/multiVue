@@ -119,7 +119,10 @@
   }
 
   .page-teaser :hover {
-    color: #897DF4;
+    background-color: #eeddff;
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
+    transition-duration: 2s;
   }
 
   .teaser-image img {

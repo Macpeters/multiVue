@@ -28,6 +28,13 @@
     box-sizing: border-box;
   }
 
+  .fadeOpacity-enter-active, .fadeOpacity-leave-active {
+    transition: opacity .35s ease-out;
+  }
+  .fadeOpacity-enter, .fadeOpacity-leave-active {
+    opacity: 0;
+  }
+
   *,
   *:before,
   *:after {

@@ -17,7 +17,7 @@
       <!-- AddToAny END -->
 
       <div class="main-nav-row">
-        <a href="/" class="logo dropbtn header-purple-bg" title="Macpeters Creations Home">
+        <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
           <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
         </a>
     
@@ -71,6 +71,10 @@ export default {
     display: inline-block;
   }
 
+  fade-button {
+    transition: opacity .35s ease-out;
+  }
+
   .header-image {
     height: 250px;
     background: url('../assets/header.png');
@@ -89,16 +93,14 @@ export default {
     margin: 0 10px 10px 10px;
     font-size: 18px;
     font-weight: bold;
-    /* background-color: #C17DDB; */
     color: #fff;
     border-radius: 25px;
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
+    transition-duration: 2s;
   }  
 
-  .logo {
-    /* background-color: #897DF4; */
-  }
   .logo:hover {
-    /* background-color: #897DF4; */
     opacity: 0.7;
   }
   .logo img {
