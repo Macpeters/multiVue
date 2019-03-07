@@ -26,6 +26,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    /* transform: rotate(0.6deg); lol too funny */
   }
 
   .fadeOpacity-enter-active, .fadeOpacity-leave-active {

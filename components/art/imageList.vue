@@ -110,9 +110,6 @@ export default {
       height: 50px;
       overflow: hidden;
     }
-  }
-
-  @media screen and (max-width: 450px){
     .left-column {
       width: 100%;
     }
@@ -125,5 +122,4 @@ export default {
       margin-bottom: 10px;
     }
   }
-
 </style>

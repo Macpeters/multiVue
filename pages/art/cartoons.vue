@@ -2,6 +2,7 @@
   <div>
     <h1>Macpeters: Cartoons and Comics</h1>
     <breadcrumbs/>
+    <artNav/>
 
     <div class="page-description">
       <h2>Creativity and Drawing Fundamentals</h2>
@@ -13,10 +14,9 @@
         be on point.  So cartooning gives me a lighter, more humourous medium within which I can work
         on fundamental drawing skills while breaking down creative barriers.
       </p>
-
+      <img v-bind:src="sneakingUp" alt="Sneaking Up" title="Sneaking Up" />
     </div>
 
-    <cartoonImages/>
 
     <blogList/>
     <teePublicAd/>
@@ -25,16 +25,17 @@
 
 <script>
 // images
+import sneakingUp    from "../../assets/cartoons/macpeters_sneakingUp.png";
 
 // components
-import cartoonImages from '../../components/art/cartoonImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 import teePublicAd from "../../components/ads/teePublic.vue"
+import artNav from '../../components/art/artNav.vue'
 
 export default {
   name: "Cartoons",
-  components: { cartoonImages, breadcrumbs, blogList, teePublicAd },
+  components: { artNav, breadcrumbs, blogList, teePublicAd },
   data() {
     return {
       breadcrumbs: [
@@ -42,8 +43,12 @@ export default {
         { link: '/art', name: 'Art' },
         { link: '/art/cartoons', name: 'Cartoons' }
       ],
+      navLinks: [
+        { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
+        { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' }
+      ],
       blogFilter: 'improvingAtArt',
-      chosenImage: null
+      sneakingUp: sneakingUp
     };
   },
   head () {

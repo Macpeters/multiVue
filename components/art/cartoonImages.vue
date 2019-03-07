@@ -9,21 +9,11 @@
 import landscapes_01    from "../../assets/cartoons/macpeters_landscapes_01.png";
 import portraits_01     from "../../assets/cartoons/macpeters_portraits_01.png";
 import colourGroup_01   from "../../assets/cartoons/macpeters_colourGroup_01.png";
-import catober_01       from "../../assets/cartoons/macpeters_catober_01.png";
-import catober_02       from "../../assets/cartoons/macpeters_catober_02.png";
-import extinct_alph_01       from "../../assets/cartoons/macpeters_animalAlph_extinct_01.png";
-import extinct_alph_02       from "../../assets/cartoons/macpeters_animalAlph_extinct_02.png";
-import extinct_alph_03       from "../../assets/cartoons/macpeters_animalAlph_extinct_03.png";
 
 // Thumbnails
 import landscapes_01_thumb    from "../../assets/cartoons/thumbnails/macpeters_landscapes_01.png";
 import portraits_01_thumb     from "../../assets/cartoons/thumbnails/macpeters_portraits_01.png";
 import colourGroup_01_thumb   from "../../assets/cartoons/thumbnails/macpeters_colourGroup_01.png";
-import catober_01_thumb       from "../../assets/cartoons/thumbnails/macpeters_catober_01.png";
-import catober_02_thumb       from "../../assets/cartoons/thumbnails/macpeters_catober_02.png";
-import extinct_alph_01_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_01.png";
-import extinct_alph_02_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_02.png";
-import extinct_alph_03_thumb  from "../../assets/cartoons/macpeters_animalAlph_extinct_03.png";
 
 // components
 import imageList from '../../components/art/imageList.vue'
@@ -36,41 +26,6 @@ export default {
   data() {
     return {
       images: [
-        {
-          image: catober_02,
-          thumb: catober_02_thumb,
-          title: "31 Days of Cats Challenge - part 2",
-          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
-          keywords: base_keywords + "cats, drawtober, catober, stuffy, twisted horns, cauldron, baku, queen, halloween, jester, demagorgon"
-        },
-        {
-          image: catober_01,
-          thumb: catober_01_thumb,
-          title: "31 Days of Cats Challenge - part 1",
-          description: "For the month of October, I drew a cat a day, based on the Drawtober prompts",
-          keywords: base_keywords + "cats, drawtober, catober, pumpkin, frog, witch, skeleton, ghosts, scaredy cat, zombie, mummy, harry potter"
-        },
-        {
-          image: extinct_alph_01,
-          thumb: extinct_alph_01_thumb,
-          title: "Animal Alphabets - Extinct Series part 1",
-          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
-          keywords: base_keywords + "alvarezsaurus, boreaspis, ceratogaulus, dakosaurus, einiosaurus, feilongus, glyptodon, hesperornis, ianthasuarus"
-        },
-        {
-          image: extinct_alph_02,
-          thumb: extinct_alph_02_thumb,
-          title: "Animal Alphabets - Extinct Series part 2",
-          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
-          keywords: base_keywords + "jaekelopterus, kryptops, lambesosaurus, mammoth, nigersaurus, orohippus, paraphysornis, quetzalcoatlus, rhynchosaurus"
-        },
-        {
-          image: extinct_alph_03,
-          thumb: extinct_alph_03_thumb,
-          title: "Animal Alphabets - Extinct Series part 3",
-          description: "One extinct animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
-          keywords: base_keywords + "sabre tooth tiger, tyranosaurus, udanoceratops, velocaraptor, wooly rhinocerous, xinjiangtitan, yukon giant camel, zalmoxes"
-        },
         {
           image: landscapes_01,
           thumb: landscapes_01_thumb,
