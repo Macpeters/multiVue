@@ -4,7 +4,7 @@
 
     <breadcrumbs/>
     <!-- Artist Statement -->
-    <div>
+    <article>
       <h2>Artist Statement</h2>
       <div>
         <p>I create square paintings filled with other-worldly, dreamlike imagery.
@@ -19,10 +19,10 @@
         <p>Follow me on <a href="https://www.instagram.com/macpetersart/" target="_blank">Instagram (@macpetersart)</a> to join me in my journey!</p>
       </div>
       <hr />
-    </div>
+    </article>
 
     <!-- BIO -->
-    <div>
+    <article>
       <h2>Biography</h2>
       <img v-bind:src="photo" title="Mac Peters: Toronto based artist" alt="Mac Peters: Toronto based artist" />
       <p>Mac Peters is a mostly self-taught artist from Toronto, Canada, creating psychedelic/visionary and low-brow art.
@@ -34,30 +34,41 @@
       <p>She is inspired by the vast bio diversity around us: the shining heights and murky depths that the human mind is capable of reaching.
         There are so many ways to experience life - and they are all beautiful.
         She wants people to be able to recognise something of themselves in her art - to feel what the characters do, and know they aren’t alone in whatever they are feeling, even though their specific experience is unique.</p>
-    <hr />
-    </div>
+      <hr />
+    </article>
 
     <!-- Inspirations -->
-    <div>
+    <article>
       <h3>Some of my Favourite Artists</h3>
       <span v-for="artist in favouriteArtists" :key='artist.id'>
         <span class="link-list"><a v-bind:href="artist.link">{{artist.name}}</a></span> |
       </span>
       <hr />
-    </div>
+    </article>
+
+    <article class="columns">
+      <div class="left-column">
+        <img v-bind:src="nigelBook" class="book-img" title="Adorned Road: A Path of Transformation" />
+      </div>
+      <div class="right-column">
+        <h3>Adorned Road: A Path of Transformation</h3>
+        My painting, Tree of Life, graces the cover of this poetry book: <a href="">Adorned Road</a>, for sale on 
+        Amazon in paperback or kindle format.
+      </div>
+    </article>
 
     <!-- History/CV -->
-    <div>
+    <article>
       <h2>History</h2>
       <artHistory/>
-    </div>
-
+    </article>
   </div>
 </template>
 
 <script>
   // Images
   import photo from "../../assets/social/macpeters_photo.png";
+  import nigelBook from "../../assets/nigelBook_ad.png"
   // Components
   import artHistory from '../../components/art/artHistory.vue'
   import breadcrumbs from '../../components/breadcrumbs.vue'
@@ -118,7 +129,8 @@
           { link: '/art', name: 'Art' },
           { link: '/art', name: 'About' }
         ],
-        photo: photo
+        photo: photo,
+        nigelBook: nigelBook
       };
     }
 };
@@ -126,8 +138,25 @@
 
 
 <style scoped>
-  img {
-    padding-left: 20%
+  article {  padding: 10px; }
+  p { padding: 5px; }
+
+  .left-column {
+    width: 48%;
+    float: left;
+  }
+  .right-column {
+    padding-top: 10%;
+    padding-right: 10%;
+    width: 48%;
+    float: right;
+  }
+  .columns {
+    clear: both;
+    height: 350px;
+    padding: 10px;
+    padding-top: 10px;
+    display: block;
   }
   a {
     text-decoration: none;

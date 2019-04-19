@@ -8,6 +8,7 @@
   // Images
   import baphomet     from "../../assets/fineArt/macpeters_baphomet.png";
   import bliss        from "../../assets/fineArt/macpeters_bliss.png";
+  import cosmicDancer from "../../assets/fineArt/macpeters_cosmicDancer.png";
   import cosmicKitten from "../../assets/fineArt/macpeters_cosmicKitten.png";
   import cracking     from "../../assets/fineArt/macpeters_crackingUnderThePressure.png";
   import eagerness    from "../../assets/fineArt/macpeters_eagerness.png";
@@ -26,6 +27,7 @@
   // Thumbs
   import baphomet_thumb     from "../../assets/fineArt/thumbnails/macpeters_baphomet.png";
   import bliss_thumb        from "../../assets/fineArt/thumbnails/macpeters_bliss.png";
+  import cosmicDancer_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicDancer.png";
   import cosmicKitten_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
   import cracking_thumb     from "../../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
   import eagerness_thumb    from "../../assets/fineArt/thumbnails/macpeters_eagerness.png";
@@ -52,6 +54,14 @@
     data() {
       return {
         images: [
+          {
+            image: cosmicDancer,
+            thumb: cosmicDancer_thumb,
+            title: "Cosmic Dancer",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Dancing just to feel the life and movement of the music of existence",
+            keywords: base_keywords + 'feeling it, dancing, movement, soul, neon, lights, sparkle, glow, dance, universe, lasers, music, in the moment'
+          },
            {
             image: serenity,
             thumb: serenity_thumb,

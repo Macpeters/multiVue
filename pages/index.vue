@@ -93,6 +93,7 @@
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'title', content: 'Macpeters: Artist and Programmer' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
+        { name: 'p:domain_verify', content: '"10431f5047fa3c8cd403a436d675fe71' },
         { hid: 'artDescription', name: 'description', content: 'Fine Art, Murals, Painted Skateboard Decks, Cartoons, Web and Game Development'},
         { hid: 'artAuthor', name: 'author', content: 'Mac Peters'},
         { hid: `og:title`, property: 'og:title', content: 'Macpeters: Artist and Programmer' },

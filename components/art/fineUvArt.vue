@@ -8,6 +8,7 @@
   // Images
   import baphomet_uv      from "../../assets/fineArtUv/macpeters_baphomet_uv.png";
   import bliss_uv         from "../../assets/fineArtUv/macpeters_bliss_uv.png";
+  import cosmicDancer_uv  from "../../assets/fineArtUv/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv  from "../../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
   import cracking_uv      from "../../assets/fineArtUv/macpeters_cracking_uv.png";
   import eagerness_uv     from "../../assets/fineArtUv/macpeters_eagerness_uv.png";
@@ -23,6 +24,7 @@
   // Thumbs
   import baphomet_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
   import bliss_uv_thumb         from "../../assets/fineArtUv/thumbnails/macpeters_bliss_uv.png";
+  import cosmicDancer_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
   import cracking_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
   import eagerness_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
@@ -47,12 +49,20 @@
       return {
         images: [
           {
-            image: serenity_uv,
-            thumb: serenity_uv_thumb,
-            title: "Serenity",
+            image: cosmicDancer_uv,
+            thumb: cosmicDancer_uv_thumb,
+            title: "Cosmic Dancer",
             subtitle: "30x30 UV Acrylic on canvas",
             description:  "A tiny sea monster, relaxing in the ebb and flow of of soft bubbly water",
             keywords: base_keywords + 'serene, calm, floating, dragon, ocean, underwater, watery, dripping, bubbles, mythical, beast'
+          },
+          {
+            image: serenity_uv,
+            thumb: serenity_uv_thumb,
+            title: "Serenity",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Dancing just to feel the life and movement of the music of existence",
+            keywords: base_keywords + 'feeling it, dancing, movement, soul, neon, lights, sparkle, glow, dance, universe, lasers, music, in the moment'
           },
           {
             image: selfPortrait_uv,
