@@ -32,6 +32,7 @@
   import practiceDrawing        from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
   import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
   import tarotKickstarter       from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
+  import teePublic              from "../assets/blogs/thumbnails/macpeters_teePublic.png";
   
   export default {
     name: "blog",
@@ -39,6 +40,14 @@
     data() {
       return {
         posts: [
+           {
+            title: 'Tee Public',
+            date: 'April 26, 2019',
+            image: teePublic,
+            headline: 'A Review',
+            link: '/blogPosts/teePublic',
+            tags: ['art', 'review', 'cartoon']
+          },
           {
             title: 'A Look Back - 2018',
             date: 'Dec 31, 2018',

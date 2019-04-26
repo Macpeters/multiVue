@@ -42,7 +42,7 @@ export default {
         { url: '/art/murals', title: 'Murals', id: 'mural-art' },
         { url: '/art/cartoons', title: 'Cartoons', id: 'cartoons' }
       ],
-      blogFilter: 'visionary art',
+      blogFilter: 'art',
       name: 'fine-art'
     };
   },

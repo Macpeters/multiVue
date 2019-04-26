@@ -26,6 +26,7 @@ const _c08a2c20 = () => interopDefault(import('../pages/blogPosts/photographingB
 const _7faacf40 = () => interopDefault(import('../pages/blogPosts/processOfAMural.vue' /* webpackChunkName: "pages/blogPosts/processOfAMural" */))
 const _18ee1b80 = () => interopDefault(import('../pages/blogPosts/repurcussionsOfDDOSAttack.vue' /* webpackChunkName: "pages/blogPosts/repurcussionsOfDDOSAttack" */))
 const _bd58220c = () => interopDefault(import('../pages/blogPosts/tarotAndPursuitOfBetter.vue' /* webpackChunkName: "pages/blogPosts/tarotAndPursuitOfBetter" */))
+const _10c21b23 = () => interopDefault(import('../pages/blogPosts/teePublic.vue' /* webpackChunkName: "pages/blogPosts/teePublic" */))
 const _14734ff7 = () => interopDefault(import('../pages/blogPosts/whatIlearnedFromDrawingChallenge.vue' /* webpackChunkName: "pages/blogPosts/whatIlearnedFromDrawingChallenge" */))
 const _27d7c6e6 = () => interopDefault(import('../pages/dev/gameDev.vue' /* webpackChunkName: "pages/dev/gameDev" */))
 const _b25c6972 = () => interopDefault(import('../pages/dev/webDev.vue' /* webpackChunkName: "pages/dev/webDev" */))
@@ -184,6 +185,10 @@ export function createRouter() {
       path: "/blogPosts/tarotAndPursuitOfBetter",
       component: _bd58220c,
       name: "blogPosts-tarotAndPursuitOfBetter"
+    }, {
+      path: "/blogPosts/teePublic",
+      component: _10c21b23,
+      name: "blogPosts-teePublic"
     }, {
       path: "/blogPosts/whatIlearnedFromDrawingChallenge",
       component: _14734ff7,

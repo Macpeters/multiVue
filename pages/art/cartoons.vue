@@ -47,7 +47,7 @@ export default {
         { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
         { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' }
       ],
-      blogFilter: 'improvingAtArt',
+      blogFilter: 'art',
       sneakingUp: sneakingUp
     };
   },
