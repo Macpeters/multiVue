@@ -32,7 +32,6 @@
   import practiceDrawing        from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
   import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
   import tarotKickstarter       from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
-  import teePublic              from "../assets/blogs/thumbnails/macpeters_teePublic.png";
   
   export default {
     name: "blog",
