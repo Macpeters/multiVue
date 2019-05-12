@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 
 const _05bf972c = () => interopDefault(import('../pages/art/index.vue' /* webpackChunkName: "pages/art/index" */))
 const _9eadd9e4 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _3ab0d8e6 = () => interopDefault(import('../pages/devResume.vue' /* webpackChunkName: "pages/devResume" */))
 const _0aaf5e8e = () => interopDefault(import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */))
 const _5935dbcc = () => interopDefault(import('../pages/art/aboutArtist.vue' /* webpackChunkName: "pages/art/aboutArtist" */))
 const _316d0610 = () => interopDefault(import('../pages/art/alphabets.vue' /* webpackChunkName: "pages/art/alphabets" */))
@@ -114,6 +115,10 @@ export function createRouter() {
       path: "/blog",
       component: _9eadd9e4,
       name: "blog"
+    }, {
+      path: "/devResume",
+      component: _3ab0d8e6,
+      name: "devResume"
     }, {
       path: "/tarot",
       component: _0aaf5e8e,
