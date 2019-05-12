@@ -40,14 +40,6 @@
     data() {
       return {
         posts: [
-           {
-            title: 'Tee Public',
-            date: 'April 26, 2019',
-            image: teePublic,
-            headline: 'A Review',
-            link: '/blogPosts/teePublic',
-            tags: ['art', 'review', 'cartoon']
-          },
           {
             title: 'A Look Back - 2018',
             date: 'Dec 31, 2018',
