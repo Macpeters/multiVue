@@ -10,7 +10,6 @@ import logoImage          from "../../assets/logo.png";
 // murals
 import chamBee            from "../../assets/graf/macpeters_chamBee.png";
 import demolition         from "../../assets/graf/macpeters_demolitionParty.png";
-import forksAndBarrels    from "../../assets/graf/macpeters_forksAndBarrels.png";
 import hockeyBees         from "../../assets/graf/macpeters_hockeyBees.png";
 import hockeyBeesComplete from "../../assets/graf/macpeters_hockeybees_complete.png";
 import mouseBot           from "../../assets/graf/macpeters_mouseNBot.png";
@@ -18,14 +17,13 @@ import octoBuddy          from "../../assets/graf/macpeters_octoBuddy.png";
 import pastaMancer        from "../../assets/graf/macpeters_pastaMancer.png";
 import ribbit             from "../../assets/graf/macpeters_ribbit.png";
 // Thumbnails
-import chamBee_thumb            from "../../assets/graf/thumbnails/macpeters_chamBee.png";
-import demolition_thumb         from "../../assets/graf/thumbnails/macpeters_demolitionParty.png";
-import forksAndBarrels_thumb    from "../../assets/graf/thumbnails/macpeters_forksAndBarrels.png";
-import hockeyBees_thumb         from "../../assets/graf/thumbnails/macpeters_hockeyBees.png";
-import mouseBot_thumb           from "../../assets/graf/thumbnails/macpeters_mouseNBot.png";
-import octoBuddy_thumb          from "../../assets/graf/thumbnails/macpeters_octoBuddy.png";
-import pastaMancer_thumb        from "../../assets/graf/thumbnails/macpeters_pastaMancer.png";
-import ribbit_thumb             from "../../assets/graf/thumbnails/macpeters_ribbit.png";
+import chamBee_thumb      from "../../assets/graf/thumbnails/macpeters_chamBee.png";
+import demolition_thumb   from "../../assets/graf/thumbnails/macpeters_demolitionParty.png";
+import hockeyBees_thumb   from "../../assets/graf/thumbnails/macpeters_hockeyBees.png";
+import mouseBot_thumb     from "../../assets/graf/thumbnails/macpeters_mouseNBot.png";
+import octoBuddy_thumb    from "../../assets/graf/thumbnails/macpeters_octoBuddy.png";
+import pastaMancer_thumb  from "../../assets/graf/thumbnails/macpeters_pastaMancer.png";
+import ribbit_thumb       from "../../assets/graf/thumbnails/macpeters_ribbit.png";
 // components
 import imageList          from '../../components/art/imageList.vue'
 
@@ -38,18 +36,10 @@ export default {
     return {
       images: [
         {
-          image: forksAndBarrels,
-          thumb: forksAndBarrels_thumb,
-          title: "Forks And Barrels - Frog",
-          subtitle: "Spray paint, brush acrylic on plywood",
-          description: "This frog was painted for the Forks and Barrels Festival in Toronto, Niagara Falls, Windsor, and Kitchener",
-          keywords: base_keywords + "caribbean, red-eyed tree frog, tropical, festival, flower, festive feeling, good vibes"
-        },
-        {
           image: hockeyBees,
           thumb: hockeyBees_thumb,
           title: "Hockey Bees",
-          subtitle: "Acrylic on brick",
+          subtitle: "UV reactive acrylic on wall",
           description: "Along the path to the new Meridian Center in St. Catherines, Ontario, this was painted as part of the Niagara International Mural Festival.  This photo shows the first day of work completed, while the panoramic photo above also shows the second day of work, which includes the poppy, grape vine, mushrooms, and saxophone playing moth.",
           keywords: base_keywords + "bridge, hockey bees, hockey, flying insects, pollinators, meridian center, st catherines, ontario, niagara international mural festival, chrome, sky, water, bugs, ice dogs, entertainment center, hockey arena, fuzzy moth, saxophone, music, musical notes, poppy, flower, mushrooms, chillaxing"
         },
