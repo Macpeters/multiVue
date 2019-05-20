@@ -6,26 +6,28 @@
 
 <script>
 // images
-import logoImage          from "../../assets/logo.png";
+import logoImage              from "../../assets/logo.png";
 // murals
-import chamBee            from "../../assets/graf/macpeters_chamBee.png";
-import demolition         from "../../assets/graf/macpeters_demolitionParty.png";
-import hockeyBees         from "../../assets/graf/macpeters_hockeyBees.png";
-import hockeyBeesComplete from "../../assets/graf/macpeters_hockeybees_complete.png";
-import mouseBot           from "../../assets/graf/macpeters_mouseNBot.png";
-import octoBuddy          from "../../assets/graf/macpeters_octoBuddy.png";
-import pastaMancer        from "../../assets/graf/macpeters_pastaMancer.png";
-import ribbit             from "../../assets/graf/macpeters_ribbit.png";
+import chamBee                from "../../assets/graf/macpeters_chamBee.png";
+import demolition             from "../../assets/graf/macpeters_demolitionParty.png";
+import forksAndBarrelsFrog    from "../../assets/graf/macpeters_forks_and_barrels_frog.jpg";
+import hockeyBees             from "../../assets/graf/macpeters_hockeyBees.png";
+import hockeyBeesComplete     from "../../assets/graf/macpeters_hockeybees_complete.png";
+import mouseBot               from "../../assets/graf/macpeters_mouseNBot.png";
+import octoBuddy              from "../../assets/graf/macpeters_octoBuddy.png";
+import pastaMancer            from "../../assets/graf/macpeters_pastaMancer.png";
+import ribbit                 from "../../assets/graf/macpeters_ribbit.png";
 // Thumbnails
-import chamBee_thumb      from "../../assets/graf/thumbnails/macpeters_chamBee.png";
-import demolition_thumb   from "../../assets/graf/thumbnails/macpeters_demolitionParty.png";
-import hockeyBees_thumb   from "../../assets/graf/thumbnails/macpeters_hockeyBees.png";
-import mouseBot_thumb     from "../../assets/graf/thumbnails/macpeters_mouseNBot.png";
-import octoBuddy_thumb    from "../../assets/graf/thumbnails/macpeters_octoBuddy.png";
-import pastaMancer_thumb  from "../../assets/graf/thumbnails/macpeters_pastaMancer.png";
-import ribbit_thumb       from "../../assets/graf/thumbnails/macpeters_ribbit.png";
+import chamBee_thumb               from "../../assets/graf/thumbnails/macpeters_chamBee.png";
+import demolition_thumb            from "../../assets/graf/thumbnails/macpeters_demolitionParty.png";
+import forksAndBarrelsFrog_thumb   from "../../assets/graf/thumbnails/macpeters_forks_and_barrels_frog.jpg";
+import hockeyBees_thumb            from "../../assets/graf/thumbnails/macpeters_hockeyBees.png";
+import mouseBot_thumb              from "../../assets/graf/thumbnails/macpeters_mouseNBot.png";
+import octoBuddy_thumb             from "../../assets/graf/thumbnails/macpeters_octoBuddy.png";
+import pastaMancer_thumb           from "../../assets/graf/thumbnails/macpeters_pastaMancer.png";
+import ribbit_thumb                from "../../assets/graf/thumbnails/macpeters_ribbit.png";
 // components
-import imageList          from '../../components/art/imageList.vue'
+import imageList             from '../../components/art/imageList.vue'
 
 const base_keywords = "murals, wall art, graffiti, urban art, outdoor art, public art, street art, local colour, ";
 
@@ -35,6 +37,14 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: forksAndBarrelsFrog,
+          thumb: forksAndBarrelsFrog_thumb,
+          title: "Forks and Barrels Frog",
+          subtitle: "Spraypaint and acrylic on plywood",
+          description: "This was painted for the Forks and Barrels Festival which will be touring around Kitchener, Toronto, Niagara, and Windsor during the summer of 2019",
+          keywords: base_keywords + "frog, festival, music, food, drink, summer"
+        },
         {
           image: hockeyBees,
           thumb: hockeyBees_thumb,

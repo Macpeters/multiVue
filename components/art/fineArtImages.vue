@@ -89,7 +89,7 @@
           {
             image: eyeOfStorm,
             thumb: eyeOfStorm_thumb,
-            title: "Be the Eye of Your Stomr",
+            title: "Be the Eye of Your Storm",
             subtitle: "18x18 UV Acrylic on canvas",
             description: "Stoic and calm, the frog sees the storm, is in the storm, but is not of the storm",
             keywords: base_keywords + 'frog, tornado, storm, stoic, composed, calm of the storm, eye of the storm, calm within'

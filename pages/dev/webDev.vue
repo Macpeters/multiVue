@@ -25,13 +25,18 @@
       <h3>Open Source Projects</h3>
       <ul>
         <li>
-          <div class="list title"><a href="https://codepen.io/Macpeters/">Codepen</a></div>
+          <div class="list title"><a href="https://codepen.io/Macpeters/" target="_blank">Codepen</a></div>
           <div class="list description">Used for testing out ideas, trying new technologies</div>
         </li>
         <li>
-          <div class="list title"><a href="https://github.com/macpeters">Github</a></div>
+          <div class="list title"><a href="https://github.com/macpeters" target="_blank">Github</a></div>
           <div class="list description">All my codes that don't belong to a company</div>
         </li>
+         <li>
+          <div class="list title"><a href="https://cactus-bartik-2ca70d.netlify.com/" target="_blank">Cactus Log</a></div>
+          <div class="list description">A pet project I created to keep track of my cactus collection</div>
+        </li>
+        
       </ul>
     </div>
 

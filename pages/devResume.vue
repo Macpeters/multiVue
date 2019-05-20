@@ -1,13 +1,12 @@
 <template>
   <div class="resume">
-    <navBar />
 
     <div class="resume-header">
       <h1>Maryanne Peters a.k.a. Macpeters</h1>
       <div>www.macpeters.com</div>
       <breadcrumbs/>
       <span v-for="platform in socialMedia" :key='platform.id'>
-        <a v-bind:href='platform.link' target="_blank"><img v-bind:src="platform.image" v-bind:alt="platform.title" v-bind:title="platform.title" /></a>
+        <a v-bind:href='platform.link' target="_blank" class="dev-buttons"><img v-bind:src="platform.image" v-bind:alt="platform.title" /></a>
       </span>
     </div>
     <hr />
@@ -35,6 +34,7 @@
             <li>IT innovation and product development: building new projects and components to interact with existing systems.</li>
             <li>Data Collection and Visualization: creating custom surveys to collect client data, maintaining data integrity, and producing web and pdf reports to visualize the data clearly.</li>
             <li>Agile Development: working in a quickly changing environment, pivoting when required.</li>
+            <li>Upgrading and setting up environments and configurations</li>
           </ul>
         </div>
       </li>
@@ -96,8 +96,6 @@
       </ul>
     </div>
     <br />
-
-    <contactBar/>
   </div>
 </template>
 
@@ -107,12 +105,10 @@
   import twitter from "../assets/social/twitter.png";
   import stackOverflow from "../assets/social/stackoverflow.png";
   // Components
-  import navBar from '../components/navBar.vue'
-  import contactBar from '../components/contactBar.vue'
   import breadcrumbs from '../components/breadcrumbs.vue'
   export default {
     name: "devResume",
-    components: { contactBar, navBar, breadcrumbs },
+    components: { breadcrumbs },
     data() {
       return {
         socialMedia: [
@@ -144,9 +140,13 @@
   /* header */
   .resume {
     text-align: center;
+    padding: 20px;
   }
   .resume-header {
     font-weight: bold;
+  }
+  .resume-content {
+    padding-bottom: 20px;
   }
   .resume-header img{
     width: 50px;
@@ -171,8 +171,11 @@
     font-weight: bold;
     padding-left: 10px;
   }
-.sub-title{
-  font-weight: bold;
-  padding: 0.5em;
-}
+  .sub-title{
+    font-weight: bold;
+    padding: 0.5em;
+  }
+  .dev-buttons {
+    padding: 10px;
+  }
 </style>
