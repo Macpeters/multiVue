@@ -1,18 +1,20 @@
 <template>
   <div>
-    <h1>Macpeters: Cartoons</h1>
+    <h1>Macpeters: Draw9</h1>
     <breadcrumbs/>
     <artNav/>
 
     <div class="page-description">
-      <h2>Animal Alphabets</h2>
+      <h2>Draw9</h2>
       <p>
-        Following the prompts of the weekly drawing challenge, Animal Alphabets.  Series one is Extinct.
+        The idea behind this project is just to study various subjects where I think my skills could use a 
+        little work.  The intention is to do the drawings quickly, in order to get faster, more fluid, and 
+        more accurate, without getting caught up in details.  These are quick sketches, but with colour.
       </p>
 
     </div>
 
-    <alphabetImages/>
+    <draw9Images/>
 
     <blogList/>
     <teePublicAd/>
@@ -24,14 +26,14 @@
 
 // components
 import artNav from '../../components/art/artNav.vue'
-import alphabetImages from '../../components/art/alphabetImages.vue'
+import draw9Images from '../../components/art/draw9Images.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 import teePublicAd from "../../components/ads/teePublic.vue"
 
 export default {
   name: "Cartoons",
-  components: { artNav, alphabetImages, breadcrumbs, blogList, teePublicAd },
+  components: { artNav, draw9Images, breadcrumbs, blogList, teePublicAd },
   data() {
     return {
       breadcrumbs: [

@@ -10,7 +10,9 @@ const _5935dbcc = () => interopDefault(import('../pages/art/aboutArtist.vue' /* 
 const _316d0610 = () => interopDefault(import('../pages/art/alphabets.vue' /* webpackChunkName: "pages/art/alphabets" */))
 const _e2b8f646 = () => interopDefault(import('../pages/art/cartoons.vue' /* webpackChunkName: "pages/art/cartoons" */))
 const _7736671b = () => interopDefault(import('../pages/art/cattoons.vue' /* webpackChunkName: "pages/art/cattoons" */))
+const _4c084388 = () => interopDefault(import('../pages/art/copyToons.vue' /* webpackChunkName: "pages/art/copyToons" */))
 const _11117b94 = () => interopDefault(import('../pages/art/digitalPainting.vue' /* webpackChunkName: "pages/art/digitalPainting" */))
+const _33db7d8d = () => interopDefault(import('../pages/art/draw9.vue' /* webpackChunkName: "pages/art/draw9" */))
 const _da6b1b3e = () => interopDefault(import('../pages/art/fineArt.vue' /* webpackChunkName: "pages/art/fineArt" */))
 const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* webpackChunkName: "pages/art/fineArtUv" */))
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
@@ -140,9 +142,17 @@ export function createRouter() {
       component: _7736671b,
       name: "art-cattoons"
     }, {
+      path: "/art/copyToons",
+      component: _4c084388,
+      name: "art-copyToons"
+    }, {
       path: "/art/digitalPainting",
       component: _11117b94,
       name: "art-digitalPainting"
+    }, {
+      path: "/art/draw9",
+      component: _33db7d8d,
+      name: "art-draw9"
     }, {
       path: "/art/fineArt",
       component: _da6b1b3e,

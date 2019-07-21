@@ -56,11 +56,13 @@
 // images
 import sneakingUp    from "../../assets/cartoons/macpeters_sneakingUp.png";
 import halloween  from "../../assets/cartoons/cats/macpeters_series_01_halloween.png";
+
 // components
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 import teePublicAd from "../../components/ads/teePublic.vue"
 import artNav from '../../components/art/artNav.vue'
+
 export default {
   name: "Cartoons",
   components: { artNav, breadcrumbs, blogList, teePublicAd },
@@ -73,7 +75,9 @@ export default {
       ],
       navLinks: [
         { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
-        { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' }
+        { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' },
+        { url: '/art/draw9', title: 'Draw9', id: 'draw9' },
+        { url: '/art/copyToons', title: 'copyToons', id: 'copyToons' }
       ],
       blogFilter: 'art',
       sneakingUp: sneakingUp,
@@ -101,6 +105,7 @@ export default {
 </script>
 
 <style scoped>
+
   article {
     text-align: center;
     margin: 10px;
@@ -110,13 +115,16 @@ export default {
     width: 50%;
     float: left;
   }
+
   p {
     padding: 0 0 10px 0;
   }
+
   img {
     width: 50%;
     float: left;
   }
+
  @media screen and (max-width: 697px){
     .blurb {
       width: 90%;

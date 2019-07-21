@@ -1,18 +1,20 @@
 <template>
   <div>
-    <h1>Macpeters: Cartoons</h1>
+    <h1>Macpeters: Copy Toons</h1>
     <breadcrumbs/>
     <artNav/>
 
     <div class="page-description">
-      <h2>Animal Alphabets</h2>
+      <h2>Copy Toons</h2>
       <p>
-        Following the prompts of the weekly drawing challenge, Animal Alphabets.  Series one is Extinct.
+        Here's how this challenge works:  Take 2 characters from a given cartoon world, and draw each one at least twice.  
+        This is to study the style and construction of the characters.  The final step is to create a new character that 
+        looks like it would fit into that world.  I've put my creation in the center.
       </p>
 
     </div>
 
-    <alphabetImages/>
+    <copyToonsImages/>
 
     <blogList/>
     <teePublicAd/>
@@ -24,14 +26,14 @@
 
 // components
 import artNav from '../../components/art/artNav.vue'
-import alphabetImages from '../../components/art/alphabetImages.vue'
+import copyToonsImages from '../../components/art/copyToonsImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 import teePublicAd from "../../components/ads/teePublic.vue"
 
 export default {
   name: "Cartoons",
-  components: { artNav, alphabetImages, breadcrumbs, blogList, teePublicAd },
+  components: { artNav, copyToonsImages, breadcrumbs, blogList, teePublicAd },
   data() {
     return {
       breadcrumbs: [

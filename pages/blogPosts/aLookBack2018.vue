@@ -86,7 +86,7 @@
     <section>
       <h2><a href="/art/fineArt" title="Paintings">Paintings</a></h2>
       <ul>
-        <li>Baphoment</li>
+        <li>Baphomet</li>
         <li>Self Portrait</li>
         <li>Be the Eye of the Storm</li>
          <li>Caught in the Music</li>

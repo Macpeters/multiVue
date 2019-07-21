@@ -45,7 +45,9 @@ export default {
       ],
       navLinks: [
         { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
-        { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' }
+        { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' },
+        { url: '/art/draw9', title: 'Draw9', id: 'draw9' },
+        { url: '/art/copyToons', title: 'copyToons', id: 'copyToons' }
       ],
       blogFilter: 'art',
       chosenImage: null

@@ -9,12 +9,17 @@
 import extinct_alph_01       from "../../assets/cartoons/alphabets/macpeters_animalAlph_extinct_01.png";
 import extinct_alph_02       from "../../assets/cartoons/alphabets/macpeters_animalAlph_extinct_02.png";
 import extinct_alph_03       from "../../assets/cartoons/alphabets/macpeters_animalAlph_extinct_03.png";
+import seaLife_alph_01       from "../../assets/cartoons/alphabets/macpeters_animalAlph_seaLife_01.png";
+import seaLife_alph_02       from "../../assets/cartoons/alphabets/macpeters_animalAlph_seaLife_02.png";
+import seaLife_alph_03       from "../../assets/cartoons/alphabets/macpeters_animalAlph_seaLife_03.png";
 
 // Thumbnails
 import extinct_alph_01_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_extinct_01.png";
 import extinct_alph_02_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_extinct_02.png";
 import extinct_alph_03_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_extinct_03.png";
-
+import seaLife_alph_01_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_seaLife_01.png";
+import seaLife_alph_02_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_seaLife_02.png";
+import seaLife_alph_03_thumb  from "../../assets/cartoons/alphabets/thumbnails/macpeters_animalAlph_seaLife_03.png";
 
 
 // components
@@ -28,6 +33,27 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: seaLife_alph_01,
+          thumb: seaLife_alph_01_thumb,
+          title: "Animal Alphabets - Sea Life Series part 1",
+          description: "One sea life animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "angelfish, blue crab, clownfish, dumbo octopus, elephant seal, fang tooth, goblin shark, hourglass dolphin, immortal jellyfish"
+        },
+        {
+          image: seaLife_alph_02,
+          thumb: seaLife_alph_02_thumb,
+          title: "Animal Alphabets - Sea Life Series part 2",
+          description: "One sea life animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "japanese seahorse, king of herrings, lobster, mantis shrimp, napoleon snake eel, occilated waspfish, pufferfish, quillfin fish, red lipped batfish"
+        },
+        {
+          image: seaLife_alph_03,
+          thumb: seaLife_alph_03_thumb,
+          title: "Animal Alphabets - Sea Life Series part 3",
+          description: "One sea life animal for every letter of the alphabet.  Prompts by AnimalAlphabets (twitter)",
+          keywords: base_keywords + "sheep sea slug, thornback cowfish, undulate ray, velvety sea star, weedy leaf dragon, xantic sargo, yellow tang, zebra lionfish"
+        },
         {
           image: extinct_alph_01,
           thumb: extinct_alph_01_thumb,
