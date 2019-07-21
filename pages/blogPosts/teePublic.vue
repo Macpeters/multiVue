@@ -55,7 +55,7 @@
 </template>
 
 <script>
-  import teePublic from "../../assets/blogs/macpeters_teePublic.png";
+  import teePublic from "../../assets/blogs/macpeters_teepublic.png";
 
   export default {
     name: "teePublic",
