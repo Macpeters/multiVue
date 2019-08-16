@@ -6,6 +6,7 @@
 
 ``` bash
 # install dependencies
+# If this fails horribly, remove package-lock.json, node_modules, then try again
 $ npm install
 
 # serve with hot reload at localhost:3000
