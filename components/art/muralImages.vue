@@ -42,7 +42,7 @@ export default {
           thumb: forksAndBarrelsFrog_thumb,
           title: "Forks and Barrels Frog",
           subtitle: "Spraypaint and acrylic on plywood",
-          description: "This was painted for the Forks and Barrels Festival which will be touring around Kitchener, Toronto, Niagara, and Windsor during the summer of 2019",
+          description: "This was painted for the Forks and Barrels Festival which toured around Kitchener, Toronto, and Windsor during the summer of 2019",
           keywords: base_keywords + "frog, festival, music, food, drink, summer"
         },
         {

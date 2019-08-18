@@ -6,7 +6,7 @@
     <hr />
     <div class="page-description">
       <p>
-        I work as a Professional Web Developerat
+        I work as a Professional Web Developer at
         <a href="https://www.infotech.com/">Infotech Research Group</a>, building surveys, reports,
         and data visualization dashboards for IT Research.  I work in a number of different systems,
         some legacy, and many of them interact.

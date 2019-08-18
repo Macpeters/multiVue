@@ -52,7 +52,7 @@
       </div>
       <div class="right-column">
         <h3>Adorned Road: A Path of Transformation</h3>
-        My painting, Tree of Life, graces the cover of this poetry book: <a href="">Adorned Road</a>, for sale on 
+        My painting, Tree of Life, graces the cover of this poetry book: <a href="https://www.amazon.ca/Adorned-Road-Transformation-Nigel-Bowers/dp/1798758652?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duc12-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1798758652">Adorned Road</a>, for sale on 
         Amazon in paperback or kindle format.
       </div>
     </article>

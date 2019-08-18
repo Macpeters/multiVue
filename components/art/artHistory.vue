@@ -66,6 +66,16 @@
         ],
         groupExhibitions: [
           {
+            year: '2019',
+            title: 'Piece in the Street - fundaraiser for Scarborough Cat Relief',
+            location: 'the Freedom Factory, Toronto'
+          },
+          {
+            year: '2019',
+            title: 'Forks and Barrels',
+            location: 'Ontario Place - Toronto, Bingemans Centre Dr - Kitchener, Riverfront Festival Plaza - Windsor'
+          },
+          {
             year: '2018',
             title: 'Toronto Visionary Art Exhibit',
             location: 'Super Wonder Gallery, Toronto'

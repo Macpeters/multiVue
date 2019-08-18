@@ -67,13 +67,13 @@
         {
           image:  webDev,
           title: 'Web Developement',
-          link: '/webDev',
+          link: '/dev/webDev',
           description: 'Professional Web Development and open source projects'
         },
         {
           image: games,
           title: 'Game Developement',
-          link: '/gameDev',
+          link: '/dev/gameDev',
           description: 'indie game developement projects, including RaveMau5'
         },
         {
