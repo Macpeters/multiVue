@@ -43,6 +43,13 @@
       return {
         education: [
           {
+            year: '2018',
+            title: 'Visionary Art Intensive with Alex and Allyson Grey',
+            link: 'http://cosm.org/',
+            linkTitle: 'Cosm',
+            location: 'Wappingers Falls, N.Y.'
+          },
+          {
             year: '2017',
             title: 'Visionary Art Workshop with Randal Roberts and Morgan Mandalla',
             link: 'http://cosm.org/',
