@@ -6,19 +6,22 @@
 
 <script>
 // images
-import portraits_01       from "../../assets/cartoons/draw9/macpeters_draw9_01_portraits.png";
-import landscapes_01       from "../../assets/cartoons/draw9/macpeters_draw9_02_landscapes.png";
-import lights_01       from "../../assets/cartoons/draw9/macpeters_draw9_03_lights.png";
-import lights_02       from "../../assets/cartoons/draw9/macpeters_draw9_04_lights.png";
-import darkSkinnedLadies       from "../../assets/cartoons/draw9/macpeters_draw9_05_darkSkinnedLadies.png";
+import portraits_01             from "../../assets/cartoons/draw9/macpeters_draw9_01_portraits.png";
+import landscapes_01            from "../../assets/cartoons/draw9/macpeters_draw9_02_landscapes.png";
+import lights_01                from "../../assets/cartoons/draw9/macpeters_draw9_03_lights.png";
+import lights_02                from "../../assets/cartoons/draw9/macpeters_draw9_04_lights.png";
+import darkSkinnedLadies        from "../../assets/cartoons/draw9/macpeters_draw9_05_darkSkinnedLadies.png";
+import babies                   from "../../assets/cartoons/draw9/macpeters_draw9_06_babies.png";
+import toddlers                 from "../../assets/cartoons/draw9/macpeters_draw9_07_toddlers.png";
 
 // Thumbnails
-import portraits_01_thumb  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_01_portraits.png";
-import landscapes_01_thumb  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_02_landscapes.png";
-import lights_01_thumb  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_03_lights.png";
-import lights_02_thumb  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_04_lights.png";
-import darkSkinnedLadies_thumb  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_05_darkSkinnedLadies.png";
-
+import portraits_01_thumb           from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_01_portraits.png";
+import landscapes_01_thumb          from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_02_landscapes.png";
+import lights_01_thumb              from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_03_lights.png";
+import lights_02_thumb              from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_04_lights.png";
+import darkSkinnedLadies_thumb      from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_05_darkSkinnedLadies.png";
+import babies_thumb                 from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_06_babies.png";
+import toddlers_thumb               from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_07_toddlers.png";
 
 // components
 import imageList from '../../components/art/imageList.vue'
@@ -31,6 +34,20 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: toddlers,
+          thumb: toddlers_thumb,
+          title: "Draw 9 Toddlers",
+          description: "Continued practice with children, but a slightly older age group - toddlers.  Trying to nail down the cuteness factor.",
+          keywords: base_keywords + "children, kids, toddlers, adorable, yawning, smiling, poc, representation, diverse, big eyes, different expressions"
+        },
+        {
+          image: babies,
+          thumb: babies_thumb,
+          title: "Draw 9 Babies",
+          description: "Children and babies in particular have very different proportions than adults",
+          keywords: base_keywords + "babies, infants, newborn, sleepy, yawning, smiling, poc, representation, diverse"
+        },
         {
           image: darkSkinnedLadies,
           thumb: darkSkinnedLadies_thumb,
