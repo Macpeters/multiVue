@@ -14,11 +14,7 @@
   import eagerness    from "../../assets/fineArt/macpeters_eagerness.png";
   import eyeOfStorm    from "../../assets/fineArt/macpeters_eyeOfStorm.png";
   import fascination  from "../../assets/fineArt/macpeters_fascination.png";
-  import gratitude    from "../../assets/fineArt/macpeters_gratitude.png";
   import lovebird     from "../../assets/fineArt/macpeters_loveBird.png";
-  import maskedFear   from "../../assets/fineArt/macpeters_maskedFear.png";
-  import mischeif     from "../../assets/fineArt/macpeters_mischeif.png";
-  import monsterball  from "../../assets/fineArt/macpeters_monsterball.png";
   import serenity     from "../../assets/fineArt/macpeters_serenity.png";
   import selfPortrait from "../../assets/fineArt/macpeters_selfPortrait.png";
   import shpongle     from "../../assets/fineArt/macpeters_shpongle.png";
@@ -33,11 +29,7 @@
   import eagerness_thumb    from "../../assets/fineArt/thumbnails/macpeters_eagerness.png";
   import eyeOfStorm_thumb    from "../../assets/fineArt/thumbnails/macpeters_eyeOfStorm.jpg";
   import fascination_thumb  from "../../assets/fineArt/thumbnails/macpeters_fascination.png";
-  import gratitude_thumb    from "../../assets/fineArt/thumbnails/macpeters_gratitude.png";
   import lovebird_thumb     from "../../assets/fineArt/thumbnails/macpeters_loveBird.png";
-  import maskedFear_thumb   from "../../assets/fineArt/thumbnails/macpeters_maskedFear.png";
-  import mischeif_thumb     from "../../assets/fineArt/thumbnails/macpeters_mischeif.png";
-  import monsterball_thumb  from "../../assets/fineArt/thumbnails/macpeters_monsterball.png";
   import serenity_thumb     from "../../assets/fineArt/thumbnails/macpeters_serenity.png";
   import selfPortrait_thumb from "../../assets/fineArt/thumbnails/macpeters_selfPortrait.jpg";
   import shpongle_thumb     from "../../assets/fineArt/thumbnails/macpeters_shpongle.png";
@@ -103,14 +95,6 @@
             keywords: base_keywords + 'baphomet, goat, magician, wonder, magick, magic mushroom, wizardry, horns, horned beast, universal power, universal wonder, inner power, galaxies, otherworldly, glass mushroom, amethyst crystal, seaside city, stone city'
           },
           {
-            image: gratitude,
-            thumb: gratitude_thumb,
-            title: "Gratitude",
-            subtitle: "24x24 UV Acrylic on canvas",
-            description: "Accepting the gift of light, and giving gratitude in return.",
-            keywords: base_keywords + "gratitude, appreciation, morning sun, gift of light, life, grateful, thank you, arise, gift, water, growth, becoming, being, existence"
-          },
-          {
             image: fascination,
             thumb: fascination_thumb,
             title: "Fascination",
@@ -149,30 +133,6 @@
             subtitle: "18x18 UV Acrylic on canvas",
             description: "He has had just about enough.  Careful you don't push him too far, as he's liable to lash out.",
             keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
-          },
-          {
-            image: maskedFear,
-            thumb: maskedFear_thumb,
-            title: "Masked Fear",
-            subtitle: "18x18 UV Acrylic on canvas",
-            description: "Afraid to come out of the dark, Fear holds out a scary mask to frighten away whatever might be waiting out there.",
-            keywords: base_keywords + "masks, hiding, fear, anxiety, anxious, dread, expectation, monsters, imagining, rats, insects, cracks, caverns, darkness, defense, defense mechanism, false face, trickery, monster mask, lizard, reptile, terror"
-          },
-          {
-            image: mischeif,
-            thumb: mischeif_thumb,
-            title: "Mischief",
-            subtitle: "18x18 UV Acrylic on canvas",
-            description: "Did you see snakes in her hair?  Look again.  Mischief likes to play harmless tricks.  She is the spirit of Nature in spring, playful and fun.",
-            keywords: base_keywords + "mischeif, life, diversity, games, pranks, camoflage, flowers, earth goddess, gaia, spring, hope, enjoyment, festival, smiles, friendliness, vines, plants, hair, medussa"
-          },
-          {
-            image: monsterball,
-            thumb: monsterball_thumb,
-            title: "Monsterball",
-            subtitle: "12x12 UV Acrylic on canvas",
-            description: "Monsterball is everyone you meet who is putting up a false front.  You can't tell what their motivations are, so interacting with them is like trying to navigate a dark labyrinth, always wondering if it's even worth the trouble.  I mean, if they can't ever be honest, is knowing them more trouble than it's worth?",
-            keywords: base_keywords + "monster, maze, headgames, tricks, lies, deceipt, deception, motivations, alterior motives, untrue, distrust, loss of faith, lack of purpose, mean, dangerous, stranger danger, bricks, hidden depths, unknown places, lost, loss of direction, navigation"
           },
           {
             image: shpongle,

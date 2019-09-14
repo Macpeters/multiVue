@@ -14,9 +14,6 @@
   import eagerness_uv     from "../../assets/fineArtUv/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv    from "../../assets/fineArtUv/macpeters_eyeOfStorm_uv.png";
   import fascination_uv   from "../../assets/fineArtUv/macpeters_fascination_uv.png";
-  import gratitude_uv     from "../../assets/fineArtUv/macpeters_gratitude_uv.png";
-  import maskedFear_uv    from "../../assets/fineArtUv/macpeters_maskedFear_uv.png";
-  import mischief_uv      from "../../assets/fineArtUv/macpeters_mischeif_uv.png";
   import serenity_uv      from "../../assets/fineArtUv/macpeters_serenity_uv.png";
   import selfPortrait_uv  from "../../assets/fineArtUv/macpeters_selfPortrait_uv.png";
   import shpongle_uv      from "../../assets/fineArtUv/macpeters_shpongle_uv.png";
@@ -30,9 +27,6 @@
   import eagerness_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_eyeOfStorm_uv.png";
   import fascination_uv_thumb   from "../../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
-  import gratitude_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_gratitude_uv.png";
-  import maskedFear_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_maskedFear_uv.png";
-  import mischief_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_mischief_uv.png";
   import serenity_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_serenity_uv.png";
   import selfPortrait_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_selfPortrait_uv.jpg";
   import shpongle_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
@@ -137,14 +131,6 @@
             keywords: base_keywords + "monster, feels monster, emotional, eager, wanting, longing, craving, drive, driving force, excitement, tentacles, eyeball, long tongue, long tail, stripes, pink and green"
           },
           {
-            image: gratitude_uv,
-            thumb: gratitude_uv_thumb,
-            title: "Gratitude",
-            subtitle: "24x24 UV Acrylic on canvas",
-            description: "Accepting the gift of light, and giving gratitude in return.",
-            keywords: base_keywords + "gratitude, appreciation, morning sun, gift of light, life, grateful, thank you, arise, gift, water, growth, becoming, being, existence"
-          },
-          {
             image: stubborn_uv,
             thumb: stubborn_uv_thumb,
             title: "Stubborn Resentment",
@@ -152,22 +138,6 @@
             description: "He has had just about enough.  Careful you don't push him too far, as he's liable to lash out.",
             keywords: base_keywords + "monster, underwater, cavern, cave, stubborn, resentment, amusing, fishy, pearlescent, unhappy, bitter, hurt, grumpy, rocks, tunnel, wrinkles"
           },
-          {
-            image: mischief_uv,
-            thumb: mischief_uv_thumb,
-            title: "Mischief",
-            subtitle: "18x18 UV Acrylic on canvas",
-            description: "Did you see snakes in her hair?  Look again.  Mischief likes to play harmless tricks.  She is the spirit of Nature in spring, playful and fun.",
-            keywords: base_keywords + "mischeif, life, diversity, games, pranks, camoflage, flowers, earth goddess, gaia, spring, hope, enjoyment, festival, smiles, friendliness, vines, plants, hair, medussa"
-          },
-          {
-            image: maskedFear_uv,
-            thumb: maskedFear_uv_thumb,
-            title: "Masked Fear",
-            subtitle: "18x18 UV Acrylic on canvas",
-            description: "Afraid to come out of the dark, Fear holds out a scary mask to frighten away whatever might be waiting out there.",
-            keywords: base_keywords + "masks, hiding, fear, anxiety, anxious, dread, expectation, monsters, imagining, rats, insects, cracks, caverns, darkness, defense, defense mechanism, false face, trickery, monster mask, lizard, reptile, terror"
-          }
         ],
         chosenImage: null,
       };
