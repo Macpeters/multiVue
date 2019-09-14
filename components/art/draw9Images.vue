@@ -6,6 +6,9 @@
 
 <script>
 // images
+import goats            from "../../assets/cartoons/draw9/macpeters_draw9_08_goats.png";
+import mice             from "../../assets/cartoons/draw9/macpeters_draw9_09_mice.png";
+
 import portraits_01             from "../../assets/cartoons/draw9/macpeters_draw9_01_portraits.png";
 import landscapes_01            from "../../assets/cartoons/draw9/macpeters_draw9_02_landscapes.png";
 import lights_01                from "../../assets/cartoons/draw9/macpeters_draw9_03_lights.png";
@@ -15,6 +18,9 @@ import babies                   from "../../assets/cartoons/draw9/macpeters_draw
 import toddlers                 from "../../assets/cartoons/draw9/macpeters_draw9_07_toddlers.png";
 
 // Thumbnails
+import mice_thumb                   from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_09_mice.png";
+import goats_thumb                  from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_08_goats.png";
+
 import portraits_01_thumb           from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_01_portraits.png";
 import landscapes_01_thumb          from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_02_landscapes.png";
 import lights_01_thumb              from "../../assets/cartoons/draw9/thumbnails/macpeters_draw9_03_lights.png";
@@ -34,6 +40,20 @@ export default {
   data() {
     return {
       images: [
+        {
+          image: mice,
+          thumb: mice_thumb,
+          title: "Draw 9 Mice",
+          description: "These guys are surprisingly easy to draw - they're basically just furry blobs with little hands",
+          keywords: base_keywords + "rat, mouse, mice, squeaker, cheese bandit, white, grey, brown"
+        },
+        {
+          image: goats,
+          thumb: goats_thumb,
+          title: "Draw 9 Goats",
+          description: "Goats are harder to draw than I expected - I think I need to draw more hooved beasties for practice",
+          keywords: base_keywords + "goat, head-butter, kids, jumping, balancing, billy, nanny, mountain"
+        },
         {
           image: toddlers,
           thumb: toddlers_thumb,

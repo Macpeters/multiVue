@@ -8,6 +8,8 @@
   // Images
   import baphomet     from "../../assets/fineArt/macpeters_baphomet.png";
   import bliss        from "../../assets/fineArt/macpeters_bliss.png";
+  import blueFace     from "../../assets/fineArt/macpeters_blueFace.jpg";
+  import cactusCuy     from "../../assets/fineArt/macpeters_cactusGuy.jpg";
   import cosmicDancer from "../../assets/fineArt/macpeters_cosmicDancer.png";
   import cosmicKitten from "../../assets/fineArt/macpeters_cosmicKitten.png";
   import cracking     from "../../assets/fineArt/macpeters_crackingUnderThePressure.png";
@@ -20,9 +22,12 @@
   import shpongle     from "../../assets/fineArt/macpeters_shpongle.png";
   import starbird     from "../../assets/fineArt/macpeters_starBird.png";
   import stubborn     from "../../assets/fineArt/macpeters_stubbornResentment.png";
+  
   // Thumbs
   import baphomet_thumb     from "../../assets/fineArt/thumbnails/macpeters_baphomet.png";
   import bliss_thumb        from "../../assets/fineArt/thumbnails/macpeters_bliss.png";
+  import blueFace_thumb      from "../../assets/fineArt/thumbnails/macpeters_blueFace.png";
+  import cactusCuy_thumb     from "../../assets/fineArt/thumbnails/macpeters_cactusGuy.png";
   import cosmicDancer_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicDancer.png";
   import cosmicKitten_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
   import cracking_thumb     from "../../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
@@ -46,6 +51,22 @@
     data() {
       return {
         images: [
+          {
+            image: blueFace,
+            thumb: blueFace_thumb,
+            title: "Blue Face",
+            subtitle: "10x10 UV Acrylic on canvas",
+            description: "Warrior heroine - powerful and brilliant defender or truth",
+            keywords: base_keywords + 'orange hair, blue skin'
+          },
+          {
+            image: cactusCuy,
+            thumb: cactusCuy_thumb,
+            title: "Cactus Guy",
+            subtitle: "10x10 UV Acrylic on canvas",
+            description: "A menacing figure with devious plans, or a coy fellow with an unusual appearance?",
+            keywords: base_keywords + 'cactus, prick, prickly, green, plant, spiral, pointy teeth, toothy grin'
+          },
           {
             image: cosmicDancer,
             thumb: cosmicDancer_thumb,
