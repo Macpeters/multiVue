@@ -5,12 +5,10 @@
      <artNav/>
 
       <section>
-        <p>The most recent painting I've finished is this self-portrait, which I started this year at COSM during 
-        a Visionary Art Intensive workshop with Alex and Allyson Grey.  I started so many paintings over the summer, 
-        it took me the next 6 months to finish them all.  I'm working on a brand new painting called Serenity.  For
-        now, you can <a href="art/fineArt">check out more of my fine art</a> or click any of the above tabs to see 
+        <p>The most recent painting I've finished is this warrior woman - part of a series, 
+          for which I've finished 2 of the 6.  For now, you can <a href="art/fineArt">check out more of my fine art</a> or click any of the above tabs to see 
         what other art I've been working on.</p>
-        <img src="~/assets/fineArt/macpeters_selfPortrait.png" alt="self portrait" title="self portrait" />
+        <img src="~/assets/fineArt/macpeters_blueFace.jpg" alt="blue face"/>
       </section>
 
      <blogList/>
@@ -18,7 +16,7 @@
 </template>
 
 <script>
-import selfPortrait   from "../../assets/fineArt/macpeters_selfPortrait.png";
+import blueFace     from "../../assets/fineArt/macpeters_blueFace.jpg";
 
 // Components
 import artNav from '../../components/art/artNav.vue'
