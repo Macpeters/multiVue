@@ -104,6 +104,7 @@ export default {
     opacity: 0.7;
   }
   .logo img {
+    padding-top: 5px;
     height: 40px;
     width: auto;
     opacity: 1.0;
