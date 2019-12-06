@@ -8,29 +8,41 @@
   // Images
   import baphomet_uv      from "../../assets/fineArtUv/macpeters_baphomet_uv.png";
   import bliss_uv         from "../../assets/fineArtUv/macpeters_bliss_uv.png";
+  import blueFace_uv      from "../../assets/fineArtUv/macpeters_blueFace_uv.jpg";
+  import cactusGuy_uv      from "../../assets/fineArtUv/macpeters_cactusGuy_uv.jpg";
   import cosmicDancer_uv  from "../../assets/fineArtUv/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv  from "../../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
   import cracking_uv      from "../../assets/fineArtUv/macpeters_cracking_uv.png";
   import eagerness_uv     from "../../assets/fineArtUv/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv    from "../../assets/fineArtUv/macpeters_eyeOfStorm_uv.png";
   import fascination_uv   from "../../assets/fineArtUv/macpeters_fascination_uv.png";
+  import greenEye_uv      from "../../assets/fineArtUv/macpeters_greenEye_uv.jpg";
+  import purpleEye_uv      from "../../assets/fineArtUv/macpeters_purpleEye_uv.jpg";
+  import redEye_uv      from "../../assets/fineArtUv/macpeters_redEye_uv.jpg";
   import serenity_uv      from "../../assets/fineArtUv/macpeters_serenity_uv.png";
   import selfPortrait_uv  from "../../assets/fineArtUv/macpeters_selfPortrait_uv.png";
   import shpongle_uv      from "../../assets/fineArtUv/macpeters_shpongle_uv.png";
   import stubborn_uv      from "../../assets/fineArtUv/macpeters_stubbornResentment_uv.png";
+  import yellowEye_uv      from "../../assets/fineArtUv/macpeters_yellowEye_uv.jpg";
   // Thumbs
   import baphomet_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
   import bliss_uv_thumb         from "../../assets/fineArtUv/thumbnails/macpeters_bliss_uv.png";
+  import blueFace_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_blueFace_uv.jpg";
+  import cactusGuy_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_cactusGuy_uv.jpg";
   import cosmicDancer_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
   import cracking_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
   import eagerness_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_eyeOfStorm_uv.png";
   import fascination_uv_thumb   from "../../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
+  import greenEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_greenEye_uv.jpg";
+  import purpleEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_purpleEye_uv.jpg";
+  import redEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_redEye_uv.jpg";
   import serenity_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_serenity_uv.png";
   import selfPortrait_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_selfPortrait_uv.jpg";
   import shpongle_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
   import stubborn_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png"; 
+  import yellowEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_yellowEye_uv.jpg";
   // Components
   import imageList    from '../../components/art/imageList.vue'
 
@@ -42,6 +54,54 @@
     data() {
       return {
         images: [
+          {
+            image: redEye_uv,
+            thumb: redEye_uv_thumb,
+            title: "Red Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Empathetic and Humane - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'red, eye, wisdom, ancient, god, human, civilized, touching'
+          },
+          {
+            image: greenEye_uv,
+            thumb: greenEye_uv_thumb,
+            title: "Green Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Wild and Furry - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'green, eye, wisdom, ancient, god, furry, wild, cat, cats eye'
+          },
+          {
+            image: purpleEye_uv,
+            thumb: purpleEye_uv_thumb,
+            title: "Purple Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Cosmic and Explosive - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'purple, eye, wisdom, ancient, god, cosmic, space, explosion'
+          },
+          {
+            image: yellowEye_uv,
+            thumb: yellowEye_uv_thumb,
+            title: "Yellow Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Reptilian and alien - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'yellow, eye, wisdom, ancient, god, reptile, lizard, scales'
+          },
+          {
+            image: blueFace_uv,
+            thumb: blueFace_uv_thumb,
+            title: "Warrior Girl",
+            subtitle: "10x10 UV Acrylic on canvas",
+            description: "Warrior heroine - powerful and brilliant defender or truth",
+            keywords: base_keywords + 'orange hair, blue skin'
+          },
+          {
+            image: cactusGuy_uv,
+            thumb: cactusGuy_uv_thumb,
+            title: "Cactus Guy",
+            subtitle: "10x10 UV Acrylic on canvas",
+            description: "A menacing figure with devious plans, or a coy fellow with an unusual appearance?",
+            keywords: base_keywords + 'cactus, prick, prickly, green, plant, spiral, pointy teeth, toothy grin'
+          },
           {
             image: cosmicDancer_uv,
             thumb: cosmicDancer_uv_thumb,

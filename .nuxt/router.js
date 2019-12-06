@@ -22,6 +22,7 @@ const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQu
 const _2408cb10 = () => interopDefault(import('../pages/blogPosts/aLookBack2016.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2016" */))
 const _2416e291 = () => interopDefault(import('../pages/blogPosts/aLookBack2017.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2017" */))
 const _2424fa12 = () => interopDefault(import('../pages/blogPosts/aLookBack2018.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2018" */))
+const _24331193 = () => interopDefault(import('../pages/blogPosts/aLookBack2019.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2019" */))
 const _efd4dad2 = () => interopDefault(import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */))
 const _dd9ffb3c = () => interopDefault(import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */))
 const _65a8719e = () => interopDefault(import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */))
@@ -189,6 +190,10 @@ export function createRouter() {
       path: "/blogPosts/aLookBack2018",
       component: _2424fa12,
       name: "blogPosts-aLookBack2018"
+    }, {
+      path: "/blogPosts/aLookBack2019",
+      component: _24331193,
+      name: "blogPosts-aLookBack2019"
     }, {
       path: "/blogPosts/howToFailAtKickstarter",
       component: _efd4dad2,

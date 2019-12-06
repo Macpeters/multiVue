@@ -16,12 +16,16 @@
   import eagerness    from "../../assets/fineArt/macpeters_eagerness.png";
   import eyeOfStorm    from "../../assets/fineArt/macpeters_eyeOfStorm.png";
   import fascination  from "../../assets/fineArt/macpeters_fascination.png";
+  import greenEye     from "../../assets/fineArt/macpeters_greenEye.jpg";
   import lovebird     from "../../assets/fineArt/macpeters_loveBird.png";
+  import purpleEye     from "../../assets/fineArt/macpeters_purpleEye.jpg";
+  import redEye     from "../../assets/fineArt/macpeters_redEye.jpg";
   import serenity     from "../../assets/fineArt/macpeters_serenity.png";
   import selfPortrait from "../../assets/fineArt/macpeters_selfPortrait.png";
   import shpongle     from "../../assets/fineArt/macpeters_shpongle.png";
   import starbird     from "../../assets/fineArt/macpeters_starBird.png";
   import stubborn     from "../../assets/fineArt/macpeters_stubbornResentment.png";
+  import yellowEye     from "../../assets/fineArt/macpeters_yellowEye.jpg";
   
   // Thumbs
   import baphomet_thumb     from "../../assets/fineArt/thumbnails/macpeters_baphomet.png";
@@ -34,12 +38,16 @@
   import eagerness_thumb    from "../../assets/fineArt/thumbnails/macpeters_eagerness.png";
   import eyeOfStorm_thumb    from "../../assets/fineArt/thumbnails/macpeters_eyeOfStorm.jpg";
   import fascination_thumb  from "../../assets/fineArt/thumbnails/macpeters_fascination.png";
+  import greenEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_greenEye.jpg";
   import lovebird_thumb     from "../../assets/fineArt/thumbnails/macpeters_loveBird.png";
+  import purpleEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_purpleEye.jpg";
+  import redEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_redEye.jpg";
   import serenity_thumb     from "../../assets/fineArt/thumbnails/macpeters_serenity.png";
   import selfPortrait_thumb from "../../assets/fineArt/thumbnails/macpeters_selfPortrait.jpg";
   import shpongle_thumb     from "../../assets/fineArt/thumbnails/macpeters_shpongle.png";
   import starbird_thumb     from "../../assets/fineArt/thumbnails/macpeters_starBird.png";
   import stubborn_thumb     from "../../assets/fineArt/thumbnails/macpeters_stubbornResentment.png";
+  import yellowEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_yellowEye.jpg";
   // Components
   import imageList    from '../../components/art/imageList.vue'
 
@@ -52,9 +60,41 @@
       return {
         images: [
           {
+            image: redEye,
+            thumb: redEye_thumb,
+            title: "Red Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Empathetic and Humane - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'red, eye, wisdom, ancient, god, human, civilized, touching'
+          },
+          {
+            image: greenEye,
+            thumb: greenEye_thumb,
+            title: "Green Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Wild and Furry - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'green, eye, wisdom, ancient, god, furry, wild, cat, cats eye'
+          },
+          {
+            image: purpleEye,
+            thumb: purpleEye_thumb,
+            title: "Purple Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Cosmic and Explosive - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'purple, eye, wisdom, ancient, god, cosmic, space, explosion'
+          },
+          {
+            image: yellowEye,
+            thumb: yellowEye_thumb,
+            title: "Yellow Eye",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Reptilian and Alien - one of the 4 Teacher Spirits",
+            keywords: base_keywords + 'yellow, eye, wisdom, ancient, god, reptile, lizard, scales'
+          },
+          {
             image: blueFace,
             thumb: blueFace_thumb,
-            title: "Blue Face",
+            title: "Warrior Girl",
             subtitle: "10x10 UV Acrylic on canvas",
             description: "Warrior heroine - powerful and brilliant defender or truth",
             keywords: base_keywords + 'orange hair, blue skin'
