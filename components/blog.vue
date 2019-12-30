@@ -30,6 +30,7 @@
   import hockeyBeesProgress     from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
   import neonJungle             from "../assets/services/thumbnails/macpeters_neonJungle.jpg";
   import practiceDrawing        from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
+  import robin                  from "../assets/blogs/thumbnails/macpeters_robinRedBreast.png";
   import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
   import tarotKickstarter       from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
   import teePublic              from "../assets/blogs/thumbnails/macpeters_teepublic.png";
@@ -40,6 +41,14 @@
     data() {
       return {
         posts: [
+          {
+            title: 'A Look Back - 2019',
+            date: 'Dec 29, 2019',
+            image: robin,
+            headline: 'A recap of Art in 2019',
+            link: '/blogPosts/aLookBack2019',
+            tags: ['art', 'cartoons', 'visionary art', 'improvingAtArt']
+          },
           {
             title: 'TeePublic',
             date: 'May 19, 2019',

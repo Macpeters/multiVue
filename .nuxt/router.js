@@ -18,6 +18,7 @@ const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* we
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
 const _e727dc14 = () => interopDefault(import('../pages/art/services.vue' /* webpackChunkName: "pages/art/services" */))
 const _c6db9dc2 = () => interopDefault(import('../pages/art/skateboards.vue' /* webpackChunkName: "pages/art/skateboards" */))
+const _0e2a12a6 = () => interopDefault(import('../pages/art/thatRatBastard.vue' /* webpackChunkName: "pages/art/thatRatBastard" */))
 const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQueries.vue' /* webpackChunkName: "pages/blogPosts/activeRecordQueries" */))
 const _2408cb10 = () => interopDefault(import('../pages/blogPosts/aLookBack2016.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2016" */))
 const _2416e291 = () => interopDefault(import('../pages/blogPosts/aLookBack2017.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2017" */))
@@ -32,7 +33,6 @@ const _18ee1b80 = () => interopDefault(import('../pages/blogPosts/repurcussionsO
 const _bd58220c = () => interopDefault(import('../pages/blogPosts/tarotAndPursuitOfBetter.vue' /* webpackChunkName: "pages/blogPosts/tarotAndPursuitOfBetter" */))
 const _10c21b23 = () => interopDefault(import('../pages/blogPosts/teePublic.vue' /* webpackChunkName: "pages/blogPosts/teePublic" */))
 const _14734ff7 = () => interopDefault(import('../pages/blogPosts/whatIlearnedFromDrawingChallenge.vue' /* webpackChunkName: "pages/blogPosts/whatIlearnedFromDrawingChallenge" */))
-const _27d7c6e6 = () => interopDefault(import('../pages/dev/gameDev.vue' /* webpackChunkName: "pages/dev/gameDev" */))
 const _b25c6972 = () => interopDefault(import('../pages/dev/webDev.vue' /* webpackChunkName: "pages/dev/webDev" */))
 const _0682e9d4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -175,6 +175,10 @@ export function createRouter() {
       component: _c6db9dc2,
       name: "art-skateboards"
     }, {
+      path: "/art/thatRatBastard",
+      component: _0e2a12a6,
+      name: "art-thatRatBastard"
+    }, {
       path: "/blogPosts/activeRecordQueries",
       component: _77e6f175,
       name: "blogPosts-activeRecordQueries"
@@ -230,10 +234,6 @@ export function createRouter() {
       path: "/blogPosts/whatIlearnedFromDrawingChallenge",
       component: _14734ff7,
       name: "blogPosts-whatIlearnedFromDrawingChallenge"
-    }, {
-      path: "/dev/gameDev",
-      component: _27d7c6e6,
-      name: "dev-gameDev"
     }, {
       path: "/dev/webDev",
       component: _b25c6972,

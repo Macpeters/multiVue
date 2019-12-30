@@ -44,7 +44,8 @@ export default {
         { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
         { url: '/art/alphabets', title: 'Alphabets', id: 'alphabets' },
         { url: '/art/draw9', title: 'Draw9', id: 'draw9' },
-        { url: '/art/copyToons', title: 'copyToons', id: 'copyToons' }
+        { url: '/art/copyToons', title: 'copyToons', id: 'copyToons' },
+        { url: '/art/thatRatBastard', title: 'That Rat Bastard', id: 'thatRatBastard' },
       ],
       blogFilter: 'art',
       chosenImage: null
@@ -59,7 +60,7 @@ export default {
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
         { hid: 'comicDescription', name: 'description', content: 'Animal Alphabets drawings'},
         { hid: 'comicAuthor', name: 'author', content: 'Mac Peters'},
-        { hid: `og:title`, property: 'og:title', content: 'Macpetes Animal Alphabets' },
+        { hid: `og:title`, property: 'og:title', content: 'Macpeters Animal Alphabets' },
         { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/alphabets/' },
         { hid: `og:description`, property: 'og:description', content: 'Animal Alphabets' },
         { hid: `og:type`, property: 'og:type', content: 'website' },

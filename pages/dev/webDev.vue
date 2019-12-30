@@ -8,50 +8,19 @@
       <p>
         I work as a Professional Web Developer at
         <a href="https://www.infotech.com/">Infotech Research Group</a>, building surveys, reports,
-        and data visualization dashboards for IT Research.  I work in a number of different systems,
-        some legacy, and many of them interact.
-        I love collaborating, and working on a dev team is great for that.
-        We have recently chosen Vue.js as a framework since our content is becoming more dynamic.
+        and data visualization dashboards for IT Research. I love collaborating, and working on a dev team is great 
+        for that.
       </p>
-      <p><h4><a href="/devResume">See my Resume</a></h4></p>
+
       <p>
-        My own site is a multipage vue app, served on Netlify, using npm and nuxt.
-        I've rebuilt it more times than I can count, trying out new technology, looking for a UX
-        that is compelling, and intuitive.
+        This site is a static VueJS app, served on Netlify, using Nuxt.
       </p>
-    </div>
+      
+      <div class="resume-link">
+        <h4><a href="https://macpeters-resume-dev.netlify.com/#skate-invasion" target="_blank">My Resume</a></h4>
+        <div>An interactive React App, served on Netlify</div>
+      </div>
 
-    <div class="page-description">
-      <h3>Open Source Projects</h3>
-      <ul>
-        <li>
-          <div class="list title"><a href="https://codepen.io/Macpeters/" target="_blank">Codepen</a></div>
-          <div class="list description">Used for testing out ideas, trying new technologies</div>
-        </li>
-        <li>
-          <div class="list title"><a href="https://github.com/macpeters" target="_blank">Github</a></div>
-          <div class="list description">All my codes that don't belong to a company</div>
-        </li>
-         <li>
-          <div class="list title"><a href="https://cactus-bartik-2ca70d.netlify.com/" target="_blank">Cactus Log</a></div>
-          <div class="list description">A pet project I created to keep track of my cactus collection</div>
-        </li>
-        
-      </ul>
-    </div>
-
-    <div class="page-description">
-      <h3>Community Involvement</h3>
-      <ul>
-        <li>
-          <div class="list title"><a href="https://www.meetup.com/HackerNest/">Hackernest</a></div>
-          <div class="list description">Monthly Tech Social</div>
-        </li>
-        <li>
-          <div class="list title"><a href="https://stackoverflow.com/users/2111713/macpeters">Stack Overflow</a></div>
-          <div class="list description">Questions and answers.</div>
-        </li>
-      </ul>
     </div>
 
     <blogList/>
@@ -112,9 +81,20 @@
     list-style: none;
   }
 
+  p {
+    padding: 5px;
+  }
+
   .list {
     display: inline-block;
     padding: 3px;
+  }
+
+  .resume-link {
+    padding: 10px;
+    margin: 5px;
+    border-color: grey;
+    border-style: double;
   }
 
 </style>

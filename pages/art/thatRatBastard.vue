@@ -1,21 +1,22 @@
 <template>
   <div>
-    <h1>Macpeters: Mythical Cattoons</h1>
+    <h1>Macpeters: That Rat Bastard</h1>
     <breadcrumbs/>
     <artNav/>
 
     <div class="page-description">
-      <h2>A Variety of Cartoon Cats</h2>
+      <h2>That Rat Bastard</h2>
       <p>
-        I started drawing these cats for Drawtober, 2018.  I've grouped them together 
-        in small collections for sticker sheets. There seems to be an endless variety 
-        of ways to draw cats, so I've started on a second series of spring cats, 
-        coming soon! 
+        This began as an October drawing challenge - I wanted to develop a single character, with 
+        a focus on consistency, and dynamic poses.  Later, I decided to develop him further, 
+        and put some more thought into facial expressions.  I think I can push the expressiveness
+        a lot further, but I'll have to keep playing.  I've also begun designing another character
+        that Rat Bastard can interact with in the future.
       </p>
 
     </div>
 
-    <cattoonImages/>
+    <ratBastardImages/>
 
     <blogList/>
     <teePublicAd/>
@@ -27,21 +28,21 @@
 
 // components
 import artNav from '../../components/art/artNav.vue'
-import cattoonImages from '../../components/art/cattoonImages.vue'
+import ratBastardImages from '../../components/art/ratBastardImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 import teePublicAd from "../../components/ads/teePublic.vue"
 
 export default {
-  name: "Cartoons",
-  components: { artNav, cattoonImages, breadcrumbs, blogList, teePublicAd },
+  name: "ThatRatBastard",
+  components: { artNav, ratBastardImages, breadcrumbs, blogList, teePublicAd },
   data() {
     return {
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' },
         { link: '/art/cartoons', name: 'Cartoons' },
-        { link: '/art/cattoons', name: 'Mythical Cattoons' }
+        { link: '/art/cattoons', name: 'That Rat Bastard' }
       ],
       navLinks: [
         { url: '/art/cattoons', title: 'Cattoons', id: 'cattoons' },
@@ -56,16 +57,16 @@ export default {
   },
   head () {
     return {
-      title: "Macpetes Mythical Cattoons",
+      title: "Macpeters - That Rat Bastard",
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'google-site-verification', content: 'ZxmnP8EXJRjiayUi1MzTxW0p9D' },
-        { hid: 'comicDescription', name: 'description', content: 'Cartoon cats'},
-        { hid: 'comicAuthor', name: 'author', content: 'Mac Peters'},
-        { hid: `og:title`, property: 'og:title', content: 'Macpetes Mythical Cattoons' },
-        { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/cattoons/' },
-        { hid: `og:description`, property: 'og:description', content: 'Cartoon cats' },
+        { hid: 'comicDescription', name: 'description', content: 'That Rat Bastard character development'},
+        { hid: 'ratAuthor', name: 'author', content: 'Mac Peters'},
+        { hid: `og:title`, property: 'og:title', content: 'Macpeters That Rat Bastard' },
+        { hid: `og:url`, property: 'og:url', content: 'https://macpeters-vue.netlify.com/alphabets/' },
+        { hid: `og:description`, property: 'og:description', content: 'That Rat Bastard' },
         { hid: `og:type`, property: 'og:type', content: 'website' },
         { hid: `og:image`, property: 'og:image', content: '' }
       ]

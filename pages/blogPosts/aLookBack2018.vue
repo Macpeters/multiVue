@@ -99,7 +99,7 @@
 
     <section>
       <div class="previous"><a href="/blogPosts/aLookBack2017">Recap 2017</a></div>
-      <!-- <div class="next"><a href="">Recap 2019</a></div> -->
+      <div class="next"><a href="/blogPosts/aLookBack2019">Recap 2019</a></div>
     </section>
   </article>
 </template>

@@ -41,7 +41,6 @@
   import teePublicAd from "../components/ads/teePublic.vue"
   import paintings  from "../assets/index/macpeters_paintings.png";
   import cartoons   from "../assets/index/macpeters_cartoons.png";
-  import games      from "../assets/index/macpeters_games.png";
   import tarot      from "../assets/index/macpeters_tarot.png";
   import webDev     from "../assets/index/macpeters_webdev.png";
 
@@ -69,12 +68,6 @@
           title: 'Web Developement',
           link: '/dev/webDev',
           description: 'Professional Web Development and open source projects'
-        },
-        {
-          image: games,
-          title: 'Game Developement',
-          link: '/dev/gameDev',
-          description: 'indie game developement projects, including RaveMau5'
         },
         {
           image: tarot,

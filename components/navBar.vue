@@ -21,8 +21,7 @@
           <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
         </a>
     
-        <a href="/dev/gameDev" title="Macpeters Game Development" class="dropbtn">Games</a>
-        <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Web Dev</a>
+        <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Programming</a>
     
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">
