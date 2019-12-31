@@ -105,7 +105,7 @@
 </template>
 
 <script>
-  import eye  from "../../assets/services/macpeters_artForHeart.jpg";
+  import eye  from "../../assets/blogs/macpeters_artForHeart.jpg";
   import twistedHorns  from "../../assets/cartoons/macpeters_twistedHorns.png";
 
   export default {

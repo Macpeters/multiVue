@@ -58,7 +58,7 @@
           },
           {
             year: '2016',
-            title: 'Skate Graphics &amp; Grafitti Workshop with Chris Dyer',
+            title: 'Skate Graphics & Grafitti Workshop with Chris Dyer',
             link: 'http://cosm.org/',
             linkTitle: 'Cosm',
             location: 'Wappingers Falls, N.Y.'
@@ -99,7 +99,7 @@
           },
           {
             year: '2017',
-            title: 'Dirty Talk _ Art Show 011',
+            title: 'Dirty Talk - Art Show 011',
             location: 'Smiling Buddha, Toronto'
           },
            {
@@ -109,7 +109,7 @@
           },
           {
             year: '2017',
-            title: 'Dirty Talk _ Art Show 010',
+            title: 'Dirty Talk - Art Show 010',
             location: 'Round Venue, Toronto'
           },
           {

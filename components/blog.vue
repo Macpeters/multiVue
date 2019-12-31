@@ -28,7 +28,7 @@
   import eagerness              from "../assets/fineArt/thumbnails/macpeters_eagerness.png";
   import facebookTheEnemy       from "../assets/blogs/thumbnails/macpeters_facebookTheEnemy.png";
   import hockeyBeesProgress     from "../assets/blogs/thumbnails/macpeters_hockeyBeesProgress.png";
-  import neonJungle             from "../assets/services/thumbnails/macpeters_neonJungle.jpg";
+  import neonJungle             from "../assets/blogs/thumbnails/macpeters_neonJungle.jpg";
   import practiceDrawing        from "../assets/blogs/thumbnails/macpeters_practiceDrawing.png";
   import robin                  from "../assets/blogs/thumbnails/macpeters_robinRedBreast.png";
   import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";

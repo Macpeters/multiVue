@@ -89,7 +89,7 @@
 </template>
 
 <script>
-  import neonJungle  from "../../assets/services/macpeters_neonJungle.jpg";
+  import neonJungle  from "../../assets/blogs/macpeters_neonJungle.jpg";
 
   export default {
      data() {

@@ -44,7 +44,7 @@ export default {
         { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
         { url: '/art/murals', title: 'Murals', id: 'mural-art' }
       ],
-      blogFilter: 'visionary art',
+      blogFilter: 'blacklight',
       name: 'fine-art'
     };
   },
