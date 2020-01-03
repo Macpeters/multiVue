@@ -59,8 +59,8 @@
         },
         {
           image: cartoons,
-          title: 'Cartoons',
-          link: '/art/cartoons',
+          title: 'Drawings',
+          link: '/art/drawings',
           description: 'digital sketches, cartoons, characters, drawing challenges'
         },
         {
@@ -73,7 +73,7 @@
           image: tarot,
           title: 'Major Arcana Tarot Decks',
           link: '/tarot',
-          description: 'Hidden Dreams and Cutie Pie Tarot major arcana decks'
+          description: 'Hidden Dreams and Cutie Pie Tarot decks'
         }
       ],
     };

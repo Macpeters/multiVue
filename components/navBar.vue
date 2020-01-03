@@ -60,10 +60,20 @@ export default {
 
   .header-image {
     height: 250px;
-    background: url('../assets/header.png');
+    background: url('../assets/webBanner.png');
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+
+  @media screen and (max-width: 600px){
+    .header-image {
+    height: 150px;
+    background: url('../assets/webBannerMini.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
   }
 
   .nav-header {

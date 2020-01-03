@@ -16,10 +16,17 @@
         This site is a static VueJS app, served on Netlify, using Nuxt.
       </p>
       
-      <div class="resume-link">
-        <h4><a href="https://macpeters-resume-dev.netlify.com/#skate-invasion" target="_blank">My Resume</a></h4>
-        <div>An interactive React App, served on Netlify</div>
+      <div class="resume-link" >
+        <a 
+          href="https://macpeters-resume-dev.netlify.com/#skate-invasion" 
+          target="_blank">
+          <div>
+            <h4>My Resume</h4>
+            <div>An interactive React App, served on Netlify</div>
+          </div>
+        </a>
       </div>
+        
 
     </div>
 
@@ -95,6 +102,7 @@
     margin: 5px;
     border-color: grey;
     border-style: double;
+    background-color: aliceblue;
   }
 
 </style>
