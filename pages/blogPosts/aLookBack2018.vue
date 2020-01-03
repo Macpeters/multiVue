@@ -19,7 +19,7 @@
             to full fledged paintings.
         </li>
         <li>
-          <h3><a href="/art/cartoons" title="Hidden Dreams Tarot">Cartoons</a></h3>
+          <h3><a href="/art/drawings" title="Drawings">Drawings</a></h3>
             It is said that 80% of the learning you do in a drawing happens in the first 20% of that drawing, and that
             to draw better, you should spend more time drawing quick sketches, rather than focussing the majority of your
             time on details.  To that end, I have been trying to focus my learning energy on quick sketches - cartoons, really.

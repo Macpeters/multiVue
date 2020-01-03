@@ -6,16 +6,11 @@ const _05bf972c = () => interopDefault(import('../pages/art/index.vue' /* webpac
 const _9eadd9e4 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
 const _0aaf5e8e = () => interopDefault(import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */))
 const _5935dbcc = () => interopDefault(import('../pages/art/aboutArtist.vue' /* webpackChunkName: "pages/art/aboutArtist" */))
-const _316d0610 = () => interopDefault(import('../pages/art/alphabets.vue' /* webpackChunkName: "pages/art/alphabets" */))
-const _e2b8f646 = () => interopDefault(import('../pages/art/cartoons.vue' /* webpackChunkName: "pages/art/cartoons" */))
-const _7736671b = () => interopDefault(import('../pages/art/cattoons.vue' /* webpackChunkName: "pages/art/cattoons" */))
-const _4c084388 = () => interopDefault(import('../pages/art/copyToons.vue' /* webpackChunkName: "pages/art/copyToons" */))
-const _33db7d8d = () => interopDefault(import('../pages/art/draw9.vue' /* webpackChunkName: "pages/art/draw9" */))
+const _4d529e2d = () => interopDefault(import('../pages/art/drawings.vue' /* webpackChunkName: "pages/art/drawings" */))
 const _da6b1b3e = () => interopDefault(import('../pages/art/fineArt.vue' /* webpackChunkName: "pages/art/fineArt" */))
 const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* webpackChunkName: "pages/art/fineArtUv" */))
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
 const _c6db9dc2 = () => interopDefault(import('../pages/art/skateboards.vue' /* webpackChunkName: "pages/art/skateboards" */))
-const _0e2a12a6 = () => interopDefault(import('../pages/art/thatRatBastard.vue' /* webpackChunkName: "pages/art/thatRatBastard" */))
 const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQueries.vue' /* webpackChunkName: "pages/blogPosts/activeRecordQueries" */))
 const _2408cb10 = () => interopDefault(import('../pages/blogPosts/aLookBack2016.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2016" */))
 const _2416e291 = () => interopDefault(import('../pages/blogPosts/aLookBack2017.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2017" */))
@@ -124,25 +119,9 @@ export function createRouter() {
       component: _5935dbcc,
       name: "art-aboutArtist"
     }, {
-      path: "/art/alphabets",
-      component: _316d0610,
-      name: "art-alphabets"
-    }, {
-      path: "/art/cartoons",
-      component: _e2b8f646,
-      name: "art-cartoons"
-    }, {
-      path: "/art/cattoons",
-      component: _7736671b,
-      name: "art-cattoons"
-    }, {
-      path: "/art/copyToons",
-      component: _4c084388,
-      name: "art-copyToons"
-    }, {
-      path: "/art/draw9",
-      component: _33db7d8d,
-      name: "art-draw9"
+      path: "/art/drawings",
+      component: _4d529e2d,
+      name: "art-drawings"
     }, {
       path: "/art/fineArt",
       component: _da6b1b3e,
@@ -159,10 +138,6 @@ export function createRouter() {
       path: "/art/skateboards",
       component: _c6db9dc2,
       name: "art-skateboards"
-    }, {
-      path: "/art/thatRatBastard",
-      component: _0e2a12a6,
-      name: "art-thatRatBastard"
     }, {
       path: "/blogPosts/activeRecordQueries",
       component: _77e6f175,

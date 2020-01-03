@@ -38,7 +38,7 @@ export default {
         { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
         { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
         { url: '/art/murals', title: 'Murals', id: 'mural-art' },
-        { url: '/art/cartoons', title: 'Cartoons', id: 'cartoons' }
+        { url: '/art/drawings', title: 'Drawings', id: 'drawings' }
       ],
       blogFilter: 'visionary art',
       name: 'fine-art'

@@ -63,10 +63,14 @@
     
 
     <section>
-      <h2>Projects</h2>
+      <h2>
+        <a 
+        href="https://macpeters-drawings.netlify.com/" 
+        target="_blank" 
+        title="That Rat Bastard cartoon project">Drawing Projects</a></h2>
       <ul>
         <li>
-          <h3><a href="/art/thatRatBastard" title="That Rat Bastard cartoon project">That Rat Bastard</a></h3>
+          <h3>That Rat Bastard</h3>
           I have continued working on the character I started developing over October, and I've taken to 
           calling him That Rat Bastard, and I've continued sketching him with more dynamic poses and 
           facial expressions.  I still think I can push that expressiveness a lot more, so I want to 
@@ -74,7 +78,7 @@
         </li>
 
         <li>
-          <h3><a href="/art/draw9" title="Draw9 cartoon project">Draw 9</a></h3>
+          <h3>Draw 9</h3>
           As part of my work on improving fundamentals, I've spent some time on focussed studies of things I think
           I need more work on.  I practiced drawing darker skinned ladies, partly as a study for my Blue Face
           painting.  I practiced babies and children because their proportions are so different from adults, they

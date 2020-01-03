@@ -55,7 +55,7 @@
             image: teePublic,
             headline: 'A Review',
             link: '/blogPosts/teePublic',
-            tags: ['art']
+            tags: ['art', 'cartoons']
           },
           {
             title: 'A Look Back - 2018',
@@ -127,7 +127,7 @@
             image: drawingChallenge,
             headline: 'How Challenges can help you grow as an Artist',
             link: '/blogPosts/whatIlearnedFromDrawingChallenge',
-            tags: ['art', 'improvingAtArt']
+            tags: ['art', 'improvingAtArt', 'cartoons']
           },
           {
             title: '4 Tips for Photographing Blacklight Art',
