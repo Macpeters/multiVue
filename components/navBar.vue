@@ -2,20 +2,6 @@
   <header>
     <div class="header-image" />
     <div class="nav-header">
-
-      <div class="share-buttons">
-        <!-- AddToAny BEGIN -->
-        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-          <a class="a2a_dd" href="https://www.addtoany.com/share" />
-          <a class="a2a_button_facebook" />
-          <a class="a2a_button_twitter" />
-          <a class="a2a_button_tumblr" />
-          <a class="a2a_button_pinterest"/>
-        </div>
-        <script async src="https://static.addtoany.com/menu/page.js"/>
-      </div>
-      <!-- AddToAny END -->
-
       <div class="main-nav-row">
         <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
           <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
