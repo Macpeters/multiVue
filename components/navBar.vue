@@ -1,20 +1,29 @@
 <template>
   <header>
-    <div class="header-image" />
+    <div class="header">
+      <a href="/" class="header-logo" title="Macpeters Creations Home">
+        <img :src=logo alt="Macpeters Creations" title="Macpeters Creations" />
+      </a>
+      <div>
+        <h1>Macpeters</h1>
+        <h2>Developer and Artist</h2>
+      </div>
+
+    </div>
     <div class="nav-header">
       <div class="main-nav-row">
         <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
           <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
         </a>
-    
+
         <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Programming</a>
-    
+
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">
             Art
             <i class="arrow down"></i>
           </label>
-           
+
           <input type="checkbox" id="show-menu" role="button">
           <div class="dropdown-content" id="dropdown-content">
             <a href="/art/fineArt" title="Paintings">Paintings</a>
@@ -58,24 +67,20 @@ export default {
     transition: opacity .35s ease-out;
   }
 
-  .header-image {
-    height: 250px;
-    background: url('../assets/webBanner.png');
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  .header {
+    background-image: linear-gradient(to bottom right, aqua , blueviolet, hotpink, orange, yellow);
+    color: #fff;
+    text-shadow: #000 2px 2px 4px;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
-
-  @media screen and (max-width: 600px){
-    .header-image {
-    height: 150px;
-    background: url('../assets/webBannerMini.png');
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  .header-logo img{
+    padding: 10px;
+    height: 100px;
   }
-  }
-
   .nav-header {
     height: 60px;
     background-color: #897DF4;
@@ -91,7 +96,7 @@ export default {
     -webkit-transition: background-color 2s; /* Safari */
     transition: background-color 2s;
     transition-duration: 2s;
-  }  
+  }
 
   .logo:hover {
     opacity: 0.7;
@@ -189,7 +194,7 @@ export default {
     .dropdown {
       margin-top: 25px;
     }
-    
+
     .share-buttons a{
       margin: 0;
     }

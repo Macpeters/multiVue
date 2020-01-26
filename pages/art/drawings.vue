@@ -2,26 +2,20 @@
   <div>
     <h1>Macpeters: Cartoons and Comics</h1>
     <breadcrumbs/>
-    <artNav/>
 
     <article>
       <h2>Creativity and Drawing Fundamentals</h2>
-      <br />
-      
+      <br >
+
       <article>
-        <a 
-        class="drawings-button" 
-        href="https://macpeters-drawings.netlify.com/" 
-        target="_blank">
-        <span>
-          Check out my Drawings  
-        </span>
+        <a class="drawings-button" href="https://macpeters-drawings.netlify.com/" target="_blank">
+          <span>Check out my Drawings</span>
         </a>
       </article>
 
-      <br />
-      
-      
+      <br >
+
+
       <article>
         <div class="blurb">
           <h2>Cartoons</h2>
@@ -41,11 +35,11 @@
         <div class="blurb">
           <h2>Exercises</h2>
           <p>
-            It's important to keep practicing - a painting is only as good as the drawing it started 
-            with.  To that end, I have a number of exercises I do to improve my skills. One of them 
+            It's important to keep practicing - a painting is only as good as the drawing it started
+            with.  To that end, I have a number of exercises I do to improve my skills. One of them
             I call Draw 9 - which is exactly what it sounds like.  I take a subject I need to work on,
-            and I draw it 9 times, in order to get a better sense of what it looks like, with the 
-            differences and similarities in different examples. 
+            and I draw it 9 times, in order to get a better sense of what it looks like, with the
+            differences and similarities in different examples.
             <img v-bind:src="draw9" alt="Draw 9 Toddlers" />
           </p>
         </div>

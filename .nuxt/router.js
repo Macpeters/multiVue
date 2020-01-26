@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
+import scrollBehavior from './router.scrollBehavior.js'
 
 const _05bf972c = () => interopDefault(import('../pages/art/index.vue' /* webpackChunkName: "pages/art/index" */))
 const _9eadd9e4 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
@@ -28,182 +29,127 @@ const _14734ff7 = () => interopDefault(import('../pages/blogPosts/whatIlearnedFr
 const _b25c6972 = () => interopDefault(import('../pages/dev/webDev.vue' /* webpackChunkName: "pages/dev/webDev" */))
 const _0682e9d4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
+// TODO: remove in Nuxt 3
+const emptyFn = () => {}
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
+  return originalPush.call(this, location, onComplete, onAbort)
+}
+
 Vue.use(Router)
 
-if (process.client) {
-  if ('scrollRestoration' in window.history) {
-    window.history.scrollRestoration = 'manual'
+export const routerOptions = {
+  mode: 'history',
+  base: decodeURI('/'),
+  linkActiveClass: 'nuxt-link-active',
+  linkExactActiveClass: 'nuxt-link-exact-active',
+  scrollBehavior,
 
-    // reset scrollRestoration to auto when leaving page, allowing page reload
-    // and back-navigation from other pages to use the browser to restore the
-    // scrolling position.
-    window.addEventListener('beforeunload', () => {
-      window.history.scrollRestoration = 'auto'
-    })
+  routes: [{
+    path: "/art",
+    component: _05bf972c,
+    name: "art"
+  }, {
+    path: "/blog",
+    component: _9eadd9e4,
+    name: "blog"
+  }, {
+    path: "/tarot",
+    component: _0aaf5e8e,
+    name: "tarot"
+  }, {
+    path: "/art/aboutArtist",
+    component: _5935dbcc,
+    name: "art-aboutArtist"
+  }, {
+    path: "/art/drawings",
+    component: _4d529e2d,
+    name: "art-drawings"
+  }, {
+    path: "/art/fineArt",
+    component: _da6b1b3e,
+    name: "art-fineArt"
+  }, {
+    path: "/art/fineArtUv",
+    component: _4c646662,
+    name: "art-fineArtUv"
+  }, {
+    path: "/art/murals",
+    component: _4fd42736,
+    name: "art-murals"
+  }, {
+    path: "/art/skateboards",
+    component: _c6db9dc2,
+    name: "art-skateboards"
+  }, {
+    path: "/blogPosts/activeRecordQueries",
+    component: _77e6f175,
+    name: "blogPosts-activeRecordQueries"
+  }, {
+    path: "/blogPosts/aLookBack2016",
+    component: _2408cb10,
+    name: "blogPosts-aLookBack2016"
+  }, {
+    path: "/blogPosts/aLookBack2017",
+    component: _2416e291,
+    name: "blogPosts-aLookBack2017"
+  }, {
+    path: "/blogPosts/aLookBack2018",
+    component: _2424fa12,
+    name: "blogPosts-aLookBack2018"
+  }, {
+    path: "/blogPosts/aLookBack2019",
+    component: _24331193,
+    name: "blogPosts-aLookBack2019"
+  }, {
+    path: "/blogPosts/howToFailAtKickstarter",
+    component: _efd4dad2,
+    name: "blogPosts-howToFailAtKickstarter"
+  }, {
+    path: "/blogPosts/howToPracticeDrawing",
+    component: _dd9ffb3c,
+    name: "blogPosts-howToPracticeDrawing"
+  }, {
+    path: "/blogPosts/isFacebookTheEnemy",
+    component: _65a8719e,
+    name: "blogPosts-isFacebookTheEnemy"
+  }, {
+    path: "/blogPosts/photographingBlacklightArt",
+    component: _c08a2c20,
+    name: "blogPosts-photographingBlacklightArt"
+  }, {
+    path: "/blogPosts/processOfAMural",
+    component: _7faacf40,
+    name: "blogPosts-processOfAMural"
+  }, {
+    path: "/blogPosts/repurcussionsOfDDOSAttack",
+    component: _18ee1b80,
+    name: "blogPosts-repurcussionsOfDDOSAttack"
+  }, {
+    path: "/blogPosts/tarotAndPursuitOfBetter",
+    component: _bd58220c,
+    name: "blogPosts-tarotAndPursuitOfBetter"
+  }, {
+    path: "/blogPosts/teePublic",
+    component: _10c21b23,
+    name: "blogPosts-teePublic"
+  }, {
+    path: "/blogPosts/whatIlearnedFromDrawingChallenge",
+    component: _14734ff7,
+    name: "blogPosts-whatIlearnedFromDrawingChallenge"
+  }, {
+    path: "/dev/webDev",
+    component: _b25c6972,
+    name: "dev-webDev"
+  }, {
+    path: "/",
+    component: _0682e9d4,
+    name: "index"
+  }],
 
-    // Setting scrollRestoration to manual again when returning to this page.
-    window.addEventListener('load', () => {
-      window.history.scrollRestoration = 'manual'
-    })
-  }
+  fallback: false
 }
-const scrollBehavior = function (to, from, savedPosition) {
-  // if the returned position is falsy or an empty object,
-  // will retain current scroll position.
-  let position = false
 
-  // if no children detected and scrollToTop is not explicitly disabled
-  if (
-    to.matched.length < 2 &&
-    to.matched.every(r => r.components.default.options.scrollToTop !== false)
-  ) {
-    // scroll to the top of the page
-    position = { x: 0, y: 0 }
-  } else if (to.matched.some(r => r.components.default.options.scrollToTop)) {
-    // if one of the children has scrollToTop option set to true
-    position = { x: 0, y: 0 }
-  }
-
-  // savedPosition is only available for popstate navigations (back button)
-  if (savedPosition) {
-    position = savedPosition
-  }
-
-  return new Promise((resolve) => {
-    // wait for the out transition to complete (if necessary)
-    window.$nuxt.$once('triggerScroll', () => {
-      // coords will be used if no selector is provided,
-      // or if the selector didn't match any element.
-      if (to.hash) {
-        let hash = to.hash
-        // CSS.escape() is not supported with IE and Edge.
-        if (typeof window.CSS !== 'undefined' && typeof window.CSS.escape !== 'undefined') {
-          hash = '#' + window.CSS.escape(hash.substr(1))
-        }
-        try {
-          if (document.querySelector(hash)) {
-            // scroll to anchor by returning the selector
-            position = { selector: hash }
-          }
-        } catch (e) {
-          console.warn('Failed to save scroll position. Please add CSS.escape() polyfill (https://github.com/mathiasbynens/CSS.escape).')
-        }
-      }
-      resolve(position)
-    })
-  })
-}
-
-export function createRouter() {
-  return new Router({
-    mode: 'history',
-    base: decodeURI('/'),
-    linkActiveClass: 'nuxt-link-active',
-    linkExactActiveClass: 'nuxt-link-exact-active',
-    scrollBehavior,
-
-    routes: [{
-      path: "/art",
-      component: _05bf972c,
-      name: "art"
-    }, {
-      path: "/blog",
-      component: _9eadd9e4,
-      name: "blog"
-    }, {
-      path: "/tarot",
-      component: _0aaf5e8e,
-      name: "tarot"
-    }, {
-      path: "/art/aboutArtist",
-      component: _5935dbcc,
-      name: "art-aboutArtist"
-    }, {
-      path: "/art/drawings",
-      component: _4d529e2d,
-      name: "art-drawings"
-    }, {
-      path: "/art/fineArt",
-      component: _da6b1b3e,
-      name: "art-fineArt"
-    }, {
-      path: "/art/fineArtUv",
-      component: _4c646662,
-      name: "art-fineArtUv"
-    }, {
-      path: "/art/murals",
-      component: _4fd42736,
-      name: "art-murals"
-    }, {
-      path: "/art/skateboards",
-      component: _c6db9dc2,
-      name: "art-skateboards"
-    }, {
-      path: "/blogPosts/activeRecordQueries",
-      component: _77e6f175,
-      name: "blogPosts-activeRecordQueries"
-    }, {
-      path: "/blogPosts/aLookBack2016",
-      component: _2408cb10,
-      name: "blogPosts-aLookBack2016"
-    }, {
-      path: "/blogPosts/aLookBack2017",
-      component: _2416e291,
-      name: "blogPosts-aLookBack2017"
-    }, {
-      path: "/blogPosts/aLookBack2018",
-      component: _2424fa12,
-      name: "blogPosts-aLookBack2018"
-    }, {
-      path: "/blogPosts/aLookBack2019",
-      component: _24331193,
-      name: "blogPosts-aLookBack2019"
-    }, {
-      path: "/blogPosts/howToFailAtKickstarter",
-      component: _efd4dad2,
-      name: "blogPosts-howToFailAtKickstarter"
-    }, {
-      path: "/blogPosts/howToPracticeDrawing",
-      component: _dd9ffb3c,
-      name: "blogPosts-howToPracticeDrawing"
-    }, {
-      path: "/blogPosts/isFacebookTheEnemy",
-      component: _65a8719e,
-      name: "blogPosts-isFacebookTheEnemy"
-    }, {
-      path: "/blogPosts/photographingBlacklightArt",
-      component: _c08a2c20,
-      name: "blogPosts-photographingBlacklightArt"
-    }, {
-      path: "/blogPosts/processOfAMural",
-      component: _7faacf40,
-      name: "blogPosts-processOfAMural"
-    }, {
-      path: "/blogPosts/repurcussionsOfDDOSAttack",
-      component: _18ee1b80,
-      name: "blogPosts-repurcussionsOfDDOSAttack"
-    }, {
-      path: "/blogPosts/tarotAndPursuitOfBetter",
-      component: _bd58220c,
-      name: "blogPosts-tarotAndPursuitOfBetter"
-    }, {
-      path: "/blogPosts/teePublic",
-      component: _10c21b23,
-      name: "blogPosts-teePublic"
-    }, {
-      path: "/blogPosts/whatIlearnedFromDrawingChallenge",
-      component: _14734ff7,
-      name: "blogPosts-whatIlearnedFromDrawingChallenge"
-    }, {
-      path: "/dev/webDev",
-      component: _b25c6972,
-      name: "dev-webDev"
-    }, {
-      path: "/",
-      component: _0682e9d4,
-      name: "index"
-    }],
-
-    fallback: false
-  })
+export function createRouter () {
+  return new Router(routerOptions)
 }
