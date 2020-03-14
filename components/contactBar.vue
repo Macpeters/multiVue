@@ -21,11 +21,11 @@
   import email from "../assets/social/email.png";
   import facebook from "../assets/social/facebook.png";
   import instagram from "../assets/social/instagram.png";
-  import linkedIn from "../assets/social/linkedin.png"; 
+  import linkedIn from "../assets/social/linkedin.png";
   import twitter from "../assets/social/twitter.png";
 
   export default {
-    name: "contactBar",
+    name: 'ContactBar',
     components: { },
     data() {
       return {
@@ -71,7 +71,7 @@
     text-align: center;
     background-color: #ddd;
     clear: both;
-    padding-left: 20%;  
+    padding-left: 20%;
   }
 
   .left-column {
