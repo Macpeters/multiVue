@@ -1,6 +1,5 @@
 <template>
   <div class="art-gallery">
-
     <div class="image-selector">
       <span class="scroll-chevron scroll-left"><p>&#60;</p></span>
 
@@ -92,6 +91,7 @@
   }
   .scroll-chevron p{
     font-size: 4em;
+    opacity: 0.5;
   }
   .scroll-left {
     left: 0;
@@ -117,9 +117,8 @@
     height: 500px;
   }
   .featured-image img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+    max-height: 90vh;
+    max-width: 90vw;
   }
   .image-title {
     clear: both;
@@ -145,12 +144,7 @@
     opacity: 0.7;
   }
 
-  @media screen and (max-width: 615px){
-    .keywords {
-      opacity: 0;
-      height: 50px;
-      overflow: hidden;
-    }
+  @media screen and (max-width: 1200px){
     .left-column {
       width: 100%;
     }
@@ -161,6 +155,24 @@
 
     .art-gallery {
       margin-bottom: 10px;
+      padding-bottom: 20px;
+    }
+
+    .keywords {
+      height: 50px;
+      overflow: hidden;
+    }
+
+    .featured-image img {
+      max-height: 90vh;
+    }
+  }
+
+  @media screen and (max-width: 615px){
+    .keywords {
+      opacity: 0;
+      height: 50px;
+      overflow: hidden;
     }
   }
 </style>

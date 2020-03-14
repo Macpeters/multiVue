@@ -4,20 +4,22 @@
     <breadcrumbs/>
 
     <section>
-      <p>The most recent painting I've finished is this warrior woman - part of a series,
-      for which I've finished 2 of the 6.  For now, you can <a href="art/fineArt">check out more of my paintings</a></p>
-      <img src="~/assets/fineArt/macpeters_blueFace.jpg" alt="blue face"/>
+      <p>
+        The most recent painting I've finished is Mother Aya, which I started during my trip
+        to Peru where I participated in a Visionary Art Retreat at
+        <a href="https://www.kataricenter.com/"></a>Katari Center</a>
+      </p>
+      <p>
+        <a href="art/fineArt">Check out more of my Visionary Paintings</a>
+      </p>
     </section>
-
+    <img src="~/assets/fineArt/macpeters_motherAya.jpg" alt="Mother Aya painting by Macpeters"/>
     <blogList/>
   </div>
 </template>
 
 <script>
-import blueFace     from "../../assets/fineArt/macpeters_blueFace.jpg";
-
 // Components
-import imageList from '../../components/art/imageList.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 
@@ -56,14 +58,9 @@ export default {
 </script>
 
 <style scoped>
-  p {
-    width: 80%;
-    text-align: center;
-    padding-left: 10%;
-    padding-top: 10px;
-  }
   img {
-    width: 80%;
+    max-width: 80vw;
+    max-height: 80vh;
     padding-top: 10px;
   }
 </style>
