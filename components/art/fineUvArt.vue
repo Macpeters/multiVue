@@ -17,6 +17,7 @@
   import eyeOfStorm_uv    from "../../assets/fineArtUv/macpeters_eyeOfStorm_uv.png";
   import fascination_uv   from "../../assets/fineArtUv/macpeters_fascination_uv.png";
   import greenEye_uv      from "../../assets/fineArtUv/macpeters_greenEye_uv.jpg";
+  import motherAya_uv     from "../../assets/fineArtUv/macpeters_motherAya.jpg";
   import purpleEye_uv      from "../../assets/fineArtUv/macpeters_purpleEye_uv.jpg";
   import redEye_uv      from "../../assets/fineArtUv/macpeters_redEye_uv.jpg";
   import serenity_uv      from "../../assets/fineArtUv/macpeters_serenity_uv.png";
@@ -36,12 +37,13 @@
   import eyeOfStorm_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_eyeOfStorm_uv.png";
   import fascination_uv_thumb   from "../../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
   import greenEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_greenEye_uv.jpg";
+  import motherAya_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_motherAya.jpg";
   import purpleEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_purpleEye_uv.jpg";
   import redEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_redEye_uv.jpg";
   import serenity_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_serenity_uv.png";
   import selfPortrait_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_selfPortrait_uv.jpg";
   import shpongle_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_shpongle_uv.png";
-  import stubborn_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png"; 
+  import stubborn_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_stubbornResentment_uv.png";
   import yellowEye_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_yellowEye_uv.jpg";
   // Components
   import imageList    from '../../components/art/imageList.vue'
@@ -54,6 +56,14 @@
     data() {
       return {
         images: [
+          {
+            image: motherAya_uv,
+            thumb: motherAya_uv_thumb,
+            title: "Mother Aya",
+            subtitle: "12x12 UV Acrylic on canvas",
+            description: "She can show you the blinding light of pure love, or your sickness and rot, depending on what you need most",
+            keywords: base_keywords + 'mother, ayahuasca, dmt, jungle, hummingbird, chacruna, ceremony'
+          },
           {
             image: redEye_uv,
             thumb: redEye_uv_thumb,

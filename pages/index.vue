@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Macpeters: Artist and Programmer</h1>
 
     <div class="page-description">
@@ -8,17 +8,17 @@
       to psychedelic or visionary. I love collaborating, and working with others. This website is currently made with Vue.js,
       Nuxt, and Served on Netlify.</span>
     </div>
-    
+
     <div>
       <div>
-        <span 
-          v-for="image in images" 
+        <span
+          v-for="image in images"
           :key="image.id" >
           <div class="page-teaser">
             <a :href="image.link">
-              <div class="teaser-image"><img 
-                :src="image.image" 
-                :alt="image.title" 
+              <div class="teaser-image"><img
+                :src="image.image"
+                :alt="image.title"
                 :title="image.title" >
               </div>
               <div class="teaser-text">
@@ -67,7 +67,7 @@
           image:  webDev,
           title: 'Web Developement',
           link: '/dev/webDev',
-          description: 'Professional Web Development and open source projects'
+          description: 'Professional Web Development, Indie Games, and open source projects'
         },
         {
           image: tarot,

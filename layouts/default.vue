@@ -26,7 +26,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    /* transform: rotate(0.6deg); lol too funny */
+    /* transform: rotate(0.9deg); lol too funny */
   }
 
   .fadeOpacity-enter-active, .fadeOpacity-leave-active {
@@ -52,13 +52,14 @@
   }
 
   .container {
-   text-align: center;
-   padding: 10px;
+    text-align: center;
+    padding: 20px;
   }
 
-  .page-description {
+  .content {
     font-size: 18px;
     padding: 10px;
+    margin: 1 20px;
   }
 
   .header-purple-bg {

@@ -1,10 +1,9 @@
 <template>
   <header>
     <div class="header">
-      <a href="/" class="header-logo" title="Macpeters Creations Home">
-        <img :src=logo alt="Macpeters Creations" title="Macpeters Creations" />
-      </a>
-      <div>
+      <a href="/" class="header-logo" title="Macpeters Creations Home" />
+
+      <div class="header-text">
         <h1>Macpeters</h1>
         <h2>Developer and Artist</h2>
       </div>
@@ -12,10 +11,6 @@
     </div>
     <div class="nav-header">
       <div class="main-nav-row">
-        <a href="/" class="logo dropbtn" title="Macpeters Creations Home">
-          <img :src=logo alt="Macpeters Creations" title="Macpeters Creations">
-        </a>
-
         <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Programming</a>
 
         <div class="dropdown">
@@ -26,13 +21,17 @@
 
           <input type="checkbox" id="show-menu" role="button">
           <div class="dropdown-content" id="dropdown-content">
-            <a href="/art/fineArt" title="Paintings">Paintings</a>
+            <a href="/art/fineArt" title="Paintings">Fine Art Paintings</a>
+            <a href="/art/skateboards" title="Paintings">Skateboard Decks</a>
+            <a href="/art/murals" title="Paintings">Murals</a>
             <a href="/art/drawings" title="Drawings">Drawings</a>
             <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
             <hr />
             <a href="/art/aboutArtist" title="About Artist">About the Artist</a>
           </div>
         </div>
+
+        <a href="/blog" title="Macpeters Blog" class="dropbtn">Blog</a>
       </div>
       <br />
     </div>
@@ -40,21 +39,21 @@
 </template>
 
 <script>
-import logoImage from "../assets/logo.png";
+  import logoImage from "../assets/logo.png";
 
-export default {
-  name: "imageList",
-  components: { },
-  data() {
-    return {
-      logo: logoImage
-    };
-  },
-  build: {
-    assetsPublicPath: "/",
-    assetsSubDirectory: "assets"
-  }
-};
+  export default {
+    name: 'imageList',
+    components: { },
+    data() {
+      return {
+        logo: logoImage
+      };
+    },
+    build: {
+      assetsPublicPath: "/",
+      assetsSubDirectory: "assets"
+    }
+  };
 </script>
 
 
@@ -72,23 +71,37 @@ export default {
     color: #fff;
     text-shadow: #000 2px 2px 4px;
     -webkit-font-smoothing: antialiased;
+    padding-top: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .header-logo img{
-    padding: 10px;
     height: 100px;
+    justify-content: space-around;
+    font-size: 1.2em;
+    letter-spacing: .1rem;
   }
+
+  .header-logo {
+    background: url('../assets/logo.png') center no-repeat;
+    background-size: contain;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+
+  .header-text {
+    width: 50%;
+  }
+
   .nav-header {
     height: 60px;
     background-color: #897DF4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .dropbtn {
-    padding: 5px;
-    margin: 0 10px 10px 10px;
+    top: 10px;
+    padding: 10px 40px;
+    margin: 0 20px;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
@@ -96,6 +109,7 @@ export default {
     -webkit-transition: background-color 2s; /* Safari */
     transition: background-color 2s;
     transition-duration: 2s;
+    cursor: pointer;
   }
 
   .logo:hover {
@@ -108,19 +122,18 @@ export default {
     opacity: 1.0;
   }
 
-
   /* Dropdown Button */
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
     display: inline-block;
+    height: 100%;
   }
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     border-radius: 25px;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #897DF4;
     min-width: 160px;
     box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -133,14 +146,17 @@ export default {
   /* Links inside the dropdown */
   .dropdown-content a {
     border-radius: 10px;
-    color: black;
+    color: white;
     padding: 8px 12px;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 600;
   }
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
+  .dropdown-content a:hover {
+    background-color: #FFAB8A;
+  }
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
@@ -159,13 +175,6 @@ export default {
   }
   input[type=checkbox]{
     display: none;
-  }
-
-  .share-buttons{
-    position: absolute;
-    z-index: 10;
-    top: 200px;
-    right: 20px;
   }
 
   /* Arrow */

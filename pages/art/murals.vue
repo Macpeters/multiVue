@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Murals and Aerosol Art</h1>
     <breadcrumbs/>
-    <artNav/>
+
     <h2>Indoor and Outdoor murals to brighten up your business, home, or neighbourhood.</h2>
 
     <div class="page-description">
@@ -33,7 +33,6 @@ import logoImage from "../../assets/logo.png";
 import hockeyBeesComplete from "../../assets/graf/macpeters_hockeybees_complete.png";
 
 // components
-import artNav from '../../components/art/artNav.vue'
 import muralImages from '../../components/art/muralImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 // Blog
@@ -41,20 +40,15 @@ import blogList from '../../components/blog.vue'
 
 export default {
   name: "Murals",
-  components: { muralImages, breadcrumbs, blogList, artNav },
+  components: { muralImages, breadcrumbs, blogList },
   data() {
     return {
       logoImage: logoImage,
       hockeyBeesComplete: hockeyBeesComplete,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Paintings' },
+        { link: '/art', name: 'Art' },
         { link: '/art/murals', name: 'Murals' }
-      ],
-      navLinks: [
-        { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
-        { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
-        { url: '/art/murals', title: 'Murals', id: 'mural-art' }
       ],
       blogFilter: 'streetart'
     };

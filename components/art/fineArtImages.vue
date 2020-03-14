@@ -18,6 +18,7 @@
   import fascination  from "../../assets/fineArt/macpeters_fascination.png";
   import greenEye     from "../../assets/fineArt/macpeters_greenEye.jpg";
   import lovebird     from "../../assets/fineArt/macpeters_loveBird.png";
+  import motherAya     from "../../assets/fineArt/macpeters_motherAya.jpg";
   import purpleEye     from "../../assets/fineArt/macpeters_purpleEye.jpg";
   import redEye     from "../../assets/fineArt/macpeters_redEye.jpg";
   import serenity     from "../../assets/fineArt/macpeters_serenity.png";
@@ -26,7 +27,7 @@
   import starbird     from "../../assets/fineArt/macpeters_starBird.png";
   import stubborn     from "../../assets/fineArt/macpeters_stubbornResentment.png";
   import yellowEye     from "../../assets/fineArt/macpeters_yellowEye.jpg";
-  
+
   // Thumbs
   import baphomet_thumb     from "../../assets/fineArt/thumbnails/macpeters_baphomet.png";
   import bliss_thumb        from "../../assets/fineArt/thumbnails/macpeters_bliss.png";
@@ -40,6 +41,7 @@
   import fascination_thumb  from "../../assets/fineArt/thumbnails/macpeters_fascination.png";
   import greenEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_greenEye.jpg";
   import lovebird_thumb     from "../../assets/fineArt/thumbnails/macpeters_loveBird.png";
+  import motherAya_thumb     from "../../assets/fineArt/thumbnails/macpeters_motherAya.jpg";
   import purpleEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_purpleEye.jpg";
   import redEye_thumb     from "../../assets/fineArt/thumbnails/macpeters_redEye.jpg";
   import serenity_thumb     from "../../assets/fineArt/thumbnails/macpeters_serenity.png";
@@ -59,6 +61,14 @@
     data() {
       return {
         images: [
+          {
+            image: motherAya,
+            thumb: motherAya_thumb,
+            title: "Mother Aya",
+            subtitle: "12x12 UV Acrylic on canvas",
+            description: "She can show you the blinding light of pure love, or your sickness and rot, depending on what you need most",
+            keywords: base_keywords + 'mother, ayahuasca, dmt, jungle, hummingbird, chacruna, ceremony'
+          },
           {
             image: redEye,
             thumb: redEye_thumb,

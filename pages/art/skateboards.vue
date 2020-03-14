@@ -1,11 +1,10 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Skateboards</h1>
     <breadcrumbs/>
-    <artNav/>
 
     <div class="page-description">
-       <skateboardImages/>
+      <skateboardImages/>
     </div>
 
     <blogList/>
@@ -15,7 +14,6 @@
 <script>
 
 // Components
-import artNav from '../../components/art/artNav.vue'
 import skateboardImages from '../../components/art/skateboardImages.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 // Blog
@@ -23,19 +21,14 @@ import blogList from '../../components/blog.vue'
 
 export default {
   name: "Art",
-  components: { artNav, breadcrumbs, skateboardImages, blogList },
+  components: { breadcrumbs, skateboardImages, blogList },
   data() {
     return {
       chosenImage: null,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Paintings' },
+        { link: '/art', name: 'Art' },
         { link: '/art/skatboards', name: 'Skateboards' }
-      ],
-      navLinks: [
-        { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
-        { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
-        { url: '/art/murals', title: 'Murals', id: 'mural-art' }
       ],
       blogFilter: 'visionary art',
       name: 'fine-art'

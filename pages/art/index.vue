@@ -1,17 +1,15 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Art</h1>
     <breadcrumbs/>
-     <artNav/>
 
-      <section>
-        <p>The most recent painting I've finished is this warrior woman - part of a series, 
-          for which I've finished 2 of the 6.  For now, you can <a href="art/fineArt">check out more of my fine art</a> or click any of the above tabs to see 
-        what other art I've been working on.</p>
-        <img src="~/assets/fineArt/macpeters_blueFace.jpg" alt="blue face"/>
-      </section>
+    <section>
+      <p>The most recent painting I've finished is this warrior woman - part of a series,
+      for which I've finished 2 of the 6.  For now, you can <a href="art/fineArt">check out more of my paintings</a></p>
+      <img src="~/assets/fineArt/macpeters_blueFace.jpg" alt="blue face"/>
+    </section>
 
-     <blogList/>
+    <blogList/>
   </div>
 </template>
 
@@ -19,26 +17,19 @@
 import blueFace     from "../../assets/fineArt/macpeters_blueFace.jpg";
 
 // Components
-import artNav from '../../components/art/artNav.vue'
 import imageList from '../../components/art/imageList.vue'
 import breadcrumbs from '../../components/breadcrumbs.vue'
 import blogList from '../../components/blog.vue'
 
 export default {
   name: "Art",
-  components: { artNav, breadcrumbs, blogList },
+  components: { breadcrumbs, blogList },
   data() {
     return {
       chosenImage: null,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
         { link: '/art', name: 'Art' }
-      ],
-      navLinks: [
-        { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
-        { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
-        { url: '/art/murals', title: 'Murals', id: 'mural-art' },
-        { url: '/art/drawings', title: 'Drawings', id: 'drawings' }
       ],
       blogFilter: 'visionary art',
       name: 'fine-art'

@@ -20,7 +20,7 @@
 <script>
 
 export default {
-  name: "imageList",
+  name: 'imageList',
   components: { },
   data() {
     return {
@@ -33,14 +33,14 @@ export default {
       }
     };
   },
+  beforeMount(){
+    this.images = this.$parent.images
+    this.choose(this.images[0])
+  },
   methods: {
     choose(img) {
       this.chosenImage = img;
     }
-  },
-  beforeMount(){
-    this.images = this.$parent.images
-    this.choose(this.images[0])
   },
   build: {
     assetsPublicPath: "/",
@@ -117,7 +117,7 @@ export default {
     .right-column {
       width: 100%;
     }
-    
+
     .art-gallery {
       margin-bottom: 10px;
     }

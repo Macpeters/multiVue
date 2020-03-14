@@ -4,21 +4,21 @@
     <breadcrumbs/>
     <h2>builder of websites, surveys, data visualizations</h2>
     <hr />
-    <div class="page-description">
+    <div class="content">
       <p>
         I work as a Professional Web Developer at
         <a href="https://www.infotech.com/">Infotech Research Group</a>, building surveys, reports,
-        and data visualization dashboards for IT Research. I love collaborating, and working on a dev team is great 
+        and data visualization dashboards for IT Research. I love collaborating, and working on a dev team is great
         for that.
       </p>
 
       <p>
         This site is a static VueJS app, served on Netlify, using Nuxt.
       </p>
-      
+
       <div class="resume-link" >
-        <a 
-          href="https://macpeters-resume-dev.netlify.com/#skate-invasion" 
+        <a
+          href="https://macpeters-resume-dev.netlify.com/#skate-invasion"
           target="_blank">
           <div>
             <h4>My Resume</h4>
@@ -26,7 +26,7 @@
           </div>
         </a>
       </div>
-        
+
 
     </div>
 
@@ -78,12 +78,7 @@
 </script>
 
 
-<style scoped>  
-  .page-description {
-    text-align: left;
-    margin: 10px;
-  }
-
+<style scoped>
   ul {
     list-style: none;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Macpeters: Cartoons and Comics</h1>
     <breadcrumbs/>
 

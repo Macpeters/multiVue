@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="content">
     <h1>Fine Art Paintings</h1>
     <breadcrumbs/>
-    <artNav/>
 
     <div class="page-description">
       <div id="no-neon"><a href="/art/fineArtUv">Blacklight On</a></div>
@@ -17,7 +16,6 @@
 <script>
 
 // Components
-import artNav         from '../../components/art/artNav.vue'
 import fineArtImages  from '../../components/art/fineArtImages.vue'
 import breadcrumbs    from '../../components/breadcrumbs.vue'
 // Blog
@@ -26,19 +24,14 @@ import society6Ad from "../../components/ads/society6.vue"
 
 export default {
   name: "Art",
-  components: { artNav, breadcrumbs, blogList, fineArtImages, society6Ad },
+  components: { breadcrumbs, blogList, fineArtImages, society6Ad },
   data() {
     return {
       chosenImage: null,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Paintings' },
+        { link: '/art', name: 'Art' },
         { link: '/art/fineArt', name: 'FineArt' }
-      ],
-      navLinks: [
-        { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
-        { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
-        { url: '/art/murals', title: 'Murals', id: 'mural-art' }
       ],
       blogFilter: 'visionary art',
       name: 'fine-art'

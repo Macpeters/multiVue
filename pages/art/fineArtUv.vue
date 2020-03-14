@@ -2,7 +2,7 @@
   <div>
     <h1>Macpeters: UV Reactive Blacklight Art</h1>
     <breadcrumbs/>
-    <artNav/>
+
     <h2>Visionary Psychedelic Blacklight Paintings</h2>
 
     <div class="page-description">
@@ -23,7 +23,6 @@
 
 <script>
 // Components
-import artNav             from '../../components/art/artNav.vue'
 import fineArtUvImages    from '../../components/art/fineUvArt.vue'
 import breadcrumbs        from '../../components/breadcrumbs.vue'
 // Blog
@@ -31,18 +30,13 @@ import blogList           from '../../components/blog.vue'
 
 export default {
   name: "Art",
-  components: { breadcrumbs, blogList, artNav, fineArtUvImages},
+  components: { breadcrumbs, blogList, fineArtUvImages},
   data() {
     return {
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Paintings' },
+        { link: '/art', name: 'Art' },
         { link: '/art', name: 'FineArt' }
-      ],
-      navLinks: [
-        { url: '/art/fineArt', title: 'Fine Art', id: 'fine-art' },
-        { url: '/art/skateboards', title: 'Painted Skateboard Decks', id: 'skateboards' },
-        { url: '/art/murals', title: 'Murals', id: 'mural-art' }
       ],
       blogFilter: 'blacklight',
       name: 'fine-art'
