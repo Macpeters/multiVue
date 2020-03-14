@@ -14,7 +14,7 @@
         </div>
       </span></a>
       <br />
-    </span> 
+    </span>
 
   </div>
 </template>
@@ -34,9 +34,9 @@
   import tarotJourney           from "../assets/blogs/thumbnails/macpeters_tarotJourney.png";
   import tarotKickstarter       from "../assets/blogs/thumbnails/macpeters_kickstarterFailure.png";
   import teePublic              from "../assets/blogs/thumbnails/macpeters_teepublic.png";
-  
+
   export default {
-    name: "blog",
+    name: 'Blog',
     components: { },
     data() {
       return {

@@ -11,7 +11,7 @@
     </div>
     <div class="nav-header">
       <div class="main-nav-row">
-        <a href="/dev/webDev" title="Macpeters Web Development" class="dropbtn">Programming</a>
+        <span class="dropbtn"><a href="/dev/webDev" class="dropbtn" title="Macpeters Web Development" >Programming</a></span>
 
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">
@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <a href="/blog" title="Macpeters Blog" class="dropbtn">Blog</a>
+        <span class="dropbtn"><a href="/blog" class="dropbtn" title="Macpeters Blog">Blog</a></span>
       </div>
       <br />
     </div>
@@ -90,36 +90,33 @@
     width: 50%;
   }
 
-  .nav-header {
-    height: 60px;
-    background-color: #897DF4;
+  .main-nav-row {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
+  .nav-header {
+    height: 60px;
+    background-color: #897DF4;
+  }
+
   .dropbtn {
-    top: 10px;
     padding: 10px 40px;
-    margin: 0 20px;
+    margin: 10px 20px;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
     border-radius: 25px;
     -webkit-transition: background-color 2s; /* Safari */
     transition: background-color 2s;
-    transition-duration: 2s;
+    transition: color 2s;
+    transition-duration: 1s;
     cursor: pointer;
   }
-
-  .logo:hover {
-    opacity: 0.7;
-  }
-  .logo img {
-    padding-top: 10px;
-    height: 40px;
-    width: auto;
-    opacity: 1.0;
+  .dropbtn:hover {
+    background-color: #FFAB8A;
+    color: #444;
   }
 
   /* Dropdown Button */
@@ -130,6 +127,8 @@
   }
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
+    width: 30%;
+    margin-top: 5px;
     border-radius: 25px;
     display: none;
     position: absolute;
@@ -152,19 +151,19 @@
     display: block;
     font-size: 16px;
     font-weight: 600;
+    transition: background-color 2s;
+    transition: color 2s;
   }
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #FFAB8A;
+    color: #444;
   }
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropbtn:hover {
-    background-color: #FFAB8A;
-    color: #444;
-  }
+
 
   /* Dropdown is a checkbox for mobile */
   #show-menu:checked ~ .dropdown-content {
@@ -190,7 +189,24 @@
     -webkit-transform: rotate(45deg);
   }
 
+  @media screen and (max-width: 800px){
+    .dropbtn {
+      padding: 5px 20px;
+    }
+    .header-text {
+      font-size: .8em;
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .dropbtn {
+      padding: 5px 5px;
+    }
+  }
+
   @media screen and (max-width: 411px){
+
     .dropbtn {
       font-size: 18px;
       display: block;

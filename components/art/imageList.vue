@@ -1,52 +1,61 @@
 <template>
   <div class="art-gallery">
-    <span v-for="image in images" :key='image.id'>
-      <img v-bind:src="image.thumb" v-bind:alt="image.title" v-bind:title="image.title" class="thumbnail" @click='choose(image)' />
-    </span>
+
+    <div class="image-selector">
+      <span class="scroll-chevron scroll-left"><p>&#60;</p></span>
+
+      <div class="image-selector-scroll">
+        <span v-for="image in images" :key='image.id'>
+          <img v-bind:src="image.thumb" v-bind:alt="image.title" v-bind:title="image.title" class="thumbnail" @click='choose(image)' />
+        </span>
+      </div >
+
+      <span class="scroll-chevron scroll-right"><p>&#62;</p></span>
+    </div>
+
 
     <div class="featured-image">
       <div class="left-column">
         <img v-bind:src="chosenImage.image" v-bind:alt="chosenImage.title" v-bind:title="chosenImage.title" />
       </div>
       <div class="right-column">
-        <h3>{{chosenImage.title}}</h3>
-        <h4>{{chosenImage.description}}</h4>
-        <div class="keywords">Keywords: <span>{{chosenImage.keywords}}</span></div>
+        <h3>{{ chosenImage.title }}</h3>
+        <h4>{{ chosenImage.description }}</h4>
+        <div class="keywords">Keywords: <span>{{ chosenImage.keywords }}</span></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-
-export default {
-  name: 'imageList',
-  components: { },
-  data() {
-    return {
-      images: null,
-      chosenImage: {
-        image: null,
-        title: "",
-        description: "",
-        keywords: null
+  export default {
+    name: 'ImageList',
+    components: { },
+    data() {
+      return {
+        images: null,
+        chosenImage: {
+          image: null,
+          title: "",
+          description: "",
+          keywords: null
+        }
+      };
+    },
+    beforeMount(){
+      this.images = this.$parent.images
+      this.choose(this.images[0])
+    },
+    methods: {
+      choose(img) {
+        this.chosenImage = img;
       }
-    };
-  },
-  beforeMount(){
-    this.images = this.$parent.images
-    this.choose(this.images[0])
-  },
-  methods: {
-    choose(img) {
-      this.chosenImage = img;
+    },
+    build: {
+      assetsPublicPath: "/",
+      assetsSubDirectory: "assets"
     }
-  },
-  build: {
-    assetsPublicPath: "/",
-    assetsSubDirectory: "assets"
-  }
-};
+  };
 </script>
 
 
@@ -58,6 +67,38 @@ export default {
   .art-gallery {
     padding: 20px;
     clear: both;
+  }
+
+  .image-selector {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+
+  .image-selector-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .image-selector-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .scroll-chevron {
+    color: #eee;
+    position: absolute;
+    z-index: 10;
+  }
+  .scroll-chevron p{
+    font-size: 4em;
+  }
+  .scroll-left {
+    left: 0;
+  }
+
+  .scroll-right {
+    right: 0;
   }
 
   /* Featured Image */
