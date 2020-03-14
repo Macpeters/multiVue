@@ -15,8 +15,7 @@
 
         <div class="dropdown">
           <label for="show-menu" class="show-menu dropbtn">
-            Art
-            <i class="arrow down"></i>
+            <span>Art<i class="arrow down"></i></span>
           </label>
 
           <input type="checkbox" id="show-menu" role="button">
@@ -92,7 +91,7 @@
 
   .main-nav-row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -178,9 +177,10 @@
 
   /* Arrow */
   i {
-    border: solid black;
+    border: solid #555;
     border-width: 0 3px 3px 0;
     display: inline-block;
+    margin-left: 2px;
     padding: 3px;
   }
 
@@ -208,8 +208,12 @@
   @media screen and (max-width: 411px){
 
     .dropbtn {
+      padding: 2px 6px;
       font-size: 18px;
       display: block;
+    }
+    .show-menu {
+      min-width: 90px;
     }
     .logo {
       width: 50%;
@@ -224,7 +228,7 @@
       margin: 0;
     }
     .nav-header {
-      height: 190px;
+      height: 60px;
     }
     .dropdown {
       width: 100%;
