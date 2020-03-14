@@ -206,6 +206,7 @@
   }
 
   @media screen and (max-width: 411px){
+
     .dropbtn {
       padding: 2px 6px;
       font-size: 18px;
