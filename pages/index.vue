@@ -139,7 +139,7 @@
     .page-teaser {
       background-color: #eeddff;
       width: 80%;
-      height: 300px;
+      height: 325px;
     }
 
     .teaser-image img {
