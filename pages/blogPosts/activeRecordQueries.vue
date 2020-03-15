@@ -24,15 +24,18 @@
           has_many :people
         end
 
-        Person.all.joins(:role).where(roles: { billable: true })
+        Person.all
+          .joins(:role)
+          .where(roles: { billable: true })
 
         SELECT "people".*
         FROM "people"
-        INNER JOIN "roles" ON "roles.id" = "people"."role_id"
+        INNER JOIN "roles"
+          ON "roles.id" = "people"."role_id"
         WHERE "roles"."billable" = true;
       </code></pre>
     </section>
-    
+
     <section>
       <h2>Keep Concerns Separate(same sql, more clear)</h2>
       <pre><code>
@@ -101,18 +104,18 @@
     <!--- scopes -->
     <section>
       <h2>Using Scopes</h2>
+      <p class="instruction">
+        The following is bad because <code>Time.now</code> would be always the time when the class
+        was loaded. You might not even spot the bug in development because classes are automatically
+        reloaded for you after saving changes.
+      <p>
+      <code>scope :from_the_past, where("happens_at <= ?", Time.now)</code>
 
+      <p class="instruction">The following is better - the method will run each time it's called</p>
+      <code>scope :from_the_past, -> { where("happens_at <= ?", Time.now) }</code>
+
+      <p class="instruction">Alternately, use a method instead of a scope:</p>
       <pre><code>
-        # Bad
-        # Time.now would be always the time when the class was loaded
-        # You might not even spot the bug in development because classes are
-        # automatically reloaded for you after changes.
-        scope :from_the_past, where("happens_at <= ?", Time.now)
-
-        # OK
-        scope :from_the_past, -> { where("happens_at <= ?", Time.now) }
-
-        # OK
         def self.from_the_past
           where("happens_at <= ?", Time.now)
         end
@@ -124,7 +127,7 @@
       <ul>
         <li><a href="https://blog.arkency.com/2013/12/rails4-preloading/">Eager Loading, preloading: Arkency</a></li>
         <li><a href="https://medium.com/rubyinside/active-records-queries-tricks-2546181a98dd">Merging Queries/Scopes: Medium</a> </li>
-      </ul>  
+      </ul>
     </section>
 
   </article>
@@ -157,10 +160,16 @@
     background-color: #eee;
     font-size: 12px;
     text-align: left;
+    overflow: scroll;
   }
   pre {
     margin: 10px;
     display: block;
     background-color: #eee
+  }
+
+  .instruction {
+    padding: 5px;
+    margin-top: 10px;
   }
 </style>

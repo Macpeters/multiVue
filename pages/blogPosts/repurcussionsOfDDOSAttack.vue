@@ -93,5 +93,6 @@
   }
   img {
     padding-left: 20%;
+    max-width: 80vw;
   }
 </style>

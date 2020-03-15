@@ -43,6 +43,13 @@
       return {
         education: [
           {
+            year: '2019',
+            title: 'Healing Visions Workship with Chris Dyer',
+            link: 'https://kataricenter.com/',
+            linkTitle: 'Katari Center',
+            location: 'Tarapoto, Peru'
+          },
+          {
             year: '2018',
             title: 'Visionary Art Intensive with Alex and Allyson Grey',
             link: 'http://cosm.org/',
@@ -274,9 +281,12 @@
 };
 </script>
 
-
 <style scoped>
-.item {
-  display: block;
-}
+  .item {
+    display: block;
+  }
+  table {
+    padding: 10px;
+    margin: 20px;
+  }
 </style>

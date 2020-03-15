@@ -51,7 +51,7 @@
       <hr>
     </article>
 
-    <article>
+    <article class="adorned">
       <h3>Adorned Road: A Path of Transformation</h3>
       <div class="columns">
         <div class="column">
@@ -65,7 +65,7 @@
     </article>
 
     <!-- History/CV -->
-    <article>
+    <article class="history">
       <h2>History</h2>
       <artHistory/>
     </article>
@@ -177,7 +177,14 @@
     .column {
       width: 100%;
     }
-
+    .adorned {
+      margin-bottom: 20px;
+      height: 450px;
+    }
+    .link-list {
+      padding: 5px;
+      margin: 0px;
+    }
   }
 
 </style>

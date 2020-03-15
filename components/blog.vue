@@ -220,4 +220,12 @@
   h4 {
     font-size: 14px;
   }
+  @media screen and (max-width: 520px){
+    .blog-post {
+      width: 100%;
+    }
+    .date {
+      display: block;
+    }
+  }
 </style>
