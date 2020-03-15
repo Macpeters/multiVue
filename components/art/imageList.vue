@@ -82,7 +82,7 @@
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
   .image-selector-scroll::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
   }
   .scroll-chevron {
     color: #eee;
@@ -117,7 +117,7 @@
     height: 500px;
   }
   .featured-image img {
-    max-height: 90vh;
+    max-height: 80vh;
     max-width: 90vw;
   }
   .image-title {

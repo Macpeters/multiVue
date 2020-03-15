@@ -12,6 +12,7 @@
     <div>
       <div>
         <span
+          class="box"
           v-for="image in images"
           :key="image.id" >
           <div class="page-teaser">
@@ -55,7 +56,7 @@
           image: paintings,
           title: 'Paintings',
           link: '/art/fineart/',
-          description: 'Psychedelic fine art, hand-painted skateboard decks, and murals'
+          description: 'Psychedelic UV reactive fine art, hand-painted skateboard decks, and murals'
         },
         {
           image: cartoons,
@@ -73,7 +74,7 @@
           image: tarot,
           title: 'Major Arcana Tarot Decks',
           link: '/tarot',
-          description: 'Hidden Dreams and Cutie Pie Tarot decks'
+          description: 'Cutie Pie Tarot deck and Hidden Dreams Tarot deck with companion guide book'
         }
       ],
     };
@@ -101,27 +102,31 @@
 </script>
 
 <style scoped>
+  .box:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 2s; /* Safari */
+    transition: opacity 1s;
+    transition-duration: 1s;
+  }
+
   .page-teaser {
-    max-width: 275px;
     width: 40%;
-    height: 250px;
+    height: 350px;
+    max-width: 460px;
     display: inline-block;
-    border: 1px solid black;
     padding: 2px;
     margin: 5px;
     clear: both;
-  }
-
-  .page-teaser :hover {
     background-color: #eeddff;
-    -webkit-transition: background-color 2s; /* Safari */
-    transition: background-color 2s;
-    transition-duration: 2s;
+  }
+  .page-teaser:hover {
+    border: 2px solid #6b0fc7;
   }
 
   .teaser-image img {
-    width: 100%;
-    height: 150px;
+    padding: 5px;
+    width: 80%;
+    height: 220px;
     object-fit: cover;
     overflow: hidden;
   }
@@ -129,7 +134,18 @@
   .teaser-title {
     font-weight: bold;
   }
-  .teaser-text {
-    height: 100px;
+
+   @media screen and (max-width: 750px){
+    .page-teaser {
+      background-color: #eeddff;
+      width: 80%;
+      height: 300px;
+    }
+
+    .teaser-image img {
+      height: 220px;
+      width: 80%;
+      padding: 10px;
+    }
   }
 </style>

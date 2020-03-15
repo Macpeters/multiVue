@@ -3,20 +3,14 @@
     <div>
       <h1>Macpeters Tarot Decks</h1>
       <breadcrumbs/>
-      
-      <div class="sub-nav-bar">
-        <span class="button sub-nav"><a href="#hidden-dreams">Hidden Dreams Tarot</a></span>
-        <span class="button sub-nav"><a href="#cutie-pie">Cutie Pie Tarot</a></span>
-      </div>
-      
-      
+
       <h2>The Hidden Dreams Tarot</h2>
       <h4>Most tarot decks dig deep into a single lore.  The Hidden Dreams Tarot synthesizes them all.</h4>
 
       <div>
         <a href="http://www.makeplayingcards.com/sell/macpeters" class="button" target="_blank" title="Buy Hidden Dreams Tarot Deck Button">Buy Hidden Dreams Tarot Deck Now</a>
       </div>
-    
+
     </div>
 
 
@@ -95,7 +89,7 @@
         <div>
           <br />
           <a href="http://www.blurb.com/books/8697712-hidden-dreams-tarot" class="button" target="_blank" title="Buy Hidden Dreams Tarot Guidebook Button">Buy Hidden Dreams Guidebook Now</a>
-        </div>    
+        </div>
       </div>
     </div>
 
@@ -212,7 +206,7 @@
   #hidden-dreams {
     margin: 20px;
   }
-  
+
   .sub-nav-bar {
     margin-top: 40px;
     display: block;
@@ -253,7 +247,7 @@
     height: auto;
     margin: 10px;
   }
-  
+
 
   /* All Info Sections */
   .left-column {

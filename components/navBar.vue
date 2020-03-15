@@ -84,6 +84,14 @@
     width: 20%;
     margin-bottom: 15px;
   }
+  .header-logo:hover {
+    border: 2px #897DF4 solid;
+    border-radius: 25px;
+    /* opacity: .5; */
+    -webkit-transition: border 2s; /* Safari */
+    transition: border 1s;
+    transition-duration: 1s;
+  }
 
   .header-text {
     width: 50%;
