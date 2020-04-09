@@ -7,6 +7,7 @@
 <script>
   // Images
   import baphomet_uv      from "../../assets/fineArtUv/macpeters_baphomet_uv.png";
+  import blackStar_uv      from "../../assets/fineArtUv/macpeters_blackStar_uv.jpg";
   import bliss_uv         from "../../assets/fineArtUv/macpeters_bliss_uv.png";
   import blueFace_uv      from "../../assets/fineArtUv/macpeters_blueFace_uv.jpg";
   import cactusGuy_uv      from "../../assets/fineArtUv/macpeters_cactusGuy_uv.jpg";
@@ -27,6 +28,7 @@
   import yellowEye_uv      from "../../assets/fineArtUv/macpeters_yellowEye_uv.jpg";
   // Thumbs
   import baphomet_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_baphomet_uv.png";
+  import blackStar_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_blackStar_uv.png";
   import bliss_uv_thumb         from "../../assets/fineArtUv/thumbnails/macpeters_bliss_uv.png";
   import blueFace_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_blueFace_uv.jpg";
   import cactusGuy_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_cactusGuy_uv.jpg";
@@ -56,6 +58,14 @@
     data() {
       return {
         images: [
+          {
+            image: blackStar_uv,
+            thumb: blackStar_uv_thumb,
+            title: "Black Star",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Authentic human connection is a treasure worth the risk, worth the price, and worth the heartache.  You have to take that leap of faith, or wind up among the tortured souls who never managed to reach out.",
+            keywords: base_keywords + 'leap of faith, wish upon a black star, hope, taking action, reaching out, running towards the light'
+          },
           {
             image: motherAya_uv,
             thumb: motherAya_uv_thumb,

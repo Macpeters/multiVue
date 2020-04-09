@@ -118,6 +118,7 @@
     margin: 5px;
     clear: both;
     background-color: #eeddff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 200, .2);
   }
   .page-teaser:hover {
     border: 2px solid #6b0fc7;
@@ -135,7 +136,7 @@
     font-weight: bold;
   }
 
-   @media screen and (max-width: 750px){
+  @media screen and (max-width: 860px){
     .page-teaser {
       background-color: #eeddff;
       width: 80%;

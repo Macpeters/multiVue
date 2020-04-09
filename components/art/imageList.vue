@@ -9,6 +9,7 @@
         </span>
       </div >
 
+
       <span class="scroll-chevron scroll-right"><p>&#62;</p></span>
     </div>
 
@@ -73,30 +74,29 @@
     position: relative;
     width: 100%;
   }
-
   .image-selector-scroll {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
-  .image-selector-scroll::-webkit-scrollbar {
-    /* display: none; */
-  }
-  .scroll-chevron {
-    color: #eee;
-    position: absolute;
-    z-index: 10;
-  }
-  .scroll-chevron p{
-    font-size: 4em;
-    opacity: 0.5;
-  }
-  .scroll-left {
-    left: 0;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
   }
 
+  .scroll-chevron {
+    color: #000;
+    position: absolute;
+    z-index: 10;
+    margin-top: 25px;
+  }
+  .scroll-chevron p{
+    font-size: 3em;
+    opacity: 0.7;
+  }
+  .scroll-chevron p:hover {
+    opacity: 1;
+  }
   .scroll-right {
     right: 0;
   }
@@ -119,6 +119,7 @@
   .featured-image img {
     max-height: 80vh;
     max-width: 90vw;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
   }
   .image-title {
     clear: both;
@@ -140,8 +141,9 @@
     overflow: hidden;
   }
   .thumbnail:hover {
+    margin-top: -4px;
     border-color: #eee;
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   @media screen and (max-width: 1200px){

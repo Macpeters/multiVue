@@ -7,6 +7,7 @@
 <script>
   // Images
   import baphomet     from "../../assets/fineArt/macpeters_baphomet.png";
+  import blackStar    from "../../assets/fineArt/macpeters_blackStar.jpg";
   import bliss        from "../../assets/fineArt/macpeters_bliss.png";
   import blueFace     from "../../assets/fineArt/macpeters_blueFace.jpg";
   import cactusCuy     from "../../assets/fineArt/macpeters_cactusGuy.jpg";
@@ -30,6 +31,7 @@
 
   // Thumbs
   import baphomet_thumb     from "../../assets/fineArt/thumbnails/macpeters_baphomet.png";
+  import blackStar_thumb    from "../../assets/fineArt/thumbnails/macpeters_blackStar.png";
   import bliss_thumb        from "../../assets/fineArt/thumbnails/macpeters_bliss.png";
   import blueFace_thumb      from "../../assets/fineArt/thumbnails/macpeters_blueFace.png";
   import cactusCuy_thumb     from "../../assets/fineArt/thumbnails/macpeters_cactusGuy.png";
@@ -61,6 +63,14 @@
     data() {
       return {
         images: [
+          {
+            image: blackStar,
+            thumb: blackStar_thumb,
+            title: "Black Star",
+            subtitle: "18x18 UV Acrylic on canvas",
+            description: "Authentic human connection is a treasure worth the risk, worth the price, and worth the heartache.  You have to take that leap of faith, or wind up among the tortured souls who never managed to reach out.",
+            keywords: base_keywords + 'leap of faith, wish upon a black star, hope, taking action, reaching out, running towards the light'
+          },
           {
             image: motherAya,
             thumb: motherAya_thumb,
