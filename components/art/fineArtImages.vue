@@ -14,6 +14,9 @@
   import cosmicDancer from "../../assets/fineArt/macpeters_cosmicDancer.png";
   import cosmicKitten from "../../assets/fineArt/macpeters_cosmicKitten.png";
   import cracking     from "../../assets/fineArt/macpeters_crackingUnderThePressure.png";
+  import dragonfly_01    from "../../assets/fineArt/macpeters_dragonfly_01.jpg";
+  import dragonfly_02    from "../../assets/fineArt/macpeters_dragonfly_02.jpg";
+  import dragonfly_03    from "../../assets/fineArt/macpeters_dragonfly_03.jpg";
   import eagerness    from "../../assets/fineArt/macpeters_eagerness.png";
   import eyeOfStorm    from "../../assets/fineArt/macpeters_eyeOfStorm.png";
   import fascination  from "../../assets/fineArt/macpeters_fascination.png";
@@ -38,6 +41,9 @@
   import cosmicDancer_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicDancer.png";
   import cosmicKitten_thumb from "../../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
   import cracking_thumb     from "../../assets/fineArt/thumbnails/macpeters_crackingUnderThePressure.png";
+  import dragonfly_01_thumb    from "../../assets/fineArt/thumbnails/macpeters_dragonfly_01.jpg";
+  import dragonfly_02_thumb    from "../../assets/fineArt/thumbnails/macpeters_dragonfly_02.jpg";
+  import dragonfly_03_thumb    from "../../assets/fineArt/thumbnails/macpeters_dragonfly_03.jpg";
   import eagerness_thumb    from "../../assets/fineArt/thumbnails/macpeters_eagerness.png";
   import eyeOfStorm_thumb    from "../../assets/fineArt/thumbnails/macpeters_eyeOfStorm.jpg";
   import fascination_thumb  from "../../assets/fineArt/thumbnails/macpeters_fascination.png";
@@ -63,6 +69,30 @@
     data() {
       return {
         images: [
+          {
+            image: dragonfly_01,
+            thumb: dragonfly_01_thumb,
+            title: "Dragonfly 01",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "First of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
+          {
+            image: dragonfly_02,
+            thumb: dragonfly_02_thumb,
+            title: "Dragonfly 02",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Second of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
+          {
+            image: dragonfly_03,
+            thumb: dragonfly_03_thumb,
+            title: "Dragonfly 03",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Third of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
           {
             image: blackStar,
             thumb: blackStar_thumb,

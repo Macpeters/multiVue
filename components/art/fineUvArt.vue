@@ -14,6 +14,9 @@
   import cosmicDancer_uv  from "../../assets/fineArtUv/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv  from "../../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
   import cracking_uv      from "../../assets/fineArtUv/macpeters_cracking_uv.png";
+  import dragonfly_01_uv    from "../../assets/fineArtUv/macpeters_dragonfly_01_uv.jpg";
+  import dragonfly_02_uv    from "../../assets/fineArtUv/macpeters_dragonfly_02_uv.jpg";
+  import dragonfly_03_uv    from "../../assets/fineArtUv/macpeters_dragonfly_03_uv.jpg";
   import eagerness_uv     from "../../assets/fineArtUv/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv    from "../../assets/fineArtUv/macpeters_eyeOfStorm_uv.png";
   import fascination_uv   from "../../assets/fineArtUv/macpeters_fascination_uv.png";
@@ -35,6 +38,9 @@
   import cosmicDancer_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
   import cracking_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
+  import dragonfly_01_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_dragonfly_01_uv.jpg";
+  import dragonfly_02_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_dragonfly_02_uv.jpg";
+  import dragonfly_03_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_dragonfly_03_uv.jpg";
   import eagerness_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_eagerness_uv.png";
   import eyeOfStorm_uv_thumb    from "../../assets/fineArtUv/thumbnails/macpeters_eyeOfStorm_uv.png";
   import fascination_uv_thumb   from "../../assets/fineArtUv/thumbnails/macpeters_fascination_uv.png";
@@ -58,6 +64,30 @@
     data() {
       return {
         images: [
+          {
+            image: dragonfly_01_uv,
+            thumb: dragonfly_01_uv_thumb,
+            title: "Dragonfly 01",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "First of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
+          {
+            image: dragonfly_02_uv,
+            thumb: dragonfly_02_uv_thumb,
+            title: "Dragonfly 02",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Second of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
+          {
+            image: dragonfly_03_uv,
+            thumb: dragonfly_03_uv_thumb,
+            title: "Dragonfly 03",
+            subtitle: "6x6 UV Acrylic on canvas",
+            description: "Third of my series of 3 dragonflies",
+            keywords: base_keywords + 'insect, dragonfly, mosquito eater, wetland, nature, wildlife, marsh, bog, pond, swamp, shore'
+          },
           {
             image: blackStar_uv,
             thumb: blackStar_uv_thumb,
