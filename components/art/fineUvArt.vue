@@ -11,6 +11,7 @@
   import bliss_uv         from "../../assets/fineArtUv/macpeters_bliss_uv.png";
   import blueFace_uv      from "../../assets/fineArtUv/macpeters_blueFace_uv.jpg";
   import cactusGuy_uv      from "../../assets/fineArtUv/macpeters_cactusGuy_uv.jpg";
+  import colin_uv          from "../../assets/fineArtUv/macpeters_colin_uv.png";
   import cosmicDancer_uv  from "../../assets/fineArtUv/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv  from "../../assets/fineArtUv/macpeters_cosmicKitten_uv.png";
   import cracking_uv      from "../../assets/fineArtUv/macpeters_cracking_uv.png";
@@ -35,6 +36,7 @@
   import bliss_uv_thumb         from "../../assets/fineArtUv/thumbnails/macpeters_bliss_uv.png";
   import blueFace_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_blueFace_uv.jpg";
   import cactusGuy_uv_thumb     from "../../assets/fineArtUv/thumbnails/macpeters_cactusGuy_uv.jpg";
+  import colin_uv_thumb          from "../../assets/fineArtUv/thumbnails/macpeters_colin_uv.png";
   import cosmicDancer_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicDancer_uv.png";
   import cosmicKitten_uv_thumb  from "../../assets/fineArtUv/thumbnails/macpeters_cosmicKitten_uv.png";
   import cracking_uv_thumb      from "../../assets/fineArtUv/thumbnails/macpeters_cracking_uv.png";
@@ -64,6 +66,14 @@
     data() {
       return {
         images: [
+          {
+            image: colin_uv,
+            thumb: colin_uv_thumb,
+            title: "Colin",
+            subtitle: "12x12 UV Acrylic on canvas",
+            description: "A Memorial Portait",
+            keywords: base_keywords + 'portait, memorial, in memorium'
+          },
           {
             image: dragonfly_01_uv,
             thumb: dragonfly_01_uv_thumb,
