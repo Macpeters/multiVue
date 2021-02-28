@@ -1,28 +1,16 @@
 {
-  "name": "Macpeters",
+  "name": "macpeters",
   "version": "1.0.0",
-  "description": "Macpeters: artist and developer.",
-  "author": "Macpeters",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.1",
-    "nuxt": "^2.11.0"
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
   },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.13.1",
-    "nodemon": "^1.19.4",
-    "sass-loader": "^7.3.1"
-  }
+  "devDependencies": {}
 }
