@@ -106,19 +106,20 @@
     font-size: 16px;
   }
   .left-column {
-    width: 50%;
+    max-width: 50%;
     float: left
   }
   .right-column {
-    width: 50%;
+    max-width: 50%;
     float: right;
+    overflow: scroll;
   }
   .featured-image {
-    height: 500px;
+    max-height: 500px;
   }
   .featured-image img {
-    max-height: 80vh;
-    max-width: 90vw;
+    width: 100%;
+    max-height: 100vh;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
   }
   .image-title {

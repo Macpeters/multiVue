@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
@@ -12,11 +13,14 @@ const _da6b1b3e = () => interopDefault(import('../pages/art/fineArt.vue' /* webp
 const _4c646662 = () => interopDefault(import('../pages/art/fineArtUv.vue' /* webpackChunkName: "pages/art/fineArtUv" */))
 const _4fd42736 = () => interopDefault(import('../pages/art/murals.vue' /* webpackChunkName: "pages/art/murals" */))
 const _c6db9dc2 = () => interopDefault(import('../pages/art/skateboards.vue' /* webpackChunkName: "pages/art/skateboards" */))
+const _525b6d80 = () => interopDefault(import('../pages/art/smallPaintings.vue' /* webpackChunkName: "pages/art/smallPaintings" */))
+const _6ba315c1 = () => interopDefault(import('../pages/art/smallPaintingsUv.vue' /* webpackChunkName: "pages/art/smallPaintingsUv" */))
 const _77e6f175 = () => interopDefault(import('../pages/blogPosts/activeRecordQueries.vue' /* webpackChunkName: "pages/blogPosts/activeRecordQueries" */))
 const _2408cb10 = () => interopDefault(import('../pages/blogPosts/aLookBack2016.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2016" */))
 const _2416e291 = () => interopDefault(import('../pages/blogPosts/aLookBack2017.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2017" */))
 const _2424fa12 = () => interopDefault(import('../pages/blogPosts/aLookBack2018.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2018" */))
 const _24331193 = () => interopDefault(import('../pages/blogPosts/aLookBack2019.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2019" */))
+const _256916a9 = () => interopDefault(import('../pages/blogPosts/aLookBack2020.vue' /* webpackChunkName: "pages/blogPosts/aLookBack2020" */))
 const _efd4dad2 = () => interopDefault(import('../pages/blogPosts/howToFailAtKickstarter.vue' /* webpackChunkName: "pages/blogPosts/howToFailAtKickstarter" */))
 const _dd9ffb3c = () => interopDefault(import('../pages/blogPosts/howToPracticeDrawing.vue' /* webpackChunkName: "pages/blogPosts/howToPracticeDrawing" */))
 const _65a8719e = () => interopDefault(import('../pages/blogPosts/isFacebookTheEnemy.vue' /* webpackChunkName: "pages/blogPosts/isFacebookTheEnemy" */))
@@ -29,18 +33,13 @@ const _14734ff7 = () => interopDefault(import('../pages/blogPosts/whatIlearnedFr
 const _b25c6972 = () => interopDefault(import('../pages/dev/webDev.vue' /* webpackChunkName: "pages/dev/webDev" */))
 const _0682e9d4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
-// TODO: remove in Nuxt 3
 const emptyFn = () => {}
-const originalPush = Router.prototype.push
-Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
-  return originalPush.call(this, location, onComplete, onAbort)
-}
 
 Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: decodeURI('/'),
+  base: '/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
@@ -82,6 +81,14 @@ export const routerOptions = {
     component: _c6db9dc2,
     name: "art-skateboards"
   }, {
+    path: "/art/smallPaintings",
+    component: _525b6d80,
+    name: "art-smallPaintings"
+  }, {
+    path: "/art/smallPaintingsUv",
+    component: _6ba315c1,
+    name: "art-smallPaintingsUv"
+  }, {
     path: "/blogPosts/activeRecordQueries",
     component: _77e6f175,
     name: "blogPosts-activeRecordQueries"
@@ -101,6 +108,10 @@ export const routerOptions = {
     path: "/blogPosts/aLookBack2019",
     component: _24331193,
     name: "blogPosts-aLookBack2019"
+  }, {
+    path: "/blogPosts/aLookBack2020",
+    component: _256916a9,
+    name: "blogPosts-aLookBack2020"
   }, {
     path: "/blogPosts/howToFailAtKickstarter",
     component: _efd4dad2,
@@ -150,6 +161,23 @@ export const routerOptions = {
   fallback: false
 }
 
-export function createRouter () {
-  return new Router(routerOptions)
+export function createRouter (ssrContext, config) {
+  const base = (config.app && config.app.basePath) || routerOptions.base
+  const router = new Router({ ...routerOptions, base  })
+
+  // TODO: remove in Nuxt 3
+  const originalPush = router.push
+  router.push = function push (location, onComplete = emptyFn, onAbort) {
+    return originalPush.call(this, location, onComplete, onAbort)
+  }
+
+  const resolve = router.resolve.bind(router)
+  router.resolve = (to, current, append) => {
+    if (typeof to === 'string') {
+      to = normalizeURL(to)
+    }
+    return resolve(to, current, append)
+  }
+
+  return router
 }

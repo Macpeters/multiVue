@@ -1,45 +1,41 @@
 <template>
   <div class="content">
-    <h1>Art</h1>
+    <h1>Small Paintings</h1>
     <breadcrumbs/>
 
-    <section>
-      <p>
-        The most recent painting I've finished is Compassion, which was a commision.  I was asked to paint
-        God - not as a guy on a cloud, but as a spirit of wisdom, creativity, and love, with its arms wrapped
-        around the world.  I used purple as the colour of spirit, surrounded by the the elements of matter - red for
-        fire, blue for water, green for earth, and yellow for air.  Air bubbles float across between water and air.
-        Lighting rushes from air to earth, and flames lick away from air.  The beast has 7 eyes (3 are on the other side of
-        the face and not readily visible).
-      </p>
-      <p>
-        <a href="art/fineArt">Check out more of my Visionary Paintings</a>
-      </p>
-    </section>
-    <img
-      src="~/assets/fineArt/macpeters_compassion.jpg"
-      alt="Compassion by Macpeters">
+    <div class="page-description">
+      <p class="art-description">These paintings are 12 inches or smaller</p>
+      <div id="no-neon"><a href="/art/smallPaintingsUv">Blacklight On</a></div>
+      <smallPaintingImages/>
+    </div>
+
     <blogList/>
+    <society6Ad/>
   </div>
 </template>
 
 <script>
+
 // Components
-import breadcrumbs from '../../components/breadcrumbs.vue'
-import blogList from '../../components/blog.vue'
+import smallPaintingImages  from '../../components/art/smallPaintingImages.vue'
+import breadcrumbs    from '../../components/breadcrumbs.vue'
+// Blog
+import blogList       from '../../components/blog.vue'
+import society6Ad from "../../components/ads/society6.vue"
 
 export default {
-  name: "Art",
-  components: { breadcrumbs, blogList },
+  name: "SmallPaintings",
+  components: { breadcrumbs, blogList, smallPaintingImages, society6Ad },
   data() {
     return {
       chosenImage: null,
       breadcrumbs: [
         { link: '/',  name: 'Home' },
-        { link: '/art', name: 'Art' }
+        { link: '/art', name: 'Art' },
+        { link: '/art/fineArtSmall', name: 'SmallFineArt' }
       ],
       blogFilter: 'visionary art',
-      name: 'fine-art'
+      name: 'small-paintings'
     };
   },
   head () {
@@ -63,9 +59,20 @@ export default {
 </script>
 
 <style scoped>
-  img {
-    max-width: 80vw;
-    max-height: 80vh;
-    padding-top: 10px;
+  div {
+    text-align: center
   }
+
+  #no-neon{
+    font-size: 30px;
+    font-family: 'Futura';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+  }
+
+  .art-description {
+    padding-bottom: 15px;
+  }
+
 </style>

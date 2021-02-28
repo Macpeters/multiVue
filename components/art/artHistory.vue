@@ -211,6 +211,16 @@
         ],
         commissions: [
           {
+            year: '2020',
+            title: 'Compassion',
+            location: 'painting by request'
+          },
+          {
+            year: '2020',
+            title: 'Collin',
+            location: 'painting by request'
+          },
+          {
             year: '2018',
             title: 'Hockey Bees',
             location: 'mural along the path to the Meridian Center in St. Catherines'

@@ -5,11 +5,11 @@
       <a v-bind:href="post.link"><span>
         <div class="left-column">
           <img v-bind:src="post.image" v-bind:alt="post.title" v-bind:title="post.title" />
-          <span class="date">{{post.date}}</span>
+          <span class="date">{{ post.date }}</span>
         </div>
         <div class="right-column">
-          <h3>{{post.title}}</h3>
-          <h4>{{post.headline}}</h4>
+          <h3>{{ post.title }}</h3>
+          <h4>{{ post.headline }}</h4>
           <a v-bind:href="post.link" class="post-link">Read More</a>
         </div>
       </span></a>
@@ -22,6 +22,7 @@
 <script>
   import activeRecord           from "../assets/blogs/thumbnails/macpeters_activeRecord.png";
   import blacklightPhotography  from "../assets/blogs/thumbnails/macpeters_blacklightPhotographs.png";
+  import compassion             from "../assets/fineArt/thumbnails/macpeters_compassion.png";
   import cosmicKitten           from "../assets/fineArt/thumbnails/macpeters_cosmicKitten.png";
   import ddos                   from "../assets/blogs/thumbnails/macpeters_ddos.png";
   import drawingChallenge       from "../assets/blogs/thumbnails/macpeters_drawingChallenge.png";
@@ -41,6 +42,14 @@
     data() {
       return {
         posts: [
+          {
+            title: 'A Look Back - 2020',
+            date: 'Feb 28, 2021',
+            image: compassion,
+            headline: 'A recap of Art in 2020',
+            link: '/blogPosts/aLookBack2020',
+            tags: ['art', 'cartoons', 'visionary art',]
+          },
           {
             title: 'A Look Back - 2019',
             date: 'Dec 29, 2019',

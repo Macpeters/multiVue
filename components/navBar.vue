@@ -1,38 +1,54 @@
 <template>
   <header>
     <div class="header">
-      <a href="/" class="header-logo" title="Macpeters Creations Home" />
+      <a
+        href="/"
+        class="header-logo" />
 
       <div class="header-text">
         <h1>Macpeters</h1>
-        <h2>Developer and Artist</h2>
+        <h2>Web Developer and Artist</h2>
       </div>
 
     </div>
     <div class="nav-header">
       <div class="main-nav-row">
-        <span class="dropbtn"><a href="/dev/webDev" class="dropbtn" title="Macpeters Web Development" >Programming</a></span>
+        <span class="dropbtn"><a
+          href="/dev/webDev"
+          class="dropbtn">Programming</a></span>
 
         <div class="dropdown">
-          <label for="show-menu" class="show-menu dropbtn">
-            <span>Art<i class="arrow down"></i></span>
+          <label
+            for="show-menu"
+            class="show-menu dropbtn">
+            <span>Art<i class="arrow down"/></span>
           </label>
 
-          <input type="checkbox" id="show-menu" role="button">
-          <div class="dropdown-content" id="dropdown-content">
-            <a href="/art/fineArt" title="Paintings">Fine Art Paintings</a>
-            <a href="/art/skateboards" title="Paintings">Skateboard Decks</a>
-            <a href="/art/murals" title="Paintings">Murals</a>
-            <a href="/art/drawings" title="Drawings">Drawings</a>
-            <a href="/tarot" title="Hidden Dreams Tarot">Tarot</a>
-            <hr />
-            <a href="/art/aboutArtist" title="About Artist">About the Artist</a>
+          <input
+            id="show-menu"
+            type="checkbox"
+            role="button"
+          >
+          <div
+            id="dropdown-content"
+            class="dropdown-content"
+          >
+            <a href="/art/fineArt">Fine Art Paintings</a>
+            <a href="/art/smallPaintings">Small Paintings</a>
+            <a href="/art/skateboards">Skateboard Decks</a>
+            <a href="/art/murals">Murals</a>
+            <a href="/art/drawings">Drawings</a>
+            <a href="/tarot">Tarot</a>
+            <hr>
+            <a href="/art/aboutArtist" >About the Artist</a>
           </div>
         </div>
 
-        <span class="dropbtn"><a href="/blog" class="dropbtn" title="Macpeters Blog">Blog</a></span>
+        <span class="dropbtn"><a
+          href="/blog"
+          class="dropbtn">Blog</a></span>
       </div>
-      <br />
+      <br>
     </div>
   </header>
 </template>
@@ -41,7 +57,7 @@
   import logoImage from "../assets/logo.png";
 
   export default {
-    name: 'imageList',
+    name: 'ImageList',
     components: { },
     data() {
       return {
@@ -87,7 +103,6 @@
   .header-logo:hover {
     border: 2px #897DF4 solid;
     border-radius: 25px;
-    /* opacity: .5; */
     -webkit-transition: border 2s; /* Safari */
     transition: border 1s;
     transition-duration: 1s;

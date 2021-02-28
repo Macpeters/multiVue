@@ -5,7 +5,8 @@
       It's December 31, 2019, and it seems like a great time to take a look back at the past year, and
       see what I've been up to, maybe think about what I'd like to do or experience in the coming year.  Take
       a look at my Instagram for more pics:
-      <a href="https://www.instagram.com/macpetersart/" target="_blank">https://www.instagram.com/macpetersart/</a>
+      <a href="https://www.instagram.com/macpetersart/"
+        target="_blank">https://www.instagram.com/macpetersart/</a>
     </section>
 
     <section>
@@ -29,7 +30,8 @@
         </li>
 
         <div>
-          <img v-bind:src="robin" alt="Robin Red Breast by Mac Peters" />
+          <img v-bind:src="robin"
+            alt="Robin Red Breast drawing by Mac Peters" />
           <div class="caption">
             The weekly Animal Alphabets challenge keeps me working on training my eye -
             and lets me work with tools I wouldn't normally use, while encouraging consistency
@@ -65,9 +67,9 @@
     <section>
       <h2>
         <a
-        href="https://macpeters-drawings.netlify.com/"
-        target="_blank"
-        title="That Rat Bastard cartoon project">Drawing Projects</a></h2>
+          href="https://macpeters-drawings.netlify.com/"
+          target="_blank"
+          title="That Rat Bastard cartoon project">Drawing Projects</a></h2>
       <ul>
         <li>
           <h3>That Rat Bastard</h3>
@@ -105,12 +107,13 @@
         <li>Cactus Guy (working name)</li>
         <li>Cosmic Dancer</li>
         <li>Serenity</li>
+        <li>Festival Frog</li>
       </ul>
     </section>
 
     <section>
       <div class="previous"><a href="/blogPosts/aLookBack2018">Recap 2018</a></div>
-      <!-- <div class="next"><a href="">Recap 2020</a></div> -->
+      <div class="next"><a href="/blogPosts/aLookBack2020">Recap 2020</a></div>
     </section>
   </article>
 </template>
