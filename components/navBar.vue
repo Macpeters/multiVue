@@ -14,7 +14,7 @@
     <div class="nav-header">
       <div class="main-nav-row">
         <span class="dropbtn"><a
-          href="/dev/webDev"
+          href="/dev"
           class="dropbtn">Programming</a></span>
 
         <div class="dropdown">

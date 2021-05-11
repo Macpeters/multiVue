@@ -37,12 +37,12 @@
 
 <script>
   // Images
-  import logoImage    from "../../assets/logo.png";
-  import github       from "../../assets/social/github.png";
+  import logoImage    from "../assets/logo.png";
+  import github       from "../assets/social/github.png";
   // Components
-  import breadcrumbs  from '../../components/breadcrumbs.vue'
+  import breadcrumbs  from '../components/breadcrumbs.vue'
   // Blog
-  import blogList     from '../../components/blog.vue'
+  import blogList     from '../components/blog.vue'
 
   export default {
   name: "Dev",

@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _05bf972c = () => interopDefault(import('../pages/art/index.vue' /* webpackChunkName: "pages/art/index" */))
 const _9eadd9e4 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _a3ac704e = () => interopDefault(import('../pages/dev.vue' /* webpackChunkName: "pages/dev" */))
 const _0aaf5e8e = () => interopDefault(import('../pages/tarot.vue' /* webpackChunkName: "pages/tarot" */))
 const _5935dbcc = () => interopDefault(import('../pages/art/aboutArtist.vue' /* webpackChunkName: "pages/art/aboutArtist" */))
 const _4d529e2d = () => interopDefault(import('../pages/art/drawings.vue' /* webpackChunkName: "pages/art/drawings" */))
@@ -30,7 +31,6 @@ const _18ee1b80 = () => interopDefault(import('../pages/blogPosts/repurcussionsO
 const _bd58220c = () => interopDefault(import('../pages/blogPosts/tarotAndPursuitOfBetter.vue' /* webpackChunkName: "pages/blogPosts/tarotAndPursuitOfBetter" */))
 const _10c21b23 = () => interopDefault(import('../pages/blogPosts/teePublic.vue' /* webpackChunkName: "pages/blogPosts/teePublic" */))
 const _14734ff7 = () => interopDefault(import('../pages/blogPosts/whatIlearnedFromDrawingChallenge.vue' /* webpackChunkName: "pages/blogPosts/whatIlearnedFromDrawingChallenge" */))
-const _b25c6972 = () => interopDefault(import('../pages/dev/webDev.vue' /* webpackChunkName: "pages/dev/webDev" */))
 const _0682e9d4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -52,6 +52,10 @@ export const routerOptions = {
     path: "/blog",
     component: _9eadd9e4,
     name: "blog"
+  }, {
+    path: "/dev",
+    component: _a3ac704e,
+    name: "dev"
   }, {
     path: "/tarot",
     component: _0aaf5e8e,
@@ -149,10 +153,6 @@ export const routerOptions = {
     component: _14734ff7,
     name: "blogPosts-whatIlearnedFromDrawingChallenge"
   }, {
-    path: "/dev/webDev",
-    component: _b25c6972,
-    name: "dev-webDev"
-  }, {
     path: "/",
     component: _0682e9d4,
     name: "index"
@@ -162,7 +162,7 @@ export const routerOptions = {
 }
 
 export function createRouter (ssrContext, config) {
-  const base = (config.app && config.app.basePath) || routerOptions.base
+  const base = (config._app && config._app.basePath) || routerOptions.base
   const router = new Router({ ...routerOptions, base  })
 
   // TODO: remove in Nuxt 3
