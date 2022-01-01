@@ -1,6 +1,11 @@
 # macpeters
 
-## Build Setup
+![multiVue](https://socialify.git.ci/Macpeters/multiVue/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
+
+## 🚀 Live Site
+[www.macpeters.com](https://www.macpeters.com/)
+
+## 🛠️ Build Setup
 
 ```bash
 # install dependencies
@@ -17,4 +22,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For more information about Nuxt, check out [Nuxt.js docs](https://nuxtjs.org).
